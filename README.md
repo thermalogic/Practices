@@ -2,33 +2,35 @@
   
 # Students-2016
 
-P1£º  Èí¼þ¿ª·¢»ù´¡Êµ¼ù£ºPython¿ª·¢»·¾³½¨Á¢  
- 
-P2£º °æ±¾¹ÜÀí¼°ÉçÇø±à³Ì1£º½¨Á¢GithubÕË»§¡¢»ù±¾²Ù×÷¡¢¼ÓÈëÉçÇø±à³Ì×éµÈ£¬  
- 
-P3£º °æ±¾¹ÜÀí¼°ÉçÇø±à³Ì2£ºGit¡¢Github¡¢EGitµÈ 
-  
-P4£º  Ó¢ÎÄIT×ÊÔ´ÔÄ¶ÁÊµ¼ù£º·­ÒëGuttag, John½Ì³ÌÖÐµÄ6.2.3ºÍ6.2.4 
-  
-P5£ºÍøÂç×ÊÔ´Ê¹ÓÃÊµ¼ù£ºÊ¹ÓÃStackoverflow.com  
+[![Join the chat at https://gitter.im/Py03013052/Students2016](https://badges.gitter.im/Py03013052/Students2016.svg)](https://gitter.im/Py03013052/Students2016?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-p6£º Êý¾Ý·ÖÎö£ºÍ³¼Æ¡¢»Ø¹é¼°¿ÉÊÓ»¯
-
-P7£ºµ¥Ôª²âÊÔÊµ¼ù£º²âÊÔ¶ÔÏó¡°»ùÓÚIAPWS-IF97µÄË®ºÍË®ÕôÆûÎïÐÔ¼ÆËãÈí¼þ°ü¡± 
+P1ï¼š  è½¯ä»¶å¼€å‘åŸºç¡€å®žè·µï¼šPythonå¼€å‘çŽ¯å¢ƒå»ºç«‹  
  
-P8£º3¸ö×¨ÒµÏà¹ØÎÊÌâµÄÇó½â¡¢´úÂë¹æ·¶¡¢Èí¼þ²âÊÔ¡¢ÈÎÎñ¹ÜÀí¡¢½»»¥¼ÆËã¼°ÎÄµµ×«Ð´µÈ  
+P2ï¼š ç‰ˆæœ¬ç®¡ç†åŠç¤¾åŒºç¼–ç¨‹1ï¼šå»ºç«‹Githubè´¦æˆ·ã€åŸºæœ¬æ“ä½œã€åŠ å…¥ç¤¾åŒºç¼–ç¨‹ç»„ç­‰ï¼Œ  
+ 
+P3ï¼š ç‰ˆæœ¬ç®¡ç†åŠç¤¾åŒºç¼–ç¨‹2ï¼šGitã€Githubã€EGitç­‰ 
+  
+P4ï¼š  è‹±æ–‡ITèµ„æºé˜…è¯»å®žè·µï¼šç¿»è¯‘Guttag, Johnæ•™ç¨‹ä¸­çš„6.2.3å’Œ6.2.4 
+  
+P5ï¼šç½‘ç»œèµ„æºä½¿ç”¨å®žè·µï¼šä½¿ç”¨Stackoverflow.com  
+
+p6ï¼š æ•°æ®åˆ†æžï¼šç»Ÿè®¡ã€å›žå½’åŠå¯è§†åŒ–
+
+P7ï¼šå•å…ƒæµ‹è¯•å®žè·µï¼šæµ‹è¯•å¯¹è±¡â€œåŸºäºŽIAPWS-IF97çš„æ°´å’Œæ°´è’¸æ±½ç‰©æ€§è®¡ç®—è½¯ä»¶åŒ…â€ 
+ 
+P8ï¼š3ä¸ªä¸“ä¸šç›¸å…³é—®é¢˜çš„æ±‚è§£ã€ä»£ç è§„èŒƒã€è½¯ä»¶æµ‹è¯•ã€ä»»åŠ¡ç®¡ç†ã€äº¤äº’è®¡ç®—åŠæ–‡æ¡£æ’°å†™ç­‰  
    
 # Recommended Works
 
-P1£º  Èí¼þ¿ª·¢»ù´¡Êµ¼ù£ºPython¿ª·¢»·¾³½¨Á¢  
+P1ï¼š  è½¯ä»¶å¼€å‘åŸºç¡€å®žè·µï¼šPythonå¼€å‘çŽ¯å¢ƒå»ºç«‹  
 	
-	03013315 ÖìÑåì÷
+	03013315 æœ±å½¦ç¥º
 	
 ## Download * docx
 
-1. ÏÂÔØStudents2016²Ö¿âµÄzipÎÄ¼þ£¬½âÑ¹
+1. ä¸‹è½½Students2016ä»“åº“çš„zipæ–‡ä»¶ï¼Œè§£åŽ‹
          
-2. ÔÚStudents2016²Ö¿âÖÐÄ³¸öµ±Ç°Ä¿Â¼ÖÐ,µã»÷ÎÄµµºó£¬ÉÔµÈ£¬µã¡±viewraw",ÌáÊ¾ÏÂÔØÊ±£¬½øÐÐÏÂÔØ
+2. åœ¨Students2016ä»“åº“ä¸­æŸä¸ªå½“å‰ç›®å½•ä¸­,ç‚¹å‡»æ–‡æ¡£åŽï¼Œç¨ç­‰ï¼Œç‚¹â€viewraw",æç¤ºä¸‹è½½æ—¶ï¼Œè¿›è¡Œä¸‹è½½
  
         
 
