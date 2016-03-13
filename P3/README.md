@@ -10,6 +10,7 @@ P3： 版本管理及社区编程2：Git、Github、EGit等
 	
 	03013429  黄驰晨      03013433 曾柯源   03013421 徐媛媛
 
+Ref: Maximilian Koegel,Jonas Helming. EGit Toturial http://eclipsesource.com/blogs/tutorials/egit-tutorial/. 2015.02
 
   
 
