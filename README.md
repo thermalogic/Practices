@@ -31,15 +31,15 @@ P3： 版本管理及社区编程2：Git、Github、EGit等
 	
 Ref: Maximilian Koegel,Jonas Helming. EGit Toturial http://eclipsesource.com/blogs/tutorials/egit-tutorial/. 2015.02
 	  
-P4：  英文IT资源阅读实践：翻译Guttag, John教程中的6.2.3和6.2.4 （** 可选 **）
+P4：  英文IT资源阅读实践：翻译Guttag, John教程中的6.2.3和6.2.4 （ 可选）
   
-P5：网络资源使用实践：使用Stackoverflow.com （** 可选 **） 
+P5：网络资源使用实践：使用Stackoverflow.com （ 可选） 
 
 p6： 数据分析：统计、回归及可视化
 
 P7：单元测试实践：测试对象“基于IAPWS-IF97的水和水蒸汽物性计算软件包” 
  
-P8：** 3-5 ** 个专业相关问题的求解、代码规范、软件测试、任务管理、交互计算及文档撰写等  
+P8： 3-5 个专业相关问题的求解、代码规范、软件测试、任务管理、交互计算及文档撰写等  
    
 ## Download *.docx
 
