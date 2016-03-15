@@ -29,7 +29,7 @@ P3： 版本管理及社区编程2：Git、Github、EGit等
 
 	03013324  李晨光
 	
-	03013429  黄驰晨   03013433 曾柯源   03013421 徐媛媛     03013409   范永学
+	03013429  黄驰晨   03013433 曾柯源   03013421 徐媛媛     03013409   范永学    03013401 张馨云
 	
 Ref: Maximilian Koegel,Jonas Helming. EGit Toturial http://eclipsesource.com/blogs/tutorials/egit-tutorial/. 2015.02
 	  
