@@ -37,7 +37,7 @@ P3： 版本管理及社区编程2：Git、Github、EGit等
 
 	知乎：怎样使用GitHub. http://www.zhihu.com/question/20070065
 	
-	Eclipse联机帮助：Help->Help Contrents->EGit Documentation
+	Eclipse联机帮助：Help->Help Contents->EGit Documentation
 	  
 P4：  英文IT资源阅读实践：翻译Guttag, John教程中的6.2.3和6.2.4 （ 可选）
 

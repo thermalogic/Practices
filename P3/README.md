@@ -16,7 +16,7 @@ Ref:
 
 2. 知乎：怎样使用GitHub. http://www.zhihu.com/question/20070065
 
-3. Eclipse联机帮助：Help->Help Contrents->EGit Documentation
+3. Eclipse联机帮助：Help->Help Contents->EGit Documentation
 
   
 
