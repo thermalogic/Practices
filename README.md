@@ -7,9 +7,9 @@
 
 |  练习      | P1  | P2  | P3  | P4（可选）  | P5 （可选） | P6  | P7  |P8-1 |P8-2 |P8-3|P8-4（可选）|P8-5（可选）|
 | ------ |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|---:|
-| 030133 | 23  | 17  | 6   |  1  |     |     |     |     |     |     |     |    |
+| 030133 | 24  | 20  | 8   |  1  |     |     |     |     |     |     |     |    |
 | 030134 | 18  | 13  | 5   |  0  |     |     |     |     |     |     |     |    |
-|  合计      | 41  | 30  | 11  |  1   |     |     |     |     |     |     |     |    |
+|  合计      | 42  | 33  | 13  |  1   |     |     |     |     |     |     |     |    |
 
 # Recommended Works
 
@@ -27,11 +27,17 @@ P2： 版本管理及社区编程1：建立Github账户、基本操作、加入社区编程组等，
 
 P3： 版本管理及社区编程2：Git、Github、EGit等 
 
-	03013324  李晨光
+	03013324  李晨光   03013307 韦佳菊
 	
 	03013429  黄驰晨   03013433 曾柯源   03013421 徐媛媛     03013409   范永学    03013401 张馨云
 	
-Ref: Maximilian Koegel,Jonas Helming. EGit Toturial http://eclipsesource.com/blogs/tutorials/egit-tutorial/. 2015.02
+	Ref: 
+	
+	Maximilian Koegel,Jonas Helming. EGit Toturial http://eclipsesource.com/blogs/tutorials/egit-tutorial/. 2015.02
+
+	知乎：怎样使用GitHub. http://www.zhihu.com/question/20070065
+	
+	Eclipse联机帮助：Help->Help Contrents->EGit Documentation
 	  
 P4：  英文IT资源阅读实践：翻译Guttag, John教程中的6.2.3和6.2.4 （ 可选）
 
