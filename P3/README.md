@@ -4,19 +4,19 @@
 
 [![Gitter](https://badges.gitter.im/Py03013052/Students2016.svg)](https://gitter.im/Py03013052/Students2016?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
-P3£º °æ±¾¹ÜÀí¼°ÉçÇø±à³Ì2£ºGit¡¢Github¡¢EGitµÈ 
+P3ï¼š ç‰ˆæœ¬ç®¡ç†åŠç¤¾åŒºç¼–ç¨‹2ï¼šGitã€Githubã€EGitç­‰ 
 
-	03013324  Àî³¿¹â   03013307 Î¤¼Ñ¾Õ
+	03013324  æŽæ™¨å…‰   03013307 éŸ¦ä½³èŠ
 	
-	03013429  »Æ³Û³¿      03013433 Ôø¿ÂÔ´   03013421 ÐìæÂæÂ    03013409   ·¶ÓÀÑ§       03013401 ÕÅÜ°ÔÆ
+	03013429  é»„é©°æ™¨      03013433 æ›¾æŸ¯æº   03013421 å¾åª›åª›    03013409   èŒƒæ°¸å­¦       03013401 å¼ é¦¨äº‘
 
 Ref: 
 	
 1. Maximilian Koegel,Jonas Helming. EGit Toturial http://eclipsesource.com/blogs/tutorials/egit-tutorial/. 2015.02
 
-2. Öªºõ£ºÔõÑùÊ¹ÓÃGitHub. http://www.zhihu.com/question/20070065
+2. çŸ¥ä¹Žï¼šæ€Žæ ·ä½¿ç”¨GitHub. http://www.zhihu.com/question/20070065
 
-3. EclipseÁª»ú°ïÖú£ºHelp->Help Contents->EGit Documentation
+3. Eclipseè”æœºå¸®åŠ©ï¼šHelp->Help Contents->EGit Documentation
 
   
 

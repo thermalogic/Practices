@@ -3,61 +3,61 @@
 
 [![Gitter](https://badges.gitter.im/Py03013052/Students2016.svg)](https://gitter.im/Py03013052/Students2016?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
-# ½ø³Ì±í
+# è¿›ç¨‹è¡¨
 
-|  Á·Ï°      | P1  | P2  | P3  | P4£¨¿ÉÑ¡£©  | P5 £¨¿ÉÑ¡£© | P6  | P7  |P8-1 |P8-2 |P8-3|P8-4£¨¿ÉÑ¡£©|P8-5£¨¿ÉÑ¡£©|
+|  ç»ƒä¹       | P1  | P2  | P3  | P4ï¼ˆå¯é€‰ï¼‰  | P5 ï¼ˆå¯é€‰ï¼‰ | P6  | P7  |P8-1 |P8-2 |P8-3|P8-4ï¼ˆå¯é€‰ï¼‰|P8-5ï¼ˆå¯é€‰ï¼‰|
 | ------ |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|---:|
 | 030133 | 27  | 25  | 17  |  8  |     |     |     |     |     |     |     |    |
 | 030134 | 26  | 24  | 11  |  4  |     |     |     |     |     |     |     |    |
-|  ºÏ¼Æ      | 53  | 49  | 28  |  12 |     |     |     |     |     |     |     |    |
+|  åˆè®¡            | 53  | 49  | 28  |  12 |     |     |     |     |     |     |     |    |
 
 # Recommended Works
 
-P1£º  Èí¼þ¿ª·¢»ù´¡Êµ¼ù£ºPython¿ª·¢»·¾³½¨Á¢  
+P1ï¼š  è½¯ä»¶å¼€å‘åŸºç¡€å®žè·µï¼šPythonå¼€å‘çŽ¯å¢ƒå»ºç«‹  
 	
-	03013315 ÖìÑåì÷  03013311 »ÆÒµ·É  03013322 ¹ù¼Î   03013331 ÕÔÎÄ¹ã
+	03013315 æœ±å½¦ç¥º  03013311 é»„ä¸šé£ž  03013322 éƒ­å˜‰   03013331 èµµæ–‡å¹¿
 	
-	03013429 »Æ³Û³¿   03013409 ·¶ÓÀÑ§   03013414   Ö£Î°¼Ñ
+	03013429 é»„é©°æ™¨   03013409 èŒƒæ°¸å­¦   03013414   éƒ‘ä¼Ÿä½³
 
-P2£º °æ±¾¹ÜÀí¼°ÉçÇø±à³Ì1£º½¨Á¢GithubÕË»§¡¢»ù±¾²Ù×÷¡¢¼ÓÈëÉçÇø±à³Ì×éµÈ£¬  
+P2ï¼š ç‰ˆæœ¬ç®¡ç†åŠç¤¾åŒºç¼–ç¨‹1ï¼šå»ºç«‹Githubè´¦æˆ·ã€åŸºæœ¬æ“ä½œã€åŠ å…¥ç¤¾åŒºç¼–ç¨‹ç»„ç­‰ï¼Œ  
 
-    03013315 ÖìÑåì÷  03013304 »ÆâùæÃ   03013310 Ðì¾²ÎÄ 
+    03013315 æœ±å½¦ç¥º  03013304 é»„æ€¡å©·   03013310 å¾é™æ–‡ 
     
-    03013404 ¸ðºÆ       03013410 ìè¼Ñçâ
+    03013404 è‘›æµ©       03013410 æ‰ˆä½³çŽ®
 
-P3£º °æ±¾¹ÜÀí¼°ÉçÇø±à³Ì2£ºGit¡¢Github¡¢EGitµÈ 
+P3ï¼š ç‰ˆæœ¬ç®¡ç†åŠç¤¾åŒºç¼–ç¨‹2ï¼šGitã€Githubã€EGitç­‰ 
 
-	03013324  Àî³¿¹â   03013307 Î¤¼Ñ¾Õ
+	03013324  æŽæ™¨å…‰   03013307 éŸ¦ä½³èŠ
 	
-	03013429  »Æ³Û³¿   03013433 Ôø¿ÂÔ´   03013421 ÐìæÂæÂ     03013409   ·¶ÓÀÑ§    03013401 ÕÅÜ°ÔÆ
+	03013429  é»„é©°æ™¨   03013433 æ›¾æŸ¯æº   03013421 å¾åª›åª›     03013409   èŒƒæ°¸å­¦    03013401 å¼ é¦¨äº‘
 	
 	Ref: 
 	
 	Maximilian Koegel,Jonas Helming. EGit Toturial http://eclipsesource.com/blogs/tutorials/egit-tutorial/. 2015.02
 
-	Öªºõ£ºÔõÑùÊ¹ÓÃGitHub. http://www.zhihu.com/question/20070065
+	çŸ¥ä¹Žï¼šæ€Žæ ·ä½¿ç”¨GitHub. http://www.zhihu.com/question/20070065
 	
-	EclipseÁª»ú°ïÖú£ºHelp->Help Contents->EGit Documentation
+	Eclipseè”æœºå¸®åŠ©ï¼šHelp->Help Contents->EGit Documentation
 	  
-P4£º  Ó¢ÎÄIT×ÊÔ´ÔÄ¶ÁÊµ¼ù£º·­ÒëGuttag, John½Ì³ÌÖÐµÄ6.2.3ºÍ6.2.4 £¨ ¿ÉÑ¡£©
+P4ï¼š  è‹±æ–‡ITèµ„æºé˜…è¯»å®žè·µï¼šç¿»è¯‘Guttag, Johnæ•™ç¨‹ä¸­çš„6.2.3å’Œ6.2.4 ï¼ˆ å¯é€‰ï¼‰
 
-	03013305  Ê¯î£     03013304  »ÆâùæÃ    03013324 Àî³¿¹â
+	03013305  çŸ³ç¿     03013304  é»„æ€¡å©·    03013324 æŽæ™¨å…‰
 	
-	03013409  ·¶ÓÀÑ§   03013431   ÐÜÃú½Ü
+	03013409  èŒƒæ°¸å­¦   03013431   ç†Šé“­æ°
 	
-P5£ºÍøÂç×ÊÔ´Ê¹ÓÃÊµ¼ù£ºÊ¹ÓÃStackoverflow.com £¨ ¿ÉÑ¡£© 
+P5ï¼šç½‘ç»œèµ„æºä½¿ç”¨å®žè·µï¼šä½¿ç”¨Stackoverflow.com ï¼ˆ å¯é€‰ï¼‰ 
 
-p6£º Êý¾Ý·ÖÎö£ºÍ³¼Æ¡¢»Ø¹é¼°¿ÉÊÓ»¯
+P6ï¼š æ•°æ®åˆ†æžï¼šç»Ÿè®¡ã€å›žå½’åŠå¯è§†åŒ–
 
-P7£ºµ¥Ôª²âÊÔÊµ¼ù£º²âÊÔ¶ÔÏó¡°»ùÓÚIAPWS-IF97µÄË®ºÍË®ÕôÆûÎïÐÔ¼ÆËãÈí¼þ°ü¡± 
+P7ï¼šå•å…ƒæµ‹è¯•å®žè·µï¼šæµ‹è¯•å¯¹è±¡â€œåŸºäºŽIAPWS-IF97çš„æ°´å’Œæ°´è’¸æ±½ç‰©æ€§è®¡ç®—è½¯ä»¶åŒ…â€ 
  
-P8£º 3-5 ¸ö×¨ÒµÏà¹ØÎÊÌâµÄÇó½â¡¢´úÂë¹æ·¶¡¢Èí¼þ²âÊÔ¡¢ÈÎÎñ¹ÜÀí¡¢½»»¥¼ÆËã¼°ÎÄµµ×«Ð´µÈ  
+P8ï¼š 3-5 ä¸ªä¸“ä¸šç›¸å…³é—®é¢˜çš„æ±‚è§£ã€ä»£ç è§„èŒƒã€è½¯ä»¶æµ‹è¯•ã€ä»»åŠ¡ç®¡ç†ã€äº¤äº’è®¡ç®—åŠæ–‡æ¡£æ’°å†™ç­‰  
    
 ## Download *.docx
 
-1. ÏÂÔØStudents2016²Ö¿âµÄzipÎÄ¼þ£¬½âÑ¹
+1. ä¸‹è½½Students2016ä»“åº“çš„zipæ–‡ä»¶ï¼Œè§£åŽ‹
          
-2. ÔÚStudents2016²Ö¿â µÄÄ³¸öµ±Ç°Ä¿Â¼ÖÐ,µã»÷ÎÄµµºó£¬ÉÔµÈ£¬µã¡±viewraw",ÌáÊ¾ÏÂÔØÊ±£¬½øÐÐÏÂÔØ
+2. åœ¨Students2016ä»“åº“ çš„æŸä¸ªå½“å‰ç›®å½•ä¸­,ç‚¹å‡»æ–‡æ¡£åŽï¼Œç¨ç­‰ï¼Œç‚¹â€viewraw",æç¤ºä¸‹è½½æ—¶ï¼Œè¿›è¡Œä¸‹è½½
  
         
 
