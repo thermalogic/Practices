@@ -54,7 +54,7 @@ P1：  软件开发基础实践：Python开发环境建立
 
 ## 参考文档：
 
-https://github.com/Py03013052/home/tree/master/guide/
+https://github.com/Py03013052/home/tree/S2016/guide/
 
 1 Python学习和开发环境的建立(教学版).docx
 
