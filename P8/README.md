@@ -1,19 +1,19 @@
 
-  
-# Students-2016
-
 [![Gitter](https://badges.gitter.im/Py03013052/Students2016.svg)](https://gitter.im/Py03013052/Students2016?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
-P8： 3-5 个专业相关问题的求解、代码规范、软件测试、任务管理、交互计算及文档撰写等  
-
-
 ## 课程实践作业八
+
+3-5 个专业相关问题的求解、代码规范、软件测试、任务管理、交互计算及文档撰写等  
 
 综合实践：
     
     Python、代码规范、性能分析和测试；文档写作、交互计算、
     
     Github版本控制、社区编程等。
+
+# 推荐的工作
+
+
 
 ##  问题: 
 

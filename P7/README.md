@@ -1,20 +1,17 @@
 
- # Students-2016
-
 [![Gitter](https://badges.gitter.im/Py03013052/Students2016.svg)](https://gitter.im/Py03013052/Students2016?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 
-P7：单元测试实践：测试对象“基于IAPWS-IF97的水和水蒸汽物性计算软件包” 
+## 课程实践作业七
+
+以“基于IAPWS-IF97的水和水蒸汽物性计算软件包”为被测对象，
+     
+   设计基于Python标准库unittest测试类，进行物性计算正确性测试
+
+# 推荐的工作
       
 	03013433 曾柯源  
     
-## 课程实践作业七
- 单元测试：
-     
-      以“基于IAPWS-IF97的水和水蒸汽物性计算软件包”为被测对象，
-     
-     设计基于Python标准库unittest测试类，进行物性计算正确性测试。
-
 ### 测试内容：
 1.	IAPWS-IF97公式物性计算的正确性；
 

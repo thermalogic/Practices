@@ -1,15 +1,13 @@
 
-  
-# Students-2016
+![Gitter](https://badges.gitter.im/Py03013052/Students2016.svg)](https://gitter.im/Py03013052/Students2016?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
-[![Gitter](https://badges.gitter.im/Py03013052/Students2016.svg)](https://gitter.im/Py03013052/Students2016?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+## 课程实践作业六
 
-P6： 数据分析：统计、回归及可视化：16.4 Statistical Measures Don't, Tell the Whole Story 
+ 数据分析：统计、回归及可视化,交互计算IPython Notebook  
+
+## 推荐的工作 
 
 	03013433 曾柯源  
-    
-    
-## 课程实践作业六
 
 数据统计分析交互计算IPython Notebook 
 

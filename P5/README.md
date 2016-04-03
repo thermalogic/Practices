@@ -1,21 +1,20 @@
-
-  
-# Students-2016
-
 [![Gitter](https://badges.gitter.im/Py03013052/Students2016.svg)](https://gitter.im/Py03013052/Students2016?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
-P5：网络资源使用实践：使用Stackoverflow.com （ 可选） 
+## 课程实践作业五：
+
+网络资源使用实践：使用Stackoverflow.com （ 可选） 
+
+## 推荐的工作 
 
 
-## 课程实践作业五
+
+## 要求：
 
 从软件实践遇到的问题中自选一个，使用适当的关键词,在：
 
 http://stackoverflow.com/
 
 查询有关提问（Questions），从中选择一个翻译为中文。
-
-## 要求：
 
 1. 正确的提出问题是找到对应答案的关键，需要说明：如何从问题中提取关键词，组成搜索语句的。
 

@@ -1,27 +1,24 @@
 
   
-# Students-2016
-
 [![Gitter](https://badges.gitter.im/Py03013052/Students2016.svg)](https://gitter.im/Py03013052/Students2016?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
-P2： 版本管理及社区编程1：建立Github账户、基本操作、加入社区编程组等，  
+## 课程实践二
+
+ 版本管理及社区编程1：建立Github账户、基本操作、加入社区编程组等，  
+ 
+## 推荐的工作 
    
     03013315 朱彦祺       03013304 黄怡婷    03013310 徐静文 
         
     03013404 葛   浩      03013410 扈佳玮
 
-
-## 课程实践作业二
-
-在GITHUB上建立个人账户、仓库加入课程社区。
-
-### 过程：
+## 过程：
 
 1.	首先建立GITHUB账户;
 
 2.	将GITHUB账户的名称、账户用电子信箱，电邮到：cmh@seu.edu.cn
 
-### 电邮要求：
+## 电邮要求：
 
 1.	主题：GITHUB账户（学号，姓名）
 

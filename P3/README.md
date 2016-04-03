@@ -1,19 +1,18 @@
 
   
-# Students-2016
 
 [![Gitter](https://badges.gitter.im/Py03013052/Students2016.svg)](https://gitter.im/Py03013052/Students2016?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
-P3： 版本管理及社区编程2：Git、Github、EGit等 
+## 课程实践作业三
+
+建立本地GIT仓库，并推送到GITHUB。客户端GIT软件建议使用EGIT，也可是其他GIT软件，如: Github for Windows。 
+
+## 推荐的工作 
 
 	03013324  李晨光      03013307   韦佳菊
 	
 	03013429  黄驰晨      03013433 曾柯源   03013421 徐媛媛    03013409   范永学       03013401 张馨云
 
-
-## 课程实践作业三
-
-建立本地GIT仓库，并推送到GITHUB。客户端GIT软件建议使用EGIT，也可是其他任意同学们熟悉的GIT软件，如: Github for Windows。
 
 ## 要求：
 
