@@ -17,9 +17,11 @@ P6： 数据分析：统计、回归及可视化：16.4 Statistical Measures Don
 
 16.4 Statistical Measures Don't, Tell the Whole Story 
 
-In 1973, the statistician F.J. Anscombe published a paper containing the table below. 
+    In 1973, the statistician F.J. Anscombe published a paper containing the table below. 
 
-It contains the <x, y> coordinates of the points in each of four data sets.
+    It contains the <x, y> coordinates of the points in each of four data sets.
+    
+ ![数据表](./table.png)
  
 ### 要求：
 
