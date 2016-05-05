@@ -5,9 +5,9 @@
 
 |  练习            | P1  | P2  | P3  | P4（可选）| P5（可选）      | P6  | P7  |P8-1 |P8-2 |P8-3 |P8-4（可选）|P8-5（可选） |
 | ------ |:---:|:---:|:---:|:------:|:--------:|:---:|:---:|:---:|:---:|:---:|:-------:|---------:|
-| 030133 | 28  | 27  | 24  |  18    |          |  3  |  0  |     |     |     |         |          |
-| 030134 | 31  | 30  | 19  |  10    |          |  4  |  1  |     |     |     |         |          |
-|  合计            | 59  | 57  | 43  |  28    |          |  7  |  1  |     |     |     |         |          |
+| 030133 | 28  | 27  | 25  |  18    |          |  3  |  0  |     |     |     |         |          |
+| 030134 | 32  | 30  | 19  |  10    |          |  4  |  1  |     |     |     |         |          |
+|  合计            | 60  | 57  | 44  |  28    |          |  7  |  1  |     |     |     |         |          |
 
 ### Recommended Works： 
 
@@ -33,16 +33,16 @@ P3： 版本管理及社区编程2：Git、Github、EGit等
 
 Ref:
 
-Maximilian Koegel,Jonas Helming. EGit Toturial http://eclipsesource.com/blogs/tutorials/egit-tutorial/. 2015.02
+* Maximilian Koegel,Jonas Helming. EGit Toturial http://eclipsesource.com/blogs/tutorials/egit-tutorial/. 2015.02
 
-知乎：怎样使用GitHub. http://www.zhihu.com/question/20070065
+* 知乎：怎样使用GitHub. http://www.zhihu.com/question/20070065
 
-Eclipse联机帮助：Help->Help Contents->EGit Documentation
+* Eclipse联机帮助：Help->Help Contents->EGit Documentation
 
 
 P4： 英文IT资源阅读实践：翻译Guttag, John教程中的6.2.3和6.2.4 （ 可选）
 
-    03013305 石     睿    03013304  黄怡婷    03013324 李晨光
+    03013305 石  睿   03013304  黄怡婷    03013324 李晨光
 
     03013409 范永学   03013431  熊铭杰
 
@@ -51,7 +51,7 @@ P5：网络资源使用实践：使用Stackoverflow.com （ 可选）
 
 P6： 数据分析：统计、回归及可视化
 
-	 03013315 朱彦祺     03013304 黄怡婷
+	03013315 朱彦祺    03013304 黄怡婷
     
     03013433 曾柯源    03013409 范永学
 
@@ -63,6 +63,6 @@ P8： 3-5 个专业相关问题的求解、代码规范、软件测试、任务�
 
 ## Download *.docx
 
-1.下载Students2016仓库的zip文件，解压
+* 下载Students2016仓库的zip文件，解压
 
-2.在Students2016仓库 的某个当前目录中,点击文档后，稍等，点”viewraw",提示下载时，进行下载
+* 在Students2016仓库 的某个当前目录中,点击文档后，稍等，点”viewraw",提示下载时，进行下载
