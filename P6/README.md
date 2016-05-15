@@ -4,22 +4,28 @@
 
  数据分析：统计、回归及可视化,交互计算IPython Notebook  
 
-## 推荐的工作 
+## 推荐的工作
 
 	03013315 朱彦祺   03013304 黄怡婷
-	
+
 	03013433 曾柯源   03013409 范永学
+
+* 推荐的同学的程序是在没有讲到有关部分时完成的，实践精神可嘉，
+
+  但是程序成了“计算器”设计，从软件设计角度看，需要“重构”
+
+  在"p6_demo.zip"已经给出后，不应再出现同类程序设计
 
 ### 问题：
 
-16.4 Statistical Measures Don't, Tell the Whole Story 
+16.4 Statistical Measures Don't, Tell the Whole Story
 
-    In 1973, the statistician F.J. Anscombe published a paper containing the table below. 
+    In 1973, the statistician F.J. Anscombe published a paper containing the table below.
 
     It contains the <x, y> coordinates of the points in each of four data sets.
-    
+
  ![数据表](./table.png)
- 
+
 ### 要求：
 
 1. 四组数据的数据文件：纯文本格式或MS Excel表格；
@@ -51,5 +57,3 @@ import numpy as np
 import matplotlib.pyplot as plt
 from  statistics import mean,stdev,variance
 ```
-
-      
