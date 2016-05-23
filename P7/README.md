@@ -23,6 +23,7 @@
 ## 提交内容
 
 测试源码，测试分析报告（含测试数据和结果）。
+
 ## 提交方式
 
 1. 文件压缩包：`学号_姓名_作业七.zip`；
@@ -38,17 +39,19 @@
 
 2. 拷贝U盘内容中IF97目录下有下载好的IAPWS文档：
 
-    1. IAPWS-IF97公式：IF97-Rev.pdf
+    * IAPWS-IF97公式：
 
-    2. 补充公式：
+      * IF97-Rev.pdf
 
-        Supp-phs3-2014.pdf
+    * 补充公式：
 
-        Supp-PHS12-2014.pdf
+      * Supp-phs3-2014.pdf
 
-        Supp-Tv(ph,ps)3-2014.pdf
+      * Supp-PHS12-2014.pdf
 
-        Supp-VPT3-2014.pdf
+      * Supp-Tv(ph,ps)3-2014.pdf
+
+      * Supp-VPT3-2014.pdf
 
 ## 参考代码
 
@@ -59,7 +62,7 @@ import seuif97
 class Region1Test (unittest.TestCase):
 
     def setUp(self):
-         self.k=273.15
+         self.T0=273.15
 
          # IF97-dev,Table 5 Page 9 : p,t(K),h,s
          self.tab5=[ [ 3, 300, 0.115331273e3, 0.392294792 ],
@@ -69,12 +72,12 @@ class Region1Test (unittest.TestCase):
     def testSpecificEnthalpyPT(self):
          places = 6
          for item in  self.tab5:
-             self.assertAlmostEqual(seuif97.pt(item[0], item[1]-self.k,4),item[2],places)
+             self.assertAlmostEqual(seuif97.pt(item[0], item[1]-self.T0,4),item[2],places)
 
     def testSpecificEntropyPT(self):
          places = 8
          for item in  self.tab5:
-             self.assertAlmostEqual(seuif97.pt(item[0], item[1]-self.k,5),item[3],places)
+             self.assertAlmostEqual(seuif97.pt(item[0], item[1]-self.T0,5),item[3],places)
 
 if __name__ == '__main__':
     unittest.main()            
