@@ -34,27 +34,6 @@
 
 3. 推送到GitHub仓库。
 
-## 参考文献
-
-1. IAPWS Releases, Supplementary Releases, Guidelines, and Advisory Notes
-     http://www.iapws.org/release.html
-
-2. 拷贝U盘内容中IF97目录下有下载好的IAPWS文档：
-
-    * IAPWS-IF97公式：
-
-      * IF97-Rev.pdf
-
-    * 补充公式：
-
-      * Supp-phs3-2014.pdf
-
-      * Supp-PHS12-2014.pdf
-
-      * Supp-Tv(ph,ps)3-2014.pdf
-
-      * Supp-VPT3-2014.pdf
-
 ## 参考代码
 
 ```python
@@ -84,3 +63,25 @@ class Region1Test (unittest.TestCase):
 if __name__ == '__main__':
     unittest.main()            
 ```
+
+## 参考文献
+
+1. IAPWS Releases, Supplementary Releases, Guidelines, and Advisory Notes
+     http://www.iapws.org/release.html
+
+2. 拷贝U盘内容中IF97目录下有下载好的IAPWS文档：
+
+    * IAPWS-IF97公式：
+
+      * IF97-Rev.pdf
+
+    * 补充公式：
+
+      * Supp-phs3-2014.pdf
+
+      * Supp-PHS12-2014.pdf
+
+      * Supp-Tv(ph,ps)3-2014.pdf
+
+      * Supp-VPT3-2014.pdf
+
