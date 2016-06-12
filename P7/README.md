@@ -3,29 +3,30 @@
 
 ## 实践作业七
 
-以“基于IAPWS-IF97的水和水蒸汽物性计算软件包”为被测对象，
+以“IAPWS-IF97的水和水蒸汽物性计算软件”为被测对象，
 
  设计基于Python标准库unittest测试类，进行物性计算正确性测试
 
 ## 推荐的工作
 
-	  03013305   石睿     03013324  李晨光@  03013306 谭美秀@ 
+
+    03013305 石 睿   03013324  李晨光@   03013306 谭美秀@ 
     
     03013433 曾柯源  03013409 范永学     03013410 扈佳玮@
 
 ## 测试内容
 
-1.	IAPWS-IF97公式物性计算的正确性；
+1.	IAPWS-IF97基本公式的物性计算软件正确性（任选区域）；
 
-2.	IAPWS-IF97补充公式物性计算的正确性。
+2.	IAPWS-IF97补充公式的物性计算软件正确性（任选区域）。
 
 ## 测试方法
 
-   须含Test suites
+     须含Test suites
    
 ## 提交内容
 
-测试源码，测试分析报告（含测试数据和结果）。
+    测试源码，测试分析报告（含测试数据和结果）。
 
 ## 提交方式
 
@@ -67,22 +68,20 @@ if __name__ == '__main__':
 
 ## 参考文献
 
-1. IAPWS Releases, Supplementary Releases, Guidelines, and Advisory Notes
+ IAPWS Releases, Supplementary Releases, Guidelines, and Advisory Notes
      http://www.iapws.org/release.html
 
-2. 拷贝U盘内容中IF97目录下有下载好的IAPWS文档：
+ * IAPWS-IF97公式：
 
-    * IAPWS-IF97公式：
+    * IF97-Rev.pdf
 
-      * IF97-Rev.pdf
+ * 补充公式：
 
-    * 补充公式：
+   * Supp-phs3-2014.pdf
 
-      * Supp-phs3-2014.pdf
+   * Supp-PHS12-2014.pdf
 
-      * Supp-PHS12-2014.pdf
+   * Supp-Tv(ph,ps)3-2014.pdf
 
-      * Supp-Tv(ph,ps)3-2014.pdf
-
-      * Supp-VPT3-2014.pdf
+  * Supp-VPT3-2014.pdf
 
