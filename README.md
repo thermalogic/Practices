@@ -3,7 +3,7 @@
 
 ## 期末考试程序参考答案：
 
-https://github.com/Py03013052/Students2016/S2016.md
+https://github.com/Py03013052/Students2016/blob/S2016/S2016.md
 
 ## Students2016 进程表
 
