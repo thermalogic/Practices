@@ -1,9 +1,6 @@
 
 ##  行是知之始，知是行之成    - 陶行知 
 
-
-## TIPS
-
 We highly recommend you practice coding whenever you have a few minutes.
 
 Even if you are just modifying available code, it will be incredibly beneficial.
