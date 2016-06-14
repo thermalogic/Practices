@@ -1,7 +1,20 @@
 
-## 期末考试程序参考答案：
+##  行是知之始，知是行之成    - 陶行知 
 
-https://github.com/Py03013052/Students2016/blob/S2016/S2016.md
+
+## TIPS
+
+We highly recommend you practice coding whenever you have a few minutes.
+
+Even if you are just modifying available code, it will be incredibly beneficial.
+
+You **NEED** to
+
+* use other resources,
+
+* read codes,
+
+*  **get your hands dirty** and **practice**
 
 P1 软件开发基础实践：Python开发环境建立
 
