@@ -13,6 +13,10 @@ You **NEED** to
 
 *  **get your hands dirty** and **practice**
 
+You are encouraged to learn from the work of your peers。
+
+But without challenging yourselves, you are simply wasting their time and money taking this course.
+
 ***
 
 P1 软件开发基础实践：Python开发环境建立
