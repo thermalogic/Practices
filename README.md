@@ -15,7 +15,7 @@ You **NEED** to
 
 You are encouraged to learn from the work of your peers。
 
-But without challenging yourselves, you are simply wasting their time and money taking this course.
+But without challenging yourselves, you are simply wasting your time and money taking this course.
 
 ***
 
