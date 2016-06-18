@@ -1,21 +1,8 @@
 
-##  行是知之始，知是行之成    - 陶行知 
-
-We highly recommend you practice coding whenever you have a few minutes.
-
-Even if you are just modifying available code, it will be incredibly beneficial.
-
-You **NEED** to
-
-* use other resources,
-
-* read codes,
-
-*  **get your hands dirty** and **practice**
-
-You are encouraged to learn from the work of your peers。
-
-But without challenging yourselves, you are simply wasting your time and money taking this course.
+##  行是知之始，知是行之成  - 陶行知 
+                        
+### 不要把分数看重了，要把精力集中在培养分析问题和解决问题的能力上，
+### 不要只是跟在教员的后面跑，自己没有主动性。- 毛泽东
 
 ***
 
