@@ -43,9 +43,9 @@
 
 * https://github.com/Py03013052/home/tree/master/guide/
 
-   Python学习和开发环境的建立(教学版).docx
+   * Python学习和开发环境的建立(教学版).docx
    
- * https://github.com/Py03013052/RecommendedPracticestree/S2016/P1/
+* https://github.com/Py03013052/RecommendedPracticestree/S2016/P1/
 
 
 
