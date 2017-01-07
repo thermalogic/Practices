@@ -41,17 +41,15 @@
           主题：学号-姓名-P2
           附件文档：学号-姓名-P2.docx
 
-* 2）	 截至时间：
+* 2）	 截至时间：2017.03.21
          过截至时间后可以补交，补交作业最高14分
 * 3）	改进更新：提交作业后可改进，改进截至时间：课程考试的前一周
 
-## 参考文档：
+## 参考资源：
 
-* https://github.com/Py03013052/home/tree/master/guide/
+* https://github.com/PySEE/home/tree/master/guide/
 
    * Python学习和开发环境的建立(教学版).docx
    
-* https://github.com/Py03013052/RecommendedPracticestree/S2016/P1/
-
-
+* https://github.com/PySEE/RecommendedPracticestree/S2016/P
 

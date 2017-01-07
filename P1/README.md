@@ -39,11 +39,18 @@
   * 附件： 学号-姓名-P1.docx。
 
 
-* 2）截至时间： 
+* 2）截至时间：  2017.02.28
 
   * 过截至时间后可补交，补交成绩最高3分
 
- 
+ ## 参考资源：
+
+ * https://github.com/PySEE/home/tree/S2017/guide/
+
+   * VersionControlAndGithub.md
+   * 使用EGIT建立初始为空的本地仓库
+
+* https://github.com/PySEE/RecommendedPractices/tree/S2016/P2  
 
  
 
