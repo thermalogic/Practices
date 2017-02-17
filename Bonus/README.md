@@ -36,10 +36,10 @@
 
 ## 参考资源：
 
-  * https://github.com/PySEE/home/tree/master/guide/ProgrammingWithGCC.md
+  * https://github.com/PySEE/home/tree/S2017/guide/ProgrammingWithGCC.md
 
-  * https://github.com/PySEE/home/tree/master/guide/Ubuntu-Python-C.md
+  * https://github.com/PySEE/home/tree/S2017/guide/Ubuntu-Python-C.md
 
-  * https://github.com/PySEE/home/tree/master/notebook/PyThermo_C_Python.ipynb
+  * https://github.com/PySEE/home/tree/S2017/notebook/PyThermo_C_Python.ipynb
 
 

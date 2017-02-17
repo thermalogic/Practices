@@ -47,7 +47,7 @@
 
 ## 参考资源：
 
-* https://github.com/PySEE/home/tree/master/guide/
+* https://github.com/PySEE/home/tree/S2017/guide/
 
    * Python学习和开发环境的建立(教学版).docx
    
