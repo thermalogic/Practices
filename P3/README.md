@@ -2,7 +2,7 @@
 
 ## 课程实践三
 
-* **交互计算**（10）：Jupyter Notebook程序设计：朗肯循环计算   
+* **交互计算**（15）：Jupyter Notebook程序设计：朗肯循环计算   
 
 ## 推荐的工作 
 -----
@@ -18,19 +18,21 @@
   * Chapter 8 vapor Power System:  
   **Example 8.6**: Considering a Reheat–Regenerative Cycle with Two Feedwater Heaters（Page 460-463）
 
-## 要求：（总分10）
+## 要求：（总分15）
 
 * 1）	交互计算Jupytern Notebook（7分）：
    * 问题描述、计算程序、工作小结
 
-* 2）源码质量（3分）：数据结构、模块组织（源码要求：Python3.*、PEP8规范）；
+* 2）数据结构（5分）：面向对象、系统定义、模块组织
+
+* 2）源码质量（3分）：Python3.*、PEP8规范；；
 
 ## 提交：
 * 1）电邮： cmh@seu.edu.cn
    * 主题：学号-姓名-P3
    * 附件：Jupyter Notebook程序文件压缩包： **学号-姓名-P3.zip**；
 
-* 2）截至时间：
+* 2）截至时间：期末考试前2周
    * 过截至时间后可补交，补交作业成绩最高7分
 
 * 3）改进更新：提交作业后可改进，改进截至时间：期末考试的前一周
