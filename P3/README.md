@@ -33,15 +33,29 @@
    * 附件：Jupyter Notebook程序文件压缩包： **学号-姓名-P3.zip**；
 
 * 2）截至时间：期末考试前2周
-   * 过截至时间后可补交，补交作业成绩最高7分
+   * 过截至时间后可补交，补交作业成绩最高12分
 
 * 3）改进更新：提交作业后可改进，改进截至时间：期末考试的前一周
 
 ## 参考资源：
 
+*  https://github.com/PySEE/home/tree/S2017/notebook/PyThermo_IdealRankineCycle.ipynb
+ 
+*  https://github.com/PySEE/SEUIF97/tree/master/PyThermoCycle
+
 *  Jupyter Noteboob for Fundamentals of Engineering Thermodynamics, Michael J . Mora. 
+
    * https://github.com/FOSSEE/Python-Textbook-Companions/blob/master/Fundamental_of_Thermodynamics_by_Moran_and_Shapiro/Chapter_8.ipynb
 
+* Jupyter Documentation. http://jupyter.readthedocs.org/en/latest/
+    
+    * IPython https://ipython.org/
+    
+    * A gallery of interesting notebook：https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks
+
+* PEP 8 - Style Guide for Python Code 
+
+   https://www.python.org/dev/peps/pep-0008/
 
 
   

@@ -43,15 +43,31 @@
 
   * 过截至时间后可补交，补交成绩最高3分
 
- ## 参考资源：
+## 参考资源：
 
- * https://github.com/PySEE/home/tree/S2017/guide/
+* https://github.com/PySEE/
+  
+  * https://github.com/PySEE/home/tree/S2017/guide/
 
-   * VersionControlAndGithub.md
-   * 使用EGIT建立初始为空的本地仓库
+     * VersionControlAndGithub.md
+     * 使用EGIT建立初始为空的本地仓库.doc
 
-* https://github.com/PySEE/RecommendedPractices/tree/S2016/P2  
+  * http://nbviewer.jupyter.org/github/PySEE/home/blob/S2017/notebook/Sup2-Version-Control-Git.ipynb
 
- 
+  * https://github.com/PySEE/RecommendedPractices/tree/S2016/P2  
+
+* git-for-windows：https://github.com/git-for-windows/git/releases
+ 
+* Scott Chacon，Ben Straub. Pro Git. https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
+
+* 廖雪峰. Git教程  http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
+
+* 知乎：怎样使用GitHub. http://www.zhihu.com/question/20070065
+
+* Maximilian Koegel,Jonas Helming. EGit Toturial http://eclipsesource.com/blogs/tutorials/egit-tutorial/    2015.02
+
+* How to get started with GIT and work with GIT Remote Repo http://www3.ntu.edu.sg/home/ehchua/programming/howto/Git_HowTo.html
+
+* Git Version Control in VS Code：https://code.visualstudio.com/docs/editor/versioncontrol
 
 

@@ -42,4 +42,6 @@
 
   * https://github.com/PySEE/home/tree/S2017/notebook/PyThermo_C_Python.ipynb
 
+  * https://github.com/PySEE/home/tree/S2017/guide/ProgrammingWithGCC.md
+
 

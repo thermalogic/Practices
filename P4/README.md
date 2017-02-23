@@ -48,8 +48,8 @@
   * 主题：学号-姓名-P4；
   * 附件：程序文件压缩包：**学号-姓名-P4.zip**；
 
-* 2） 截至时间： 
-  * 过截至时间后可以补交，补交作业最高10分
+* 2） 截至时间： 期末考试前2周
+  * 过截至时间后可以补交，补交作业最高12分
 
 * 3）改进更新：提交作业后可改进，改进截至时间：期末考试的前一周
 
@@ -65,3 +65,14 @@
     from  statistics import mean,stdev,variance
 ```
 
+* Scipy. http://www.scipy.org/
+  
+* numpy. http://www.numpy.org/
+  
+* matplotlib.  http://matplotlib.org/
+
+* PEP 8 - Style Guide for Python Code 
+   
+   https://www.python.org/dev/peps/pep-0008/
+
+ 

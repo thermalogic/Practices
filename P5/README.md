@@ -33,7 +33,7 @@
      主题：学号-姓名-P5；
     附件：程序文件压缩包：学号-姓名-P55.zip；
 
-* 2）	 截至时间：
+* 2）	 截至时间：期末考试前2周
         过截至时间后可以补交，补交作业最高7分
 
 * 3）	改进更新：提交作业后可改进，改进截至时间：课程考试的前一周
@@ -53,4 +53,6 @@
 ## 参考资源：
 
 * https://github.com/PySEE/RecommendedPractices/tree/S2016/P7
+
+* https://github.com/jjgomera/iapws
 

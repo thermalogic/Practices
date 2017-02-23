@@ -47,9 +47,15 @@
 
 ## 参考资源：
 
-* https://github.com/PySEE/home/tree/S2017/guide/
+* https://github.com/PySEE/home/tree/2017/guide/
 
    * Python学习和开发环境的建立(教学版).docx
    
-* https://github.com/PySEE/RecommendedPracticestree/S2016/P
+* https://github.com/PySEE/RecommendedPracticestree/S2016/P1
+
+* Eclipse 4.3 (Kepler) for C/C++ Programming http://www3.ntu.edu.sg/home/ehchua/programming/howto/EclipseCpp_HowTo.html
+
+* 郑伟芳. PyDev for Eclipse简介. http://www.ibm.com/developerworks/cn/opensource/os-cn-ecl-pydev/   2008.11
+
+* Python on Visual Studio Code： https://code.visualstudio.com/docs/languages/python
 
