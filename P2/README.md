@@ -38,12 +38,16 @@
 ## 提交：
 
 * 1）	电邮： cmh@seu.edu.cn 
+
           主题：学号-姓名-P2
+
           附件文档：学号-姓名-P2.docx
 
 * 2）	 截至时间：2017.03.21
+
          过截至时间后可以补交，补交作业最高12分
-* 3）	改进更新：提交作业后可改进，改进截至时间：课程考试的前一周
+
+* 3）	改进更新：提交作业后可改进，改进截至时间：2017.06.04
 
 ## 参考资源：
 
@@ -51,7 +55,7 @@
 
    * Python学习和开发环境的建立(教学版).docx
    
-* https://github.com/PySEE/RecommendedPracticestree/S2016/P1
+* https://github.com/PySEE/RecommendedPractices/tree/S2016/P1
 
 * Eclipse 4.3 (Kepler) for C/C++ Programming http://www3.ntu.edu.sg/home/ehchua/programming/howto/EclipseCpp_HowTo.html
 

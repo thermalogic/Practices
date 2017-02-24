@@ -13,6 +13,9 @@
 
 
 **1. Github** (5)：Git,Github
+
+* Deadline：2017.02.28
+
 -----
 | No  |1          |    2 |
 | ------|:--------:| -----------:|
@@ -21,6 +24,9 @@
 ---------
 
 **2. Python**(15)：Python、IDE
+
+* Deadline: 2017.03.21
+
 -----
 | No  |1          |    2 |
 | ------|:--------:| -----------:|
@@ -29,6 +35,9 @@
 ---------
 
 **3. Interactive Computing**(15)：Jupyter Notebook of the Rankine cycle  
+
+* Deadline: 2017.05.28
+
 -----
 | No  |1          |    2 |
 | ------|:--------:| -----------:|
@@ -37,6 +46,9 @@
 ---------
 
 **4. Data Analysi**(15)：Statistics, regression and visualization
+
+* Deadline: 2017.05.28
+
 -----
 | No  |1          |    2 |
 | ------|:--------:| -----------:|
@@ -45,6 +57,9 @@
 ---------
 
 **5. Unit Test**(10)：IAPWS-IF97 physical properties calculation and unit test  
+
+* Deadline: 2017.05.28
+
 -----
 | No  |1          |    2 |
 | ------|:--------:| -----------:|
@@ -53,6 +68,8 @@
 ---------
 
 **Bonus points**(+5)： C/C++ Programming with GCC,Ubuntu  
+
+* Deadline: 2017.06.04
 
 -----
 | No  |1          |    2 |
