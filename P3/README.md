@@ -58,7 +58,7 @@ and temperatures are specified, and the net power output is given.
 
 * 2）数据结构（5分）：面向对象、系统定义、模块组织
 
-* 2）源码质量（3分）：Python3.*、PEP8规范；；
+* 2）源码质量（3分）：Python3.*、PEP8规范；
 
 ## 提交：
 * 1）电邮： cmh@seu.edu.cn
@@ -74,7 +74,7 @@ and temperatures are specified, and the net power output is given.
 
 *  https://github.com/PySEE/home/tree/S2017/notebook/PyThermo_IdealRankineCycle.ipynb
  
-*  https://github.com/PySEE/SEUIF97/tree/master/PyThermoCycle
+*  https://github.com/PySEE/SEUIF97/tree/master/PyRankine
 
 *  Jupyter Noteboob for Fundamentals of Engineering Thermodynamics, Michael J . Mora. 
 
