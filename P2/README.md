@@ -21,7 +21,7 @@
 
 * 3）	交互计算环境和程序示例(2分)：Jupyter Notebook
 * 4）	集成开发环境和程序示例(3分):
-          可是Eclipse IDE、Visual Studio 2015、PyCharm、Canopy或者Atom等任何一种；
+          可是Eclipse IDE、MS Visual Studio 2017、PyCharm、 Anaconda、Canopy或Atom等任何一种；
           使用集成环境设计一个小程序的过程；
          以上工作需要用文字和开发环境建立和程序设计过程的截图，给出详尽的过程细节。
 
