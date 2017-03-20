@@ -53,7 +53,7 @@
 
 * https://github.com/PySEE/home/tree/2017/guide/
 
-   * Python学习和开发环境的建立(教学版).docx
+   * Python学习和开发环境的建立(教学版).docx 
    
 * https://github.com/PySEE/RecommendedPractices/tree/S2016/P1
 
