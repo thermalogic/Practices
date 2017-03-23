@@ -2,11 +2,11 @@
 
 ## 课程实践三
 
-* **交互计算**（15）：Jupyter Notebook程序设计：朗肯循环计算   
+* **交互计算**（15）：Jupyter Notebook of the Rankine cycle     
 
 ## 推荐的工作 
-
------
+ 
+ -----
 | ID  |03014402    |  
 | ------|:--------:| 
 |Name   |  吉珣碧  | 
@@ -74,7 +74,7 @@ and temperatures are specified, and the net power output is given.
 
 *  https://github.com/PySEE/home/tree/S2017/notebook/PyThermo_IdealRankineCycle.ipynb
  
-*  https://github.com/PySEE/SEUIF97/tree/master/PyRankine
+*  https://github.com/PySEE/PyRankine
 
 *  Jupyter Noteboob for Fundamentals of Engineering Thermodynamics, Michael J . Mora. 
 
