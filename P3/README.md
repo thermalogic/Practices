@@ -84,7 +84,7 @@ and temperatures are specified, and the net power output is given.
     
     * IPython https://ipython.org/
     
-    * A gallery of interesting notebook：https://github.com/ipython/ipython/wiki/A-gallery-of-interesting-IPython-Notebooks
+    * A gallery of interesting notebook：https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks
 
 * PEP 8 - Style Guide for Python Code 
 
