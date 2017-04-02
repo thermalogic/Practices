@@ -1,14 +1,14 @@
 
 ## 课程实践四
 
-* **数据分析**（15）：：Python或者Jupyter Notebook程序序设计：统计、回归及可视化
+* **数据分析**（15）：：Python或Jupyter Notebook程序设计：统计、回归及可视化
 
 ## 推荐的工作 
+
 -----
-| 序号  |1          |    2 |
-| ------|:--------:| -----------:|
-| 学号  | 030143**  |  030144**   |
-| 姓名  |           |             |
+|03014402    | 
+|:--------:| 
+|  吉珣碧  | 
 ---------
 
 ## 问题：
@@ -55,8 +55,13 @@
 
 ## 提示：
 
-* 参考课程第11、15章的Jupyter Notebook实现
+* 参考第11、15章
+
+  * http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/11_PLOTTING_AND_MORE_ABOUT_CLASSES.ipynb
+  * http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/15_UNDERSTANDING_EXPERIMENTAL_DATA.ipynb
+
 * 统计指标计算、回归分析: 可使用Python统计库、Numpy和Scipy
+
 * 绘制数据点图: 使用Matplotlib
 
 ```python
