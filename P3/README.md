@@ -1,15 +1,35 @@
 
 
-## 课程实践三
+## Practice Three
 
-* **交互计算**（15）：Jupyter Notebook of the Rankine cycle     
+* **Interactive Computing**（15）：Jupyter Notebook of the Rankine Cycle Simulator 
 
-## 推荐的工作 
+* The Rankine Cycle Simulator to train Computational Thinking and  programming skills   
+
+## Recommended programs
  
 -----
 |03014402    |  03014404 |03014316 |
 |:--------:| ----------:|-------:|
 |  吉珣碧  | 姚依晨   |    田康宁 | 
+---------
+
+**Students who have submitted the program**
+
+030143
+
+-----
+|03014316 |03014323 |
+|-------:|---------:|
+| 田康宁  | 陈子聿   |
+---------
+
+030144
+
+-----
+|03014402  | 03014404 |03014413 |03014407 |03014425 |
+|:--------:| --------:|--------:|-------:|---------:|
+|  吉珣碧   | 姚依晨   |   张立奇 | 吴钊   | 付童方    |
 ---------
 
 ## 问题: 
