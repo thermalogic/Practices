@@ -4,7 +4,7 @@
 
 * **Interactive Computing**（15）：Jupyter Notebook of the Rankine Cycle Simulator 
 
-* The Rankine Cycle Simulator to train Computational Thinking and  programming skills   
+* The Rankine Cycle Simulator to train computational thinking and  programming skills   
 
 ## Recommended programs
  
