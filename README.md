@@ -2,11 +2,11 @@
 #  行是知之始，知是行之成  - 陶行知 
 
 -----
-|   练习    |     1    |    2    |  3     |   4     |   5    |  Bonus    |
+|   PID  |     1    |    2    |  3     |   4     |   5    |  Bonus    |
 | ---------|:------:| ------:|------:|------:|------|----:|
-| 030143 |   32   |  29    |   2   |  0   | 00   |00   |
+| 030143 |   32   |  29    |   3   |  0   | 00   |00   |
 | 030144 |   32  |  31    |   5   |  2   | 00   |00   |
-|  合计  |   64  |  60    |  7    |  2   | 00   |00   |
+|  Total  |   64  |  60    |  8    |  2   | 00   |00   |
 ---------
 
 练习都可以在期末考试前，不断修改，提高质量和成绩。
@@ -18,9 +18,9 @@
 * Deadline：2017.02.28
 
 -----
-| ID   | 03014433  |  03014323 |03014404 |03014430 |
-| ------|:--------:| -----------:|-----------:|----------:|
-| Name  |  周鹏    |    陈子聿   | 姚依晨   | 孟华宁  |
+|  03014433  |  03014323 |03014404 |03014430 |
+| --------:| -----------:|-----------:|----------:|
+|   周鹏    |    陈子聿   | 姚依晨   | 孟华宁  |
 ---------
 
 **2. Python**(15)：Python、IDE
@@ -35,20 +35,24 @@
 
 **3. Interactive Computing**(15)：Jupyter Notebook of the Rankine Cycle Simulator 
 
-* The Rankine Cycle Simulator to train computational thinking and  programming skills   
+* Purpose： 
+
+   * The Rankine Cycle Simulator: training computational thinking and  programming skills   
+   * Jupyter Notebook: shareing the code and reproducible research
 
 * Deadline: 2017.05.28
 
+* **Recommended Programs**
+
 |03014402 |  03014404 |03014316 |
-|:--------:| ----------:|-------:|
-|  吉珣碧  | 姚依晨   |    田康宁 | 
+|:--------:| -------:|------:|
+| 吉珣碧  | 姚依晨   |    田康宁 | 
 
-**Students who have submitted the program**
+* **Students who have submitted the program**
 
-
-|03014316 |03014323 |
-|-------:|---------:|
-| 田康宁  | 陈子聿   |
+|03014316 |03014323 |03014306 |
+|-------:|---------:|--------:|
+| 田康宁  | 陈子聿   |  李晗   |
 
 
 |03014402  | 03014404 |03014413 |03014407 |03014425 |

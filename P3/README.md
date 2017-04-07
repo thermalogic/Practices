@@ -2,9 +2,13 @@
 
 ## Practice Three
 
-* **Interactive Computing**（15）：Jupyter Notebook of the Rankine Cycle Simulator 
+**Interactive Computing**(15)：Jupyter Notebook of the Rankine Cycle Simulator 
+  
+* Purpose： 
+   * The Rankine Cycle Simulator: training computational thinking and  programming skills   
+   * Jupyter Notebook: shareing the code and reproducible research
 
-* The Rankine Cycle Simulator to train computational thinking and  programming skills   
+* Deadline: 2017.05.28
 
 ## Recommended programs
  
@@ -12,11 +16,11 @@
 |:--------:| ----------:|-------:|
 |  吉珣碧  | 姚依晨   |    田康宁 | 
 
-**Students who have submitted the program**
+## Students who have submitted the program
 
-|03014316 |03014323 |
-|-------:|---------:|
-| 田康宁  | 陈子聿   |
+|03014316 |03014323 |03014306 |
+|-------:|---------:|--------:|
+| 田康宁  | 陈子聿   |  李晗   |
 
 |03014402  | 03014404 |03014413 |03014407 |03014425 |
 |:--------:| --------:|--------:|-------:|---------:|
