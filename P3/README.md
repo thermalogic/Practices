@@ -78,7 +78,9 @@ and temperatures are specified, and the net power output is given.
 
 *  Jupyter Notebook for Fundamentals of Engineering Thermodynamics, Michael J . Mora. 
 
-   * https://github.com/FOSSEE/Python-Textbook-Companions/blob/master/Fundamental_of_Thermodynamics_by_Moran_and_Shapiro/Chapter_8.ipynb
+   * https://github.com/FOSSEE/Python-Textbook-Companions/blob/master/Fundamental_of_Thermodynamics_by_Moran_and_Shapiro
+   
+     * Chapter_8.ipynb
 
 * Jupyter Documentation. http://jupyter.readthedocs.org/en/latest/
     
