@@ -1,0 +1,105 @@
+
+Rankine Cycle 	./cyclefile/rankine86
+Net Power Output(MW) 	100.00
+The Mass Flow Rate(kg/h) 	279489.29
+Efficiency(%) 	43.05
+totalWExtracted(MW) 	100.66
+totalWRequired(MW) 	0.66
+totalQAdded(MW) 	232.27
+
+NodeID	Name	P	T	H	S	V	X	FDOT	MDOT
+0 	Main Steam 	8.00 	480.00 	3349.53 	6.66 	0.04 	1.00 	1.00 	279489.29
+1 	Extracted Steam From HP 	2.00 	274.52 	2964.05 	6.66 	0.12 	1.00 	0.15 	41838.70
+2 	Outlet Steam of HP 	0.70 	164.95 	2742.63 	6.66 	0.27 	0.99 	0.85 	237650.59
+3 	Inlet Steam Of LP 	0.70 	440.00 	3353.81 	7.76 	0.47 	1.00 	0.85 	237650.59
+4 	Extracted Steam From LP 	0.30 	315.69 	3101.62 	7.76 	0.90 	1.00 	0.09 	26479.92
+5 	Outlet Steam of LP 	0.01 	41.51 	2428.79 	7.76 	16.99 	0.94 	0.76 	211170.67
+6 	Condenser Water 	0.01 	41.51 	173.85 	0.59 	0.00 	0.00 	0.76 	211170.67
+7 	FW of Outlet CondenserWater Pump 	0.30 	41.52 	174.15 	0.59 	0.00 	0.00 	0.76 	211170.67
+8 	FW of Inlet FeedWater Pump 	0.30 	133.53 	561.46 	1.67 	0.00 	0.00 	1.00 	279489.29
+9 	FW of Outlet FeedWater Pump 	8.00 	134.26 	569.72 	1.67 	0.00 	0.00 	1.00 	279489.29
+10 	Main FeedWater 	8.00 	205.00 	877.41 	2.37 	0.00 	0.00 	1.00 	279489.29
+11 	Drain Water Inlet Trap 	2.00 	212.38 	908.62 	2.45 	0.00 	0.00 	0.15 	41838.70
+12 	Drain Water Outlet Trap 	0.30 	133.53 	908.62 	2.53 	0.10 	0.16 	0.15 	41838.70
+
+Condenser
+ID	NAME	P	T	H	S	V	X	FDOT	MDOT
+5 	Outlet Steam of LP 	0.01 	41.51 	2428.79 	7.76 	16.99 	0.94 	0.76 	211170.67
+6 	Condenser Water 	0.01 	41.51 	173.85 	0.59 	0.00 	0.00 	0.76 	211170.67
+heatExtracted(kJ/kg)  	1703.74 
+QExtracted(MW): 	132.27
+
+Feedwater Pump
+ID	NAME	P	T	H	S	V	X	FDOT	MDOT
+8 	FW of Inlet FeedWater Pump 	0.30 	133.53 	561.46 	1.67 	0.00 	0.00 	1.00 	279489.29
+9 	FW of Outlet FeedWater Pump 	8.00 	134.26 	569.72 	1.67 	0.00 	0.00 	1.00 	279489.29
+workRequired(kJ/kg): 	8.26
+WRequired(MW): 	0.64
+
+High Pressure Turbine
+ID	NAME	P	T	H	S	V	X	FDOT	MDOT
+0 	Main Steam 	8.00 	480.00 	3349.53 	6.66 	0.04 	1.00 	1.00 	279489.29
+2 	Outlet Steam of HP 	0.70 	164.95 	2742.63 	6.66 	0.27 	0.99 	0.85 	237650.59
+1 	Extracted Steam From HP 	2.00 	274.52 	2964.05 	6.66 	0.12 	1.00 	0.15 	41838.70
+workExtracted(kJ/kg): 	573.75 
+WExtracted(MW): 	44.54
+
+Low Pressure Feedwater Heater
+ID	NAME	P	T	H	S	V	X	FDOT	MDOT
+4 	Extracted Steam From LP 	0.30 	315.69 	3101.62 	7.76 	0.90 	1.00 	0.09 	26479.92
+7 	FW of Outlet CondenserWater Pump 	0.30 	41.52 	174.15 	0.59 	0.00 	0.00 	0.76 	211170.67
+8 	FW of Inlet FeedWater Pump 	0.30 	133.53 	561.46 	1.67 	0.00 	0.00 	1.00 	279489.29
+12 	Drain Water Outlet Trap 	0.30 	133.53 	908.62 	2.53 	0.10 	0.16 	0.15 	41838.70
+heatAdded(kJ/kg) 	292.63
+heatExtracted(kJ/kg) 	292.63
+	heatExtracted_s(kJ/kg) 	 240.67
+	heatExtracted_d(kJ/kg) 	51.97
+QAdded(MW) 	22.72
+QExtracted(MW)  	22.72
+	QExtracted_s(MW) 	18.68
+	QExtracted_d(MW)	4.03
+
+Trap
+ID	NAME	P	T	H	S	V	X	FDOT	MDOT
+11 	Drain Water Inlet Trap 	2.00 	212.38 	908.62 	2.45 	0.00 	0.00 	0.15 	41838.70
+12 	Drain Water Outlet Trap 	0.30 	133.53 	908.62 	2.53 	0.10 	0.16 	0.15 	41838.70
+
+Low Pressure Turbine
+ID	NAME	P	T	H	S	V	X	FDOT	MDOT
+3 	Inlet Steam Of LP 	0.70 	440.00 	3353.81 	7.76 	0.47 	1.00 	0.85 	237650.59
+5 	Outlet Steam of LP 	0.01 	41.51 	2428.79 	7.76 	16.99 	0.94 	0.76 	211170.67
+4 	Extracted Steam From LP 	0.30 	315.69 	3101.62 	7.76 	0.90 	1.00 	0.09 	26479.92
+workExtracted(kJ/kg): 	722.80 
+WExtracted(MW): 	56.12
+
+Steam Generator
+ID	NAME	P	T	H	S	V	X	FDOT	MDOT
+10 	Main FeedWater 	8.00 	205.00 	877.41 	2.37 	0.00 	0.00 	1.00 	279489.29
+0 	Main Steam 	8.00 	480.00 	3349.53 	6.66 	0.04 	1.00 	1.00 	279489.29
+heatAdded(kJ/kg) 	2472.12 
+QAdded(MW) 	191.93
+
+High Pressure Feedwater Heater
+ID	NAME	P	T	H	S	V	X	FDOT	MDOT
+1 	Extracted Steam From HP 	2.00 	274.52 	2964.05 	6.66 	0.12 	1.00 	0.15 	41838.70
+11 	Drain Water Inlet Trap 	2.00 	212.38 	908.62 	2.45 	0.00 	0.00 	0.15 	41838.70
+9 	FW of Outlet FeedWater Pump 	8.00 	134.26 	569.72 	1.67 	0.00 	0.00 	1.00 	279489.29
+10 	Main FeedWater 	8.00 	205.00 	877.41 	2.37 	0.00 	0.00 	1.00 	279489.29
+heatAdded(kJ/kg): 	307.69 
+heatExtracted(kJ/kg): 	307.69
+Qdded(MW) 	23.89 
+QExtracted(MW) 	23.89 
+
+Reheater
+ID	NAME	P	T	H	S	V	X	FDOT	MDOT
+2 	Outlet Steam of HP 	0.70 	164.95 	2742.63 	6.66 	0.27 	0.99 	0.85 	237650.59
+3 	Inlet Steam Of LP 	0.70 	440.00 	3353.81 	7.76 	0.47 	1.00 	0.85 	237650.59
+heatAdded(kJ/kg) 	519.69 
+QAdded(MW) 	40.35
+
+Condenser Water Pump
+ID	NAME	P	T	H	S	V	X	FDOT	MDOT
+6 	Condenser Water 	0.01 	41.51 	173.85 	0.59 	0.00 	0.00 	0.76 	211170.67
+7 	FW of Outlet CondenserWater Pump 	0.30 	41.52 	174.15 	0.59 	0.00 	0.00 	0.76 	211170.67
+workRequired(kJ/kg): 	0.22
+WRequired(MW): 	0.02
