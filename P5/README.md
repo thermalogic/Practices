@@ -16,6 +16,7 @@
 ## 要求（10分）：
 
 * 根据：
+     
      Revised Supplementary Release on Backward Equations for Specific Volume
       as a Function of Pressure and Temperature v(p,T)
      for Region 3 of the IAPWS Industrial Formulation 1997 for the 
@@ -50,11 +51,15 @@
 * IAPWS Releases, Supplementary Releases, Guidelines, and Advisory Notes
    * http://www.iapws.org/release.html
               
-     *  1）IAPWS-IF97公式：IF97-Rev.pdf
+     * 1）IAPWS-IF97公式：IF97-Rev.pdf
      * 2）补充公式：
+                     
                        Supp-phs3-2014.pdf
+                     
                        Supp-PHS12-2014.pdf
+                     
                        Supp-Tv(ph,ps)3-2014.pdf
+                     
                        Supp-VPT3-2016.pdf
 
 ## 参考资源：
