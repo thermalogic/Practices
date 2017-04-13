@@ -18,6 +18,8 @@
 
 * **Students who have submitted the program**
 
+<span style="font-size: 9px;">
+
 |03014316 |03014323 |03014306 |03014333 | 03014329  |3014308| 03014313|
 |-------:|---------:|--------:|--------:|----------:|-------:|-------:|
 | 田康宁  | 陈子聿   |  李晗   |马瑞      |   孔祥琛  |陈怡睿| 曾令超| 
@@ -25,6 +27,8 @@
 |03014402  | 03014404 |03014413 |03014407 |03014425 |03014430 |03014408 |
 |:--------:| --------:|--------:|-------:|---------:|--------:|-------:|
 |  吉珣碧   | 姚依晨   |   张立奇 | 吴钊   | 付童方    | 孟华宁  |王晓艺  |
+
+</span>
 
 ## The Rankine Cycle: 
 
@@ -37,18 +41,17 @@ Chapter 8 vapor Power System:  （Page 460-463）
 Example 8.6 : Considering a Reheat–Regenerative Cycle with Two Feedwater Heaters, a closed feedwater heater and an
 open feedwater heater. 
 ```
-   * Steam enters the first turbine at 8.0 MPa, 480C and expands to 0.7 MPa. 
+   * Steam enters the first turbine at 8.0 MPa, 480°C and expands to 0.7 MPa. 
 
-   * The steam is reheated to 440C before entering the second turbine, where it expands to the condenser pressure of 0.008 MPa.
+   * The steam is reheated to 440°C before entering the second turbine, where it expands to the condenser pressure of 0.008 MPa.
 
    * Steam is extracted from the first turbine at 2 MPa and fed to the closed feedwater heater. 
 
-   * Feedwater leaves the closed heater at 205C and 8.0 MPa, and condensate exits as saturated liquid at 2 MPa. 
+   * Feedwater leaves the closed heater at 205°C and 8.0 MPa, and condensate exits as saturated liquid at 2 MPa. 
 
    * The condensate is trapped into the open feedwater heater. 
 
-   * Steam extracted from the second turbine at 0.3 MPa is also fed into the open feedwater heater, which operates at 0.3 MPa. The stream exiting the open feedwater heater is saturated liquid
-at 0.3 MPa. 
+   * Steam extracted from the second turbine at 0.3 MPa is also fed into the open feedwater heater, which operates at 0.3 MPa. The stream exiting the open feedwater heater is saturated liquid at 0.3 MPa. 
  
    * The net power output of the cycle is 100 MW. 
 
