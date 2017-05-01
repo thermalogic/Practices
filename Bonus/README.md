@@ -1,5 +1,5 @@
 
-##  Bonus(+5) 
+## Bonus(+5) 
 
   GCC and Ubuntu
   
@@ -13,13 +13,13 @@
 
 * C/C++ Programming with GCC(+2) 
   
-   * Rankine cycle or IAPWS-IF97 physical properties calculation 
-
+   *  IF97-Region4
+ 
 * Programming in Ubuntu(+3)   
   
    * Ubuntu 
 
-   * Python and C/C++ 
+   * Python OR C/C++ 
 
 
 ## 提交：
