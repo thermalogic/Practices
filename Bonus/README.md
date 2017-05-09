@@ -11,11 +11,23 @@
 | 姓名  |           |             |
 ---------
 
-* C/C++ Programming with GCC(+2) 
+* C/C++ Programming with GCC(+3) 
   
-   *  IF97-Region4
+   *  the shared library of IF97-Region4
+
+      * IF97-Rev.pdf http://www.iapws.org/relguide/IF97-Rev.html
+
+      * using the library 
+
+         * C  
+
+         * Python 
+
+       * using make to build the object    
+
+     The object is proposed only ,you may program any your favourite  object!
  
-* Programming in Ubuntu(+3)   
+* Programming in Ubuntu(+2)   
   
    * Ubuntu 
 
