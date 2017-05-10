@@ -4,6 +4,7 @@
   GCC and Ubuntu
   
 ## 推荐的工作 
+
 -----
 | 序号  |1          |    2 |
 | ------|:--------:| -----------:|
@@ -15,7 +16,9 @@
   
    *  the shared library of IF97-Region4
 
-      * IF97-Rev.pdf http://www.iapws.org/relguide/IF97-Rev.html
+      * IF97-Rev http://www.iapws.org/relguide/IF97-Rev.html
+         
+          IF97-Rev.pdf  http://www.iapws.org/relguide/IF97-Rev.pdf
 
       * using the library 
 
@@ -38,21 +41,21 @@
 
 * 1）电邮：cmh@seu.edu.cn
 
-  * 主题：学号-姓名-B；
+  * 主题：学号-姓名-B
   
   * 附件： 学号-姓名-B.zip
 
-* 2）面试
-
-* 3）截至时间：2017.06.04
+* 2）截至时间：2017.06.04
 
 ## 参考资源：
 
-  * https://github.com/PySEE/home/tree/S2017/guide/ProgrammingWithGCC.md
+* https://github.com/PySEE/home/tree/S2017/guide/ProgrammingWithGCC.md
 
-  * https://github.com/PySEE/home/tree/S2017/guide/Ubuntu-Python-C.md
+* https://github.com/PySEE/home/tree/S2017/guide/Ubuntu-Python-C.md
 
-  * https://github.com/PySEE/home/tree/S2017/notebook/PyThermo_C_Python.ipynb
+* [CPP-1-GCC-DLL](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/CPP-1-GCC-DLL.ipynb)
+
+* [CPP-2-C-Python-VBA](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/CPP-2-C-Python-VBA.ipynb)
 
 
 

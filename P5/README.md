@@ -52,11 +52,13 @@
 * IAPWS Releases, Supplementary Releases, Guidelines, and Advisory Notes
    * http://www.iapws.org/release.html
               
-     * 1）Releases：IAPWS-IF97
+     * 1) Releases：IAPWS-IF97
            
-          * IF97-Rev.pdf http://www.iapws.org/relguide/IF97-Rev.html
+          * IF97-Rev http://www.iapws.org/relguide/IF97-Rev.html
+            
+             IF97-Rev.pdf  http://www.iapws.org/relguide/IF97-Rev.pdf
 
-     * 2）Supplementary Releases：
+     * 2) Supplementary Releases：
       
           * SR2-01 http://www.iapws.org/relguide/Supp-PHS12-2014.pdf
         
