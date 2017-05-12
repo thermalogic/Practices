@@ -14,3 +14,10 @@ When the Ebola outbreak in West Africa picked up pace in July 2014, Caitlin Rive
 
 Rather than keeping these files to herself, she posted them to GitHub.com, a hugely popular website for collaborative work on software code. Rivers thought the postings might attract those interested in up-to-date information from the Ebola outbreak. “I figured if I needed it, other people would, too,” she says.
 
+## 2017.05.12
+
+Scientists writing software need to write code that both executes correctly and can be easily read and understood by other programmers (especially the author's future self). 
+
+If software cannot be easily read and understood, it is much more difficult to know that it is actually doing what it is intended to do. 
+
+To be productive, software developers must therefore take several aspects of human cognition into account: in particular, that human working memory is limited, human pattern matching abilities are finely tuned, and human attention span is short.
