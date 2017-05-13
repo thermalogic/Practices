@@ -126,7 +126,7 @@ and temperatures are specified, and the net power output is given.
 
 ## 参考资源：
 
-*  https://github.com/PySEE/home/tree/S2017/notebook/PyThermo_IdealRankineCycle.ipynb
+*  http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/PyThermo_IdealRankineCycle.ipynb
  
 *  https://github.com/PySEE/PyRankine
 
