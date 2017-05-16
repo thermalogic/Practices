@@ -2,15 +2,14 @@
 ## Bonus(+5) 
 
   GCC and Ubuntu
-  
-## 推荐的工作 
 
------
-| 序号  |1          |    2 |
-| ------|:--------:| -----------:|
-| 学号  | 030143**  |  030144**   |
-| 姓名  |           |             |
----------
+  
+**Students who have submitted the program**
+
+| 03014329 |
+|-------:|
+|  孔祥琛  | 
+
 
 * C/C++ Programming with GCC(+3) 
   

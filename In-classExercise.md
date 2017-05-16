@@ -21,3 +21,15 @@ Scientists writing software need to write code that both executes correctly and 
 If software cannot be easily read and understood, it is much more difficult to know that it is actually doing what it is intended to do. 
 
 To be productive, software developers must therefore take several aspects of human cognition into account: in particular, that human working memory is limited, human pattern matching abilities are finely tuned, and human attention span is short.
+
+## 2017.05.16
+
+Today’s computers and software are so complex that even experts  find it hard to predict which parts of any particular program will be performance bottlenecks. 
+
+The most productive way to make code fast is therefore to make it work correctly, determine whether it’s actually worth speeding it up, and — in those cases where it is — to use a profiler to identify bottlenecks .
+
+This strategy also has interesting implications for choice of programming language. 
+
+Since faster, lower level, languages require more lines of code to accomplish the same task, scientists are most productive when they write code in the highest-level language possible , and shift to low level languages like C and Fortran only when they are sure the performance boost is needed.
+
+Using higher-level languages also helps program comprehensibility .
