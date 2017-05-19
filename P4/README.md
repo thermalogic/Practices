@@ -76,6 +76,8 @@
   
 * matplotlib.  http://matplotlib.org/
 
+* Lectures on scientific computing with python https://github.com/jrjohansson/scientific-python-lectures
+
 * PEP 8 - Style Guide for Python Code 
    
    https://www.python.org/dev/peps/pep-0008/
