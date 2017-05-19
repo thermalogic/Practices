@@ -14,6 +14,10 @@
 * C/C++ Programming with GCC(+3) 
   
    *  the shared library of IF97-Region4
+    
+           8.1 The Saturation-Pressure Equation (Basic Equation)  Eq. (30)
+
+           8.2 The Saturation-Temperature Equation (Backward Equation)  Eq. (31)
 
       * IF97-Rev http://www.iapws.org/relguide/IF97-Rev.html
          
