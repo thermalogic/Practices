@@ -29,14 +29,12 @@
 
        * using make to build the object    
 
-     The object is proposed only ,you may program any your favourite  object!
  
 * Programming in Ubuntu(+2)   
   
    * Ubuntu 
 
    * Python OR C/C++ 
-
 
 ## 提交：
 
