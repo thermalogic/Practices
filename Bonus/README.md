@@ -1,9 +1,7 @@
-
 ## Bonus(+5) 
 
   GCC and Ubuntu
-
-  
+ 
 **Students who have submitted the program**
 
 | 03014329 |

@@ -1,5 +1,3 @@
-
-
 ## Practice Three
 
 **Interactive Computing**(15)：Jupyter Notebook of the Rankine Cycle Simulator 

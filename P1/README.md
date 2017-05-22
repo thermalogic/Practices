@@ -1,9 +1,9 @@
-
 ##  课程实践一 
 
    在GITHUB上建立个人账户，使用GITHUB进行课程学习和程序开发。
  
 ## 推荐的工作 
+
 -----
 | ID   | 03014433  |  03014323 |03014404 |03014430 |
 | ------|:--------:| -----------:|-----------:|----------:|
@@ -46,29 +46,22 @@
 
 ## 参考资源：
 
-* https://github.com/PySEE/
-  
-  * https://github.com/PySEE/home/tree/S2017/guide/
+* 廖雪峰. Git教程  http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
 
-     * VersionControlAndGithub.md
-     * 使用EGIT建立初始为空的本地仓库.doc
+* 知乎：怎样使用GitHub. http://www.zhihu.com/question/20070065
 
-  * http://nbviewer.jupyter.org/github/PySEE/home/blob/S2017/notebook/Sup2-Version-Control-Git.ipynb
+* http://nbviewer.jupyter.org/github/PySEE/home/blob/S2017/notebook/DevTools-Git.ipynb
 
-  * https://github.com/PySEE/RecommendedPractices/tree/S2016/P2  
+* https://github.com/PySEE/RecommendedPractices/tree/S2016/P2  
 
 * git-for-windows：https://github.com/git-for-windows/git/releases
  
 * Scott Chacon，Ben Straub. Pro Git. https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
 
-* 廖雪峰. Git教程  http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
-
-* 知乎：怎样使用GitHub. http://www.zhihu.com/question/20070065
-
-* Maximilian Koegel,Jonas Helming. EGit Toturial http://eclipsesource.com/blogs/tutorials/egit-tutorial/    2015.02
-
 * How to get started with GIT and work with GIT Remote Repo http://www3.ntu.edu.sg/home/ehchua/programming/howto/Git_HowTo.html
 
 * Git Version Control in VS Code：https://code.visualstudio.com/docs/editor/versioncontrol
+
+* Maximilian Koegel,Jonas Helming. EGit Toturial http://eclipsesource.com/blogs/tutorials/egit-tutorial/    2015.02
 
 
