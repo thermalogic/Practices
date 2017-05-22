@@ -35,11 +35,6 @@
 
 **3. Interactive Computing**(15)：Jupyter Notebook of the Rankine Cycle Simulator 
 
-* Purpose： 
-
-   * The Rankine Cycle Simulator: training computational thinking and  programming skills   
-   * Jupyter Notebook: sharing the code and reproducible research
-
 * Deadline: 2017.05.28
 
 |03014402 |  03014404 |03014316 |03014333 | 03014407 | 03014420 |  03014323 |03014304 |
