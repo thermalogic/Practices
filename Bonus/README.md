@@ -52,8 +52,6 @@
 
 ## 参考资源：
 
-* https://github.com/PySEE/home/tree/S2017/guide/ProgrammingWithGCC.md
-
 * https://github.com/PySEE/home/tree/S2017/guide/Ubuntu-Python-C.md
 
 * [CPP-1-GCC-DLL](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/CPP-1-GCC-DLL.ipynb)
