@@ -10,10 +10,9 @@
 
 * **Recommended Programs**
 
-|03014402 |  03014404 |03014316 |03014333 | 03014407 | 03014420 |  03014323 |03014304 |
-|:-------:| -------:|--------:|---------:|------:|------------:|---------:|----------:|
-| 吉珣碧  | 姚依晨   | 田康宁  |  马瑞     | 吴钊   |    王统伟     |陈子聿   |萨仁图娅 |
-
+|03014402 |  03014404 |03014316 |03014333 | 03014407 | 03014420 |  03014323 |03014304 | 03014426 |
+|:-------:| -------:|--------:|---------:|------:|------------:|---------:|-------:|--------:
+| 吉珣碧  | 姚依晨   | 田康宁  |  马瑞     | 吴钊   |    王统伟     |陈子聿   |萨仁图娅 |金弘琨|
 
 ## The Rankine Cycle: 
 
@@ -90,9 +89,6 @@ and temperatures are specified, and the net power output is given.
     
     * A gallery of interesting notebook：https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks
 
-* PEP 8 - Style Guide for Python Code 
-
-   https://www.python.org/dev/peps/pep-0008/
 
 
   
