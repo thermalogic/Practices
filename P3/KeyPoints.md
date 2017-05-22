@@ -1,7 +1,5 @@
 ## Practice Three
 
-**Interactive Computing**(15)：Jupyter Notebook of the Rankine Cycle Simulator 
-
 用类描述 Example 8.6 循环系统中循环对象，设计程序进行计算分析，程序代码比直接计算多了不少，程序设计难度也大了很多。
 
 为什么要这样？
