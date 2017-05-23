@@ -44,7 +44,7 @@ Ubuntu发行版很多，建议使用“中国味”的UbuntuKylin 16.04 LTS版�
 
 ## Python3开发环境
 
-Ubuntu系统中同时安装有Python2.7和Python,Python3相关命令都加3，如：
+Ubuntu系统中同时安装有Python2.7和Python3,   Python3相关命令都加3，如：
 
 ```bash
     $python3 
