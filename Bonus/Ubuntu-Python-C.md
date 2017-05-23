@@ -44,7 +44,15 @@ Ubuntu发行版很多，建议使用“中国味”的UbuntuKylin 16.04 LTS版�
 
 ## Python3开发环境
 
-Ubuntu16.04系统缺省安装有Python3.5，但不完整，需补充: pip3、idle3。
+Ubuntu系统中同时安装有Python2.7和Python,Python3相关命令都加3，如：
+
+```bash
+    $python3 
+    $idle3
+    $pip3
+```
+
+Ubuntu系统中不完整，需补充: pip3、idle3。
 
 在线安装：
 ```bash
