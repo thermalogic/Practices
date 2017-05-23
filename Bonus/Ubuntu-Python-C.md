@@ -52,7 +52,7 @@ Ubuntu系统中同时安装有Python2.7和Python3,   Python3相关命令都加3�
     $pip3
 ```
 
-Ubuntu系统中不完整，需补充: pip3、idle3。
+Ubuntu系统Python3中不完整，需补充: pip3、idle3。
 
 在线安装：
 ```bash
