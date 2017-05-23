@@ -38,6 +38,10 @@ Ubuntu发行版很多，建议使用“中国味”的UbuntuKylin 16.04 LTS版�
 * 5 Where are you:选择时区为 **shanghai**
 * 6 Who are you: 用户名和密码，选择自动登录（如重装系统且要使用原home分区,建议用原用户名）
 
+##  C/C++开发
+
+    Ubuntu系统内置GCC编译器，无需安装
+
 ## Python3开发环境
 
 Ubuntu16.04系统缺省安装有Python3.5，但不完整，需补充: pip3、idle3。
@@ -63,7 +67,16 @@ pip3在线安装
 ```bash
 $sudo –H pip3 install jupyter
 ```
+
+### 安装IAPWS
+
+```bash
+$sudo –H pip3 install iapws
+```
+
 ### 安装SEUIF97
+
+Download ziped file from : https://github.com/thermalogic/SEUIF97 unzip, then 
 
 1.copy libseuif97.so to a default path of Linux shared lib
 ```bash
@@ -74,6 +87,12 @@ $sudo –H pip3 install jupyter
 ```bash  
    $sudo cp seuif97.py /usr/lib/python3.5/
 ```
+
+## Visual Studio Code开发环境
+
+1 From   https://code.visualstudio.com/docs/?dv=linux64_deb  downloan VS Code for Debian,Ubuntu
+
+2 Install Python Extension
 
 ## Eclipse开发环境
 
@@ -94,8 +113,6 @@ $sudo –H pip3 install jupyter
      http://www3.ntu.edu.sg/home/ehchua/programming/howto/EclipseJava_HowTo.html#install_ubuntu
    
 * 2. Python开发：安装Pydev插件
-
-* 3. C/C++开发: Ubuntukylin16.04系统内置gcc编译器，无需安装
 
 ## 系统选择
 
