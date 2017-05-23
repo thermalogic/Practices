@@ -100,7 +100,13 @@ Download ziped file from : https://github.com/thermalogic/SEUIF97 unzip, then
 
 1 From   https://code.visualstudio.com/docs/?dv=linux64_deb  downloan VS Code for Debian,Ubuntu
 
-2 Install Python Extension
+```bash
+
+$sudo dpkg -i [vscode filename].deb
+
+```
+
+2 Install Python Extension in  Visual Studio Code
 
 ## Eclipse开发环境
 
