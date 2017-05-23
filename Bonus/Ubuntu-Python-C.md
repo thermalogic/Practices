@@ -115,7 +115,7 @@ $sudo dpkg -i [vscode filename].deb
    Ubuntukylin16.04缺省没有安装JDK。如下安装openjdk
 
 ```bash 
-   $sudo apt openjdk-8-jre
+   $sudo apt install openjdk-8-jre
 ```
 
 ###  安装Eclipse IDE
