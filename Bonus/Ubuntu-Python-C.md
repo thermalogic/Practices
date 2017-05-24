@@ -108,6 +108,12 @@ $sudo dpkg -i [vscode filename].deb
 
 2 Install Python Extension in  Visual Studio Code
 
+    https://code.visualstudio.com/docs/languages/python
+
+3 Install the Microsoft C/C++ extension
+
+    https://code.visualstudio.com/docs/languages/cpp
+
 ## Eclipse开发环境
 
 ### 安装JDK
