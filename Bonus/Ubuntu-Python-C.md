@@ -9,6 +9,15 @@
   安装空间10G就够了。为了以后工作方便，更大些为好，如：50G
 
 ![hard disk partition](./img/hard-disk-partition.jpg)
+
+> 可选方案：**安装Ubuntu到U盘**
+>
+> 安装Ubuntu到U盘的步骤和安装到计算机硬盘分区一样
+>
+>不同的只是安装 **“位置”**：1）选择U盘为boot loader设备； 2）Ubuntu各分区挂载到U盘
+>
+> 网络上相关文档很多，可查询。
+
 ## 安装Ubuntu
 
 Ubuntu发行版很多，建议使用“中国味”的UbuntuKylin 16.04 LTS版。
@@ -134,7 +143,7 @@ $sudo dpkg -i [vscode filename].deb
    
 * 2. Python开发：安装Pydev插件
 
-## 系统选择
+## 建议的系统选择
 
 ### 1 [Ubuntukylin 16.04](http://www.ubuntukylin.com/) 
 
