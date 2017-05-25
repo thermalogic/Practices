@@ -41,11 +41,17 @@ Ubuntu发行版很多，建议使用“中国味”的UbuntuKylin 16.04 LTS版�
        * /home： home挂载点和分区：从空闲空间中划分出一个“logic”分区， 作为 /home 挂载点
          * **注意**: 
            * 是 **“logic”** 分区，因为一个硬盘可划分的主分区数量有限；
-           * 一定要有home挂载点和分区。如重新安装ubuntu，还是将这个分区挂载在home下，不要格式化这个分区，这样原来系统中的用户文件都能保留 
-       * /： 系统挂载点和分区：将余下空闲空间划分出一个“主” 分区，作为系统挂载点. 如果重新安装ubuntu，可将这个分区格式化.
+           * 一定要有home挂载点和分区。如重新安装ubuntu， 仍将这个分区挂载在home下，不要格式化该分区，原来系统中的用户文件都能保留 
+       * /： 系统挂载点和分区：将余下空闲空间都划 “/” 分区，作为系统挂载点。 如果重新安装其他版本Liunx，将这个分区格式化.
   * 分好区后，点安装
 * 5 Where are you:选择时区为 **shanghai**
 * 6 Who are you: 用户名和密码，选择自动登录（如重装系统且要使用原home分区,建议用原用户名）
+
+## Git
+
+```bash 
+   $sudo apt install git
+```
 
 ##  C/C++开发
 
@@ -107,7 +113,7 @@ Download ziped file from : https://github.com/thermalogic/SEUIF97 unzip, then
 
 ## Visual Studio Code开发环境
 
-1 From   https://code.visualstudio.com/docs/?dv=linux64_deb  downloan VS Code for Debian,Ubuntu
+From   https://code.visualstudio.com/docs/?dv=linux64_deb  downloan VS Code for Debian,Ubuntu
 
 ```bash
 
@@ -143,6 +149,7 @@ $sudo dpkg -i [vscode filename].deb
    
 * 2. Python开发：安装Pydev插件
 
+
 ## 建议的系统选择
 
 ### 1 [Ubuntukylin 16.04](http://www.ubuntukylin.com/) 
@@ -163,8 +170,10 @@ $sudo dpkg -i [vscode filename].deb
 
 ##  Reference
 
-* https://help.ubuntu.com/lts/serverguide/serverguide.pdf
+* Ubuntu Server Guide https://help.ubuntu.com/lts/serverguide/serverguide.pdf
 
-* http://www3.ntu.edu.sg/home/ehchua/programming/howto/Unix_SurvivalGuide.html
+* Linux Mint Guide(中文版） https://linuxmint.com/documentation/user-guide/Cinnamon/chinese_16.0.pdf
 
-* http://www3.ntu.edu.sg/home/ehchua/programming/howto/Ubuntu_HowTo.html
+* Unix SurvivalGuide http://www3.ntu.edu.sg/home/ehchua/programming/howto/Unix_SurvivalGuide.html
+
+* Ubuntu Howto http://www3.ntu.edu.sg/home/ehchua/programming/howto/Ubuntu_HowTo.html
