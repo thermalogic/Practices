@@ -22,17 +22,13 @@
 
       * using the library 
 
-         * C  
-
-         * Python 
+         * C  OR  Python 
 
        * using make to build the object    
 
  
 * Programming in Ubuntu(+2)   
   
-   * Ubuntu 
-
    * Python OR C/C++ 
 
 ## 提交：
