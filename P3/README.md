@@ -1,101 +1,75 @@
-## Practice Three
+## 课程实践三
 
-**Interactive Computing**(15)：Jupyter Notebook of the Rankine Cycle Simulator 
-  
-* Purpose： 
-   * The Rankine Cycle Simulator: training computational thinking and  programming skills   
-   * Jupyter Notebook: shareing the code and reproducible research
+* **数据分析**（15）：：Python或Jupyter Notebook程序设计：统计、回归及可视化
 
-* Deadline: 2017.05.28
+## 推荐的工作 
 
-* **Recommended Programs**
+## 问题：
 
-|03014402 |  03014404 |03014316 |03014333 | 03014407 | 03014420 |  03014323 |03014304 | 03014426 |
-|:-------:| -------:|--------:|---------:|------:|------------:|---------:|-------:|--------:|
-| 吉珣碧  | 姚依晨   | 田康宁  |  马瑞     | 吴钊   |    王统伟     |陈子聿   |萨仁图娅 |金弘琨 |
+* 16.4 Statistical Measures Don't, Tell the Whole Story（Page226-227） 
+  * In 1973, the statistician F.J. Anscombe published a paper containing the table below. It contains the <x, y> coordinates of the points in each of four data sets.
 
+|x0 |y0|x1|y2|x2|y2|x3|y3|
+| ---- |:------:| :------:| :------:|  :------:| :------:| :------:|  ----:|
+|10.0|	8.04 |	10.0|	9.14 |	10.0 	|7.46	|8.0    |6.58|
+|8.0| 	6.95 |	8.0 |	8.14 |	8.0     |6.77	|8.0    |5.76|
+|13.0| 	7.68 |	13.0|	8.74 |	13.0    |12.74	|8.0    |7.71|
+|9.0|	8.81 |	9.0 |	8.77 |	9.0     |7.11	|8.0    |8.84|
+|11.0| 	8.33 |	11.0|	9.26|	11.0    |7.81	|8.0    |8.47|
+|14.0| 	9.96 |	14.0|	8.10 |	14.0    |8.84	|8.0    |7.04|
+|6.0|	7.24 |	6.0 |	6.13 |	6.0     |6.08	|8.0 	|5.25|
+|4.0| 	4.26 |	4.0 |	3.10| 	4.0     |5.39	|19.0 	|12.5|
+|12.0|	10.84| 	12.0| 	9.13| 	12.0    |8.15	|8.0 	|5.56|
+|7.0| 	4.82 | 	7.0 |	7.26| 	7.0     |6.42	|8.0 	|7.91|
+|5.0| 	5.68 | 	5.0 | 	4.74| 	5.0     |5.73	|8.0 	|6.89|
 
-|03014425 | 
-|:-------:|
-| 付童方  |
+## 要求(15分)：
 
+* 1）	四组数据的数据文件（1分）：纯文本格式或MS Excel表格；
 
-## The Rankine Cycle: 
+* 2）  数据分析对象（5）：从数据文件读取数据,形成数据分析对象
 
-* A Reheat–Regenerative Cycle with Two Feedwater Heaters
-```
-Michael J . Mora. Fundamentals of Engineering Thermodynamics (7th Edition).  John Wiley & Sons, Inc. 2011
+* 2）	统计指标（2分）：从数据文件读取数据，计算均值、方差和相关系数等统计指标
 
-Chapter 8 vapor Power System:  （Page 460-463）
+* 3）	回归分析（2分）: 线性回归
 
-Example 8.6 : Considering a Reheat–Regenerative Cycle with Two Feedwater Heaters, a closed feedwater heater and an
-open feedwater heater. 
-```
-   * Steam enters the first turbine at 8.0 MPa, 480°C and expands to 0.7 MPa. 
-
-   * The steam is reheated to 440°C before entering the second turbine, where it expands to the condenser pressure of 0.008 MPa.
-
-   * Steam is extracted from the first turbine at 2 MPa and fed to the closed feedwater heater. 
-
-   * Feedwater leaves the closed heater at 205°C and 8.0 MPa, and condensate exits as saturated liquid at 2 MPa. 
-
-   * The condensate is trapped into the open feedwater heater. 
-
-   * Steam extracted from the second turbine at 0.3 MPa is also fed into the open feedwater heater, which operates at 0.3 MPa. The stream exiting the open feedwater heater is saturated liquid at 0.3 MPa. 
- 
-   * The net power output of the cycle is 100 MW. 
-
-   * There is no stray heat transfer from any component to its surroundings. 
-
-   * If the working fluid experiences no irreversibilities as it passes through the turbines, pumps, steam generator, reheater, and condenser, 
-
-* SOLUTION
-
-   * **Known:** A reheat–regenerative vapor power cycle operates with steam as the working fluid. Operating pressures
-and temperatures are specified, and the net power output is given.
-
-   * **Find:** Determine the thermal efficiency and the mass flow rate entering the first turbine, in kg/h.
-
-![fig86](fig86.jpg)  
-
-## 要求：（总分15）
-
-* 1）	交互计算Jupytern Notebook（7分）：
-   * 问题描述、计算程序、工作小结
-
-* 2）数据结构（5分）：面向对象、系统定义、模块组织
-
-* 2）源码质量（3分）：Python3.*、PEP8规范；
+* 4）	结果输出（5分）: 数据点图（3分）；统计和回归结果（2分）；
 
 ## 提交：
-* 1）电邮： cmh@seu.edu.cn
-   * 主题：学号-姓名-P3
-   * 附件：Jupyter Notebook程序文件压缩包： **学号-姓名-P3.zip**；
 
-* 2）截至时间：2017.05.28
-   * 过截至时间后可补交，补交作业成绩最高10分
+* 1）电邮：cmh@seu.edu.cn, 
+  * 主题：学号-姓名-P4；
+  * 附件：程序文件压缩包：**学号-姓名-P3.zip**；
 
-* 3）改进更新：提交作业后可改进，改进截至时间：2017.06.04
+* 2） 截至时间： 2018.05.28
+  * 过截至时间后可以补交，补交作业最高10分
 
-## 参考资源：
+* 3）改进更新：提交作业后可改进，改进截至时间：2018.06.04
 
-*  http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/PyThermo_IdealRankineCycle.ipynb
- 
-*  https://github.com/PySEE/PyRankine
+## 提示：
 
-*  Jupyter Notebook for Fundamentals of Engineering Thermodynamics, Michael J . Mora. 
+* 参考第11、15章
 
-   * https://github.com/FOSSEE/Python-Textbook-Companions/tree/master/Fundamental_of_Thermodynamics_by_Moran_and_Shapiro_by_Michael_J._Moran_and_Howard_N._Shapiro
-   
-     * Chapter_8.ipynb
+  * http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/11_PLOTTING_AND_MORE_ABOUT_CLASSES.ipynb
+  * http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/15_UNDERSTANDING_EXPERIMENTAL_DATA.ipynb
 
-* Jupyter Documentation. http://jupyter.readthedocs.org/en/latest/
-    
-    * IPython https://ipython.org/
-    
-    * A gallery of interesting notebook：https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks
+* 统计指标计算、回归分析: 可使用Python统计库、Numpy和Scipy
 
+* 绘制数据点图: 使用Matplotlib
 
+```python
+    import numpy as np
+    import matplotlib.pyplot as plt
+    from  statistics import mean,stdev,variance
+```
 
+* Scipy. http://www.scipy.org/
   
+* numpy. http://www.numpy.org/
+  
+* matplotlib.  http://matplotlib.org/
 
+* Lectures on scientific computing with python https://github.com/jrjohansson/scientific-python-lectures
+
+
+ 

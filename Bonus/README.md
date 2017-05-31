@@ -2,14 +2,13 @@
 
   GCC and Ubuntu
  
-| 03014329 |03014404 |03014402  | 03014323 |03014333 |03014426 |03014413|
-|---------:|---------:|---------:|-------:|------:|-------:|-----:|
-|  孔祥琛  | 姚依晨   |   吉珣碧    | 陈子聿   |马瑞    | 金弘琨|张立奇  |
 
+* C/C++ Programming with GCC and (+3) 
 
-* C/C++ Programming with GCC(+3) 
+   using GCC and make to build the object    
+
   
-   *  the shared library of IF97-Region4
+   * 1) the shared library of IF97-Region4
     
            8.1 The Saturation-Pressure Equation (Basic Equation)  Eq. (30)
 
@@ -19,16 +18,10 @@
          
           IF97-Rev.pdf  http://www.iapws.org/relguide/IF97-Rev.pdf
 
-      * using the library 
-
-         * C  OR  Python 
-
-       * using make to build the object    
-
+ * 2)using the library : C/C++ 
  
 * Programming in Ubuntu(+2)   
-  
-   * Python OR C/C++ 
+
 
 ## 提交：
 
@@ -38,7 +31,7 @@
   
   * 附件： 学号-姓名-B.zip
 
-* 2）截至时间：2017.06.04
+* 2）截至时间：2018.06.04
 
 ## 参考资源：
 

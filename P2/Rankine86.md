@@ -1,17 +1,6 @@
-## Practice 1
+## Practice 2
 
-**Interactive Computing**(15)：Jupyter Notebook of the Rankine Cycle Simulator 
-  
-* Purpose： 
-   * Jupyter Notebook: shareing the code and reproducible research
-
-* Deadline: 2017.05.28
-
-* **Recommended Programs**
-
-## The Rankine Cycle: 
-
-* A Reheat–Regenerative Cycle with Two Feedwater Heaters
+### A Reheat–Regenerative Cycle with Two Feedwater Heaters
 ```
 Michael J . Mora. Fundamentals of Engineering Thermodynamics (7th Edition).  John Wiley & Sons, Inc. 2011
 
@@ -46,40 +35,6 @@ and temperatures are specified, and the net power output is given.
    * **Find:** Determine the thermal efficiency and the mass flow rate entering the first turbine, in kg/h.
 
 ![fig86](fig86.jpg)  
-
-## 要求：（总分15）
-
-   * 问题描述(markdown)(3)
-   * 计算程序(列表、字典、函数组织)：10
-   * 工作小结(2)
-
-## 提交：
-* 1）电邮： cmh@seu.edu.cn
-   * 主题：学号-姓名-P1
-   * 附件：Jupyter Notebook程序文件压缩包： **学号-姓名-P1.zip**；
-
-* 2）截至时间：2018.05.28
-   * 过截至时间后可补交，补交作业成绩最高10分
-
-* 3）改进更新：提交作业后可改进，改进截至时间：2018.06.04
-
-## 参考资源：
-
-*  http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/PyThermo_IdealRankineCycle.ipynb
- 
-*  https://github.com/PySEE/PyRankine
-
-*  Jupyter Notebook for Fundamentals of Engineering Thermodynamics, Michael J . Mora. 
-
-   * https://github.com/FOSSEE/Python-Textbook-Companions/tree/master/Fundamental_of_Thermodynamics_by_Moran_and_Shapiro_by_Michael_J._Moran_and_Howard_N._Shapiro
-   
-     * Chapter_8.ipynb
-
-* Jupyter Documentation. http://jupyter.readthedocs.org/en/latest/
-    
-    * IPython https://ipython.org/
-    
-    * A gallery of interesting notebook：https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks
 
 
 

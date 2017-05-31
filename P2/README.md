@@ -1,65 +1,61 @@
+## Practice 2
 
-## 课程实践二
+**Object-oriented Programming**(15)：The General Rankine Cycle Simulator 
+  
+* Purpose： 
+   * The Rankine Cycle Simulator: training computational thinking and  programming skills   
 
-* **Python开发环境**（15）：Python、Eclipse IDE等
+* Deadline: 2017.05.28
 
-建立Python开发环境，撰写开发环境建立过程文档
+* **Recommended Programs**
 
-## 推荐的工作 
 
------
-| 03014402  | 03014329  | 03014316 |  03014323 |03014404 |03014321 | 03014421  |  03014313  |  03014422 |  
-|:--------:| :--------:|--------:|----------:|-----------:|----------:|------:|----------:|------:|
-|  吉珣碧  |  孔祥琛  |  田康宁 |   陈子聿   |姚依晨   |于天池   |  黄阳鹏 | 曾令超 |杨家宇 |
----------
+## The Rankine Cycle: 
 
-## 内容和要求： （总分15）
+* A Reheat–Regenerative Cycle with Two Feedwater Heaters
+```
+Michael J . Mora. Fundamentals of Engineering Thermodynamics (7th Edition).  John Wiley & Sons, Inc. 2011
 
-* 1）	Python基本开发环境和程序示例(2分)：IDLE
+Chapter 8 vapor Power System:  （Page 460-463）
 
-* 2）	扩展模块（2分）：pep8,scipy
+Example 8.1
 
-* 3）	交互计算环境和程序示例(2分)：Jupyter Notebook
-* 4）	集成开发环境和程序示例(3分):
-          可是Eclipse IDE、MS Visual Studio 2017、PyCharm、 Anaconda、Canopy或Atom等任何一种；
-          使用集成环境设计一个小程序的过程；
-         以上工作需要用文字和开发环境建立和程序设计过程的截图，给出详尽的过程细节。
+Example 8.5
 
-* 5）	建立开发环境等过程中出现的问题和解决方法（2分）；
+Example 8.6 : Considering a Reheat–Regenerative Cycle with Two Feedwater Heaters, a closed feedwater heater and an
+open feedwater heater. 
 
-* 6）	小结（2分）：经验体会
 
-* 7）	文档排版（2分）：
-        使用微软Word2007以上版本docx格式；
-        规范符合：毕业设计报告规范的要求；
-       合理划分和组织文档段落；有封面和目录
-       页眉：课程实践作业二  学号姓名； 页脚：页码。
+## 要求：（总分10）
+
+* 程序设计：对象、系统定义、模块组织，计算实现
+
+
 
 ## 提交：
+* 1）电邮： cmh@seu.edu.cn
+   * 主题：学号-姓名-P2
+   * 附件：Jupyter Notebook程序文件压缩包： **学号-姓名-P2.zip**；
 
-* 1）	电邮： cmh@seu.edu.cn 
+* 2）截至时间：2017.05.28
+   * 过截至时间后可补交，补交作业成绩最高6分
 
-          主题：学号-姓名-P2
-
-          附件文档：学号-姓名-P2.docx
-
-* 2）	 截至时间：2017.03.21
-
-         过截至时间后可以补交，补交作业最高10分
-
-* 3）	改进更新：提交作业后可改进，改进截至时间：2017.06.04
+* 3）改进更新：提交作业后可改进，改进截至时间：2017.06.04
 
 ## 参考资源：
 
-* https://github.com/PySEE/home/tree/2017/guide/
+*  http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/PyThermo_IdealRankineCycle.ipynb
+ 
+*  https://github.com/PySEE/PyRankine
 
-   * Python学习和开发环境的建立(教学版).docx 
+*  Jupyter Notebook for Fundamentals of Engineering Thermodynamics, Michael J . Mora. 
+
+   * https://github.com/FOSSEE/Python-Textbook-Companions/tree/master/Fundamental_of_Thermodynamics_by_Moran_and_Shapiro_by_Michael_J._Moran_and_Howard_N._Shapiro
    
-* https://github.com/PySEE/RecommendedPractices/tree/S2016/P1
+     * Chapter_8.ipynb
 
-* Eclipse 4.3 (Kepler) for C/C++ Programming http://www3.ntu.edu.sg/home/ehchua/programming/howto/EclipseCpp_HowTo.html
 
-* 郑伟芳. PyDev for Eclipse简介. http://www.ibm.com/developerworks/cn/opensource/os-cn-ecl-pydev/   2008.11
 
-* Python on Visual Studio Code： https://code.visualstudio.com/docs/languages/python
+
+  
 
