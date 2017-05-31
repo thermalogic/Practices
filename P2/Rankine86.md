@@ -34,7 +34,7 @@ and temperatures are specified, and the net power output is given.
 
    * **Find:** Determine the thermal efficiency and the mass flow rate entering the first turbine, in kg/h.
 
-![fig86](fig86.jpg)  
+![rankine86](./img/rankine86.jpg)  
 
 
 

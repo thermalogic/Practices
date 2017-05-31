@@ -12,24 +12,29 @@
 
 ## The Rankine Cycle: 
 
-* A Reheat–Regenerative Cycle with Two Feedwater Heaters
-```
+
 Michael J . Mora. Fundamentals of Engineering Thermodynamics (7th Edition).  John Wiley & Sons, Inc. 2011
 
 Chapter 8 vapor Power System:  （Page 460-463）
 
-Example 8.1
+* Example 8.1：An Ideal Regenerative Cycle, Page 438
 
-Example 8.5
+* Example 8.5: A Regenerative Cycle with Open Feedwater Heater,Page 456
 
-Example 8.6 : Considering a Reheat–Regenerative Cycle with Two Feedwater Heaters, a closed feedwater heater and an
+* Example 8.6 : Considering a Reheat–Regenerative Cycle with Two Feedwater Heaters, a closed feedwater heater and an
 open feedwater heater. 
 
 
 ## 要求：（总分10）
 
-* 程序设计：对象、系统定义、模块组织，计算实现
+  开发工具：：VS Code，
+     
+        1）软件设计思路和体会markdown文档. 3分
+        2）基本类 (7)  step2
+        3）数据文件使用 (7-9) step3
+        4）通用类：9-12 step4
 
+可以补，成绩最高9分
 
 
 ## 提交：
