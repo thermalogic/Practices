@@ -96,6 +96,10 @@ $sudo –H pip3 install jupyter
 ```bash
 $sudo –H pip3 install iapws
 ```
+or
+```bash
+$sudo apt install python3-iapws
+```
 
 ### 安装SEUIF97
 
