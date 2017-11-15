@@ -1,51 +1,34 @@
 ## Practice 2
 
-**Object-oriented Programming**(15)：The General Rankine Cycle Simulator 
+**Python and Interactive Computing**(15)：The Simple Simulator of Rankine Cycle 
   
 * Purpose： 
-   * The Rankine Cycle Simulator: training computational thinking and  programming skills   
+   * Jupyter Notebook: shareing the code and reproducible research
 
-* Deadline: 2017.05.28
+* Deadline: 2018
 
-* **Recommended Programs**
+## 要求：(总分15)
 
-
-## The Rankine Cycle: 
-
-
-Michael J . Mora. Fundamentals of Engineering Thermodynamics (7th Edition).  John Wiley & Sons, Inc. 2011
-
-Chapter 8 vapor Power System:  （Page 460-463）
-
-* Example 8.1：An Ideal Regenerative Cycle, Page 438
-
-* Example 8.5: A Regenerative Cycle with Open Feedwater Heater,Page 456
-
-* Example 8.6 : Considering a Reheat–Regenerative Cycle with Two Feedwater Heaters, a closed feedwater heater and an
-open feedwater heater. 
-
-
-## 要求：（总分10）
-
-  开发工具：：VS Code，
-     
-        1）软件设计思路和体会markdown文档. 3分
-        2）基本类 (7)  step2
-        3）数据文件使用 (7-9) step3
-        4）通用类：9-12 step4
-
-可以补，成绩最高9分
-
+      使用基本公式或者函数封装，
+       形式：ipython notebook
+         必须使用：结构数据类型：元组、列表、字典
+         程序部分:10
+             不使用函数最高6，使用函数6-10
+         ipython notebook文档部分内容5分（公式用 Mathjax)
+         问题描述 2（翻译为中文，markdown，公式mathjax）
+         程序说明：设计思路，模块说明 2
+         小结1 
 
 ## 提交：
-* 1）电邮： cmh@seu.edu.cn
+
+* 1) 电邮： cmh@seu.edu.cn
    * 主题：学号-姓名-P2
    * 附件：Jupyter Notebook程序文件压缩包： **学号-姓名-P2.zip**；
 
-* 2）截至时间：2017.05.28
-   * 过截至时间后可补交，补交作业成绩最高6分
+* 2) 截至时间：2018
+   * 过截至时间后可补交，补交作业成绩最高10分
 
-* 3）改进更新：提交作业后可改进，改进截至时间：2017.06.04
+* 3) 改进更新：提交作业后可改进，改进截至时间：2018
 
 ## 参考资源：
 
@@ -59,6 +42,11 @@ open feedwater heater.
    
      * Chapter_8.ipynb
 
+* Jupyter Documentation. http://jupyter.readthedocs.org/en/latest/
+    
+    * IPython https://ipython.org/
+    
+    * A gallery of interesting notebook：https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks
 
 
 

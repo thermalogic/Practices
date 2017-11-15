@@ -1,8 +1,9 @@
 # Ubuntu系统安装和Python,C/C++开发环境的建立
 
-## Windows环境要求
+Windows是同学们的主要工作环境，已安装Windows系统的电脑上，双系统是Ubuntu适当的安装模式。
+   
+## Windows环境硬盘空间要求
 
-  Windows是同学们的主要工作环境，已安装Windows系统的电脑上，双系统是Ubuntu适当的安装模式。
 
   安装前，在Windows环境下，从空余的硬盘空间中划出一个空的独立分区，给Ubuntu使用。
 
@@ -10,27 +11,33 @@
 
 ![hard disk partition](./img/hard-disk-partition.jpg)
 
-> 可选方案：**安装Ubuntu到U盘**
->
-> 安装Ubuntu到U盘的步骤和安装到计算机硬盘分区一样
->
->不同的只是安装 **“位置”**：1）选择U盘为boot loader设备； 2）Ubuntu各分区挂载到U盘
->
-> 网络上相关文档很多，可查询。
-
 ## 安装Ubuntu
 
 Ubuntu发行版很多，建议使用“中国味”的UbuntuKylin 16.04 LTS版。
 
 从UbuntuKylin官网 http://www.ubuntukylin.com/  下载UbuntuKylin16.04 版iso,
 
+![Ubuntukylin](./img/ubuntukylin.jpg) 
+
 从 http://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/ 下载Universal-USB-Installer制作U盘系统
 
-然后，用U盘安装双系统。安装过程，可参考：
+然后，用U盘安装双系统。
+
+安装过程，可参考：
 
 * U盘安装Ubuntu 16.04 Beta2（与Win10双启动）
 
   * http://www.linuxdiyf.com/linux/19782.html
+
+> 可选Linux系统: **Linux Mint Xfce**
+>
+>[Linux Mint Xfce Edition](https://www.linuxmint.com/)
+>
+>适用对象：要求更快的系统相应速度；硬件性能较弱的计算机。
+>
+>    系统安装后，需要补充安装中文包及其输入法(搜狗输入法)
+>
+>![LinuxMintXfce](./img/LinuxMintXfce.jpg) 
 
 ### 安装要点
 * 1 Welcome界面：选择语言 **English**
@@ -47,13 +54,21 @@ Ubuntu发行版很多，建议使用“中国味”的UbuntuKylin 16.04 LTS版�
 * 5 Where are you:选择时区为 **shanghai**
 * 6 Who are you: 用户名和密码，选择自动登录（如重装系统且要使用原home分区,建议用原用户名）
 
-## Git
+> 可选系统安装方案：**安装Ubuntu到U盘**
+>
+> 安装Ubuntu到U盘的步骤和安装到计算机硬盘分区一样
+>
+>不同的只是安装 **“位置”**：1）选择U盘为boot loader设备； 2）Ubuntu各分区挂载到U盘
+>
+> 网络上相关文档很多，可查询。
+
+## Version Control: Git
 
 ```bash 
    $sudo apt install git
 ```
 
-##  C/C++开发
+##  C/C++ With GCC
 
     Ubuntu系统内置GCC编译器，无需安装
 
@@ -129,46 +144,14 @@ $sudo dpkg -i [vscode filename].deb
 
     https://code.visualstudio.com/docs/languages/cpp
 
-## Eclipse开发环境
+4 set Python3 as the default Python Version
 
-### 安装JDK
+>```
+> // Path to Python, you can use a custom version of Python by modifying this setting to include the full path.
+>  "python.pythonPath": "python3",
+>```
 
-   Ubuntukylin16.04缺省没有安装JDK。如下安装openjdk
-
-```bash 
-   $sudo apt install openjdk-8-jre
-```
-
-###  安装Eclipse IDE
-    
-* 1. 下载Linux版的Eclipse CDT，解压
-
-   * How to Install Eclipse on Ubuntu Linux 
-     
-     http://www3.ntu.edu.sg/home/ehchua/programming/howto/EclipseJava_HowTo.html#install_ubuntu
-   
-* 2. Python开发：安装Pydev插件
-
-
-## 建议的系统选择
-
-### 1 [Ubuntukylin 16.04.2 LTS](http://www.ubuntukylin.com/) 
-
-适用对象：需要中文环境的Linux新用户
-
-![Ubuntukylin](./img/ubuntukylin.jpg) 
-
- * Ubuntukylin网站提供的版本会变化，根据网站提示安装适当的版本
-
-### 2 [Linux Mint 18.1 “Serena” Xfce Edition](https://www.linuxmint.com/)
-
-适用对象：要求更快的系统相应速度；硬件性能较弱的计算机。
-
-     系统安装后，需要补充安装中文包及其输入法(搜狗输入法)
-
-![LinuxMintXfce](./img/LinuxMintXfce.jpg) 
-
-##  Reference
+## Reference
 
 * Linux Mint Guide(中文版） https://linuxmint.com/documentation/user-guide/Cinnamon/chinese_16.0.pdf
 

@@ -1,75 +1,61 @@
-## 课程实践三
+## Practice 3
 
-* **数据分析**（15）：：Python或Jupyter Notebook程序设计：统计、回归及可视化
+**Object-oriented Programming**(15)：The General Rankine Cycle Simulator 
+  
+* Purpose： 
+   * The Rankine Cycle Simulator: training computational thinking and  programming skills   
 
-## 推荐的工作 
+* Deadline: 2018
 
-## 问题：
+## The Rankine Cycle: 
 
-* 16.4 Statistical Measures Don't, Tell the Whole Story（Page226-227） 
-  * In 1973, the statistician F.J. Anscombe published a paper containing the table below. It contains the <x, y> coordinates of the points in each of four data sets.
+Michael J . Mora. Fundamentals of Engineering Thermodynamics (7th Edition).  John Wiley & Sons, Inc. 2011
 
-|x0 |y0|x1|y2|x2|y2|x3|y3|
-| ---- |:------:| :------:| :------:|  :------:| :------:| :------:|  ----:|
-|10.0|	8.04 |	10.0|	9.14 |	10.0 	|7.46	|8.0    |6.58|
-|8.0| 	6.95 |	8.0 |	8.14 |	8.0     |6.77	|8.0    |5.76|
-|13.0| 	7.68 |	13.0|	8.74 |	13.0    |12.74	|8.0    |7.71|
-|9.0|	8.81 |	9.0 |	8.77 |	9.0     |7.11	|8.0    |8.84|
-|11.0| 	8.33 |	11.0|	9.26|	11.0    |7.81	|8.0    |8.47|
-|14.0| 	9.96 |	14.0|	8.10 |	14.0    |8.84	|8.0    |7.04|
-|6.0|	7.24 |	6.0 |	6.13 |	6.0     |6.08	|8.0 	|5.25|
-|4.0| 	4.26 |	4.0 |	3.10| 	4.0     |5.39	|19.0 	|12.5|
-|12.0|	10.84| 	12.0| 	9.13| 	12.0    |8.15	|8.0 	|5.56|
-|7.0| 	4.82 | 	7.0 |	7.26| 	7.0     |6.42	|8.0 	|7.91|
-|5.0| 	5.68 | 	5.0 | 	4.74| 	5.0     |5.73	|8.0 	|6.89|
+Chapter 8 vapor Power System:  （Page 460-463）
 
-## 要求(15分)：
+* Example 8.1：An Ideal Regenerative Cycle, Page 438
 
-* 1）	四组数据的数据文件（1分）：纯文本格式或MS Excel表格；
+* Example 8.5: A Regenerative Cycle with Open Feedwater Heater,Page 456
 
-* 2）  数据分析对象（5）：从数据文件读取数据,形成数据分析对象
+* Example 8.6 : Considering a Reheat–Regenerative Cycle with Two Feedwater Heaters, a closed feedwater heater and an open feedwater heater. 
 
-* 2）	统计指标（2分）：从数据文件读取数据，计算均值、方差和相关系数等统计指标
 
-* 3）	回归分析（2分）: 线性回归
+## 要求：(总分10)
 
-* 4）	结果输出（5分）: 数据点图（3分）；统计和回归结果（2分）；
+  开发工具：：VS Code，
+     
+        1）软件设计思路和体会markdown文档. 3分
+        2）基本类 (7)  step2
+        3）数据文件使用 (7-9) step3
+        4）通用类：9-12 step4
+
+可以补，成绩最高9分
+
 
 ## 提交：
+* 1)电邮： cmh@seu.edu.cn
+   * 主题：学号-姓名-P2
+   * 附件：Jupyter Notebook程序文件压缩包： **学号-姓名-P3.zip**；
 
-* 1）电邮：cmh@seu.edu.cn, 
-  * 主题：学号-姓名-P4；
-  * 附件：程序文件压缩包：**学号-姓名-P3.zip**；
+* 2)截至时间：2018
+   * 过截至时间后可补交，补交作业成绩最高6分
 
-* 2） 截至时间： 2018.05.28
-  * 过截至时间后可以补交，补交作业最高10分
+* 3)改进更新：提交作业后可改进，改进截至时间：2018
 
-* 3）改进更新：提交作业后可改进，改进截至时间：2018.06.04
+## 参考资源：
 
-## 提示：
-
-* 参考第11、15章
-
-  * http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/11_PLOTTING_AND_MORE_ABOUT_CLASSES.ipynb
-  * http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/15_UNDERSTANDING_EXPERIMENTAL_DATA.ipynb
-
-* 统计指标计算、回归分析: 可使用Python统计库、Numpy和Scipy
-
-* 绘制数据点图: 使用Matplotlib
-
-```python
-    import numpy as np
-    import matplotlib.pyplot as plt
-    from  statistics import mean,stdev,variance
-```
-
-* Scipy. http://www.scipy.org/
-  
-* numpy. http://www.numpy.org/
-  
-* matplotlib.  http://matplotlib.org/
-
-* Lectures on scientific computing with python https://github.com/jrjohansson/scientific-python-lectures
-
-
+*  http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/PyThermo_IdealRankineCycle.ipynb
  
+*  https://github.com/PySEE/PyRankine
+
+*  Jupyter Notebook for Fundamentals of Engineering Thermodynamics, Michael J . Mora. 
+
+   *  https://github.com/FOSSEE/Python-Textbook-Companions/tree/master/Fundamental_of_Thermodynamics_by_Moran_and_Shapiro_by_Michael_J._Moran_and_Howard_N._Shapiro
+   
+     * Chapter_8.ipynb
+
+
+
+
+  
+

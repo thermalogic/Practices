@@ -1,3 +1,2 @@
-# In-class Exercise
-
+# In-class Exercises
 
