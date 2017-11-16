@@ -1,6 +1,4 @@
-## Practice 2
-
-### A Reheat–Regenerative Cycle with Two Feedwater Heaters
+## A Reheat–Regenerative Cycle with Two Feedwater Heaters
 ```
 Michael J . Mora. Fundamentals of Engineering Thermodynamics (7th Edition).  John Wiley & Sons, Inc. 2011
 

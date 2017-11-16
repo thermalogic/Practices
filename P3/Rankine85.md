@@ -1,12 +1,10 @@
-## Practice 2
+## A Regenerative Cycle with Open Feedwater Heater
 
-    Michael J . Mora. Fundamentals of Engineering Thermodynamics(7th Edition). John Wiley & Sons, Inc. 2011
+  Michael J . Mora. Fundamentals of Engineering Thermodynamics(7th Edition). John Wiley & Sons, Inc. 2011
 
     Chapter 8 : Vapour Power Systems Example
 
     * EXAMPLE 8.5 ：A Regenerative Cycle with Open Feedwater Heater,Page 456
-
-## EXAMPLE 8.5 ：A Regenerative Cycle with Open Feedwater Heater
 
 Consider a regenerative vapor power cycle with one open feedwater heater.
 

@@ -7,17 +7,36 @@
 
 * Deadline: 2018
 
+## The Rankine Cycle: 
+
+Michael J . Mora. Fundamentals of Engineering Thermodynamics (7th Edition).  John Wiley & Sons, Inc. 2011
+
+Chapter 8 vapor Power System:  （Page 460-463）
+
+* Example 8.6 : Considering a Reheat–Regenerative Cycle with Two Feedwater Heaters, a closed feedwater heater and an open feedwater heater. 
+
+  * rankine86.md 
+
+  * rankine-SP.txt
+
 ## 要求：(总分15)
 
-      使用基本公式或者函数封装，
-       形式：ipython notebook
-         必须使用：结构数据类型：元组、列表、字典
-         程序部分:10
-             不使用函数最高6，使用函数6-10
-         ipython notebook文档部分内容5分（公式用 Mathjax)
-         问题描述 2（翻译为中文，markdown，公式mathjax）
-         程序说明：设计思路，模块说明 2
-         小结1 
+    文件类型：ipython notebook
+    
+    文件中程序(10):
+    
+        代码：使用函数封装方法；
+         
+        使用结构数据类型：元组、列表、字典等
+       
+    文件中文档(5);   
+    
+        格式：使用markdown，公式用Mathjax，中英文即可
+        内容：
+           问题描述
+           设计思路
+           模块说明
+           小结 
 
 ## 提交：
 
@@ -32,7 +51,7 @@
 
 ## 参考资源：
 
-*  http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/PyThermo_IdealRankineCycle.ipynb
+*  http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/PyThermo_IdealRankineCycle.ipynb
  
 *  https://github.com/PySEE/PyRankine
 

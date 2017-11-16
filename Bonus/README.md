@@ -1,26 +1,24 @@
 ## Bonus(+5) 
 
-  GCC and Ubuntu
+  Programming with GCC,Ubuntu
  
 * C/C++ Programming with GCC(+3) 
 
-  using GCC and make to build the object    
+  using MinGW-w64(GCC and make) to build the object in Windows   
 
-  
-  * 1) the shared library of IF97-Region4
+    * 1) the shared library of IF97-Region4
     
            8.1 The Saturation-Pressure Equation (Basic Equation)  Eq. (30)
-
-           8.2 The Saturation-Temperature Equation (Backward Equation)  Eq. (31)
 
       * IF97-Rev http://www.iapws.org/relguide/IF97-Rev.html
          
           IF97-Rev.pdf  http://www.iapws.org/relguide/IF97-Rev.pdf
 
- * 2)using the library : C/C++ 
+    * 2) using the library : C/C++ 
  
 * Programming in Ubuntu(+2)   
-
+  
+    using GCC and make to build the object in Ubuntu 
 
 ## 提交：
 

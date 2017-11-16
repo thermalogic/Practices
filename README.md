@@ -1,10 +1,20 @@
 # 行是知之始，知是行之成 - 陶行知
 
-* 截至时间后补交的练习成绩封上限(65%)
+* 截至时间后补交的练习，得分上限<=70%
 
-**2. Interactive Computing**(15)：Jupyter Notebook of the Rankine Cycle Simulator 
+**1. Github** (5)：Git,Github
 
-* Deadline: 2018.04.30
+* Deadline: 2018
+
+-----
+|03015**  |
+|:--------:| 
+|  **  | 
+---------
+
+**2. Python and Interactive Computing**(15)：Jupyter Notebook of the Rankine Cycle Simulator 
+
+* Deadline: 2018
 
 -----
 |03015**  |
@@ -13,7 +23,7 @@
 ---------
 
 
-**3. Object-oriented Programming**(10)： The General Rankine Cycle Simulator
+**3. Object-oriented Programming**(15)： The General Rankine Cycle Simulator
 
 * Deadline: 2018
 
@@ -24,6 +34,16 @@
 ---------
 
 **4. Data Analysis**(15)：Statistics, regression and visualization
+
+* Deadline: 2018
+
+-----
+|03015**  |
+|:--------:| 
+|  **  | 
+---------
+
+**5. Unit Test**(10)：IAPWS-IF97 physical properties calculation and unit test  
 
 * Deadline: 2018
 

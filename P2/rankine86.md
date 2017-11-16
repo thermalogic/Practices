@@ -1,18 +1,11 @@
-## Practice 2
+## A Reheat–Regenerative Cycle with Two Feedwater Heaters
 
-**Interactive Computing**(15)：Jupyter Notebook of the Rankine Cycle Simulator 
-  
-## The Rankine Cycle: 
-
-* A Reheat–Regenerative Cycle with Two Feedwater Heaters
-```
 Michael J . Mora. Fundamentals of Engineering Thermodynamics (7th Edition).  John Wiley & Sons, Inc. 2011
 
-Chapter 8 vapor Power System:  （Page 460-463）
+Chapter 8 vapor Power System: (Page 460-463)
 
-Example 8.6 : Considering a Reheat–Regenerative Cycle with Two Feedwater Heaters, a closed feedwater heater and an
-open feedwater heater. 
-```
+Example 8.6 : Considering a Reheat–Regenerative Cycle with Two Feedwater Heaters, a closed feedwater heater and an open feedwater heater. 
+
    * Steam enters the first turbine at 8.0 MPa, 480°C and expands to 0.7 MPa. 
 
    * The steam is reheated to 440°C before entering the second turbine, where it expands to the condenser pressure of 0.008 MPa.

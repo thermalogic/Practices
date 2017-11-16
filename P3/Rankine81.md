@@ -1,12 +1,10 @@
-## Practice 2
+## An Ideal Rankine Cycle  
 
-  Michael J . Mora. Fundamentals of Engineering Thermodynamics(7th Edition). John Wiley & Sons, Inc. 2011
+ Michael J . Mora. Fundamentals of Engineering Thermodynamics(7th Edition). John Wiley & Sons, Inc. 2011
 
     Chapter 8 : Vapour Power Systems Example
 
     * EXAMPLE 8.1 ：An Ideal Regenerative Cycle, Page 438
-
-## EXAMPLE 8.1 :An Ideal Rankine Cycle  
 
 Steam is the working fluid in an ideal Rankine cycle. 
 

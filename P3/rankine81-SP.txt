@@ -1,0 +1,44 @@
+
+  	./cyclefile\rankine81
+       Net Power(MW) 100.00
+     Mass Flow(kg/h) 376776.21
+       Efficiency(%) 37.08
+   Heat Rate(kJ/kWh) 9708.39
+  Steam Rate(kg/kWh) 3.77
+ totalWExtracted(MW) 100.84
+  totalWRequired(MW) 0.84
+     totalQAdded(MW) 269.68 
+
+NodeID 	              Name              	   P  	    T   	    H   	   S   	    V   	    X   	 FDOT 	    MDOT   
+  0    	 Main Steam                     	  8.000	 295.009	 2758.61	  5.74 	   0.024	   1.0	 1.0000	 376776.21
+  1    	 Outlet Steam of HP             	  0.008	  41.510	 1795.08	  5.74 	  12.215	 0.675	 1.0000	 376776.21
+  2    	 Condenser Water                	  0.008	  41.510	  173.85	  0.59 	   0.001	   0.0	 1.0000	 376776.21
+  3    	 Main FeedWater                 	  8.000	  41.755	  181.91	  0.59 	   0.001	   0.0	 1.0000	 376776.21
+
+Turbine
+NodeID 	              Name              	   P  	    T   	    H   	   S   	    V   	    X   	 FDOT 	    MDOT   
+  0    	 Main Steam                     	  8.000	 295.009	 2758.61	  5.74 	   0.024	   1.0	 1.0000	 376776.21
+  1    	 Outlet Steam of HP             	  0.008	  41.510	 1795.08	  5.74 	  12.215	 0.675	 1.0000	 376776.21
+workExtracted(kJ/kg): 	963.53 
+WExtracted(MW): 	100.84
+
+Feedwater Pump
+NodeID 	              Name              	   P  	    T   	    H   	   S   	    V   	    X   	 FDOT 	    MDOT   
+  2    	 Condenser Water                	  0.008	  41.510	  173.85	  0.59 	   0.001	   0.0	 1.0000	 376776.21
+  3    	 Main FeedWater                 	  8.000	  41.755	  181.91	  0.59 	   0.001	   0.0	 1.0000	 376776.21
+workRequired(kJ/kg): 	8.06
+WRequired(MW): 	0.84
+
+Boiler
+NodeID 	              Name              	   P  	    T   	    H   	   S   	    V   	    X   	 FDOT 	    MDOT   
+  3    	 Main FeedWater                 	  8.000	  41.755	  181.91	  0.59 	   0.001	   0.0	 1.0000	 376776.21
+  0    	 Main Steam                     	  8.000	 295.009	 2758.61	  5.74 	   0.024	   1.0	 1.0000	 376776.21
+heatAdded(kJ/kg) 	2576.70 
+QAdded(MW) 	269.68
+
+Condenser
+NodeID 	              Name              	   P  	    T   	    H   	   S   	    V   	    X   	 FDOT 	    MDOT   
+  1    	 Outlet Steam of HP             	  0.008	  41.510	 1795.08	  5.74 	  12.215	 0.675	 1.0000	 376776.21
+  2    	 Condenser Water                	  0.008	  41.510	  173.85	  0.59 	   0.001	   0.0	 1.0000	 376776.21
+heatExtracted(kJ/kg)  	1621.23 
+QExtracted(MW): 	169.68

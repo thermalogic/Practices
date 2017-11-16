@@ -20,22 +20,29 @@ Chapter 8 vapor Power System:  （Page 460-463）
 * Example 8.6 : Considering a Reheat–Regenerative Cycle with Two Feedwater Heaters, a closed feedwater heater and an open feedwater heater. 
 
 
-## 要求：(总分10)
+## 要求：(总分15)
 
-  开发工具：：VS Code，
+   功能：解析Example 8.1，Example 8.5，Example 8.6循环的描述数据文件，实现计算。
+
+   开发工具：：Visual Studio Code
      
-        1）软件设计思路和体会markdown文档. 3分
-        2）基本类 (7)  step2
-        3）数据文件使用 (7-9) step3
-        4）通用类：9-12 step4
+  代码(12)：
 
-可以补，成绩最高9分
+   * 使用类描述组件和循环,实现计算目标(9)
+
+   * 使用数据文件描述循环(2)
+      
+   * 计算结果输出到数据文件(1)
+    
+  文档(3)：软件设计思路和体会的markdown文档
+   
+  过截至时间后补教，最高得分9
 
 
 ## 提交：
 * 1)电邮： cmh@seu.edu.cn
-   * 主题：学号-姓名-P2
-   * 附件：Jupyter Notebook程序文件压缩包： **学号-姓名-P3.zip**；
+   * 主题：学号-姓名-P3
+   * 附件：程序文件压缩包： **学号-姓名-P3.zip**；
 
 * 2)截至时间：2018
    * 过截至时间后可补交，补交作业成绩最高6分
@@ -44,15 +51,9 @@ Chapter 8 vapor Power System:  （Page 460-463）
 
 ## 参考资源：
 
-*  http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/PyThermo_IdealRankineCycle.ipynb
+*  http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/PyThermo_IdealRankineCycle.ipynb
  
 *  https://github.com/PySEE/PyRankine
-
-*  Jupyter Notebook for Fundamentals of Engineering Thermodynamics, Michael J . Mora. 
-
-   *  https://github.com/FOSSEE/Python-Textbook-Companions/tree/master/Fundamental_of_Thermodynamics_by_Moran_and_Shapiro_by_Michael_J._Moran_and_Howard_N._Shapiro
-   
-     * Chapter_8.ipynb
 
 
 
