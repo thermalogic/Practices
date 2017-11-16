@@ -6,7 +6,7 @@
 
 *   建立Github账户
    
-*   Fork课程的不少2个Github仓库到个人Github账户
+*   Fork不少2个和课程学习内容有关的Github仓库到个人Github账户
 
 *   学习Github有关概念，了解课程Github仓库的内容
 
@@ -14,31 +14,31 @@
 
 ## 文档要求：(总计5分)
     
-*  格式：Markdown
+* 格式：Markdown
 
-*  内容：
+* 内容：
 
-  * 1) 个人Github账户（1）
+  * 1 个人Github账户(1)
        
        账户名、使用的电子信箱(0.5)
 
        Github账户主页面截图(fork课程仓库后)(0.5)
 
-  * 2) Github简介(2)
+  * 2 Github简介(2)
 
-  * 3) 课程Home、PyRankine和SEUIF97仓库简介（2分）。
+  * 3 课程Home、PyRankine和SEUIF97仓库简介(2分)。
   
 ## 提交：
 
-* 1）电邮：cmh@seu.edu.cn
+* 1 电邮：cmh@seu.edu.cn
 
   * 主题：学号-姓名-P1
   
   * 附件： 学号-姓名-P1.zip
 
-* 2）截至时间：  2018
+* 2 截至时间： 2018
 
-  * 过截至时间后可补交，补交成绩最高3分
+  * 过截至时间后可补交，补交得分<=3
 
 ## 参考资源：
 

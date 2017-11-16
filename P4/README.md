@@ -1,8 +1,8 @@
 ## Practice 4
 
-* **数据分析**(15)：：统计、回归及可视化
+**Data Analysis**(15)：Statistics, regression and visualization
 
-## 问题：
+## Problem
 
 * 16.4 Statistical Measures Don't, Tell the Whole Story（Page226-227） 
   * In 1973, the statistician F.J. Anscombe published a paper containing the table below. It contains the <x, y> coordinates of the points in each of four data sets.
@@ -25,26 +25,26 @@
 
   使用Python文件或Jupyter Notebook实现。
 
-* 1)	四组数据的数据文件(1分)：纯文本格式或MS Excel表格；
+* 1 四组数据的数据文件(1分)：纯文本格式或MS Excel表格；
 
-* 2)  数据分析对象表达(4分)：从数据文件读取数据,形成数据分析对象
+* 2 数据分析对象表达(4分)：从数据文件读取数据,形成数据分析对象
 
-* 3)	统计指标(2分)：从数据文件读取数据，计算均值、方差和相关系数等统计指标
+* 3 统计指标(2分)：从数据文件读取数据，计算均值、方差和相关系数等统计指标
 
-* 4)	回归分析(3分): 线性回归
+* 4 回归分析(3分): 线性回归
 
-* 5)	结果输出(5分): 数据点图和回归曲线(3分)；统计和回归结果(2分)
+* 5 结果输出(5分): 数据点图和回归曲线(3分)；统计和回归结果(2分)
 
 ## 提交：
 
-* 1) 电邮：cmh@seu.edu.cn 
+* 1 电邮：cmh@seu.edu.cn 
   * 主题：学号-姓名-P4
   * 附件：程序文件压缩包：**学号-姓名-P4.zip**
 
-* 2) 截至时间： 2018
-  * 过截至时间后可以补交，补交作业最高10分
+* 2 截至时间： 2018
+  * 过截至时间后可以补交，补交得分<=10
 
-* 3) 改进更新：提交作业后可改进，改进截至时间：2018
+* 3  改进更新：提交作业后可改进，改进截至时间：2018
 
 ## 提示：
 

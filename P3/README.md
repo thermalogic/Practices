@@ -11,7 +11,7 @@
 
 Michael J . Mora. Fundamentals of Engineering Thermodynamics (7th Edition).  John Wiley & Sons, Inc. 2011
 
-Chapter 8 vapor Power System:  （Page 460-463）
+Chapter 8 vapor Power System: 
 
 * Example 8.1：An Ideal Regenerative Cycle, Page 438
 
@@ -36,16 +36,17 @@ Chapter 8 vapor Power System:  （Page 460-463）
     
   文档(3)：软件设计思路和体会的markdown文档
    
-  过截至时间后补教，最高得分9
+  过截至时间后补交，得分<=9.
 
 
 ## 提交：
-* 1)电邮： cmh@seu.edu.cn
+
+* 1 电邮： cmh@seu.edu.cn
    * 主题：学号-姓名-P3
    * 附件：程序文件压缩包： **学号-姓名-P3.zip**；
 
-* 2)截至时间：2018
-   * 过截至时间后可补交，补交作业成绩最高6分
+* 2 截至时间：2018
+   * 过截至时间后可补交，补交得分<10
 
 * 3)改进更新：提交作业后可改进，改进截至时间：2018
 

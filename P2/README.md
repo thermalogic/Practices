@@ -2,8 +2,7 @@
 
 **Python and Interactive Computing**(15)：The Simple Simulator of Rankine Cycle 
   
-* Purpose： 
-   * Jupyter Notebook: shareing the code and reproducible research
+* Purpose：**Jupyter Notebook**: shareing the code and reproducible research
 
 * Deadline: 2018
 
@@ -11,7 +10,7 @@
 
 Michael J . Mora. Fundamentals of Engineering Thermodynamics (7th Edition).  John Wiley & Sons, Inc. 2011
 
-Chapter 8 vapor Power System:  （Page 460-463）
+Chapter 8 vapor Power System:(Page 460-463)
 
 * Example 8.6 : Considering a Reheat–Regenerative Cycle with Two Feedwater Heaters, a closed feedwater heater and an open feedwater heater. 
 
@@ -21,38 +20,42 @@ Chapter 8 vapor Power System:  （Page 460-463）
 
 ## 要求：(总分15)
 
-    文件类型：ipython notebook
+文件类型：ipython notebook
     
-    文件中程序(10):
+文件中程序(10):
     
-        代码：使用函数封装方法；
+*  代码：
+  
+   * 使用函数封装方法；
          
-        使用结构数据类型：元组、列表、字典等
+   * 使用结构数据类型：元组、列表、字典等
        
-    文件中文档(5);   
+* 文档(5);   
     
-        格式：使用markdown，公式用Mathjax; 中英文皆可。
+    * 格式：使用markdown，公式用Mathjax; 中英文皆可。
 
-        内容：
+    * 内容：
 
-           问题描述
+      * 问题描述
         
-           设计思路
+      * 设计思路
         
-           模块说明
+      *  模块说明
         
-           小结 
+      *  小结 
 
 ## 提交：
 
-* 1) 电邮： cmh@seu.edu.cn
-   * 主题：学号-姓名-P2
-   * 附件：Jupyter Notebook程序文件压缩包： **学号-姓名-P2.zip**；
+* 1 电邮： cmh@seu.edu.cn
+   
+  * 主题：学号-姓名-P2
+  * 附件：Jupyter Notebook等文件的压缩包： **学号-姓名-P2.zip**；
 
-* 2) 截至时间：2018
-   * 过截至时间后可补交，补交作业成绩最高10分
+* 2 截至时间：2018
+  
+  * 过截至时间后可补交，补交得分<10
 
-* 3) 改进更新：提交作业后可改进，改进截至时间：2018
+* 3 改进更新：提交作业后可改进，改进截至时间：2018
 
 ## 参考资源：
 
