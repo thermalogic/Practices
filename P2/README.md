@@ -31,7 +31,7 @@ Chapter 8 vapor Power System:  （Page 460-463）
        
     文件中文档(5);   
     
-        格式：使用markdown，公式用Mathjax，中英文即可
+        格式：使用markdown，公式用Mathjax; 中英文皆可。
         内容：
            问题描述
            设计思路
