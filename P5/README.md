@@ -64,7 +64,7 @@ http://www.iapws.org/release.html
 
 * https://github.com/PySEE/Practices/tree/S2016/P7
 
-* https://github.com/PySEE/Practices/tree/S2018/P5
+* https://github.com/PySEE/Practices/tree/S2017/P5
 
 * https://github.com/jjgomera/iapws
 

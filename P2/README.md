@@ -8,9 +8,9 @@
 
 ## The Rankine Cycle: 
 
-Michael J . Mora. Fundamentals of Engineering Thermodynamics (7th Edition).  John Wiley & Sons, Inc. 2011
+Michael J. Mora. Fundamentals of Engineering Thermodynamics (7th Edition).  John Wiley & Sons, Inc. 2011
 
-Chapter 8 vapor Power System:(Page 460-463)
+Chapter 8 Vapor Power System:(Page 460-463)
 
 * Example 8.6 : Considering a Reheat–Regenerative Cycle with Two Feedwater Heaters, a closed feedwater heater and an open feedwater heater. 
 

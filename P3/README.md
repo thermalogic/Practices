@@ -11,13 +11,13 @@
 
 Michael J . Mora. Fundamentals of Engineering Thermodynamics (7th Edition).  John Wiley & Sons, Inc. 2011
 
-Chapter 8 vapor Power System: 
+Chapter 8 Vapor Power System: 
 
 * Example 8.1：An Ideal Regenerative Cycle, Page 438
 
 * Example 8.5: A Regenerative Cycle with Open Feedwater Heater,Page 456
 
-* Example 8.6 : Considering a Reheat–Regenerative Cycle with Two Feedwater Heaters, a closed feedwater heater and an open feedwater heater. 
+* Example 8.6 : Considering a Reheat–Regenerative Cycle with Two Feedwater Heaters, a closed feedwater heater and an open feedwater heater,Page 460
 
 
 ## 要求：(总分15)
