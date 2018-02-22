@@ -2,7 +2,7 @@
 
 **1. Github** (5)：Git,Github
 
-* Deadline: 2018
+* Deadline: 2018.03.13
 
 -----
 |03015**  |
@@ -12,7 +12,7 @@
 
 **2. Python and Interactive Computing**(15)：Jupyter Notebook of the Rankine Cycle Simulator 
 
-* Deadline: 2018
+* Deadline: 2018.05.08
 
 -----
 |03015**  |
@@ -23,7 +23,7 @@
 
 **3. Object-oriented Programming**(15)： The General Rankine Cycle Simulator
 
-* Deadline: 2018
+* Deadline: 2018.05.29
 
 -----
 |03015**  |
@@ -33,7 +33,7 @@
 
 **4. Data Analysis**(15)：Statistics, regression and visualization
 
-* Deadline: 2018
+* Deadline: 2018.06.05
 
 -----
 |03015**  |
@@ -43,7 +43,7 @@
 
 **5. Unit Test**(10)：IAPWS-IF97 physical properties calculation and unit test  
 
-* Deadline: 2018
+* Deadline: 2018.06.05
 
 -----
 |03015**  |
@@ -53,7 +53,7 @@
 
 **Bonus points**(+5)： C/C++ Programming with GCC,Ubuntu  
 
-* Deadline: 2018
+* Deadline: 2018.06.15
 
 -----
 |03015**  |

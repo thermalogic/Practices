@@ -20,6 +20,8 @@
 
   * [Github、Git](https://github.com/PySEE/Practices/tree/S2018/P1)
 
+    **Deadline:** 2018.03.13
+
 * **Building Software Environment**
 
    https://github.com/PySEE/home/tree/S2018/guide/BuildingSoftwareEnvironment.md 
