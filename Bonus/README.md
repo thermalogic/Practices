@@ -8,7 +8,7 @@
 
   * 1 The shared library of IF97-Region4
     
-    8.1 The Saturation-Pressure Equation (Basic Equation)  Eq. (30)
+    8.1 The Saturation-Pressure Equation (Basic Equation)  **Eq. (30)**
 
     * IF97-Rev http://www.iapws.org/relguide/IF97-Rev.html
          
