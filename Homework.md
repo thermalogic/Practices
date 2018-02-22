@@ -28,9 +28,13 @@
 
   * Python and Packages:
     
-      https://www.python.org/
+      https://www.python.org/ 
+      
+        Python https://www.python.org/ftp/python/3.5.4/python-3.5.4-amd64.exe
+         
+        Scipy  http://www.lfd.uci.edu/~gohlke/pythonlibs/  
 
-      http://jupyter.org/
+        Jupyter http://jupyter.org/
 
   * Coding Tool: Microsoft Visual Code
 
@@ -38,5 +42,5 @@
 
   * Version Control:
    
-    Git for Windows:  https://github.com/git-for-windows/git/releases
+    Git for Windows: https://github.com/git-for-windows/git/releases
 
