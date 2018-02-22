@@ -14,8 +14,6 @@
 
 ## 文档要求：(总计5分)
     
-* 格式：Markdown
-
 * 内容：
 
   * 1 个人Github账户(1)
@@ -27,6 +25,8 @@
   * 2 Github简介(2)
 
   * 3 课程Home、PyRankine和SEUIF97仓库简介(2分)。
+
+  * **格式：** Markdown
   
 ## 提交：
 
