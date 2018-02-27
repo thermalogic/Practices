@@ -5,7 +5,7 @@
 * Purpose： 
    * The Rankine Cycle Simulator: training computational thinking and  programming skills   
 
-* Deadline: 2018
+* Deadline:  2018.05.29
 
 ## The Rankine Cycle: 
 

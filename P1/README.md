@@ -1,6 +1,8 @@
 ## Practice 1
 
-   在Github上建立个人账户，了解Github和课程仓库，为进一步的学习和程序开发做好准备。
+  **Git,Github(5)**: 在Github上建立个人账户，了解Github和课程仓库，为进一步的学习和程序开发做好准备。
+
+   Deadline: 2018.03.13
  
 ## 过程： 
 

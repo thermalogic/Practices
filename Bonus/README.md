@@ -1,6 +1,8 @@
 ## Bonus(+5) 
 
   Programming with GCC,Ubuntu
+
+  Deadline: 2018.06.15
  
 * C/C++ Programming with GCC(+3) 
 

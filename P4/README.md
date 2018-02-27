@@ -2,6 +2,8 @@
 
 **Data Analysis**(15)：Statistics, regression and visualization
 
+* Deadline: 2018.06.05
+
 ## Problem
 
 * 16.4 Statistical Measures Don't, Tell the Whole Story（Page226-227） 

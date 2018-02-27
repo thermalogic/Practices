@@ -30,13 +30,13 @@
     
       https://www.python.org/ 
       
-        Python https://www.python.org/ftp/python/3.5.4/python-3.5.4-amd64.exe
+        1 Python https://www.python.org/ftp/python/3.5.4/python-3.5.4-amd64.exe
          
-        Scipy  http://www.lfd.uci.edu/~gohlke/pythonlibs/  
+        2 Jupyter http://jupyter.org/
+    
+        3 Scipy  https://www.lfd.uci.edu/~gohlke/pythonlibs/  
 
-        Jupyter http://jupyter.org/
-
-  * Coding Tool: Microsoft Visual Code
+    * Coding Tool: Microsoft Visual Code
 
       https://code.visualstudio.com/
 
