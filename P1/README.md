@@ -8,7 +8,7 @@
 
 *   建立Github账户
    
-*   Fork不少2个和课程学习内容有关的Github仓库到个人Github账户
+*   Fork不少于2个和课程学习内容有关的Github仓库到个人Github账户
 
 *   学习Github有关概念，了解课程Github仓库的内容
 
@@ -16,7 +16,7 @@
 
 ## 文档要求：(总计5分)
     
-* 内容：
+* **内容：**
 
   * 1 个人Github账户(1)
        
@@ -28,7 +28,7 @@
 
   * 3 课程Home、PyRankine和SEUIF97仓库简介(2分)。
 
-  * **格式：** Markdown
+* **格式：** Markdown
   
 ## 提交：
 
@@ -46,9 +46,9 @@
 
 * 知乎：怎样使用GitHub. http://www.zhihu.com/question/20070065
 
-* https://github.com/PySEE/Practices/tree/S2016/P2  
+* 03013级 https://github.com/PySEE/Practices/tree/S2016/P2  
 
-* https://github.com/PySEE/Practices/tree/S2017/P1  
+* 03014级 https://github.com/PySEE/Practices/tree/S2017/P1  
 
 * Git
 
