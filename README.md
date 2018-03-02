@@ -1,5 +1,9 @@
 # 行是知之始，知是行之成 - 陶行知
 
+上传的练习，仅供同学们参考，不是标准答案。
+
+**软件**类似**作文**，有可以**借鉴**的作品，但没有**标准**作品.
+
 **1. Github** (5)：Git,Github
 
 * Deadline: 2018.03.13
@@ -9,6 +13,7 @@
 |:-------:|:-------:|
 | 许可    |  朱海军  | 
 ------------------
+
 
 **2. Python and Interactive Computing**(15)：Jupyter Notebook of the Rankine Cycle Simulator 
 
