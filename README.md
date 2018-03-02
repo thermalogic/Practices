@@ -4,11 +4,11 @@
 
 * Deadline: 2018.03.13
 
------
-|03015**  |
-|:--------:| 
-|  **  | 
----------
+--------------------
+|03015434 |03015311 |
+|:-------:|:-------:|
+| 许可    |  朱海军  | 
+------------------
 
 **2. Python and Interactive Computing**(15)：Jupyter Notebook of the Rankine Cycle Simulator 
 
