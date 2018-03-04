@@ -63,15 +63,27 @@
 
 ## 参考资源：
 
-* Introduction2Markdown https://github.com/PySEE/home/blob/S2018/guide/Introduction2Markdown.md
-
-* 知乎：怎样使用GitHub. http://www.zhihu.com/question/20070065
-
 * 03013级 https://github.com/PySEE/Practices/tree/S2016/P2  
 
 * 03014级 https://github.com/PySEE/Practices/tree/S2017/P1  
 
-* Git
+* Markdown
+  
+   * Introduction2Markdown https://github.com/PySEE/home/blob/S2018/guide/Introduction2Markdown.md
+
+   * [Visual Studio Code Markdown](https://code.visualstudio.com/docs/languages/markdown/)
+
+   * [CommonMark](http://commonmark.org/)
+  
+   * [WIKI Markdown](https://en.wikipedia.org/wiki/Markdown)
+
+   * [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+   
+   * 王树义. 如何用Markdown写论文？ http://blog.sciencenet.cn/blog-377709-1088215.html
+
+* Git,Github
+
+   * 知乎：怎样使用GitHub. http://www.zhihu.com/question/20070065
 
    * http://nbviewer.jupyter.org/github/PySEE/home/blob/S2018/notebook/DevTools-Git.ipynb
 
