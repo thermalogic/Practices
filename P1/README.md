@@ -1,3 +1,22 @@
+## 注意
+
+* 1 使用 Visual Studio Code本地编辑md文档
+
+* 2 多个不同类型文件用目录组织
+
+* 3 插入图片示例.
+
+ 假设图片myscreenshot.png在md所在目录下的/img子目录中：
+```bash
+![myscreenshot](./img/myscreenshot.png)
+```
+
+* 4 不要使用HTML，只使用最基本的markdown标志符号
+
+* 5 文件名尽可能用英文，注意大小写。Linux操作系统下文件名是区分大小写的.(和Windows不同)
+
+* 6 参考他人文字时，注意分别，不要**拷贝**, 不要不问对错.
+
 ## Practice 1
 
   **Git,Github(5)**: 在Github上建立个人账户，了解Github和课程仓库，为进一步的学习和程序开发做好准备。
