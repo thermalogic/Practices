@@ -63,6 +63,8 @@
 
 ## 参考资源：
 
+* Introduction2Markdown https://github.com/PySEE/home/blob/S2018/guide/Introduction2Markdown.md
+
 * 知乎：怎样使用GitHub. http://www.zhihu.com/question/20070065
 
 * 03013级 https://github.com/PySEE/Practices/tree/S2016/P2  
