@@ -2,6 +2,44 @@
 
 ###  Homework1
 
+* **Working Directory of the course**
+
+Recommended working directory: **PLEASE**: Setup your working directory on a **Non-System** disk.e.g: **D:**
+
+```
+CourseSE
+ │
+ ├──PySEE( git clone -init, git pull - update)
+ │    │
+ │    ├── Home
+ │    │      
+ │    ├── PyRankine
+ │    │        
+ │    |── SEUIF97
+ │    │
+ │    |── Practices
+ │        
+ ├──Practices
+ │   │ 
+ │   |── P1
+ │   │ 
+ │   |── P2
+ │   │ 
+ │   |── P3
+ │   │ 
+ │   |── P4
+ │   │ 
+ │   |── P5
+ │   │ 
+ │   |── Bonus
+ │
+ ├──Softwares
+ │
+ ├──Others
+ │
+
+```
+
 * **Required Materials and Textbooks**
  
   * Lectures in Jupyter Notebook
@@ -43,4 +81,5 @@
   * Version Control:
    
     Git for Windows: https://github.com/git-for-windows/git/releases
+
 
