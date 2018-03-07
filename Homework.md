@@ -30,15 +30,15 @@
     
       https://www.python.org/ 
       
-        1 Python https://www.python.org/ftp/python/3.5.4/python-3.5.4-amd64.exe
+      * Python https://www.python.org/ftp/python/3.5.4/python-3.5.4-amd64.exe
          
-        2 Jupyter http://jupyter.org/
+      * Jupyter http://jupyter.org/ (pip install jupyter)
     
-        3 Scipy  https://www.lfd.uci.edu/~gohlke/pythonlibs/  
+      * Scipy(Numpy,scipy,matplotlib)  https://www.lfd.uci.edu/~gohlke/pythonlibs/  (pip install *.whl)
 
     * Coding Tool: Microsoft Visual Code
 
-      https://code.visualstudio.com/
+      https://code.visualstudio.com/ (add extensions:Python,C++)
 
   * Version Control:
    
