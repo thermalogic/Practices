@@ -1,11 +1,11 @@
 
 ## Practice 4
 
-**Unit Test**(10)：IAPWS-IF97 physical properties calculation and unit test  
+**Unit Test**(5)：IAPWS-IF97 physical properties calculation and unit test  
 
 Deadline: 2018.06.05
 
-## 要求(10分)：
+## 要求(5分)：
 
 * 根据：
      
@@ -18,13 +18,13 @@ Deadline: 2018.06.05
 
  中提供的v(p,T)计算公式，设计物性计算及单元测试程序：
 
- * 1 物性计算(5)：Supp-VPT3-2016.pdf中划分的Region 3子区域（3a~3z)，
+ * 1 物性计算(2)：Supp-VPT3-2016.pdf中划分的Region 3子区域（3a~3z)，
 
     * 按照学号 01-3a, .., 26-3z, 27-3a, 28-3b, ....  选择子区域，实现Supp-VPT3-2016.pdf中补充公式的v(p,T)计算
 
        如：03015301，03015401 做3a子区域
 
- * 2 单元测试(5)：基于unittest的物性计算程序的测试单元
+ * 2 单元测试(3)：基于unittest的物性计算程序的测试单元
  
 ## 提交：
 

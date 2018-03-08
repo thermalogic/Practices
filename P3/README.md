@@ -20,7 +20,7 @@ Chapter 8 Vapor Power System:
 * Example 8.6 : Considering a Reheat–Regenerative Cycle with Two Feedwater Heaters, a closed feedwater heater and an open feedwater heater,Page 460
 
 
-## 要求：(总分15)
+## 要求：(总分20，含面试)
 
    功能：读取Example 8.1、Example 8.5、Example 8.6循环的描述数据文件，实现对应的循环计算分析。
 
@@ -35,6 +35,8 @@ Chapter 8 Vapor Power System:
    * 计算结果输出到数据文件(1)
     
   文档(3)：软件设计思路和体会的markdown文档
+
+  **面试(5)**：设计思路，程序要点等
    
 ## 提交：
 

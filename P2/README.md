@@ -4,8 +4,8 @@
   
 * Purpose：**Jupyter Notebook**: shareing the code and reproducible research
 
-* Deadline: 2018.05.08
-
+* Deadline: 2018.04.24
+  
 ## The Rankine Cycle: 
 
 Michael J. Mora. Fundamentals of Engineering Thermodynamics (7th Edition).  John Wiley & Sons, Inc. 2011
@@ -26,9 +26,9 @@ Chapter 8 Vapor Power System:(Page 460-463)
     
 *  代码：
   
-   * 使用函数封装方法；
+   * 使用**函数**封装方法；
          
-   * 使用结构数据类型：元组、列表、字典等
+   * 使用结构数据类型：**元组、列表、字典**等
        
 * 文档(5);   
     
@@ -40,9 +40,9 @@ Chapter 8 Vapor Power System:(Page 460-463)
         
       * 设计思路
         
-      *  模块说明
+      * 模块说明
         
-      *  小结 
+      * 小结 
 
 ## 提交：
 
@@ -51,7 +51,7 @@ Chapter 8 Vapor Power System:(Page 460-463)
   * 主题：学号-姓名-2
   * 附件：Jupyter Notebook等文件的压缩包： **学号-姓名-2.zip**；
 
-* 2 **截至时间：** 2018.05.08
+* 2 **截至时间：** 2018.04.24
   
   * 截至时间后补交，补交得分<10. (2018.06.15)
 

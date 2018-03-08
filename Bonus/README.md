@@ -2,7 +2,7 @@
 
   Programming with GCC,Ubuntu
 
-  Deadline: 2018.06.15
+  Deadline: 2018.06.12
  
 * C/C++ Programming with GCC(+3) 
 
@@ -30,7 +30,7 @@
   
    * 附件： 学号-姓名-B.zip
 
-* 2 **截至时间**：2018.06.15
+* 2 **截至时间**：2018.06.12
 
 ## 参考资源：
 
