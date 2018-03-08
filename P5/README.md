@@ -20,7 +20,7 @@ Deadline: 2018.06.05
 
  * 1 物性计算(2)：Supp-VPT3-2016.pdf中划分的Region 3子区域（3a~3z)，
 
-    * 按照学号 01-3a, .., 26-3z, 27-3a, 28-3b, ....  选择子区域，实现Supp-VPT3-2016.pdf中补充公式的v(p,T)计算
+    * 按照学号 01->3a, .., 26->3z, 27->3a, 28->3b, ....  选择子区域，实现Supp-VPT3-2016.pdf中补充公式的v(p,T)计算
 
        如：03015301，03015401 做3a子区域
 
@@ -64,9 +64,9 @@ http://www.iapws.org/release.html
 
 ## Reference：
 
-* https://github.com/PySEE/Practices/tree/S2016/P7
+* 2013级 https://github.com/PySEE/Practices/tree/S2016/P7
 
-* https://github.com/PySEE/Practices/tree/S2017/P5
+* 2014级 https://github.com/PySEE/Practices/tree/S2017/P5
 
-* https://github.com/jjgomera/iapws
+* Python版的IAPWS-IF97 https://github.com/jjgomera/iapws
 

@@ -26,7 +26,7 @@
 ---------
 
 
-**3. Object-oriented Programming**(20,含面试)： The General Rankine Cycle Simulator
+**3. Object-oriented Programming**(20)： The General Rankine Cycle Simulator
 
 * Deadline: 2018.05.15
 

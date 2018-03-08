@@ -2,11 +2,13 @@
 
 **Data Analysis**(15)：Statistics, regression and visualization
 
-* Deadline: 2018.06.05
+* Deadline: 2018.05.29
 
 ## Problem
 
-* 16.4 Statistical Measures Don't, Tell the Whole Story（Page226-227） 
+John V. Guttag. Introduction to Computation and Programming Using Python. Revised and expanded edition. MIT Press. 2013.08.  
+
+**16.4 Statistical Measures Don't, Tell the Whole Story**（Page226-227） 
   * In 1973, the statistician F.J. Anscombe published a paper containing the table below. It contains the <x, y> coordinates of the points in each of four data sets.
 
 |x0 |y0|x1|y2|x2|y2|x3|y3|
@@ -43,7 +45,7 @@
   * 主题：学号-姓名-4
   * 附件：程序文件压缩包：**学号-姓名-4.zip**
 
-* 2 截至时间： 2018.06.05
+* 2 截至时间： 2018.05.29
   *  截至时间后可补交，补交得分<=10.(2018.06.15)
 
 * 3  改进更新：提交作业后可改进，改进截至时间：2018.06.15
