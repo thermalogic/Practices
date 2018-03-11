@@ -1,5 +1,9 @@
 ## Homeworks
 
+* [Homework1 03.13](#Homework1) : Practice 1: Github(5),etc
+
+* [Homework2 04.24](#Homework2): Practice 2: Python and Interactive Computing(15),etc
+
 ###  Homework1
 
 * **Working Directory of the course**
