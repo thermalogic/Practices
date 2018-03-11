@@ -44,7 +44,12 @@ CourseSE
  
   * Lectures in Jupyter Notebook
 
-    https://github.com/PySEE/home
+    https://github.com/PySEE/home 
+    
+    download zip file or 
+    ```bash
+    >git clone https://github.com/PySEE/home.git 
+    ```
 
   * John V. Guttag. Introduction to Computation and Programming Using Python. Revised and expanded edition. MIT Press. 2013.08.
     
@@ -74,7 +79,7 @@ CourseSE
     
       * Scipy(Numpy,scipy,matplotlib)  https://www.lfd.uci.edu/~gohlke/pythonlibs/  (pip install *.whl)
 
-    * Coding Tool: Microsoft Visual Code
+  * Coding Tool: Microsoft Visual Code
 
       https://code.visualstudio.com/ (add extensions:Python,C++)
 
@@ -82,4 +87,42 @@ CourseSE
    
     Git for Windows: https://github.com/git-for-windows/git/releases
 
+###  Homework2
 
+**Practice2**
+
+* **Python and Interactive Computing**(15)：Jupyter Notebook of the Rankine Cycle Simulator 
+
+* **Deadline: 2018.04.24**
+ 
+**Jupyter Notebooks**
+
+* [01 PREFACE](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/01_PREFACE.ipynb)
+
+* [02 INTRODUCTION TO PYTHON](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/02_INTRODUCTION_TO_PYTHON.ipynb)
+
+* [03 SOME SIMPLE NUMERICAL PROGRAMS](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/03_SOME_SIMPLE_NUMERICAL_PROGRAMS.ipynb)
+
+* [04 FUNCTIONS SCOPING AND ABSTRACTION](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/04_FUNCTIONS_SCOPING_AND_ABSTRACTION.ipynb)
+
+* [05 STRUCTURED TYPES MUTABILITY AND HIGHERORDER FUNCTIONS](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/05_STRUCTURED_TYPES_MUTABILITY_AND_HIGHERORDER_FUNCTIONS.ipynb)
+
+* [PyThermo-IF97-BASIC](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/PyThermo-IF97.ipynb)
+
+* [PyThermo-IdealRankineCycle-BASIC](http://nbviewer.ipython.org/github/PySEE/home/tree/S2017/notebook/PyThermo-IdealRankineCycle.ipynb)
+
+* [Markdown](https://github.com/PySEE/home/blob/S2018/guide/Introduction2Markdown.md)
+
+   * [IPYNB-MathJax-LaTeX](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/IPYNB-MathJax-LaTeX.ipynb
+
+**Demo PyRankine**
+
+  * step 0 :    Zero @  Data Structures,Program architecture, Algorithms(The Ideal Rankine Cycle)
+                    
+        simple data type and expression  only
+
+  * step 1 :   Basic @  Data Structures,Program architecture, Algorithms(The Ideal Rankine Cycle)
+                    
+        list,dict,function
+     
+  

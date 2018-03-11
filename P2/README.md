@@ -14,25 +14,25 @@ Chapter 8 Vapor Power System:(Page 460-463)
 
 * Example 8.6 : Considering a Reheat–Regenerative Cycle with Two Feedwater Heaters, a closed feedwater heater and an open feedwater heater. 
 
-  * rankine86.md 
+  * [Example 8.6](./rankine86.md) 
 
-  * rankine86-SP.txt
+  * [Solution of Example 8.6](./rankine86-SP.txt)
 
 ## 要求：(总分15)
 
-文件类型：ipython notebook
+### 1 文件类型：Jupyter Notebook(Python 3)
     
-文件中程序(10):
+### 2 Jupyter Notebook程序:
     
-*  代码：
+*  代码部分(10)：
   
    * 使用**函数**封装方法；
          
    * 使用结构数据类型：**元组、列表、字典**等
        
-* 文档(5);   
+* 文档部分(5);   
     
-    * 格式：使用markdown，公式用Mathjax; 中英文皆可。
+    * 格式：使用Markdown，公式用Mathjax; 中英文皆可。
 
     * 内容：
 
