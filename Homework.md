@@ -129,4 +129,8 @@ CourseSE
                     
         list,dict,function
      
-  
+  * Jupyter Notebook
+
+     * Step0 http://nbviewer.jupyter.org/github/PySEE/PyRankine/blob/master/notebook/IdealRankineCycle-Step0.ipynb
+
+     * Step1 http://nbviewer.jupyter.org/github/PySEE/PyRankine/blob/master/notebook/IdealRankineCycle-Step1.ipynb
