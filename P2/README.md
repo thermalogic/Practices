@@ -43,6 +43,10 @@ Chapter 8 Vapor Power System:(Page 460-463)
     * 2 计算的基本步骤组成、对应的函数安排、在1的基础上实现函数
 
     * 3 在1、2的基础上，给定计算条件，计算循环。  
+
+    * 参考设计
+       
+       * Excel4Engineering https://github.com/PySEE/Excel4Engineering  Rankine81-0.xlsm,Rankine81-1.xlsm   
      
 * 文档部分(5);   
     
@@ -73,9 +77,11 @@ Chapter 8 Vapor Power System:(Page 460-463)
 
 ## 参考资源：
 
-*  http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/PyThermo_IdealRankineCycle.ipynb
+*  Jupyter Notebook of IdealRankineCycle http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/PyThermo_IdealRankineCycle.ipynb
  
-*  https://github.com/PySEE/PyRankine
+*  PyRankine https://github.com/PySEE/PyRankine
+
+*  Excel4Engineering https://github.com/PySEE/Excel4Engineering  
 
 *  Jupyter Notebook for Fundamentals of Engineering Thermodynamics, Michael J . Mora. 
 
