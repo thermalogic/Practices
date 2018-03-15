@@ -55,7 +55,7 @@ Python3代码(15)：
 
 *  http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/PyThermo_IdealRankineCycle.ipynb
  
-*  https://github.com/PySEE/PyRankine
+*  https://github.com/PySEE/PyRankine Step3, Step4
 
 
 
