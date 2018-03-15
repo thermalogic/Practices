@@ -22,9 +22,9 @@
 * Deadline: 2018.04.24
 
 
-|03015434 |
-|:-------:|
-| 许可    |  
+|03015434 |03015310  |
+|:-------:|---------:|
+| 许可    |  黄锦华   |
 ---
 
 **3. Object-oriented Programming**(20)： The General Rankine Cycle Simulator
