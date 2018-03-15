@@ -24,11 +24,11 @@ Chapter 8 Vapor Power System:(Page 460-463)
     
 ### 2 Jupyter Notebook程序:
     
-*  代码部分(10)：
+*  **代码部分**(10)：
   
-   * 使用**函数**封装方法；
-         
    * 使用结构数据类型：**元组、列表、字典**等
+
+   * 使用**函数**封装方法；
    
    >**要点提示：**
        
@@ -44,11 +44,13 @@ Chapter 8 Vapor Power System:(Page 460-463)
 
     * 3 在1、2的基础上，给定计算条件，计算循环。  
 
-    * 参考设计
+    * **参考设计:**
        
+       * PyRankine https://github.com/PySEE/PyRankine  step0, step1
+
        * Excel4Engineering https://github.com/PySEE/Excel4Engineering  Rankine81-0.xlsm,Rankine81-1.xlsm   
      
-* 文档部分(5);   
+* **文档部分**(5);   
     
     * 格式：使用Markdown，公式用Mathjax; 中英文皆可。
 
