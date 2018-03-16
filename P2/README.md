@@ -10,7 +10,7 @@
 
 Michael J. Mora. Fundamentals of Engineering Thermodynamics (7th Edition).  John Wiley & Sons, Inc. 2011
 
-(Please search web to download the PDF,e.g http://ishare.iask.sina.com.cn/f/65012780.html )
+(Please search web to download the PDF,e.g http://muchong.com/html/201501/8475071.html  or  http://ishare.iask.sina.com.cn/f/34258437.html )
 
 Chapter 8 Vapor Power System:(Page 460-463)
 
