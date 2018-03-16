@@ -11,6 +11,8 @@
 
 Michael J . Mora. Fundamentals of Engineering Thermodynamics (7th Edition).  John Wiley & Sons, Inc. 2011
 
+(Please search web to download the PDF,e.g http://ishare.iask.sina.com.cn/f/65012780.html )
+
 Chapter 8 Vapor Power System: 
 
 * Example 8.1：An Ideal Regenerative Cycle, Page 438

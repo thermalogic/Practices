@@ -10,6 +10,8 @@
 
 Michael J. Mora. Fundamentals of Engineering Thermodynamics (7th Edition).  John Wiley & Sons, Inc. 2011
 
+(Please search web to download the PDF,e.g http://ishare.iask.sina.com.cn/f/65012780.html )
+
 Chapter 8 Vapor Power System:(Page 460-463)
 
 * Example 8.6 : Considering a Reheat–Regenerative Cycle with Two Feedwater Heaters, a closed feedwater heater and an open feedwater heater. 
