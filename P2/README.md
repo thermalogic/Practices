@@ -83,7 +83,7 @@ Chapter 8 Vapor Power System:(Page 460-463)
 
 ## 参考资源：
 
-*  Jupyter Notebook of IdealRankineCycle http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/PyThermo_IdealRankineCycle.ipynb
+*  Jupyter Notebook of IdealRankineCycle http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/PyThermo-IdealRankineCycle.ipynb
  
 *  PyRankine https://github.com/PySEE/PyRankine
 
