@@ -4,6 +4,8 @@ make-up in-class exercises: <=50%
 
 ## 1 2018.03.23
 
+The number of students absent: 22
+
 Computer science is now a key problem solving tool in a broad range of industries and scientific disciplines. It is a rigorous academic discipline that is of great importance to everyone, not just those wanting to work in the computing industry. Just a little understanding provides access to a fantastic playground for young minds, where almost anything can be created and explored.   
     
 Unfortunately, many young people are only ever exposed to ICT (Information Communications Technology）courses rather than the much broader, richer and exciting world of computing. 
