@@ -1,6 +1,8 @@
 # In-class Exercises
 
-## 2018.03.23
+make-up in-class exercises: <=50%
+
+## 1 2018.03.23
 
 Computer science is now a key problem solving tool in a broad range of industries and scientific disciplines. It is a rigorous academic discipline that is of great importance to everyone, not just those wanting to work in the computing industry. Just a little understanding provides access to a fantastic playground for young minds, where almost anything can be created and explored.   
     
