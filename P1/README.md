@@ -6,9 +6,9 @@
 
 ## 注意
 
-* 1 使用 Visual Studio Code本地编辑md文档
+* 1 安装Visual Studio Code，使用Visual Studio Code在本地编辑md文档
 
-* 2 多个不同类型文件用目录组织
+* 2 md文档使用到的不同类型文件用相应的目录进行组织
 
 * 3 插入图片示例.
 

@@ -6,7 +6,102 @@
 
 ### Homework1
 
-* **Working Directory of the course**
+* **Practice 1: Github**(5)
+
+  * [Github、Git](https://github.com/PySEE/Practices/tree/S2018/P1)
+
+    **Deadline:** 2018.03.13
+
+* **Required Materials and Textbooks**
+ 
+  * Lectures in Jupyter Notebook
+
+    from https://github.com/PySEE/home  **download zip file** ,then unz
+    
+    **Note：**  After you have installed Git, you may **Clone**  
+    ```bash
+    >git clone https://github.com/PySEE/home.git 
+    ```
+
+  * John V. Guttag. Introduction to Computation and Programming Using Python. Revised and expanded edition. MIT Press. 2013.08.
+
+    * Search web to **download the PDF file** of the BOOK
+
+    * https://mitpress.mit.edu/index.php?q=books/introduction-computation-and-programming-using-python-0
+
+    * 梁杰译. 编程导论. 人民邮电出版社(第1版) .  2015.03
+
+     * Accompanying Python3 Code：https://mitpress.mit.edu/sites/all/modules/patched/pubdlcnt/pubdlcnt.php?file=/sites/default/files/code-978-0-262-52962-4_0.zip&nid=321887 
+
+* **Building Software Environment**
+
+   https://github.com/PySEE/home/tree/S2018/guide/BuildingSoftwareEnvironment.md 
+
+  * 1 Python 
+    
+    * install Python
+       
+      https://www.python.org/ 
+      
+      download Python https://www.python.org/ftp/python/3.5.4/python-3.5.4-amd64.exe then install
+      
+    * try using Python shell and IDLE   
+
+  * 2 Coding Tool: Microsoft Visual Code
+
+    * install VS code https://code.visualstudio.com/
+
+    * try Markdown doc 
+      
+    * add Python extensions
+   
+    * install autopep8,pylint
+
+    * try programming Python
+
+  * 3 Jupyter 
+    
+    * install Jupyter http://jupyter.org/
+    
+    ```bash     
+    >pip install jupyter
+    ```  
+      
+    * try Jupyter Notebook
+
+    * try programming Python
+
+    * using Jupyter Notebook of  **Home**
+    
+  * 4 Scipy Packages
+
+    * Scipy(Numpy,scipy,matplotlib)  https://www.lfd.uci.edu/~gohlke/pythonlibs/ 
+    
+    ```bash
+      pip install *.whl
+    ```  
+   
+  * 5 IAPWS-IF97 packages
+    
+    * SEUIF97
+   
+    * Python's IAPWS
+    
+  * 6  Git for Windows:
+   
+    * Install Git for Windows: https://github.com/git-for-windows/git/releases
+
+    * Clone home, Pyrankine,SEUIF97,Practices in the https://github.com/PySEE to your computer
+
+  * 7 C/C++(optional)
+
+    *  install Mingw-W64(GCC for Windows)
+
+    *  add C/C++ extensions of VS code
+
+    * try Programming C/C++
+
+#### Working Directory of the course
 
 Recommended working directory: **PLEASE**: Setup your working directory on a **Non-System** disk.e.g: **D:**
 
@@ -43,53 +138,6 @@ CourseSE
  │
 
 ```
-
-* **Required Materials and Textbooks**
- 
-  * Lectures in Jupyter Notebook
-
-    https://github.com/PySEE/home 
-    
-    download zip file or 
-    ```bash
-    >git clone https://github.com/PySEE/home.git 
-    ```
-
-  * John V. Guttag. Introduction to Computation and Programming Using Python. Revised and expanded edition. MIT Press. 2013.08.
-    
-     * https://mitpress.mit.edu/index.php?q=books/introduction-computation-and-programming-using-python-0
-
-     * 梁杰译. 编程导论. 人民邮电出版社(第1版) .  2015.03
-
-     * Accompanying Python3 Code：https://mitpress.mit.edu/sites/all/modules/patched/pubdlcnt/pubdlcnt.php?file=/sites/default/files/code-978-0-262-52962-4_0.zip&nid=321887 
-
-* **Practice 1: Github**(5)
-
-  * [Github、Git](https://github.com/PySEE/Practices/tree/S2018/P1)
-
-    **Deadline:** 2018.03.13
-
-* **Building Software Environment**
-
-   https://github.com/PySEE/home/tree/S2018/guide/BuildingSoftwareEnvironment.md 
-
-  * Python and Packages:
-    
-      https://www.python.org/ 
-      
-      * Python https://www.python.org/ftp/python/3.5.4/python-3.5.4-amd64.exe
-         
-      * Jupyter http://jupyter.org/ (pip install jupyter)
-    
-      * Scipy(Numpy,scipy,matplotlib)  https://www.lfd.uci.edu/~gohlke/pythonlibs/  (pip install *.whl)
-
-  * Coding Tool: Microsoft Visual Code
-
-      https://code.visualstudio.com/ (add extensions:Python,C++)
-
-  * Version Control:
-   
-    Git for Windows: https://github.com/git-for-windows/git/releases
 
 ###  Homework2
 
