@@ -38,7 +38,7 @@ Using GCC and make to build the objects in Ubuntu
 
 * [CPP_2_DLL_Python_VBA](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/CPP_2_DLL_Python_VBA.ipynb)
 
-* [SUPL-2-SC-GSL-Ubuntu]((http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/SUPL-2-SC-GSL-Ubuntu.ipynb)
+* [SUPL-2-SC-GSL-Ubuntu](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/SUPL-2-SC-GSL-Ubuntu.ipynb)
 
 
 
