@@ -79,11 +79,8 @@ John V. Guttag. Introduction to Computation and Programming Using Python. Revise
 
 ### 参考输出
 
-* 数据点图和回归曲线
+* 数据点图和回归曲线、统计结果
 
-![数据点图和回归曲线](Out_Anscombe_Fig.png)
-
-* 统计结果
+![参考输出](p4output.jpg)
 
 
-![统计结果](Out_Anscombe_Table.png)
