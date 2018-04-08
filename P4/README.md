@@ -33,7 +33,7 @@ John V. Guttag. Introduction to Computation and Programming Using Python. Revise
 
 * 2 数据分析对象表达(3分)：从数据文件读取数据,形成数据分析对象
 
-* 3 统计指标(2分)：从数据文件读取数据，计算均值、方差和相关系数等统计指标
+* 3 统计指标(2分)：计算均值、方差和相关系数等统计指标
 
 * 4 回归分析(2分): 线性回归
 
