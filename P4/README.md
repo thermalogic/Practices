@@ -54,10 +54,11 @@ John V. Guttag. Introduction to Computation and Programming Using Python. Revise
 
 ## 提示：
 
-* 参考第11、15章
+* 参考第11、15、16章
 
   * http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/11_PLOTTING_AND_MORE_ABOUT_CLASSES.ipynb
   * http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/15_UNDERSTANDING_EXPERIMENTAL_DATA.ipynb
+  * http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/16_LIES_DAMNED_LIES_AND_STATISTICS.ipynb
 
 * 统计指标计算、回归分析: 可使用Python统计库、Numpy和Scipy
 
