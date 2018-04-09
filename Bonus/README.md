@@ -1,26 +1,40 @@
-## Bonus(+5) 
+# Bonus(+5) 
 
 Programming with GCC,Ubuntu
 
 Deadline: 2018.06.12
  
-### 1 C/C++ Programming with GCC(+3) 
+## 1 C/C++ Programming with MinGW-w64(+3) 
 
-using MinGW-w64(GCC and make) to build the objects in Windows   
+Using MinGW-w64(GCC and make) under Windows
 
-#### 1.1 The shared library of IF97-Region4 - **Eq. (30)**
+* The code of  the shared library of IF97-Region4 **Eq. (30)** and makefile
 
-8.1 The Saturation-Pressure Equation (Basic Equation)  **Eq. (30)**
+* The example codes of using the shared library of IF97-Region4 **Eq. (30)**  and makefile
 
-* IF97-Rev http://www.iapws.org/relguide/IF97-Rev.html
-         
-  IF97-Rev.pdf  http://www.iapws.org/relguide/IF97-Rev.pdf
+IF97-Rev.pdf  http://www.iapws.org/relguide/IF97-Rev.pdf
 
-#### 1.2 Using the shared library with C/C++ 
+ * 8.1 The Saturation-Pressure Equation (Basic Equation)  **Eq. (30)**
 
-### 2 Programming in Ubuntu(+2)   
-  
-Using GCC and make to build the objects in Ubuntu 
+**Reference**
+
+* [CPP_1_GCC_DLL](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/CPP_1_GCC_DLL.ipynb)
+
+* [CPP_2_DLL_Python_VBA](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/CPP_2_DLL_Python_VBA.ipynb)
+
+## 2 Programming under Ubuntu(+2)   
+
+Programming with `GCC and make`,`GSL and GNUPlot` 
+
+Using Linear Regression to fit the data of Springs Behavior [springData.csv](springData.csv)
+
+![Linear Regression of Springs Behavior](spring.jpg)
+
+**Reference**
+
+* [15_UNDERSTANDING_EXPERIMENTAL_DATA](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/15_UNDERSTANDING_EXPERIMENTAL_DATA.ipynb)
+
+* [SUPL-2-GSL-GNUPLOT-Ubuntu](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/SUPL-2-GSL-GNUPLOT-Ubuntu.ipynb)
 
 ## 提交：
 
@@ -32,10 +46,3 @@ Using GCC and make to build the objects in Ubuntu
 
 * 2 **截至时间**：2018.06.12
 
-## 参考资源：
-
-* [CPP_1_GCC_DLL](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/CPP_1_GCC_DLL.ipynb)
-
-* [CPP_2_DLL_Python_VBA](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/CPP_2_DLL_Python_VBA.ipynb)
-
-* [SUPL-2-SC-GSL-GNUPLOT-Ubuntu](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/SUPL-2-SC-GSL-GNUPLOT-Ubuntu.ipynb)
