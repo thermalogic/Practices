@@ -31,7 +31,7 @@ John V. Guttag. Introduction to Computation and Programming Using Python. Revise
 
 * 1 四组数据的数据文件(1分)：纯文本格式或MS Excel表格；
 
-* 2 数据分析对象表达(3分)：从数据文件读取数据,形成数据分析对象
+* 2 数据分析对象表达(3分)：**从数据文件读取数据,形成数据分析对象**
 
 * 3 统计指标(2分)：计算均值、方差和相关系数等统计指标
 
