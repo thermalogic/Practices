@@ -39,7 +39,9 @@ John V. Guttag. Introduction to Computation and Programming Using Python. Revise
 
 * 5 结果输出(4分): 数据点图和回归曲线(2分)；统计结果(2分)（ [参考输出](#参考输出) )
 
-* 6 统计分析(3分):对统计结果参考`16.4 Statistical Measures Don't, Tell the Whole Story`给出分析（Markdown文档）
+* 6 统计分析(3分): 数据报表满天飞，如何看待这些统计分析结果？ 给出你的意见。
+  
+  参考: [16 LIES DAMNED LIES ANDSTATISTICS](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/16_LIES_DAMNED_LIES_AND_STATISTICS.ipynb)
 
 ## 提交：
 
