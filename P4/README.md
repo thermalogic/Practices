@@ -35,7 +35,7 @@ John V. Guttag. Introduction to Computation and Programming Using Python. Revise
 
 * 3 统计指标(2分)：计算均值、方差和相关系数等统计指标
 
-* 4 回归分析(2分): 线性回归
+* 4 回归分析(2分): **线性回归**
 
 * 5 结果输出(4分): 数据点图和回归曲线(2分)；统计结果(2分)（ [参考输出](#参考输出) )
 
