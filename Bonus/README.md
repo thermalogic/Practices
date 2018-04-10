@@ -24,9 +24,11 @@ IF97-Rev.pdf  http://www.iapws.org/relguide/IF97-Rev.pdf
 
 ## 2 Programming under Ubuntu(+2)   
 
-Programming with `GCC and make`,`GSL and GNUPlot` 
+C/C++ Programming with `GCC and make`,`GSL and GNUPlot` 
 
-Using Linear Regression to fit the data of Springs Behavior [springData.csv](springData.csv)
+* Using **GSL** to do Linear Regression of Springs Behavior Data [springData.csv](springData.csv)
+
+* Using **Gnuplot** to visualize the  data and Linear Regression results 
 
 ![Linear Regression of Springs Behavior](spring.jpg)
 
