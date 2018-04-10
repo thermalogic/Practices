@@ -53,3 +53,5 @@ Using Linear Regression to fit the data of Springs Behavior [springData.csv](spr
 * The GSL Reference Manual online https://www.gnu.org/software/gsl/doc/html/index.html
 
 * Gnuplot homepage http://gnuplot.info/
+
+* Nishanth Sastry：gnuplot 让您的数据可视化 https://www.ibm.com/developerworks/cn/linux/l-gnuplot/
