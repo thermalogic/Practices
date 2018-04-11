@@ -28,6 +28,10 @@ Chapter 8 Vapor Power System:
 
 计算对象：[Example 8.1](./rankine81.md)、[Example 8.5](./rankine85.md)、[Example 8.6](./rankine86.md)  
 
+计算结果：[rankine81-SP.txt](./rankine81-SP.txt)、[rankine85-SP.txt](./rankine85-SP.txt)、[rankine86-SP.txt](./rankine86-SP.txt)
+
+设计提示：[tips](./tips.md)
+
 编码工具：Visual Studio Code
      
 Python3代码(15)：
@@ -39,6 +43,8 @@ Python3代码(15)：
    * 计算结果输出到数据文件(3)
     
 文档(5)：软件设计思路和体会（关键问题、解决方案；设备对象的定义、循环计算方法，小结）的Markdown文档（中英文皆可）
+
+
 
 >**注意：** 这个练习不使用Jupyter Notebook的形式. Python代码和文档分离
 
