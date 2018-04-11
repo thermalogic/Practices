@@ -14,6 +14,8 @@ Designing algorithms, using abstraction and decomposition to tackle large proble
 
 ## 2 2018.04.10
 
+The number of students absent: 3
+
 The phrase computational thinking was brought to the forefront of the computer science community as a result of an ACM Communications article on the subject by Jeannette Wing. The article suggested that thinking computationally was a fundamental skill for everyone, not just computer scientists, and argued for the importance of integrating computational ideas into other disciplines.
 
 The characteristics that define computational thinking are decomposition, pattern recognition / data representation, generalization/abstraction, and algorithms. By decomposing a problem, identifying the variables involved using data representation, and creating algorithms, a generic solution results. The generic solution is a generalization or abstraction that can be used to solve a multitude of variations of the initial problem.
