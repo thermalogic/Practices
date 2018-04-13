@@ -39,12 +39,12 @@ if so, you may change sources to china as the following steps:
 1. backup 
 
 ```bash
-cp /etc/apt/sources.list /etc/apt/sources.list_backup
+$sudo cp /etc/apt/sources.list /etc/apt/sources.list_backup
 ```
 2. change to the sources to aliyun through `vim` 
 
 ```bash
-$vim /etc/apt/sources.list
+$sudo vim /etc/apt/sources.list
 ```
 
 ```
@@ -54,7 +54,7 @@ $vim /etc/apt/sources.list
 
 3. update
 ```bash
-$apt-get update
+$sudo apt-get update
 ```
 **Reference**
 
