@@ -47,10 +47,10 @@ cp /etc/apt/sources.list /etc/apt/sources.list_backup
 $vim /etc/apt/sources.list
 ```
 
-···
+```
 :%s#deb http://archive.ubuntu.com/ubuntu/#deb http://mirrors.aliyun.com/ubuntu/#g
 :%s#deb http://security.ubuntu.com/ubuntu/#deb http://mirrors.aliyun.com/ubuntu/#g
-···
+```
 
 3. update
 ```bash
