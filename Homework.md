@@ -16,9 +16,10 @@
  
   * Lectures in Jupyter Notebook
 
-    from https://github.com/PySEE/home  **download zip file** ,then unz
+    from https://github.com/PySEE/home  **download the zip file** ,then unzip 
     
     **Note：**  After you have installed Git, you may **Clone**  
+    
     ```bash
     >git clone https://github.com/PySEE/home.git 
     ```
@@ -69,8 +70,6 @@
       
     * try Jupyter Notebook
 
-    * try programming Python
-
     * using Jupyter Notebook of  **Home**
     
   * 4 Scipy Packages
@@ -99,7 +98,7 @@
 
     *  add C/C++ extensions of VS code
 
-    * try Programming C/C++
+    *  try Programming C/C++ with GCC 
 
 #### Working Directory of the course
 
