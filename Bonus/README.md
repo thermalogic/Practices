@@ -32,30 +32,6 @@ C/C++ Programming with `GCC and make`,`GSL and GNUPlot`
 
 ![Linear Regression of Springs Behavior](spring.jpg)
 
-**NOTE：** you may using "Windows Subsystem for Linux": https://docs.microsoft.com/zh-cn/windows/wsl/install-win10
-
-if so, you may change sources to china as the following steps:
-
-1. backup 
-
-```bash
-$sudo cp /etc/apt/sources.list /etc/apt/sources.list_backup
-```
-2. change to the sources to aliyun through `vim` 
-
-```bash
-$sudo vim /etc/apt/sources.list
-```
-
-```
-:%s#deb http://archive.ubuntu.com/ubuntu/#deb http://mirrors.aliyun.com/ubuntu/#g
-:%s#deb http://security.ubuntu.com/ubuntu/#deb http://mirrors.aliyun.com/ubuntu/#g
-```
-
-3. update
-```bash
-$sudo apt-get update
-```
 **Reference**
 
 * [15_UNDERSTANDING_EXPERIMENTAL_DATA](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/15_UNDERSTANDING_EXPERIMENTAL_DATA.ipynb)
