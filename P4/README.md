@@ -29,7 +29,7 @@ John V. Guttag. Introduction to Computation and Programming Using Python. Revise
 
   使用Python文件或Jupyter Notebook实现 
   
-Note: 不使用pandas包
+Note: **不使用pandas包**
 
 * 1 四组数据的数据文件(1分)：纯文本格式或MS Excel表格；
 
@@ -41,7 +41,7 @@ Note: 不使用pandas包
 
 * 5 结果输出(4分): 数据点图和回归曲线(2分)；统计结果(2分)（ [参考输出](#参考输出) )
 
-* 6 统计信息分析(3分): 数据报表满天飞，如何看待这些统计分析结果？ 给出你的意见(Markdown格式)
+* 6 **统计信息分析(3分)**: 数据报表满天飞，如何看待这些统计分析结果？ 给出你的意见(Markdown格式)
  
    * 参考分析角度：数据源、数据分析方法，信息表现形式
   
