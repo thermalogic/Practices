@@ -27,7 +27,9 @@ John V. Guttag. Introduction to Computation and Programming Using Python. Revise
 
 ## 要求(15分)：
 
-  使用Python文件或Jupyter Notebook实现。
+  使用Python文件或Jupyter Notebook实现 
+  
+Note: 不使用pandas包
 
 * 1 四组数据的数据文件(1分)：纯文本格式或MS Excel表格；
 
