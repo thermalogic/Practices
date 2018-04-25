@@ -1,8 +1,10 @@
-## Homeworks
+# Homeworks
 
 * [Homework1](#homework1) : Practice 1(03.13): Github(5),etc
 
 * [Homework2](#homework2) : Practice 2(04.24): Python and Interactive Computing(15),etc
+
+* [Homework3](#homework3) : Practice 3(05.15)： The General Rankine Cycle Simulator
 
 ### Homework1
 
@@ -181,3 +183,30 @@ CourseSE
      * Step0 http://nbviewer.jupyter.org/github/PySEE/PyRankine/blob/master/notebook/IdealRankineCycle-Step0.ipynb
 
      * Step1 http://nbviewer.jupyter.org/github/PySEE/PyRankine/blob/master/notebook/IdealRankineCycle-Step1.ipynb
+
+
+ ###  Homework3
+
+**3. Object-oriented Programming**(20)： The General Rankine Cycle Simulator
+
+* Deadline: 2018.05.15
+
+**Demo PyRankine**
+
+ * step 2 : Forward @  Data Structures,Program architecture, Algorithms(The Ideal Rankine Cycle)
+     
+                   object-oriented programming
+     
+* step 3 : Forward @  Data Structures,Program architecture, Algorithms(The Ideal Rankine Cycle)
+     
+                   object-oriented programming and data files
+     
+* step 4 : Advanced @  Data Structures,Program architecture, Algorithms
+                
+                   object-oriented programming,general module
+                      
+                       Michael J . Mora. Chapter 8 : Vapour Power Systems 
+                         1) Example 8.1: The Ideal Rankine Cycle, Page 438
+                         2) Example 8.5: A Regenerative Cycle with Open Feedwater Heater,Page 456
+                       
+     
