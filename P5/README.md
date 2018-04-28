@@ -29,7 +29,7 @@ Deadline: 2018.06.05
            03015327，03015427 做3a子区域
 
 
- * 2 单元测试(3)：基于unittests的Supp-VPT3-2016.pdf中补充公式v(p,T)程序实现正确性的测试单元
+ * 2 单元测试(3)：基于unittest的Supp-VPT3-2016.pdf中补充公式v(p,T)程序实现正确性的测试单元
 
 >**NOTE:** 可参考和使用：https://github.com/jjgomera/iapws  中的代码  
  
@@ -67,7 +67,7 @@ http://www.iapws.org/release.html
         
    * SR3-04 http://www.iapws.org/relguide/Supp-phs3-2014.pdf
         
-   * SR5-05 http://www.iapws.org/relguide/Supp-VPT3-2016.pdf
+   * **SR5-05** http://www.iapws.org/relguide/Supp-VPT3-2016.pdf
 
 ## Reference：
 
