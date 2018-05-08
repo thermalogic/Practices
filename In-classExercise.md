@@ -2,7 +2,7 @@
 
 make-up in-class exercises: <=50%
 
-### 1 2018.03.23
+## 1 2018.03.23
 
 The number of students absent: 22
 
@@ -12,7 +12,7 @@ Unfortunately, many young people are only ever exposed to ICT (Information Commu
 
 Designing algorithms, using abstraction and decomposition to tackle large problems, selecting appropriate representations,learning how to build correct, robust and scalable systems are now key skills in the information age.
 
-### 2 2018.04.10
+## 2 2018.04.10
 
 The number of students absent: 3
 
