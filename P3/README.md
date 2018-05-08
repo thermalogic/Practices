@@ -2,10 +2,18 @@
 
 **Object-oriented Programming**(20)：The General Rankine Cycle Simulator 
   
-* Purpose： 
-   * The Rankine Cycle Simulator: training computational thinking and  programming skills   
+### Purpose
 
-* Deadline:  2018.05.15
+The Rankine Cycle Simulator: training computational thinking and  programming skills  
+
+Apply **abstraction** and **decomposition** to solve more complex problems
+
+* Can decompose a large problem into parts and design algorithms to solve them
+* Can recognise similar problems, and apply generic solutions and abstractions
+* Can effectively combine functionality from multiple libraries or APIs and refer to documentation
+* Can write code in a readable way, and/or includes comments where necessary
+
+**Deadline:**  2018.05.15
 
 ## The Rankine Cycle: 
 
@@ -63,8 +71,4 @@ Python3代码(15)：
  
 *  https://github.com/PySEE/PyRankine Step3, Step4
 
-
-
-
-  
-
+*  curriculum.raspberrypi:developer https://curriculum.raspberrypi.org/programming/developer/
