@@ -20,3 +20,11 @@ The phrase computational thinking was brought to the forefront of the computer s
 
 The characteristics that define computational thinking are decomposition, pattern recognition / data representation, generalization/abstraction, and algorithms. By decomposing a problem, identifying the variables involved using data representation, and creating algorithms, a generic solution results. The generic solution is a generalization or abstraction that can be used to solve a multitude of variations of the initial problem.
 
+## 3 2018.05.08
+
+Scientists writing software need to write code that both executes correctly and can be easily read and understood by other programmers (especially the author's future self). 
+
+If software cannot be easily read and understood, it is much more difficult to know that it is actually doing what it is intended to do. 
+
+To be productive, software developers must therefore take several aspects of human cognition into account: in particular, that human working memory is limited, human pattern matching abilities are finely tuned, and human attention span is short.
+
