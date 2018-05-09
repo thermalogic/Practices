@@ -1,6 +1,8 @@
 ## Practice 3
 
 **Object-oriented Programming**(20)：The General Rankine Cycle Simulator 
+
+**注意：** 如果使用csv文件格式配置循环数据的程序实现困难，可以参考[PyRankine](https://github.com/PySEE/PyRankine)新增的使用json文件格式配置循环数据的程序。json文件格式可读性更好些。
   
 ### Purpose
 
