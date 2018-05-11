@@ -22,6 +22,8 @@ The characteristics that define computational thinking are decomposition, patter
 
 ## 3 2018.05.08
 
+The number of students absent: 030153 8 030154 0
+
 Scientists writing software need to write code that both executes correctly and can be easily read and understood by other programmers (especially the author's future self). 
 
 If software cannot be easily read and understood, it is much more difficult to know that it is actually doing what it is intended to do. 
