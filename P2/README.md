@@ -83,9 +83,24 @@ Chapter 8 Vapor Power System:(Page 460-463)
 
 ## 参考资源：
 
-*  Jupyter Notebook of IdealRankineCycle http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/PyThermo-IdealRankineCycle.ipynb
+* [PyThermo-IF97](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/PyThermo-IF97.ipynb)
+
+* [Jupyter Notebook of IdealRankine Cycle](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/PyThermo-IdealRankineCycle.ipynb)
+
+* [Markdown](https://github.com/PySEE/home/blob/S2018/guide/Introduction2Markdown.md)
+
+* [MathJax LaTeX](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/IPYNB-MathJax-LaTeX.ipynb)
+
  
 *  PyRankine https://github.com/PySEE/PyRankine
+
+   * step 0 : Zero @  Data Structures,Program architecture, Algorithms(The Ideal Rankine Cycle)
+                    
+        simple data type and expression  only
+
+   * step 1 :  Basic @  Data Structures,Program architecture, Algorithms(The Ideal Rankine Cycle)
+                    
+        list,dict,function
 
 *  Excel4Engineering https://github.com/PySEE/Excel4Engineering  
 

@@ -79,6 +79,6 @@ Python3代码(15)：
 
 *  http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/PyThermo-IdealRankineCycle.ipynb
  
-*  https://github.com/PySEE/PyRankine Step3, Step4
+*  https://github.com/PySEE/PyRankine Step2,Step3, Step4
 
 *  curriculum.raspberrypi:developer https://curriculum.raspberrypi.org/programming/developer/
