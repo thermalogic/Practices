@@ -2,7 +2,9 @@
 
 ## 1 Working Directory of the course
 
-Recommended working directory: **PLEASE**: Setup your working directory on a **Non-System** disk.e.g: **D:**
+Recommended working directory:
+
+**Note**: Setup your working directory on a **Non-System** disk.e.g: **D:**
 
 ```
 CourseSE
@@ -39,11 +41,13 @@ CourseSE
  │
 
 ``` 
+
 ## 2 PySEE
 
 https：//github.com/PySEE
 
-**download the zip file** , then unzip 
+**download the zip files** , then unzip 
+
 ```
  ├──PySEE
  │    │
@@ -64,6 +68,16 @@ https：//github.com/PySEE
 
 **3.2** Michael J . Mora. Fundamentals of Engineering Thermodynamics (7th Edition).  John Wiley & Sons, Inc. 2011
 
-(Please search web to download the PDF,e.g http://muchong.com/html/201501/8475071.html or  http://ishare.iask.sina.com.cn/f/34258437.html )
+Please download the PDF through **Wiley电子教材** :
+
+http://www.lib.seu.edu.cn/html/list_2.htm?parent_id=12&this_id=-1&id=1958
+
+or 
+
+download the PDF from web,e.g 
+
+* http://muchong.com/html/201501/8475071.html 
+
+* http://ishare.iask.sina.com.cn/f/34258437.html 
 
 
