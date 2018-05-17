@@ -20,7 +20,9 @@ IF97-Rev.pdf  http://www.iapws.org/relguide/IF97-Rev.pdf
 
 * [CPP_1_GCC_DLL](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/CPP_1_GCC_DLL.ipynb)
 
-* [CPP_2_DLL_Python_VBA](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/CPP_2_DLL_Python_VBA.ipynb)
+* [CPP_2_DLL_Python](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/CPP_2_DLL_Python.ipynb)
+
+* [CPP_3_DLL_VBA_Python](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/CPP_3_DLL_VBA_Python.ipynb)
 
 ## 2 Programming under Ubuntu(+2)   
 

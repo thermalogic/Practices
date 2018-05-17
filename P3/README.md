@@ -21,7 +21,12 @@ Apply **abstraction** and **decomposition** to solve more complex problems
 
 Michael J . Mora. Fundamentals of Engineering Thermodynamics (7th Edition).  John Wiley & Sons, Inc. 2011
 
-(Please search web to download the PDF,e.g http://muchong.com/html/201501/8475071.html or  http://ishare.iask.sina.com.cn/f/34258437.html )
+Please download the PDF through **Wiley电子教材** :
+
+http://www.lib.seu.edu.cn/html/list_2.htm?parent_id=12&this_id=-1&id=1958
+
+
+or download the PDF on web,e.g http://muchong.com/html/201501/8475071.html , http://ishare.iask.sina.com.cn/f/34258437.html )
 
 Chapter 8 Vapor Power System: 
 
