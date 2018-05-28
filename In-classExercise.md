@@ -32,6 +32,8 @@ To be productive, software developers must therefore take several aspects of hum
 
 ## 4 2018.05.22
 
+030153 -8  030154　-1
+
 Today’s computers and software are so complex that even experts  find it hard to predict which parts of any particular program will be performance bottlenecks. 
 
 The most productive way to make code fast is therefore to make it work correctly, determine whether it’s actually worth speeding it up, and — in those cases where it is — to use a profiler to identify bottlenecks.
