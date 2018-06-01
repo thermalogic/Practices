@@ -43,3 +43,9 @@ This strategy also has interesting implications for choice of programming langua
 Since faster, lower level, languages require more lines of code to accomplish the same task, scientists are most productive when they write code in the highest-level language possible, and shift to low level languages like C and Fortran only when they are sure the performance boost is needed.
 
 Using higher-level languages also helps program comprehensibility.
+
+## 5 2018.06.01
+
+030153 -11 030154　-9
+
+![hellocc](hellocc.png)
