@@ -25,12 +25,12 @@
 
 ---
 
-**5. Unit Test**(5)：C/C++ Programming with GCC(MinGW-w64)  
+**5. C/C++ Programming**(5)：C/C++ Programming with GCC(MinGW-w64)  
 
 * Deadline: 2019
 ---
 
-**Bonus points**(+5)： C/C++ Programming with GCC,Gunplot,Ubuntu  
+**Bonus points**(+5)： C/C++ Programming with GCC,Gunplot,Ubuntu,Version Control 
 
 * Deadline: 2019
 

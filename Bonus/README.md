@@ -1,11 +1,10 @@
 # Bonus(+5) 
 
-Programming with GCC,Ubuntu
+Programming with GCC,Ubuntu，Version control
 
 Deadline: 2019
  
-
-## C/C++ Programming with `GCC and make`,`GSL and GNUPlot` 
+## 1 C/C++ Programming with `GCC and make`,`GSL and GNUPlot`(+3) 
 
 * Using **GSL** to do Linear Regression of Springs Behavior Data in [springData.csv](springData.csv)
 
@@ -15,13 +14,15 @@ Deadline: 2019
 
 ![Linear Regression of Springs Behavior](spring.jpg)
 
-**Reference**
-
-* [15_UNDERSTANDING_EXPERIMENTAL_DATA](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/15_UNDERSTANDING_EXPERIMENTAL_DATA.ipynb)
-
-* [SUPL-2-GSL-GNUPLOT-Ubuntu](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/SUPL-2-GSL-GNUPLOT-Ubuntu.ipynb)
+## 2 Version control with Git,Github(+2)
+ 
+* Version control with Git,Github for the codes
 
 ## 提交：
+
+1 source codes,data files and image of Linear Regression 
+
+2 images of Github repository for the codes
 
 * 1 电邮：cmh@seu.edu.cn
 
@@ -33,6 +34,10 @@ Deadline: 2019
 
 ## Reference
 
+* [15_UNDERSTANDING_EXPERIMENTAL_DATA](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/15_UNDERSTANDING_EXPERIMENTAL_DATA.ipynb)
+
+* [SUPL-2-GSL-GNUPLOT-Ubuntu](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/SUPL-2-GSL-GNUPLOT-Ubuntu.ipynb)
+
 * GSL - GNU Scientific Library https://www.gnu.org/software/gsl/
 
 * The GSL Reference Manual online https://www.gnu.org/software/gsl/doc/html/index.html
@@ -40,3 +45,5 @@ Deadline: 2019
 * Gnuplot homepage http://gnuplot.info/
 
 * Nishanth Sastry：gnuplot 让您的数据可视化 https://www.ibm.com/developerworks/cn/linux/l-gnuplot/
+
+* Scott Chacon，Ben Straub. Pro Git. https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
