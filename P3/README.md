@@ -77,7 +77,7 @@ Python3代码(15)：
 
 ## 参考资源：
 
-*  http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/PyThermo-IdealRankineCycle.ipynb
+*  http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/PyThermo-IdealRankineCycle.ipynb
  
 *  https://github.com/PySEE/PyRankine Step2,Step3, Step4
 

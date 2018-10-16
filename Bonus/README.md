@@ -34,6 +34,8 @@ Deadline: 2019
 
 ## Reference
 
+**GCC,Gunplot**
+
 * [15_UNDERSTANDING_EXPERIMENTAL_DATA](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/15_UNDERSTANDING_EXPERIMENTAL_DATA.ipynb)
 
 * [SUPL-2-GSL-GNUPLOT-Ubuntu](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/SUPL-2-GSL-GNUPLOT-Ubuntu.ipynb)
@@ -45,5 +47,17 @@ Deadline: 2019
 * Gnuplot homepage http://gnuplot.info/
 
 * Nishanth Sastry：gnuplot 让您的数据可视化 https://www.ibm.com/developerworks/cn/linux/l-gnuplot/
+
+**Git and Github**
+
+* http://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/DevTools-Git.ipynb
+
+* How to get started with GIT and work with GIT Remote Repo http://www3.ntu.edu.sg/home/ehchua/programming/howto/Git_HowTo.html
+
+* 廖雪峰. Git教程  http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
+
+* git-for-windows：https://github.com/git-for-windows/git/releases
+ 
+* Git Version Control in VS Code：https://code.visualstudio.com/docs/editor/versioncontrol
 
 * Scott Chacon，Ben Straub. Pro Git. https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control

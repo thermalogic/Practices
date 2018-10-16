@@ -86,7 +86,7 @@
 
 * Markdown
   
-   * Introduction2Markdown https://github.com/PySEE/home/blob/S2018/guide/Introduction2Markdown.md
+   * Introduction2Markdown https://github.com/PySEE/home/blob/S2019/guide/Introduction2Markdown.md
 
    * [Visual Studio Code Markdown](https://code.visualstudio.com/docs/languages/markdown/)
 
@@ -102,7 +102,9 @@
 
    * 知乎：怎样使用GitHub. http://www.zhihu.com/question/20070065
 
-   * http://nbviewer.jupyter.org/github/PySEE/home/blob/S2018/notebook/DevTools-Git.ipynb
+   * The Simple Guide of Github https://github.com/PySEE/home/blob/S2019/guide/TheSimpleGuide2Github.md
+   
+   http://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/DevTools-Git.ipynb
 
    * How to get started with GIT and work with GIT Remote Repo http://www3.ntu.edu.sg/home/ehchua/programming/howto/Git_HowTo.html
 

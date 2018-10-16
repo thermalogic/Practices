@@ -1,4 +1,4 @@
-## Practice 2(总分15)
+## Practice 2(15)
 
 **Python and Interactive Computing**(15)：The Simple Simulator of Rankine Cycle 
   
@@ -10,8 +10,6 @@
 
 Michael J. Mora. Fundamentals of Engineering Thermodynamics (7th Edition).  John Wiley & Sons, Inc. 2011
 
-(Please search web to download the PDF,e.g http://muchong.com/html/201501/8475071.html  or  http://ishare.iask.sina.com.cn/f/34258437.html )
-
 Chapter 8 Vapor Power System:(Page 460-463)
 
 * Example 8.6 : Considering a Reheat–Regenerative Cycle with Two Feedwater Heaters, a closed feedwater heater and an open feedwater heater. 
@@ -20,7 +18,7 @@ Chapter 8 Vapor Power System:(Page 460-463)
 
   * [Solution of Example 8.6](./rankine86-SP.txt)
 
-## 要求：(总分15)
+## 要求：(15)
 
 ### 1 文件类型：Jupyter Notebook(Python 3)
     
@@ -75,21 +73,21 @@ Chapter 8 Vapor Power System:(Page 460-463)
   * 主题：学号-姓名-2
   * 附件：Jupyter Notebook等文件的压缩包： **学号-姓名-2.zip**；
 
-* 2 **截至时间：** 2018.04.24
+* 2 **截至时间：** 2019
   
-  * 截至时间后补交，补交得分<10. (2018.06.15)
+  * 截至时间后补交，补交得分<10. (2019
 
-* 3 改进更新：提交作业后可改进，改进截至时间：2018.06.15
+* 3 改进更新：提交作业后可改进，改进截至时间：2019
 
 ## 参考资源：
 
-* [PyThermo-IF97](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/PyThermo-IF97.ipynb)
+* [PyThermo-IF97](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/PyThermo-IF97.ipynb)
 
-* [Jupyter Notebook of IdealRankine Cycle](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/PyThermo-IdealRankineCycle.ipynb)
+* [Jupyter Notebook of IdealRankine Cycle](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/PyThermo-IdealRankineCycle.ipynb)
 
-* [Markdown](https://github.com/PySEE/home/blob/S2018/guide/Introduction2Markdown.md)
+* [Markdown](https://github.com/PySEE/home/blob/S2019/guide/Introduction2Markdown.md)
 
-* [MathJax LaTeX](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/IPYNB-MathJax-LaTeX.ipynb)
+* [MathJax LaTeX](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/IPYNB-MathJax-LaTeX.ipynb)
 
  
 *  PyRankine https://github.com/PySEE/PyRankine

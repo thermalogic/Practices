@@ -1,7 +1,7 @@
 
 ## Practice 5
 
-**C/C++ Programming**(5)：C/C++ Programming with MinGW-w64
+**C/C++ Programming**(5)：C/C++ Programming with MinGW-w64,MakeFile  
 
 Deadline: 2019
 
@@ -27,14 +27,14 @@ IF97-Rev.pdf  http://www.iapws.org/relguide/IF97-Rev.pdf
 
 * 2 截至时间：2019
 
-  * 截至时间后可补交， 得分<=3.5. (2019 )
+  * 截至时间后可补交， 得分<=3 (2019 )
 
 * 3 改进更新：提交作业后可改进，改进截至时间：2019
 
 **Reference**
 
-* [CPP_1_GCC_DLL](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/CPP_1_GCC_DLL.ipynb)
+* [CPP_1_GCC_DLL](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/CPP_1_GCC_DLL.ipynb)
 
-* [CPP_2_DLL_Python](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/CPP_2_DLL_Python.ipynb)
+* [CPP_2_DLL_Python](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/CPP_2_DLL_Python.ipynb)
 
-* [CPP_3_DLL_VBA_Python](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/CPP_3_DLL_VBA_Python.ipynb)
+* [CPP_3_DLL_VBA_Python](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/CPP_3_DLL_VBA_Python.ipynb)
