@@ -2,7 +2,7 @@
 
 ---
 
-**1. Github** (5)：Git,Github
+**1. Basic Programming** (10)：Markdown,Python,Jupyter and Github
 
 * Deadline: 2019
 
@@ -19,7 +19,7 @@
 * Deadline: 2019
 
 
-**4. Data Analysis**(15)：Statistics, regression and visualization
+**4. Data Analysis**(10)：Statistics, regression and visualization
 
 * Deadline: 2019
 
@@ -30,7 +30,7 @@
 * Deadline: 2019
 ---
 
-**Bonus points**(+5)： C/C++ Programming with GCC,Gunplot,Ubuntu,Version Control 
+**Bonus**(+5)： C/C++ Programming with GCC,Gunplot,Ubuntu,Version Control 
 
 * Deadline: 2019
 

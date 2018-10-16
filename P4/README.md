@@ -1,8 +1,8 @@
 ## Practice 4
 
-**Data Analysis**(15)：Statistics, regression and visualization
+**Data Analysis**(10)：Statistics, regression and visualization
 
-* Deadline: 2018.05.29
+* Deadline: 2019
 
 ## Problem
 
@@ -25,7 +25,7 @@ John V. Guttag. Introduction to Computation and Programming Using Python. Revise
 |7.0| 	4.82 | 	7.0 |	7.26| 	7.0     |6.42	|8.0 	|7.91|
 |5.0| 	5.68 | 	5.0 | 	4.74| 	5.0     |5.73	|8.0 	|6.89|
 
-## 要求(15分)：
+## 要求(10分)：
 
   使用Python文件或Jupyter Notebook实现 
   
@@ -39,7 +39,7 @@ Note: **不使用pandas包**
 
 * 4 回归分析(2分): **线性回归**
 
-* 5 结果输出(4分): 数据点图和回归曲线(2分)；统计结果(2分)（ [参考输出](#参考输出) )
+* 5 结果输出(2分): 数据点图和回归曲线(1分)；统计结果(1分)（ [参考输出](#参考输出) )
 
 * 6 **如何做一个合格的统计信息的消费/生产者？ 给出你的意见(Markdown格式)(3分)**
  
@@ -53,10 +53,10 @@ Note: **不使用pandas包**
   * 主题：学号-姓名-4
   * 附件：程序文件压缩包：**学号-姓名-4.zip**
 
-* 2 截至时间： 2018.05.29
-  *  截至时间后可补交，补交得分<=10.(2018.06.15)
+* 2 截至时间： 2019
+  *  截至时间后可补交，补交得分<=6.
 
-* 3  改进更新：提交作业后可改进，改进截至时间：2018.06.15
+* 3  改进更新：提交作业后可改进，改进截至时间：2019
 
 ## 提示：
 

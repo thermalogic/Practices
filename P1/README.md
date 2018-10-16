@@ -1,10 +1,34 @@
-## Practice 1
+## Practice 1(10分)
 
-  **Git,Github(5)**: 在Github上建立个人账户，了解Github和课程仓库，为进一步的学习和程序开发做好准备。
+  Deadline: 2019
 
-   Deadline: 2018.03.13
+  **Basic Programming**:  了解课程教学内容和要求， 初步建立Python，Jupyter学习和开发环境
+    
+*  课程Github仓库的内容
 
-## 注意
+*  建立Github账户，Fork不少于2个和课程学习内容有关的Github仓库到个人Github账户
+
+*  安装Python环境(python.org),用IDLE编一个简单的程序：用print输出本人的学号和姓名，提交编辑源码和程序运行结果的截图
+
+*  安装jupyter, 编写一个jupyter notebook交互计算文件：Markdown文档(含本人学号和姓名）和代码2类内容（内容任选）
+
+*  学习和开发过程等的Markdown文档:
+
+## Markdown文档内容要求(10分)
+   
+  * 1) 课程Github仓库(Home、PyRankine和SEUIF97)简介(2)
+  
+  * 2）本人Github账户名，使用的电邮；主页面截图(fork仓库后)(1)
+  
+  * 3) 安装Python环境过程的简要说明；简单Python程序的源码和程序编辑和运行结果的截图  (2)
+  
+  * 4) 安装jupyter notebook的简要说明，jupyter notebook文件及其运行截图 (2)
+  
+  * 5) 工作小结(2)
+
+  * 6) Markdown文档格式(1)
+
+## 编辑Markdown文档提示
 
 * 1 安装Visual Studio Code，使用Visual Studio Code在本地编辑md文档
 
@@ -19,37 +43,11 @@
 
 * 4 不要使用HTML，只使用最基本的markdown标志符号
 
-* 5 文件名尽可能用英文，注意大小写。Linux操作系统下文件名是区分大小写的.(和Windows不同)
+* 5 文件名用**英文**，注意大小写。Linux操作系统下文件名是区分大小写的.(和Windows不同)
 
-* 6 参考他人文档时，注意分别，不要**拷贝**, 不要不问对错.
- 
-## 过程： 
-
-*   建立Github账户
-   
-*   Fork不少于2个和课程学习内容有关的Github仓库到个人Github账户
-
-*   学习Github有关概念，了解课程Github仓库的内容
-
-*   制作Markdown文档
-
-## 文档要求：(总计5分)
-    
-* **内容：**
-
-  * 1 个人Github账户(1)
-       
-       账户名、使用的电子信箱(0.5)
-
-       Github账户主页面截图(fork仓库后)(0.5)
-
-  * 2 Github简介(2)
-
-  * 3 课程Home、PyRankine和SEUIF97仓库简介(2分)。
-
-* **格式：** Markdown
-  
 ## 提交：
+
+练习所有相关工作文件的zip文件（Markdown文档（含使用图片），Python程序源码，jupyter notebook文件等）
 
 * 1 电邮：cmh@seu.edu.cn
 
@@ -57,15 +55,17 @@
   
   * 附件： 学号-姓名-1.zip
 
-* 2 **截至时间：** 2018.03.13
+* 2 **截至时间：** 2019
 
-  * 截至时间后可补交，补交得分<=3. (2018.06.15)
+  * 截至时间后可补交，补交得分<=6. (2019)
 
 ## 参考资源：
 
 * 03013级 https://github.com/PySEE/Practices/tree/S2016/P2  
 
 * 03014级 https://github.com/PySEE/Practices/tree/S2017/P1  
+
+* 03015级 https://github.com/PySEE/Practices/tree/S2018/P1  
 
 * Markdown
   
@@ -97,5 +97,15 @@
 
    * Scott Chacon，Ben Straub. Pro Git. https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
 
+* Python
 
+   * Guido van Rossum, Python development team. Python Tutorial. https://docs.python.org/3/tutorial/index.html
+
+* Jupyter. http://jupyter.org/
+    
+    * Jupyter Documentation. http://jupyter.readthedocs.org/en/latest/
+    
+    * IPython https://ipython.org/
+    
+    * A gallery of interesting notebook： https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks
 

@@ -1,4 +1,4 @@
-## Practice 2
+## Practice 2(总分15)
 
 **Python and Interactive Computing**(15)：The Simple Simulator of Rankine Cycle 
   
