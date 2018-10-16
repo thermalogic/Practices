@@ -2,31 +2,10 @@
 
 Programming with GCC,Ubuntu
 
-Deadline: 2018.06.12
+Deadline: 2019
  
-## 1 C/C++ Programming with MinGW-w64(+3) 
 
-Using MinGW-w64(GCC and make) under Windows
-
-* The code of  the shared library of IF97-Region4 **Eq. (30)** and makefile
-
-* The example codes of using the shared library of IF97-Region4 **Eq. (30)**  and makefile
-
-IF97-Rev.pdf  http://www.iapws.org/relguide/IF97-Rev.pdf
-
- * 8.1 The Saturation-Pressure Equation (Basic Equation)  **Eq. (30)**
-
-**Reference**
-
-* [CPP_1_GCC_DLL](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/CPP_1_GCC_DLL.ipynb)
-
-* [CPP_2_DLL_Python](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/CPP_2_DLL_Python.ipynb)
-
-* [CPP_3_DLL_VBA_Python](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/CPP_3_DLL_VBA_Python.ipynb)
-
-## 2 Programming under Ubuntu(+2)   
-
-C/C++ Programming with `GCC and make`,`GSL and GNUPlot` 
+## C/C++ Programming with `GCC and make`,`GSL and GNUPlot` 
 
 * Using **GSL** to do Linear Regression of Springs Behavior Data in [springData.csv](springData.csv)
 
