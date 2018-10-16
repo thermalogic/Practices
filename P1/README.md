@@ -1,31 +1,34 @@
 ## Practice 1(10分)
 
-  Deadline: 2019
 
-**Basic Programming**:  了解课程教学内容和要求， 初步建立Python，Jupyter学习和开发环境
+**Basic Programming**: Python,Jupyter,Github and Markdown
+
+Deadline: 2019
+
+ 了解课程教学内容， 初步建立Python，Jupyter学习和开发环境
     
-*  课程Github仓库的内容：Home、PyRankine和SEUIF97
+*  PySEE中的Github仓库内容：Home、PyRankine和SEUIF97
 
 *  建立Github账户，Fork不少于2个和课程学习内容有关的Github仓库到个人Github账户
 
-*  安装Python环境(python.org),用IDLE编一个简单的程序：用print输出本人的学号和姓名，提交编辑源码和程序运行结果的截图
+*  安装Python环境(python.org),用IDLE编一个简单程序：print输出本人的学号和姓名，提交编辑源码和程序运行结果的截图
 
 *  安装jupyter, 编写一个jupyter notebook交互计算文件。
    
-   * 内容要求：从 A Byte of Python：First Steps ( https://github.com/swaroopch/byte-of-python/blob/master/first_steps.md )
+   * 内容：从 A Byte of Python：First Steps ( https://github.com/swaroopch/byte-of-python/blob/master/first_steps.md )
    中任选2小段文字和代码，实现为jupyter notebook版本（文本部分用Markdown，程序部分用Python源码).
  
-*  学习，程序设计过程的Markdown格式说明文档
+* 编写学习，程序设计过程的说明文档：**Markdown**格式
 
 ## Markdown文档内容(10分)
    
   * 1 课程Github仓库(Home、PyRankine和SEUIF97)简介(2)
   
-  * 2 本人Github账户名，使用的电邮；主页面截图(fork仓库后)(1)
+  * 2 本人Github账户名，使用的电邮；账户主页面截图(fork仓库后)(1)
   
-  * 3 安装Python环境过程的简要说明；简单Python程序的源码和程序编辑和运行结果的截图(2)
+  * 3 Python环境安装过程的简要说明；程序编辑和运行结果的截图(2)
   
-  * 4 安装jupyter notebook的简要说明，jupyter notebook文件及其运行截图 (2)
+  * 4 Jupyter Notebook安装过程的简要说明；Jupyter Notebook运行截图 (2)
   
   * 5 工作小结(2)
 
@@ -50,7 +53,7 @@
 
 ## 电邮提交：
 
-所有练习相关工作文件的zip文件（Markdown文档（含链接的图片文件），Python程序源码，jupyter notebook文件等）
+所有练习相关工作文件的zip文件：**学号-姓名-1.zip**：Markdown文档（含链接的图片文件），Python程序源码，jupyter notebook文件等
 
 * 1 电邮：cmh@seu.edu.cn
 
@@ -70,7 +73,7 @@
 
 * 03015级 https://github.com/PySEE/Practices/tree/S2018/P1  
 
-* Python
+* Python https://www.python.org/
 
    * Guido van Rossum, Python development team. Python Tutorial. https://docs.python.org/3/tutorial/index.html
 
@@ -103,8 +106,8 @@
    * 知乎：怎样使用GitHub. http://www.zhihu.com/question/20070065
 
    * The Simple Guide of Github https://github.com/PySEE/home/blob/S2019/guide/TheSimpleGuide2Github.md
-   
-   http://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/DevTools-Git.ipynb
+
+   * DevTools-Git  http://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/DevTools-Git.ipynb
 
    * How to get started with GIT and work with GIT Remote Repo http://www3.ntu.edu.sg/home/ehchua/programming/howto/Git_HowTo.html
 

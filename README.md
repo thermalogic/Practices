@@ -2,7 +2,7 @@
 
 ---
 
-[1. Basic Programming(10)](https://github.com/PySEE/Practices/tree/S2019/P1)：Python,Jupyter and Github and Markdown
+[1. Basic Programming(10)](https://github.com/PySEE/Practices/tree/S2019/P1)：Python,Jupyter,Github and Markdown
 
 * Deadline: 2019
 
