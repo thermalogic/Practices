@@ -19,16 +19,11 @@ Apply **abstraction** and **decomposition** to solve more complex problems
 
 ## The Rankine Cycle: 
 
-Michael J . Mora. Fundamentals of Engineering Thermodynamics (7th Edition).  John Wiley & Sons, Inc. 2011
+Michael J . Moran. Fundamentals of Engineering Thermodynamics (7th Edition).  John Wiley & Sons, Inc. 2011/(8th Edition) 2015
 
-Please download the PDF through **Wiley电子教材** :
+  Please download the ebook from SEU: http://www.lib.seu.edu.cn/ （查找资源->外文电子书->Wiley电子教材->T(工业技术)->TK(能源与动力工程)->TK1(热力工程,热机)）
 
-http://www.lib.seu.edu.cn/html/list_2.htm?parent_id=12&this_id=-1&id=1958
-
-
-or download the PDF on web,e.g http://muchong.com/html/201501/8475071.html , http://ishare.iask.sina.com.cn/f/34258437.html )
-
-Chapter 8 Vapor Power System: 
+Chapter 8 Vapor Power System(7th Edition): 
 
 * Example 8.1：An Ideal Regenerative Cycle, Page 438
 

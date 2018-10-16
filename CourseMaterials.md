@@ -1,8 +1,6 @@
 # Course Materials
 
-## 1 Working Directory of the course
-
-Recommended working directory:
+## 1 Recommended working directory
 
 **Note**: Setup your working directory on a **Non-System** disk.e.g: **D:**
 
@@ -60,24 +58,18 @@ https：//github.com/PySEE
  │    |── Practices
 ```
 
-## 3 PDFBooks
+## 3 eBooks
 
-**3.1**  John V. Guttag. Introduction to Computation and Programming Using Python. Revised and expanded edition. MIT Press. 2013.08.
+**3.1**  Guttag, John. Introduction to Computation and Programming Using Python: With Application to Understanding Data. MIT Press, 2016.
+
+   * 陈光欣译. Python编程导论.  人民邮电出版社(第2版). 2018年2月1日
 
    * Accompanying Python3 Code：https://mitpress.mit.edu/sites/all/modules/patched/pubdlcnt/pubdlcnt.php?file=/sites/default/files/code-978-0-262-52962-4_0.zip&nid=321887 
 
-**3.2** Michael J . Mora. Fundamentals of Engineering Thermodynamics (7th Edition).  John Wiley & Sons, Inc. 2011
+**3.2** Michael J . Moran. Fundamentals of Engineering Thermodynamics(7th Edition).  John Wiley & Sons, Inc. 2011
+                    
+                               Principles of Engineering Thermodynamics(8th Edition). John Wiley & Sons, Inc. 2015
 
-Please download the PDF through **Wiley电子教材** :
-
-http://www.lib.seu.edu.cn/html/list_2.htm?parent_id=12&this_id=-1&id=1958
-
-or 
-
-download the PDF from web,e.g 
-
-* http://muchong.com/html/201501/8475071.html 
-
-* http://ishare.iask.sina.com.cn/f/34258437.html 
-
-
+     the ebook(CDF) at SEU: http://www.lib.seu.edu.cn/ （查找资源->外文电子书->Wiley电子教材->T(工业技术)->TK(能源与动力工程)->TK1(热力工程,热机)）
+ 
+   
