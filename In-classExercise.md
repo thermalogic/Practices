@@ -1,6 +1,6 @@
 # In-class Exercises
 
-make-up in-class exercises: <=50%
+make-up : <=50%
 
 ## 1 2019
 
