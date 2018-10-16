@@ -4,7 +4,7 @@
 
 **Basic Programming**:  了解课程教学内容和要求， 初步建立Python，Jupyter学习和开发环境
     
-*  课程Github仓库的内容
+*  课程Github仓库的内容：Home、PyRankine和SEUIF97
 
 *  建立Github账户，Fork不少于2个和课程学习内容有关的Github仓库到个人Github账户
 
@@ -23,7 +23,7 @@
   
   * 2 本人Github账户名，使用的电邮；主页面截图(fork仓库后)(1)
   
-  * 3  安装Python环境过程的简要说明；简单Python程序的源码和程序编辑和运行结果的截图(2)
+  * 3 安装Python环境过程的简要说明；简单Python程序的源码和程序编辑和运行结果的截图(2)
   
   * 4 安装jupyter notebook的简要说明，jupyter notebook文件及其运行截图 (2)
   
