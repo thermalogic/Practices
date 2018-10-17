@@ -34,7 +34,7 @@ Deadline: 2019
 
 ## Reference
 
-**GCC,Gunplot**
+**GCC,GSL,Gnuplot**
 
 * [15_UNDERSTANDING_EXPERIMENTAL_DATA](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/15_UNDERSTANDING_EXPERIMENTAL_DATA.ipynb)
 
