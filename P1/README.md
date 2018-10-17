@@ -1,6 +1,5 @@
 ## Practice 1(10分)
 
-
 **Basic Programming**: Python,Jupyter,Github and Markdown
 
 Deadline: 2019
@@ -67,6 +66,10 @@ Deadline: 2019
 
 ## 参考资源：
 
+* [Guide of  Building Software Environment for Beginners](https://github.com/PySEE/home/tree/S2019/guide/Beginner2BuildeSoftwareEnvironment.md) 
+
+* [Introduction to Markdown](https://github.com/PySEE/home/blob/S2019/guide/Introduction2Markdown.md)
+
 * 03013级 https://github.com/PySEE/Practices/tree/S2016/P2  
 
 * 03014级 https://github.com/PySEE/Practices/tree/S2017/P1  
@@ -89,8 +92,6 @@ Deadline: 2019
 
 * Markdown
   
-   * Introduction2Markdown https://github.com/PySEE/home/blob/S2019/guide/Introduction2Markdown.md
-
    * [Visual Studio Code Markdown](https://code.visualstudio.com/docs/languages/markdown/)
 
    * [CommonMark](http://commonmark.org/)
