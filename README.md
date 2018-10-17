@@ -30,7 +30,7 @@
 * Deadline: 2019
 ---
 
-[Bonus(+5)](https://github.com/PySEE/Practices/tree/S2019/Bonus)： C/C++ Programming with GCC,Gunplot,Ubuntu,Version Control 
+[Bonus(+5)](https://github.com/PySEE/Practices/tree/S2019/Bonus)： C/C++ Programming with GCC,GSL,Gnuplot,Ubuntu,Version Control 
 
 * Deadline: 2019
 
