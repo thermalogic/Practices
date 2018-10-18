@@ -41,11 +41,11 @@ Deadline: 2019
 
 * 2 md文档使用到的不同类型文件用相应的目录进行组织
 
-* 3 插入图片示例.
+* 3 插入图片.
 
-   设图片myscreenshot.png在md所在目录下的/img子目录中：
+   注意图片所造目录位置：如idel.png在note-softwarer.md所在目录doc的下一级之目录/img中：
 ```bash
-![myscreenshot](./img/myscreenshot.png)
+![idle](./img/idle.png)
 ```
 
 * 4 只使用基本的markdown格式标志符号，不使用HTML

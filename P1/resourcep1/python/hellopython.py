@@ -1,4 +1,3 @@
-# 
-# >python hello.py
-#
-print("Hello,Python!")
+# Student ID,Name
+print("03000000")
+print("Name")
