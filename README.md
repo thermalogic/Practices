@@ -1,10 +1,10 @@
-# 行是知之始，知是行之成 - 陶行知
+# [行是知之始，知是行之成 - 陶行知](http://yuedu.163.com/source/2963f558d8cc47dda31faa19c4e776e9_4)
 
 ---
 
 [1. Basic Programming(10)](https://github.com/PySEE/Practices/tree/S2019/P1)：Python,Jupyter,Github and Markdown
 
-* Deadline: 2019
+* Deadline: 2019.03.13
 
 ---
 

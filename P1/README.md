@@ -2,7 +2,7 @@
 
 **Basic Programming**: Python,Jupyter,Github and Markdown
 
-Deadline: 2019
+Deadline: 2019.03.13
 
 了解课程教学内容， 初步建立Python，Jupyter学习和开发环境
 
@@ -17,9 +17,9 @@ Deadline: 2019
 *  安装jupyter, 编写一个jupyter notebook交互计算文件。
    
    * 内容：从 **A Byte of Python：First Steps** ( https://github.com/swaroopch/byte-of-python/blob/master/first_steps.md )
-   中任选2小段文字和代码，实现为jupyter notebook版本（文本部分Markdown，程序部分Python源码).
+   中任选2小段文字和代码，实现为jupyter notebook版本（文本：Markdown，源码：Python).
  
-* 编写学习，程序设计过程的说明文档：**Markdown**格式
+* 编写软件环境建立，程序设计过程的说明文档：**Markdown**格式
 
 ## Markdown文档内容(10分)
    
@@ -62,11 +62,11 @@ Deadline: 2019
   
   * 附件： 学号-姓名-1.zip
 
-* 2 **截至时间：** 2019
+* 2 **截至时间：** 2019.03.13
 
-  * 截至时间后可补交，补交得分<=6. (2019)
+  * 截至时间后可补交，补交得分<=6. (2019.06.16)
 
-## 参考资源：
+## 参考：
 
 * [Guide of  Building Software Environment for Beginners](https://github.com/PySEE/home/tree/S2019/guide/Beginner2BuildeSoftwareEnvironment.md) 
 
