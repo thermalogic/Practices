@@ -41,9 +41,9 @@ Deadline: 2019
 
 * 2 md文档使用到的不同类型文件用相应的目录进行组织
 
-* 3 插入图片.
+* 3 插入图片
 
-   注意图片所造目录位置：如idel.png在note-softwarer.md所在目录doc的下一级之目录/img中：
+   注意图片所造目录位置：如idle.png在note-softwarer.md所在目录doc的下一级之目录/img中：
 ```bash
 ![idle](./img/idle.png)
 ```
