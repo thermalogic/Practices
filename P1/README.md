@@ -5,7 +5,9 @@
 Deadline: 2019
 
  了解课程教学内容， 初步建立Python，Jupyter学习和开发环境
-    
+
+**参考demo目录**  https://github.com/PySEE/Practices/blob/S2019/P1/demo 合理组织和命名所有练习有关的文件，使用相关资源完成练习。
+
 *  PySEE中的Github仓库内容：Home、PyRankine和SEUIF97
 
 *  建立Github账户，Fork不少于2个和课程学习内容有关的Github仓库到个人Github账户
@@ -14,8 +16,8 @@ Deadline: 2019
 
 *  安装jupyter, 编写一个jupyter notebook交互计算文件。
    
-   * 内容：从 A Byte of Python：First Steps ( https://github.com/swaroopch/byte-of-python/blob/master/first_steps.md )
-   中任选2小段文字和代码，实现为jupyter notebook版本（文本部分用Markdown，程序部分用Python源码).
+   * 内容：从 **A Byte of Python：First Steps** ( https://github.com/swaroopch/byte-of-python/blob/master/first_steps.md )
+   中任选2小段文字和代码，实现为jupyter notebook版本（文本部分Markdown，程序部分Python源码).
  
 * 编写学习，程序设计过程的说明文档：**Markdown**格式
 
@@ -25,7 +27,7 @@ Deadline: 2019
   
   * 2 本人Github账户名，使用的电邮；账户主页面截图(fork仓库后)(1)
   
-  * 3 Python环境安装过程的简要说明；程序编辑和运行结果的截图(2)
+  * 3 Python环境安装过程的简要说明；使用IDLE编程和运行结果的截图(2)
   
   * 4 Jupyter Notebook安装过程的简要说明；Jupyter Notebook运行截图 (2)
   
@@ -52,7 +54,7 @@ Deadline: 2019
 
 ## 电邮提交：
 
-所有练习相关工作文件的zip文件：**学号-姓名-1.zip**：Markdown文档（含链接的图片文件），Python程序源码，jupyter notebook文件等
+将练习目录压缩为zip文件：**学号-姓名-1.zip**：Markdown文档（含链接的图片文件），Python程序源码，jupyter notebook文件等
 
 * 1 电邮：cmh@seu.edu.cn
 
