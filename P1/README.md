@@ -4,7 +4,7 @@
 
 Deadline: 2019.03.13
 
-了解课程教学内容， 初步建立Python，Jupyter学习和开发环境
+了解课程教学内容， 建立软件开发环境
 
 **参考resourcep1目录**  https://github.com/PySEE/Practices/blob/S2019/P1/resourcep1 合理组织和命名所有练习有关的文件，使用相关资源完成练习。
 
