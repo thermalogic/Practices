@@ -2,11 +2,11 @@
 
 **Object-oriented Programming**：The General Rankine Cycle Simulator 
 
-练习的工作量和难度都较大。同学们，多思考，多编码，尽自己的能力进行程序设计工作。**程序设计的过程，比结果重要！**
+练习的工作量和难度都较大。同学们，多思考，多编码，尽自己的能力进行程序设计工作。从学习角度看，**程序设计的过程，比结果重要！**
 
 **Deadline:**  2019.05.15
 
-### Purpose
+### Purposes
 
 The Rankine Cycle Simulator: training computational thinking and  programming skills  
 
@@ -33,7 +33,7 @@ Chapter 8 Vapor Power System(7th Edition):
 
 ## 要求：(总分20)
 
->**注意：** 不使用Jupyter Notebook进行练习。
+>**注意：** 这个练习不使用Jupyter Notebook。
 
 参考[PyRankine](https://github.com/PySEE/PyRankine), 进行通用Rankine Cycle能量平衡程序设计：能够解析数据文件描述的循环系统拓扑结构，读取热力参数，计算出循环的各项指标，输出结果到数据文件。
 
@@ -55,7 +55,7 @@ Chapter 8 Vapor Power System(7th Edition):
   
 **Markdown文档(5)**：软件设计思路、方法和体会（关键问题、解决思路；设备组件，节点对象定义；循环计算方法；计算系统数据描述文件方案；小结）(中英文皆可)
 
- >**注意：** PyRankine Step3,Step4 提供了csv和json两种格式系统描述数据文件实例，根据自己的理解选择一种数据文件格式，进行程序设计工作。
+ >**注意：** PyRankine Step3,Step4 提供了`csv`和`json`两种格式系统描述数据文件实例，根据自己的理解选择一种数据文件格式，进行程序设计工作。
  >
  > **csv格式** 系统描述数据文件中每个设备行的最后一项目是节点：　`NODES,,,,,,`
  >
