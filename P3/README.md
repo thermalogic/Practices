@@ -2,8 +2,8 @@
 
 **Object-oriented Programming**：The General Rankine Cycle Simulator 
 
-**注意：** 如果使用csv文件格式配置循环数据的程序实现困难，可以参考[PyRankine](https://github.com/PySEE/PyRankine)新增的使用json文件格式配置循环数据的程序。json文件格式可读性更好些。
-  
+**Deadline:**  2019.05.15
+
 ### Purpose
 
 The Rankine Cycle Simulator: training computational thinking and  programming skills  
@@ -14,8 +14,6 @@ Apply **abstraction** and **decomposition** to solve more complex problems
 * Can recognise similar problems, and apply generic solutions and abstractions
 * Can effectively combine functionality from multiple libraries or APIs and refer to documentation
 * Can write code in a readable way, and/or includes comments where necessary
-
-**Deadline:**  2018.05.15
 
 ## The Rankine Cycle: 
 
@@ -31,10 +29,9 @@ Chapter 8 Vapor Power System(7th Edition):
 
 * Example 8.6 : Considering a Reheat–Regenerative Cycle with Two Feedwater Heaters, a closed feedwater heater and an open feedwater heater,Page 460
 
-
 ## 要求：(总分20)
 
-通用Rankine Cycle计算程序设计：能够解析数据文件描述的循环系统拓扑结构，读取热力参数，计算出循环的各项数据，并将结果输出到数据文件
+参考[PyRankine](https://github.com/PySEE/PyRankine), 进行通用Rankine Cycle能量平衡程序设计：能够解析数据文件描述的循环系统拓扑结构，读取热力参数，计算出循环的各项指标，输出结果到数据文件
 
 计算对象：[Example 8.1](./rankine81.md)、[Example 8.5](./rankine85.md)、[Example 8.6](./rankine86.md)  
 
@@ -44,23 +41,25 @@ Chapter 8 Vapor Power System(7th Edition):
 
 编码工具：Visual Studio Code
      
-Python3代码(15)：
+**Python3代码(15)：**
 
    * 使用类描述循环中的设备(组件)、循环,实现计算目标(10)
 
    * 使用数据文件描述被计算循环的拓扑结构和热力参数 (2)
 
- >**注意：** PyRankine示例的实现方案中：csv格式的设备数据文件中每个设备最后的项目是节点：　NODES,,,,,,
+ >**注意：** PyRankine Step3,Step4 提供了csv和json两种格式系统描述数据文件实例，根据自己的理解选择一种数据文件格式，进行程序设计工作。
  >
- > 节点内容需要和相应设备类的｀__init__｀方法中定义的节点数量和顺序对应。
+ > **csv格式** 系统描述数据文件中每个设备行的最后一项目是节点：　`NODES,,,,,,`
+ >
+ > 数据文件中节点内容需要和相应设备类的｀__init__｀方法中定义的节点数量和顺序对应。
  > 
- >可为建立设备数据文件中每个设备的节点要求，根据｀__init__｀方法写一个文档，用于指导建立设备数据文件时的NODES,,,,,,数据配置  
+ > 可根据每个设备的｀__init__｀方法写一个文档，用于指导建立相应设备数据文件时的`NODES,,,,,,`数据配置要求  
 
->如果使用csv文件格式配置循环数据的程序实现困难，可以参考[PyRankine](https://github.com/PySEE/PyRankine)新增的使用json文件格式配置循环数据的程序。json文件格式可读性更好些。
+> **json格式** 可读性好,需要了解和学习json相关知识 http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/PyThermo-IntroJSON.ipynb
       
    * 计算结果输出到数据文件(3)
     
-文档(5)：软件设计思路和体会（关键问题、解决方案；设备对象的定义、循环计算方法，小结）的Markdown文档（中英文皆可）
+**文档(5)**：软件设计思路和体会（关键问题、解决方案；设备对象的定义、循环计算方法，小结）的Markdown文档（中英文皆可）
 
 >**注意：** 这个练习不使用Jupyter Notebook的形式. Python代码和文档分离
 
@@ -70,14 +69,16 @@ Python3代码(15)：
    * 主题：学号-姓名-3
    * 附件：程序文件压缩包： **学号-姓名-3.zip**；
 
-* 2 截至时间：2018.05.15
-   * 过截至时间后可补交，补交得分<=13. (2018.06.15)
+* 2 截至时间：2019.05.15
+   * 过截至时间后可补交，补交得分<=13. (2019.06.16)
 
-* 3)改进更新：提交作业后可改进，改进截至时间：2018.06.15
+* 3)改进更新：提交作业后可改进，改进截至时间：2019.06.16
 
 ## 参考资源：
 
 *  http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/PyThermo-IdealRankineCycle.ipynb
+
+*  http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/PyThermo-IntroJSON.ipynb
  
 *  https://github.com/PySEE/PyRankine Step2,Step3, Step4
 

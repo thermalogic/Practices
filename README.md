@@ -16,7 +16,7 @@
 
 [3. Object-oriented Programming(20)](https://github.com/PySEE/Practices/tree/S2019/P3)： The General Rankine Cycle Simulator
 
-* Deadline: 2019
+* Deadline: 2019.05.15
 
 
 [4. Data Analysis(10)](https://github.com/PySEE/Practices/tree/S2019/P4)：Statistics, regression and visualization
