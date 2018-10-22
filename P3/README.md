@@ -63,7 +63,7 @@ Chapter 8 Vapor Power System(7th Edition):
  > 
  > 可根据每个设备的｀__init__｀方法写一个文档，用于指导建立相应设备数据文件时的`NODES,,,,,,`数据配置要求  
 
-> **json格式** 可读性好,需要了解和学习json相关知识 http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/PyThermo-IntroJSON.ipynb
+> **json格式** 可读性好,需要了解和学习json相关知识 http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/PyThermo-JSON-Python.ipynb
       
 ## 电邮提交：
 
@@ -80,7 +80,7 @@ Chapter 8 Vapor Power System(7th Edition):
 
 *  http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/PyThermo-IdealRankineCycle.ipynb
 
-*  http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/PyThermo-IntroJSON.ipynb
+*  http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/PyThermo-JSON-Python.ipynb
  
 *  https://github.com/PySEE/PyRankine Step2,Step3, Step4
 
