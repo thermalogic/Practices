@@ -87,7 +87,7 @@ Chapter 8 Vapor Power System:(Page 460-463)
 
 * [Markdown](https://github.com/PySEE/home/blob/S2019/guide/Introduction2Markdown.md)
 
-* [MathJax LaTeX](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/IPYNB-MathJax-LaTeX.ipynb)
+* [MathJax LaTeX](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Thermo-MathJax-LaTeX.ipynb)
 
  
 *  PyRankine https://github.com/PySEE/PyRankine
