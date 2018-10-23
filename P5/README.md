@@ -1,21 +1,21 @@
 
 ## Practice 5
 
-**C/C++ Programming**(5)：C/C++ Programming with MinGW-w64,MakeFile  
+**C/C++ Programming**(5)：C/C++ Programming with MinGW-w64（GCC,Make)  
 
 Deadline: 2019
 
 ## 要求(5分)：
 
-Using MinGW-w64(GCC and make) under Windows
+Using MinGW-w64(GCC and make) 
 
-* The code of  the shared library of IF97-Region4 **Eq. (30)** and makefile
+* The shared library of IF97-Region4 **Eq. (31)** : source code and makefile
 
-* The example codes of using the shared library of IF97-Region4 **Eq. (30)**  and makefile
+* The example for using the shared library :  source code and makefile
 
-IF97-Rev.pdf  http://www.iapws.org/relguide/IF97-Rev.pdf
+     * 8.2 The Saturation-Temperature Equation (Backward Equation)  **Eq. (31)**, Page 35
 
- * 8.1 The Saturation-Pressure Equation (Basic Equation)  **Eq. (30)**
+       IF97-Rev.pdf  http://www.iapws.org/relguide/IF97-Rev.pdf
 
 ## 提交：
 

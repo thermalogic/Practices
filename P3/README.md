@@ -35,7 +35,13 @@ Chapter 8 Vapor Power System(7th Edition):
 
 >**注意：** 这个练习不使用Jupyter Notebook。
 
-参考[PyRankine](https://github.com/PySEE/PyRankine), 进行通用Rankine Cycle能量平衡程序设计：能够解析数据文件描述的循环系统拓扑结构，读取热力参数，计算出循环的各项指标，输出结果到数据文件。
+参考[PyRankine](https://github.com/PySEE/PyRankine), 进行通用Rankine Cycle能量平衡程序设计：
+
+* 建立循环系统和设备的数据文件
+
+* 编程实现，读取数据文件，解析其描述的循环系统拓扑结构，计算热力参数，给出循环系统的各项指标
+
+* 输出结果到数据文件。
 
 计算对象：[Example 8.1](./rankine81.md)、[Example 8.5](./rankine85.md)、[Example 8.6](./rankine86.md)  
 
@@ -45,15 +51,17 @@ Chapter 8 Vapor Power System(7th Edition):
 
 编码/文档工具：Visual Studio Code
      
-**Python3源码(15)：**
+**数据文件和Python3源码(15)：**
 
-   * 使用类描述循环中的设备(组件)、节点和循环,实现计算目标(10)
+   * 使用类描述循环中的设备(组件)、节点(6)
+   
+   * 解析描述循环系统的数据文件，计算热力参数,计算循环的各项指标(4)
 
-   * 使用数据文件描述被计算循环的拓扑结构和设备的热力参数 (2)
+   * 循环描述数据文件(拓扑结构、设备数据)(3)
 
-   * 计算结果输出到数据文件(3)
+   * 计算结果输出到数据文件(2)
   
-**Markdown文档(5)**：软件设计思路、方法和体会（关键问题、解决思路；设备组件，节点对象定义；循环计算方法；计算系统数据描述文件方案；小结）(中英文皆可)
+**Markdown文档(5)**：软件设计思路、方法和体会（关键问题、解决思路；系统数据描述文件方案；设备组件，节点对象定义；循环计算方法；小结）(中英文皆可)
 
  >**注意：** PyRankine Step3,Step4 提供了`csv`和`json`两种格式系统描述数据文件实例，根据自己的理解选择一种数据文件格式，进行程序设计工作。
  >
@@ -72,16 +80,17 @@ Chapter 8 Vapor Power System(7th Edition):
    * 附件：程序文件压缩包： **学号-姓名-3.zip**；
 
 * 2 截至时间：2019.05.15
-   * 过截至时间后可补交，补交得分<=13. (2019.06.16)
+   * 截至时间后可补交，补交得分<=13. (2019.06.16)
 
 * 3 改进更新：提交作业后可修改，修改截至时间：2019.06.16
 
 ## 参考资源：
 
+*  PyRankine Step2,Step3,Step4 https://github.com/PySEE/PyRankine 
+
 *  http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/PyThermo-IdealRankineCycle.ipynb
 
-*  http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/PyThermo-JSON-Python.ipynb
- 
-*  https://github.com/PySEE/PyRankine Step2,Step3, Step4
+*  http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/PyThermo-CSV-JSON-RankineCycle.ipynb
 
-*  curriculum.raspberrypi:developer https://curriculum.raspberrypi.org/programming/developer/
+*  http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/PyThermo-JSON-Python.ipynb
+
