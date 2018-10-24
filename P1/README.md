@@ -2,26 +2,30 @@
 
 **Basic Programming**: Python,Jupyter,Github and Markdown
 
-Deadline: 2019.03.13
-
 了解课程教学内容， 建立软件开发环境
 
-**参考resourcep1目录**  https://github.com/PySEE/Practices/blob/S2019/P1/resourcep1 合理组织和命名所有练习有关的文件，使用相关资源完成练习。
+Deadline: 2019.03.13
 
-*  PySEE中的Github仓库内容：Home、PyRankine和SEUIF97
+## 练习内容
+
+了解课程教学内容；参考 [BuildingSoftwareEnvironment.md]( https://github.com/PySEE/home/tree/S2019/guide/BuildingSoftwareEnvironment.md),    建立软件开发环境，编写简单代码，练习软件操作，完成相应的文档。
+
+*  了解PySEE中的Github仓库内容：Home、PyRankine和SEUIF97
 
 *  建立Github账户，Fork不少于2个和课程学习内容有关的Github仓库到个人Github账户
 
-*  安装Python环境(python.org),用IDLE编一个简单程序：print输出本人的学号和姓名，提交编辑源码和程序运行结果的截图
+*  安装Python环境,用IDLE编一个简单程序：print输出本人的学号和姓名，提交编辑源码和程序运行结果的截图
 
 *  安装jupyter, 编写一个jupyter notebook交互计算文件。
    
    * 内容：从 **A Byte of Python：First Steps** ( https://github.com/swaroopch/byte-of-python/blob/master/first_steps.md )
-   中任选2小段文字和代码，实现为jupyter notebook版本（文本：Markdown，源码：Python).
+   中任选2小段文字和代码，实现为jupyter notebook版本（文本：Markdown，源码：Python3).
  
-* 编写软件环境建立，程序设计过程的说明文档：**Markdown**格式
+* 编写软件环境建立，程序设计过程的说明文档.文档使用 **Markdown** 格式
 
 ## Markdown文档内容(10分)
+
+参考 [BuildingSoftwareEnvironment.md]( https://github.com/PySEE/home/tree/S2019/guide/BuildingSoftwareEnvironment.md) 编辑练习Markdown文档。
    
   * 1 课程Github仓库(Home、PyRankine和SEUIF97)简介(2)
   
@@ -37,24 +41,45 @@ Deadline: 2019.03.13
 
 ## Markdown文档编辑提示
 
-* 1 安装Visual Studio Code，使用Visual Studio Code在本地编辑md文档
+* 1 使用Visual Studio Code编辑md文档
 
 * 2 md文档使用到的不同类型文件用相应的目录进行组织
 
 * 3 插入图片
 
-   注意图片所造目录位置：如idle.png在note-softwarer.md所在目录doc的下一级之目录/img中：
+   注意图片所造目录位置：如idle.png在README.md文件所在目录下一级之目录/img中：
 ```bash
 ![idle](./img/idle.png)
 ```
 
 * 4 只使用基本的markdown格式标志符号，不使用HTML
 
-* 5 文件名用**英文**(注意大小写,Linux系统下文件名区分大小写,和Windows不同)
+## 参考的目录和文件组织方式
+
+目录和文件名都用 **英文**，注意 **大小** 写。因为和Windows不同，Linux系统下目录，文件名区分大小写。
+
+```bash
+ ├──Practices
+ │   │ 
+ │   |── P1
+ │   │    │ 
+ │   │    |── README.md :练习markdown文件
+ │   │    │ 
+ │   │    |── img : README.md文件中使用的图形文件
+ │   │    │ 
+ │   │    |── Python: 练习的python源码
+ │   │    │ 
+ │   │    │── Notebook ── start.bat: 内容为jupyter notebook的bat文件 
+ │   │                  │     
+ │   │                  |── Jupyter Notebook文件
+ │   │
+ |   │ ── P2
+ │   │ 
+```
 
 ## 电邮提交：
 
-将练习目录压缩为zip文件：**学号-姓名-1.zip**：Markdown文档（含链接的图片文件），Python程序源码，jupyter notebook文件等
+将练习目录压缩为：**学号-姓名-1.zip** (Markdown文档（含链接的图片文件），Python程序源码，jupyter notebook文件等)
 
 * 1 电邮：cmh@seu.edu.cn
 
