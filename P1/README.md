@@ -2,8 +2,6 @@
 
 **Basic Programming**: Python,Jupyter,Github and Markdown
 
-了解课程教学内容， 建立软件开发环境
-
 Deadline: 2019.03.13
 
 ## 练习内容
