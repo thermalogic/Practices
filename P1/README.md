@@ -45,7 +45,7 @@ Deadline: 2019.03.13
 
 * 3 插入图片
 
-   注意图片所造目录位置：如idle.png在README.md文件所在目录下一级之目录/img中：
+   注意图片所在目录位置：如idle.png在README.md文件所在目录下一级之目录/img中：
 ```bash
 ![idle](./img/idle.png)
 ```
