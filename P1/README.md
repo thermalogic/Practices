@@ -57,21 +57,21 @@ Deadline: 2019.03.13
 目录和文件名都用 **英文**，注意 **大小** 写。因为和Windows不同，Linux系统下目录，文件名区分大小写。
 
 ```bash
- ├──Practices
+ ├──<Practices>
  │   │ 
- │   |── P1
+ │   |── <P1>
  │   │    │ 
  │   │    |── README.md :练习markdown文件
  │   │    │ 
- │   │    |── img : README.md文件中使用的图形文件
+ │   │    |── <img>: README.md文件中使用的图形文件
  │   │    │ 
- │   │    |── Python: 练习的python源码
+ │   │    |── <Python>: 练习的python源码
  │   │    │ 
- │   │    │── Notebook ── start.bat: 内容为jupyter notebook的bat文件 
+ │   │    │── <Notebook> ── start.bat: 内容为jupyter notebook的bat文件 
  │   │                  │     
  │   │                  |── Jupyter Notebook文件
  │   │
- |   │ ── P2
+ |   │ ── <P2>
  │   │ 
 ```
 
