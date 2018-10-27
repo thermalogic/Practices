@@ -8,7 +8,7 @@
   
 ## The Rankine Cycle: 
 
-Michael J. Mora. Fundamentals of Engineering Thermodynamics (7th Edition).  John Wiley & Sons, Inc. 2011
+Michael J. Moran. Fundamentals of Engineering Thermodynamics (7th Edition).  John Wiley & Sons, Inc. 2011
 
 Chapter 8 Vapor Power System:(Page 460-463)
 
@@ -102,7 +102,7 @@ Chapter 8 Vapor Power System:(Page 460-463)
 
 *  Excel4Engineering https://github.com/PySEE/Excel4Engineering  
 
-*  Jupyter Notebook for Fundamentals of Engineering Thermodynamics, Michael J . Mora. 
+*  Jupyter Notebook for Fundamentals of Engineering Thermodynamics, Michael J . Moran. 
 
    * https://github.com/FOSSEE/Python-Textbook-Companions/tree/master/Fundamental_of_Thermodynamics_by_Moran_and_Shapiro_by_Michael_J._Moran_and_Howard_N._Shapiro
    
