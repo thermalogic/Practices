@@ -6,7 +6,7 @@ Deadline: 2019.03.13
 
 ## 练习内容
 
-了解课程教学内容；参考 [BuildingSoftwareEnvironment.md]( https://github.com/PySEE/home/tree/S2019/guide/BuildingSoftwareEnvironment.md),    建立软件开发环境，编写简单代码，练习软件操作，完成相应的文档。
+了解课程教学内容；参考 [Software Environment]( https://github.com/PySEE/home/tree/S2019/guide/Beginner2BuildeSoftwareEnvironment.md),    建立软件开发环境，编写简单代码，练习软件操作，完成相应的文档。
 
 *  了解PySEE中的Github仓库内容：Home、PyRankine和SEUIF97
 
@@ -23,7 +23,7 @@ Deadline: 2019.03.13
 
 ## Markdown文档内容(10分)
 
-参考 [BuildingSoftwareEnvironment.md]( https://github.com/PySEE/home/tree/S2019/guide/BuildingSoftwareEnvironment.md) 编辑练习Markdown文档。
+参考 [Software Environment.md](https://github.com/PySEE/home/tree/S2019/guide/Beginner2BuildeSoftwareEnvironment.md) 编辑Markdown文档。
    
   * 1 课程Github仓库(Home、PyRankine和SEUIF97)简介(2)
   
@@ -89,9 +89,13 @@ Deadline: 2019.03.13
 
   * 截至时间后可补交，补交得分<=6. (2019.06.16)
 
+* 3 改进更新：提交作业后可改进，改进截至时间：2019.06.16
+
 ## 参考：
 
 * [Guide of  Building Software Environment for Beginners](https://github.com/PySEE/home/tree/S2019/guide/Beginner2BuildeSoftwareEnvironment.md) 
+
+* [Building Software Environment](https://github.com/PySEE/home/tree/S2019/guide/BuildingSoftwareEnvironment.md)
 
 * [Introduction to Markdown](https://github.com/PySEE/home/blob/S2019/guide/Introduction2Markdown.md)
 

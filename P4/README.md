@@ -6,10 +6,11 @@
 
 ## Problem
 
-John V. Guttag. Introduction to Computation and Programming Using Python. Revised and expanded edition. MIT Press. 2013.08.  
+John V. Guttag. Introduction to Computation and Programming Using Python: With Application to Understanding Data(Second Edition). MIT Press, 2016. 
 
-**16.4 Statistical Measures Don't, Tell the Whole Story**（Page226-227） 
-  * In 1973, the statistician F.J. Anscombe published a paper containing the table below. It contains the <x, y> coordinates of the points in each of four data sets.
+**21.5 Statistical Measures Don't, Tell the Whole Story**（Page411-412） 
+  
+In 1973, the statistician F.J. Anscombe published a paper containing the table below. It contains the <x, y> coordinates of the points in each of four data sets.
 
 |x0 |y0|x1|y2|x2|y2|x3|y3|
 | ---- |:------:| :------:| :------:|  :------:| :------:| :------:|  ----:|
@@ -35,17 +36,11 @@ Note: **不使用pandas包**
 
 * 2 数据分析对象表达(3分)：**从数据文件读取数据,形成数据分析对象**
 
-* 3 统计指标(2分)：计算均值、方差和相关系数等统计指标
+* 3 统计指标计算输出(3分)：计算均值、方差和相关系数等统计指标（2分，可使用Python统计库、Numpy或Scipy）；统计结果输出(1分) [参考输出](#参考输出)
 
-* 4 回归分析(2分): **线性回归**
+* 4 回归分析和图形输出(3分): **线性回归**（1分）；图形输出（2分）[参考输出](#参考输出)
 
-* 5 结果输出(2分): 数据点图和回归曲线(1分)；统计结果(1分)（ [参考输出](#参考输出) )
-
-* 6 **如何做一个合格的统计信息的消费/生产者？ 给出你的意见(Markdown格式)(3分)**
- 
-   * 参考分析角度：数据源、数据分析方法，信息表现形式
-  
-  参考: [16 LIES DAMNED LIES ANDSTATISTICS](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/16_LIES_DAMNED_LIES_AND_STATISTICS.ipynb)
+参考: [21 LIES DAMNED LIES ANDSTATISTICS](http://nbviewer.ipython.org/github/PySEE/home/tree/S2018/notebook/21_LIES_DAMNED_LIES_AND_STATISTICS.ipynb)
 
 ## 提交：
 
@@ -60,21 +55,11 @@ Note: **不使用pandas包**
 
 ## 提示：
 
-* 参考第11、15、16章
+* 参考第11、18、21章
 
   * http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/11_PLOTTING_AND_MORE_ABOUT_CLASSES.ipynb
-  * http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/15_UNDERSTANDING_EXPERIMENTAL_DATA.ipynb
-  * http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/16_LIES_DAMNED_LIES_AND_STATISTICS.ipynb
-
-* 统计指标计算、回归分析: 可使用Python统计库、Numpy和Scipy
-
-* 绘制数据点图: 使用Matplotlib
-
-```python
-    import numpy as np
-    import matplotlib.pyplot as plt
-    from  statistics import mean,stdev,variance
-```
+  * http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/18_UNDERSTANDING_EXPERIMENTAL_DATA.ipynb
+  * http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/21_LIES_DAMNED_LIES_AND_STATISTICS.ipynb
 
 * Scipy. http://www.scipy.org/
   

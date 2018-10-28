@@ -22,7 +22,7 @@ Chapter 8 Vapor Power System:(Page 460-463)
 
 ### 1 文件类型：Jupyter Notebook(Python 3)
     
-### 2 Jupyter Notebook程序:
+### 2 Jupyter Notebook交互计算:
     
 *  **代码部分**(10)：
   
@@ -40,15 +40,15 @@ Chapter 8 Vapor Power System:(Page 460-463)
 
         * 循环性能指标等参数？
 
-    * 2 计算的基本步骤组成、对应的函数安排、在1的基础上实现函数
+    * 2 计算步骤组织；函数安排；基于数据结构的函数实现，、
 
-    * 3 在1、2的基础上，给定计算条件，计算循环。  
+    * 3 在1、2的基础上，计算给定循环条件的循环指标。  
 
     * **参考设计:**
        
        * PyRankine https://github.com/PySEE/PyRankine  step0, step1
 
-       * Excel4Engineering https://github.com/PySEE/Excel4Engineering  Rankine81-0.xlsm,Rankine81-1.xlsm   
+       * [Jupyter Notebook of IdealRankine Cycle](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/PyThermo-IdealRankineCycle.ipynb)
      
 * **文档部分**(5);   
     
@@ -75,21 +75,25 @@ Chapter 8 Vapor Power System:(Page 460-463)
 
 * 2 **截至时间：** 2019
   
-  * 截至时间后补交，补交得分<10. (2019
+  * 截至时间后补交，补交得分<10. (2019.06.16)
 
-* 3 改进更新：提交作业后可改进，改进截至时间：2019
+* 3 改进更新：提交作业后可改进，改进截至时间：2019.06.16
 
 ## 参考资源：
-
-* [PyThermo-IF97](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/PyThermo-IF97.ipynb)
-
-* [Jupyter Notebook of IdealRankine Cycle](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/PyThermo-IdealRankineCycle.ipynb)
 
 * [Markdown](https://github.com/PySEE/home/blob/S2019/guide/Introduction2Markdown.md)
 
 * [MathJax LaTeX](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Thermo-MathJax-LaTeX.ipynb)
 
- 
+* Jupyter Documentation. http://jupyter.readthedocs.org/en/latest/
+    
+    * IPython https://ipython.org/
+    
+    * A gallery of interesting notebook：https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks
+
+* [PyThermo-IF97](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/PyThermo-IF97.ipynb)
+
+* [Jupyter Notebook of IdealRankine Cycle](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/PyThermo-IdealRankineCycle.ipynb) 
 *  PyRankine https://github.com/PySEE/PyRankine
 
    * step 0 : Zero @  Data Structures,Program architecture, Algorithms(The Ideal Rankine Cycle)
@@ -102,17 +106,8 @@ Chapter 8 Vapor Power System:(Page 460-463)
 
 *  Excel4Engineering https://github.com/PySEE/Excel4Engineering  
 
-*  Jupyter Notebook for Fundamentals of Engineering Thermodynamics, Michael J . Moran. 
+*  Michael J . Moran. [Chapter 8's Jupyter Notebook for Fundamentals of Engineering Thermodynamics](https://github.com/FOSSEE/Python-Textbook-Companions/blob/master/Fundamental_of_Thermodynamics_by_Moran_and_Shapiro_by_Michael_J._Moran_and_Howard_N._Shapiro/Chapter_8.ipynb)
 
-   * https://github.com/FOSSEE/Python-Textbook-Companions/tree/master/Fundamental_of_Thermodynamics_by_Moran_and_Shapiro_by_Michael_J._Moran_and_Howard_N._Shapiro
-   
-     * Chapter_8.ipynb
-
-* Jupyter Documentation. http://jupyter.readthedocs.org/en/latest/
-    
-    * IPython https://ipython.org/
-    
-    * A gallery of interesting notebook：https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks
 
 
 
