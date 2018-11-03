@@ -2,7 +2,7 @@
 
 Programming with GCC,Ubuntu，Version control
 
-Deadline: 2019
+Deadline: 2019.06.16
  
 ## 1 C/C++ Programming with `GCC and make`,`GSL and GNUPlot`(+3) 
 
@@ -30,7 +30,7 @@ Deadline: 2019
   
    * 附件：学号-姓名-B.zip
 
-* 2 **截至时间**：2018.06.12
+* 2 **截至时间**：2019.06.16
 
 ## Reference
 

@@ -2,7 +2,7 @@
 
 **Basic Programming**: Python,Jupyter,Github and Markdown
 
-Deadline: 2019.03.13
+Deadline: 2019.03.17
 
 ## 练习内容
 
@@ -85,7 +85,7 @@ Deadline: 2019.03.13
   
   * 附件： 学号-姓名-1.zip
 
-* 2 **截至时间：** 2019.03.13
+* 2 **截至时间：** 2019.03.17
 
   * 截至时间后可补交，补交得分<=6. (2019.06.16)
 
