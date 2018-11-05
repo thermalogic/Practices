@@ -1,4 +1,4 @@
-## Practice 1(15分)
+## Practice 1(15)
 
 **Basic Programming**: Python,Jupyter,Visual Studio Code，MinGW-W64,Github and Markdown
 
@@ -6,25 +6,26 @@ Deadline: 2019.03.17
 
 ## 练习内容
 
-了解课程教学内容；参考 [Software Environment](https://github.com/PySEE/home/tree/S2019/guide/Beginner2BuildeSoftwareEnvironment.md),    建立软件开发环境，编写简单代码，练习软件操作，完成相应的文档。
+了解课程教学内容；参考 [The Guide of Building Software Environment](https://github.com/PySEE/home/tree/S2019/guide/Beginner2BuildeSoftwareEnvironment.md),    建立软件开发环境; 编写简单代码，练习软件操作，完成相应的文档。
 
-* 了解Github，PySEE中的Github仓库内容,给出简介
+**1** 了解Github，PySEE中的Github仓库内容,给出简介
 
-* 建立Github账户，Fork不少于2个和课程学习内容有关的Github仓库到个人Github账户，提交截图
+**2** 建立Github账户，Fork不少于2个和课程学习内容有关的Github仓库到个人Github账户，提交截图
 
-* 安装Python环境,用IDLE编一个简单程序：print输出本人的学号和姓名，提交编辑源码和程序运行结果的截图
+**3** 安装Python环境,用IDLE编一个简单程序：print输出本人的学号和姓名，提交编辑源码和程序运行结果的截图
 
-* 安装Jupyter, 编写一个Jupyter Notebook交互计算文件，交互计算文件和运行截图。
+**4** 安装Jupyter, 编写一个Jupyter Notebook交互计算文件。提交交互计算文件和运行截图。
    
-   * 交互计算文件内容：从 **A Byte of Python：First Steps** ( https://github.com/swaroopch/byte-of-python/blob/master/first_steps.md )
+* 交互计算文件内容：从 **A Byte of Python：First Steps** ( https://github.com/swaroopch/byte-of-python/blob/master/first_steps.md )
    中任选2小段文字和代码，实现为jupyter notebook版本（文本：Markdown，源码：Python3).
 
-* 安装MinGW-W64，Visual Studio Code和Python，C/C++插件, 编写程序，提交源码和程序编写和运行截图。
+**5** 安装MinGW-W64，Visual Studio Code和Python，C/C++插件, 编写程序，提交源码和程序编写和运行截图。
    
-   * Python程序：从 **A Byte of Python：First Steps** ( https://github.com/swaroopch/byte-of-python/blob/master/first_steps.md )
+* Python程序：从 **A Byte of Python：First Steps** ( https://github.com/swaroopch/byte-of-python/blob/master/first_steps.md )
    中任选一段代码 
 
-   * C++程序: 使用VS Code修改`hello.cpp`代码将其中的"Change the text to your name"和"Change the text to your student ID"，修改为自己的姓名和学号，使用Mingw-W64编译运行. 提交修改后的源码，使用Visual Studio Code编辑代码和运行的截图
+* C++程序: 使用VS Code修改 [hello.cpp](./hello.cpp) 代码， 将其中的"Change the text to your name"和"Change the text to your student ID"，修改为自己的姓名和学号，使用MinGW-W64编译运行. 提交修改后的源码，使用Visual Studio Code编辑代码和运行的截图
+
 ```cpp  
 /*
 g++ -o hello hello.cpp
@@ -38,46 +39,42 @@ int main() {
    return 0;
 }
 ```
+
 ![vscode-gcc](./vscode-gcc.jpg)
 
-* 编写软件环境建立和程序设计过程和工作小结文档。文档使用 **Markdown** 格式
 
-## Markdown文档内容(10分)
+**6** 编写软件环境建立、程序设计过程和工作小结文档。文档使用 **Markdown** 格式
 
-参考 [Software Environment.md](https://github.com/PySEE/home/tree/S2019/guide/Beginner2BuildeSoftwareEnvironment.md) 编辑Markdown文档。
+## Markdown文档内容
 
   * 1 Github简介；PySEE中的Github仓库:Home,PyRankine,SEUIF97简介(3)
    
-  * 1 本人Github账户名，使用的电邮；账户主页面截图(fork仓库后)(1)
+  * 2 本人Github账户名，使用的电邮；账户主页面截图(fork仓库后)(1)
   
-  * 2 Python环境及软件包的安装过程简要说明；使用IDLE编程和运行结果的截图(2)
+  * 3 Python环境及软件包的安装过程简要说明；使用IDLE编程和运行结果的截图(2)
   
-  * 3 Jupyter Notebook安装过程的简要说明；Jupyter Notebook文档的运行截图 (2)
+  * 4 Jupyter Notebook安装过程的简要说明；Jupyter Notebook文档的运行截图 (2)
 
-  * 4 安装MinGW-w64,Visual Studio code和Python，C/C++插件过程的简要说明；使用VS Code编写运行简单的Python,C++程序的截图 (3)
+  * 5 安装MinGW-w64,Visual Studio code和Python，C/C++插件过程的简要说明；使用VS Code编写运行简单的Python,C++程序的截图 (3)
   
-  * 5 工作小结(2)
+  * 6 工作小结(2)
 
-  * 6 Markdown文档格式(2)
+  * 7 Markdown文档格式(2)
 
 ## Markdown文档编辑提示
 
-* 1 使用Visual Studio Code编辑md文档
+* 1 使用Visual Studio Code编辑Markdown文档；只使用基本的Markdown格式标志符号，不使用HTML
 
-* 2 md文档使用到的不同类型文件用相应的目录进行组织
+* 2 Markdown文档使用到的不同类型文件用相应的目录进行组织
 
-* 3 插入图片
+* 3 插入图片时，需要注意图片所在目录位置：如idle.png在README.md文件所在目录下一级之目录/img中，格式标志：`![idle](./img/idle.png) `
 
-   注意图片所在目录位置：如idle.png在README.md文件所在目录下一级之目录/img中：
-```bash
-![idle](./img/idle.png)
-```
-
-* 4 只使用基本的markdown格式标志符号，不使用HTML
+* 4 可参考和修改[The Guide of Building Software Environment](https://github.com/PySEE/home/tree/S2019/guide/Beginner2BuildeSoftwareEnvironment.md) Markdown文件，完成练习要求。
 
 ## 参考的目录和文件组织方式
 
-目录和文件名都用 **英文**，注意 **大小** 写。因为和Windows不同，Linux系统下目录，文件名区分大小写。
+**注意**： 目录和文件名都用 **`英文`**，同时注意 **`大小`** 写。Linux操作系统和Windows不同:(1) 默认的中文编码是utf-8不同于Windows的GBK; (2) 目录和文件名区分大小写。为了使我们的工作内容在不同操作系统中都能正常使用，目录和文件名都使用 **`英文`**，同时注意 **`大小`** 写。
+
 
 ```bash
  ├──<Practices>
