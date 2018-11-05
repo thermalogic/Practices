@@ -24,7 +24,7 @@ Deadline: 2019.03.17
 * Python程序：从 **A Byte of Python：First Steps** ( https://github.com/swaroopch/byte-of-python/blob/master/first_steps.md )
    中任选一段代码 
 
-* C++程序: 使用VS Code修改 [hello.cpp](./hello.cpp) 代码， 将其中的"Change the text to your name"和"Change the text to your student ID"，修改为自己的姓名和学号，使用MinGW-W64编译运行. 提交修改后的源码，使用Visual Studio Code编辑代码和运行的截图
+* C++程序: 使用VS Code修改 [hello.cpp](./cpp/hello.cpp) 代码， 将其中的"Change the text to your name"和"Change the text to your student ID"，修改为自己的姓名和学号，使用MinGW-W64编译运行. 提交修改后的源码，使用Visual Studio Code编辑代码和运行的截图
 
 ```cpp  
 /*
@@ -40,7 +40,7 @@ int main() {
 }
 ```
 
-![vscode-gcc](./vscode-gcc.jpg)
+![vscode-gcc](./img/vscode-gcc.jpg)
 
 
 **6** 编写软件环境建立、程序设计过程和工作小结文档。文档使用 **Markdown** 格式
@@ -67,9 +67,7 @@ int main() {
 
 * 2 Markdown文档使用到的不同类型文件用相应的目录进行组织
 
-* 3 插入图片时，需要注意图片所在目录位置：如idle.png在README.md文件所在目录的下一级目录/img中，格式标志：`![idle](./img/idle.png) `
-
-* 4 可参考和修改[The Guide of Building Software Environment](https://github.com/PySEE/home/tree/S2019/guide/Beginner2BuildeSoftwareEnvironment.md) Markdown文件，完成练习要求。
+* 3 插入图片时，需要注意图片所在目录位置：如vscode-cpp.jpg在README.md文件所在目录的下一级目录/img中，格式标志：`![vscode-cpp](./img/vscode-cpp.jpg) `
 
 ## 参考的目录和文件组织方式
 
@@ -85,11 +83,11 @@ int main() {
  │   │    │ 
  │   │    |── <img>: README.md文件中使用的图形文件
  │   │    │ 
- │   │    |── <Python>: 练习的python源码
+ │   │    |── <python>: 练习的python源码
  │   │    |
- │   │    |── <CPP>: 练习的C++源码
+ │   │    |── <cpp>: 练习的C++源码
  │   │    │ 
- │   │    │── <Notebook> ── start.bat: 内容为jupyter notebook的bat文件 
+ │   │    │── <notebook> ── start.bat: 内容为jupyter notebook的bat文件 
  │   │                  │     
  │   │                  |── Jupyter Notebook文件
  │   │
