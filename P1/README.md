@@ -67,7 +67,7 @@ int main() {
 
 * 2 Markdown文档使用到的不同类型文件用相应的目录进行组织
 
-* 3 插入图片时，需要注意图片所在目录位置：如idle.png在README.md文件所在目录下一级之目录/img中，格式标志：`![idle](./img/idle.png) `
+* 3 插入图片时，需要注意图片所在目录位置：如idle.png在README.md文件所在目录的下一级目录/img中，格式标志：`![idle](./img/idle.png) `
 
 * 4 可参考和修改[The Guide of Building Software Environment](https://github.com/PySEE/home/tree/S2019/guide/Beginner2BuildeSoftwareEnvironment.md) Markdown文件，完成练习要求。
 
