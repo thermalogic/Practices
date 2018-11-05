@@ -10,14 +10,14 @@
 
 [2. Python and Interactive Computing(15)](https://github.com/PySEE/Practices/tree/S2019/P2)：Jupyter Notebook of the Rankine Cycle Simulator 
 
-* Deadline: 2019.04.28
+* Deadline: 2019.04.21
 
 ---
 
 [3. Object-oriented Programming(20)](https://github.com/PySEE/Practices/tree/S2019/P3)： The General Rankine Cycle Simulator
 
 * Deadline: 2019.05.19
-
+---
 
 [4. Data Analysis(10)](https://github.com/PySEE/Practices/tree/S2019/P4)：Statistics, regression and visualization
 

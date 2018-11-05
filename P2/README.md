@@ -4,7 +4,7 @@
   
 * Purpose：**Jupyter Notebook**: shareing the code and reproducible research
 
-* Deadline: 2019.04.28
+* Deadline: 2019.04.21
   
 ## The Rankine Cycle: 
 
@@ -73,7 +73,7 @@ Chapter 8 Vapor Power System:(Page 460-463)
   * 主题：学号-姓名-2
   * 附件：Jupyter Notebook等文件的压缩包： **学号-姓名-2.zip**；
 
-* 2 **截至时间：** 2019.04.28
+* 2 **截至时间：** 2019.04.21
   
   * 截至时间后补交，补交得分<10. (2019.06.16)
 
