@@ -1,6 +1,6 @@
 ## Practice 1(15分)
 
-**Basic Programming**: Python,Jupyter,Visual Studio Code，Github and Markdown
+**Basic Programming**: Python,Jupyter,Visual Studio Code，MinGW-W64,Github and Markdown
 
 Deadline: 2019.03.17
 
