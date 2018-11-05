@@ -1,41 +1,64 @@
-## Practice 1(10分)
+## Practice 1(15分)
 
-**Basic Programming**: Python,Jupyter,Github and Markdown
+**Basic Programming**: Python,Jupyter,Visual Studio Code，Github and Markdown
 
 Deadline: 2019.03.17
 
 ## 练习内容
 
-了解课程教学内容；参考 [Software Environment]( https://github.com/PySEE/home/tree/S2019/guide/Beginner2BuildeSoftwareEnvironment.md),    建立软件开发环境，编写简单代码，练习软件操作，完成相应的文档。
+了解课程教学内容；参考 [Software Environment](https://github.com/PySEE/home/tree/S2019/guide/Beginner2BuildeSoftwareEnvironment.md),    建立软件开发环境，编写简单代码，练习软件操作，完成相应的文档。
 
-*  了解PySEE中的Github仓库内容：Home、PyRankine和SEUIF97
+* 了解Github，PySEE中的Github仓库内容,给出简介
 
-*  建立Github账户，Fork不少于2个和课程学习内容有关的Github仓库到个人Github账户
+* 建立Github账户，Fork不少于2个和课程学习内容有关的Github仓库到个人Github账户，提交截图
 
-*  安装Python环境,用IDLE编一个简单程序：print输出本人的学号和姓名，提交编辑源码和程序运行结果的截图
+* 安装Python环境,用IDLE编一个简单程序：print输出本人的学号和姓名，提交编辑源码和程序运行结果的截图
 
-*  安装jupyter, 编写一个jupyter notebook交互计算文件。
+* 安装Jupyter, 编写一个Jupyter Notebook交互计算文件，交互计算文件和运行截图。
    
-   * 内容：从 **A Byte of Python：First Steps** ( https://github.com/swaroopch/byte-of-python/blob/master/first_steps.md )
+   * 交互计算文件内容：从 **A Byte of Python：First Steps** ( https://github.com/swaroopch/byte-of-python/blob/master/first_steps.md )
    中任选2小段文字和代码，实现为jupyter notebook版本（文本：Markdown，源码：Python3).
+
+* 安装MinGW-W64，Visual Studio Code和Python，C/C++插件, 编写程序，提交源码和程序编写和运行截图。
+   
+   * Python程序：从 **A Byte of Python：First Steps** ( https://github.com/swaroopch/byte-of-python/blob/master/first_steps.md )
+   中任选一段代码 
+
+   * C++程序: 使用VS Code修改`hello.cpp`代码将其中的"Change the text to your name"和"Change the text to your student ID"，修改为自己的姓名和学号，使用Mingw-W64编译运行. 提交修改后的源码，使用Visual Studio Code编辑代码和运行的截图
+```cpp  
+/*
+g++ -o hello hello.cpp
+*/
+#include <iostream>
+using namespace std;
  
-* 编写软件环境建立，程序设计过程的说明文档.文档使用 **Markdown** 格式
+int main() {
+   cout << "Your Name: "<<"Change the text to your name"<<endl;
+   cout << "Your Student ID: "<<"Change the text to your student ID"<<endl;
+   return 0;
+}
+```
+![vscode-gcc](./vscode-gcc.jpg)
+
+* 编写软件环境建立和程序设计过程和工作小结文档。文档使用 **Markdown** 格式
 
 ## Markdown文档内容(10分)
 
 参考 [Software Environment.md](https://github.com/PySEE/home/tree/S2019/guide/Beginner2BuildeSoftwareEnvironment.md) 编辑Markdown文档。
+
+  * 1 Github简介；PySEE中的Github仓库:Home,PyRankine,SEUIF97简介(3)
    
-  * 1 课程Github仓库(Home、PyRankine和SEUIF97)简介(2)
+  * 1 本人Github账户名，使用的电邮；账户主页面截图(fork仓库后)(1)
   
-  * 2 本人Github账户名，使用的电邮；账户主页面截图(fork仓库后)(1)
+  * 2 Python环境及软件包的安装过程简要说明；使用IDLE编程和运行结果的截图(2)
   
-  * 3 Python环境安装过程的简要说明；使用IDLE编程和运行结果的截图(2)
-  
-  * 4 Jupyter Notebook安装过程的简要说明；Jupyter Notebook运行截图 (2)
+  * 3 Jupyter Notebook安装过程的简要说明；Jupyter Notebook运行截图 (2)
+
+  * 4 MinGW-w64,Visual Studio code和Python，C/C++插件过程的简要说明；使用VS Code编写运行简单的Python,C/C++程序的截图 (3)
   
   * 5 工作小结(2)
 
-  * 6 Markdown文档格式(1)
+  * 6 Markdown文档格式(2)
 
 ## Markdown文档编辑提示
 
@@ -66,6 +89,8 @@ Deadline: 2019.03.17
  │   │    |── <img>: README.md文件中使用的图形文件
  │   │    │ 
  │   │    |── <Python>: 练习的python源码
+ │   │    |
+ │   │    |── <CPP>: 练习的C++源码
  │   │    │ 
  │   │    │── <Notebook> ── start.bat: 内容为jupyter notebook的bat文件 
  │   │                  │     
@@ -87,7 +112,7 @@ Deadline: 2019.03.17
 
 * 2 **截至时间：** 2019.03.17
 
-  * 截至时间后可补交，补交得分<=6. (2019.06.16)
+  * 截至时间后可补交，补交得分<=10. (2019.06.16)
 
 * 3 改进更新：提交作业后可改进，改进截至时间：2019.06.16
 
