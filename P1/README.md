@@ -6,7 +6,7 @@ Deadline: 2019.03.17
 
 ## 练习内容
 
-了解课程教学内容；参考 [The Guide of Building Software Environment](https://github.com/PySEE/home/tree/S2019/guide/Beginner2BuildeSoftwareEnvironment.md),    建立软件开发环境; 编写简单代码，练习软件操作，完成相应的文档。
+了解课程教学内容；参考 [The Guide of Building Software Environment](https://github.com/PySEE/home/tree/S2019/guide/BuildingSoftwareEnvironment.md),    建立软件开发环境; 编写简单代码，练习软件操作，完成相应的文档。
 
 **1** 了解Github，PySEE中的Github仓库内容,给出简介
 
@@ -113,9 +113,9 @@ int main() {
 
 ## 参考：
 
-* [Guide of  Building Software Environment for Beginners](https://github.com/PySEE/home/tree/S2019/guide/Beginner2BuildeSoftwareEnvironment.md) 
+* [The Guide of  Building Software Environment](https://github.com/PySEE/home/tree/S2019/guide/BuildingSoftwareEnvironment.md) 
 
-* [Building Software Environment](https://github.com/PySEE/home/tree/S2019/guide/BuildingSoftwareEnvironment.md)
+   * [Building Software Environment-Extended](https://github.com/PySEE/home/tree/S2019/guide/BuildingSoftwareEnvironment-Extended.md)
 
 * [Introduction to Markdown](https://github.com/PySEE/home/blob/S2019/guide/Introduction2Markdown.md)
 
