@@ -52,9 +52,9 @@ int main() {
   
   * 2 Python环境及软件包的安装过程简要说明；使用IDLE编程和运行结果的截图(2)
   
-  * 3 Jupyter Notebook安装过程的简要说明；Jupyter Notebook运行截图 (2)
+  * 3 Jupyter Notebook安装过程的简要说明；Jupyter Notebook文档的运行截图 (2)
 
-  * 4 MinGW-w64,Visual Studio code和Python，C/C++插件过程的简要说明；使用VS Code编写运行简单的Python,C/C++程序的截图 (3)
+  * 4 安装MinGW-w64,Visual Studio code和Python，C/C++插件过程的简要说明；使用VS Code编写运行简单的Python,C++程序的截图 (3)
   
   * 5 工作小结(2)
 
