@@ -124,9 +124,15 @@ int main() {
 
 * [Introduction to Markdown](https://github.com/PySEE/home/blob/S2019/guide/Introduction2Markdown.md)
 
-* 03013级 https://github.com/PySEE/Practices/tree/S2016/P2  
+* 03013级 
+   * https://github.com/PySEE/Practices/tree/S2016/P1  
 
-* 03014级 https://github.com/PySEE/Practices/tree/S2017/P1  
+   * https://github.com/PySEE/Practices/tree/S2016/P2
+
+* 03014级 
+  * https://github.com/PySEE/Practices/tree/S2017/P1 
+
+  * https://github.com/PySEE/Practices/tree/S2017/P2 
 
 * 03015级 https://github.com/PySEE/Practices/tree/S2018/P1  
 
@@ -144,10 +150,26 @@ int main() {
     
     * A gallery of interesting notebook： https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks
 
+* Visual Studio Code: https://code.visualstudio.com/
+  
+   * Documentation: https://code.visualstudio.com/docs
+
+   * **Markdown** and VS Code： https://code.visualstudio.com/docs/languages/markdown
+
+   * Getting Started with **Python** https://code.visualstudio.com/docs/python/python-tutorial
+
+   * **C/C++** for VS Code： https://code.visualstudio.com/docs/languages/cpp
+
+   * **Git** Version Control in VS Code：https://code.visualstudio.com/docs/editor/versioncontrol
+
+* GCC, the GNU Compiler Collection：http://gcc.gnu.org/
+
+   * MinGW-W64:GCC for Windows 64 & 32 bits：http://mingw-w64.org/
+
+   * GCC and Make：Compiling, Linking and Building C/C++ Applications http://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html
+
 * Markdown
   
-   * [Visual Studio Code Markdown](https://code.visualstudio.com/docs/languages/markdown/)
-
    * [CommonMark](http://commonmark.org/)
   
    * [WIKI Markdown](https://en.wikipedia.org/wiki/Markdown)
@@ -166,11 +188,7 @@ int main() {
 
    * How to get started with GIT and work with GIT Remote Repo http://www3.ntu.edu.sg/home/ehchua/programming/howto/Git_HowTo.html
 
-   * 廖雪峰. Git教程  http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
-
    * git-for-windows：https://github.com/git-for-windows/git/releases
  
-   * Git Version Control in VS Code：https://code.visualstudio.com/docs/editor/versioncontrol
-
    * Scott Chacon，Ben Straub. Pro Git. https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
 
