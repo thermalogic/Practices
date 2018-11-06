@@ -113,9 +113,7 @@ int main() {
 
 ## 参考：
 
-* [The Guide of  Building Software Environment](https://github.com/PySEE/home/tree/S2019/guide/BuildingSoftwareEnvironment.md) 
-
-   * [Building Software Environment-Extended](https://github.com/PySEE/home/tree/S2019/guide/BuildingSoftwareEnvironment-Extended.md)
+* [The Guide of Building Software Environment](https://github.com/PySEE/home/tree/S2019/guide/BuildingSoftwareEnvironment.md) 
 
 * [Introduction to Markdown](https://github.com/PySEE/home/blob/S2019/guide/Introduction2Markdown.md)
 
@@ -177,13 +175,14 @@ int main() {
 
    * 知乎：怎样使用GitHub. http://www.zhihu.com/question/20070065
 
+   * git-for-windows：https://github.com/git-for-windows/git/releases
+   
    * The Simple Guide of Github https://github.com/PySEE/home/blob/S2019/guide/TheSimpleGuide2Github.md
 
    * DevTools-Git  http://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/DevTools-Git.ipynb
 
    * How to get started with GIT and work with GIT Remote Repo http://www3.ntu.edu.sg/home/ehchua/programming/howto/Git_HowTo.html
 
-   * git-for-windows：https://github.com/git-for-windows/git/releases
  
    * Scott Chacon，Ben Straub. Pro Git. https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
 
