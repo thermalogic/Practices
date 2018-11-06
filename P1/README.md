@@ -16,13 +16,11 @@ Deadline: 2019.03.17
 
 **4** 安装Jupyter, 编写一个Jupyter Notebook交互计算文件。提交交互计算文件和运行截图。
    
-* 交互计算文件内容：从 **A Byte of Python：First Steps** ( https://github.com/swaroopch/byte-of-python/blob/master/first_steps.md )
-   中任选2小段文字和代码，实现为jupyter notebook版本（文本：Markdown，源码：Python3).
+* 交互计算文件内容：从 [02_INTRODUCTION_TO_PYTHON](http://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/02_INTRODUCTION_TO_PYTHON.ipynb)中任选一小段文字和代码，然后，文本部分加上自己的学号和姓名；代码部分加上用print输出自己的学号和姓名，实现为jupyter notebook版本（文本格式：Markdown，源码语言：Python3).
 
 **5** 安装MinGW-W64，Visual Studio Code和Python，C/C++插件, 编写程序，提交源码和程序编写和运行截图。
    
-* Python程序：从 **A Byte of Python：First Steps** ( https://github.com/swaroopch/byte-of-python/blob/master/first_steps.md )
-   中任选一段代码 
+* Python程序：从[02_INTRODUCTION_TO_PYTHON](http://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/02_INTRODUCTION_TO_PYTHON.ipynb)中任选一段代码，代码加上用print输出自己的学号和姓名。
 
 * C++程序: 使用VS Code修改 [hello.cpp](./cpp/hello.cpp) 代码， 将其中的"Change the text to your name"和"Change the text to your student ID"，修改为自己的姓名和学号，使用MinGW-W64编译运行. 提交修改后的源码，使用Visual Studio Code编辑代码和运行的截图
 
@@ -113,27 +111,25 @@ int main() {
 
 ## 参考：
 
-* [The Guide of Building Software Environment](https://github.com/PySEE/home/tree/S2019/guide/BuildingSoftwareEnvironment.md) 
-
-* [Introduction to Markdown](https://github.com/PySEE/home/blob/S2019/guide/Introduction2Markdown.md)
-
 * 03013级 
-   * https://github.com/PySEE/Practices/tree/S2016/P1  
+     * https://github.com/PySEE/Practices/tree/S2016/P1  
 
-   * https://github.com/PySEE/Practices/tree/S2016/P2
+     * https://github.com/PySEE/Practices/tree/S2016/P2
 
 * 03014级 
   * https://github.com/PySEE/Practices/tree/S2017/P1 
 
   * https://github.com/PySEE/Practices/tree/S2017/P2 
 
-* 03015级 https://github.com/PySEE/Practices/tree/S2018/P1  
+* 03015级 https://github.com/PySEE/Practices/tree/S2018/P1 
+
+* [The Guide of Building Software Environment](https://github.com/PySEE/home/tree/S2019/guide/BuildingSoftwareEnvironment.md) 
+
+* [Introduction to Markdown](https://github.com/PySEE/home/blob/S2019/guide/Introduction2Markdown.md)
 
 * Python https://www.python.org/
 
    * Guido van Rossum, Python development team. Python Tutorial. https://docs.python.org/3/tutorial/index.html
-
-   * Swaroop C H. A Byte of Python：https://github.com/swaroopch/byte-of-python
 
 * Jupyter. http://jupyter.org/
     
