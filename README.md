@@ -27,12 +27,12 @@
 
 ---
 
-[5. C/C++ Programming(5)](https://github.com/PySEE/Practices/tree/S2019/P5)：C/C++ Programming with GCC(MinGW-w64),MakeFile  
+[5. C/C++ Programming(5)](https://github.com/PySEE/Practices/tree/S2019/P5)：C/C++ Programming with GCC(MinGW-w64),MakeFile,Shared Library
 
 * Deadline: 2019.06.09
 ---
 
-[Bonus(+5)](https://github.com/PySEE/Practices/tree/S2019/Bonus)： C/C++ Programming with GCC,GSL,Gnuplot,Ubuntu,Version Control 
+[Bonus(+5)](https://github.com/PySEE/Practices/tree/S2019/Bonus)： C/C++ Programming with GCC,GSL,Gnuplot,Ubuntu,Version Control:Git/Github 
 
 * Deadline: 2019.06.16
 
