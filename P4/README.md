@@ -57,7 +57,7 @@ Note: **不使用pandas包**
 
 * 参考第11、18、21章
 
-  * http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture3-11_PLOTTING_AND_MORE_ABOUT_CLASSES.ipynb
+  * http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture3-2-11_PLOTTING_AND_MORE_ABOUT_CLASSES.ipynb
   * http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture5-1-18_UNDERSTANDING_EXPERIMENTAL_DATA.ipynb
   * http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture5-2-21_LIES_DAMNED_LIES_AND_STATISTICS.ipynb
 
