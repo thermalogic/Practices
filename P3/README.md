@@ -94,3 +94,10 @@ Chapter 8 Vapor Power System(7th Edition):
 
 *  http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture4-3-PyThermo-JSON-Python.ipynb
 
+
+**You need to**
+ 
+* reading the codes
+* programming the general solution of the  rankine cycle for understanding computational thinking and developing the skills of programming 
+
+
