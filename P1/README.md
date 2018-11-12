@@ -127,11 +127,29 @@ int main() {
 
 * [Introduction to Markdown](https://github.com/PySEE/home/blob/S2019/guide/Introduction2Markdown.md)
 
+* Github
+ 
+  * 知乎：怎样使用GitHub. http://www.zhihu.com/question/20070065
+
+  * [The Simple Guide of Github](https://github.com/PySEE/home/blob/S2019/guide/TheSimpleGuide2Github.md)
+
+  * Thank you for 100 million repositories https://blog.github.com/2018-11-08-100M-repos/
+    
+* Git
+   
+   * Git：https://git-scm.com/
+
+   * [How to get started with GIT and work with GIT Remote Repo](http://www3.ntu.edu.sg/home/ehchua/programming/howto/Git_HowTo.html)
+
+   * Scott Chacon，Ben Straub. [Pro Git](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
+
+   * [DevTools-Git](http://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/Lecture7-5-DevTools-Git.ipynb)
+
 * Python https://www.python.org/
 
-   * Guido van Rossum, Python development team. Python Tutorial. https://docs.python.org/3/tutorial/index.html
+   * Python development team. [Python Tutorial](https://docs.python.org/tutorial/index.html)
 
-* Jupyter. http://jupyter.org/
+* Jupyter  http://jupyter.org/
     
     * Jupyter Documentation. http://jupyter.readthedocs.org/en/latest/
     
@@ -139,7 +157,7 @@ int main() {
     
     * A gallery of interesting notebook： https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks
 
-* Visual Studio Code: https://code.visualstudio.com/
+* Visual Studio Code  https://code.visualstudio.com/
   
    * Documentation: https://code.visualstudio.com/docs
 
@@ -167,18 +185,4 @@ int main() {
    
    * 王树义. 如何用Markdown写论文？ http://blog.sciencenet.cn/blog-377709-1088215.html
 
-* Git,Github
-
-   * 知乎：怎样使用GitHub. http://www.zhihu.com/question/20070065
-
-   * git-for-windows：https://github.com/git-for-windows/git/releases
-   
-   * The Simple Guide of Github https://github.com/PySEE/home/blob/S2019/guide/TheSimpleGuide2Github.md
-
-   * DevTools-Git  http://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/DevTools-Git.ipynb
-
-   * How to get started with GIT and work with GIT Remote Repo http://www3.ntu.edu.sg/home/ehchua/programming/howto/Git_HowTo.html
-
- 
-   * Scott Chacon，Ben Straub. Pro Git. https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
 

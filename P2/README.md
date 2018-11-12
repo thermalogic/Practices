@@ -48,7 +48,7 @@ Chapter 8 Vapor Power System:(Page 460-463)
        
        * PyRankine https://github.com/PySEE/PyRankine  step0, step1
 
-       * [Jupyter Notebook of IdealRankine Cycle](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/PyThermo-IdealRankineCycle.ipynb)
+       * [Jupyter Notebook of IdealRankine Cycle](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture2-2-PyThermo-IdealRankineCycle.ipynb)
      
 * **文档部分**(5);   
     
@@ -83,7 +83,7 @@ Chapter 8 Vapor Power System:(Page 460-463)
 
 * [Markdown](https://github.com/PySEE/home/blob/S2019/guide/Introduction2Markdown.md)
 
-* [MathJax LaTeX](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Thermo-MathJax-LaTeX.ipynb)
+* [MathJax LaTeX](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture2-3-Thermo-MathJax-LaTeX.ipynb)
 
 * Jupyter Documentation. http://jupyter.readthedocs.org/en/latest/
     
@@ -91,9 +91,9 @@ Chapter 8 Vapor Power System:(Page 460-463)
     
     * A gallery of interesting notebook：https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks
 
-* [PyThermo-IF97](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/PyThermo-IF97.ipynb)
+* [PyThermo-IF97](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture2-1-PyThermo-IF97.ipynb)
 
-* [Jupyter Notebook of IdealRankine Cycle](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/PyThermo-IdealRankineCycle.ipynb) 
+* [Jupyter Notebook of IdealRankine Cycle](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture2-2-PyThermo-IdealRankineCycle.ipynb) 
 *  PyRankine https://github.com/PySEE/PyRankine
 
    * step 0 : Zero @  Data Structures,Program architecture, Algorithms(The Ideal Rankine Cycle)

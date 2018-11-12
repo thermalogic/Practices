@@ -40,7 +40,7 @@ Note: **不使用pandas包**
 
 * 4 回归分析和图形输出(3分): **线性回归**（1分）；图形输出（2分）[参考输出](#参考输出)
 
-参考: [21 LIES DAMNED LIES ANDSTATISTICS](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/21_LIES_DAMNED_LIES_AND_STATISTICS.ipynb)
+参考: [21 LIES DAMNED LIES ANDSTATISTICS](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture5-2-21_LIES_DAMNED_LIES_AND_STATISTICS.ipynb)
 
 ## 提交：
 
@@ -57,9 +57,9 @@ Note: **不使用pandas包**
 
 * 参考第11、18、21章
 
-  * http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/11_PLOTTING_AND_MORE_ABOUT_CLASSES.ipynb
-  * http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/18_UNDERSTANDING_EXPERIMENTAL_DATA.ipynb
-  * http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/21_LIES_DAMNED_LIES_AND_STATISTICS.ipynb
+  * http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture3-11_PLOTTING_AND_MORE_ABOUT_CLASSES.ipynb
+  * http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture5-1-18_UNDERSTANDING_EXPERIMENTAL_DATA.ipynb
+  * http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture5-2-21_LIES_DAMNED_LIES_AND_STATISTICS.ipynb
 
 * Scipy. http://www.scipy.org/
   

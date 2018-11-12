@@ -36,9 +36,9 @@ Deadline: 2019.06.16
 
 **GCC,GSL,Gnuplot**
 
-* [18_UNDERSTANDING_EXPERIMENTAL_DATA](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/18_UNDERSTANDING_EXPERIMENTAL_DATA.ipynb)
+* [18_UNDERSTANDING_EXPERIMENTAL_DATA](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture5-1-18_UNDERSTANDING_EXPERIMENTAL_DATA.ipynb)
 
-* [CPP_4_GSL_GNUPLOT_Ubuntu](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/CPP_4_GSL_GNUPLOT_Ubuntu.ipynb)
+* [CPP_4_GSL_GNUPLOT_Ubuntu](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture8-4-CPP_4_GSL_GNUPLOT_Ubuntu.ipynb)
 
 * [Ubuntu](https://github.com/PySEE/home/blob/S2019/guide/Ubuntu-Python-C-Chinese.md)
 
@@ -52,14 +52,12 @@ Deadline: 2019.06.16
 
 **Git and Github**
 
-* http://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/DevTools-Git.ipynb
-
 * How to get started with GIT and work with GIT Remote Repo http://www3.ntu.edu.sg/home/ehchua/programming/howto/Git_HowTo.html
 
-* 廖雪峰. Git教程  http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
+* Git：https://git-scm.com/
 
-* git-for-windows：https://github.com/git-for-windows/git/releases
- 
 * Git Version Control in VS Code：https://code.visualstudio.com/docs/editor/versioncontrol
 
 * Scott Chacon，Ben Straub. Pro Git. https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
+
+* http://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/Lecture7-5-DevTools-Git.ipynb
