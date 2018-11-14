@@ -22,9 +22,9 @@ Deadline: 2019.03.17
    
 * Python程序：从[02_INTRODUCTION_TO_PYTHON](http://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/Lecture1-2-02_INTRODUCTION_TO_PYTHON.ipynb)中任选一段代码，代码加上用print输出自己的学号和姓名。
 
-* C++程序: 使用VS Code修改 [hello.cpp](./cpp/hello.cpp) 代码， 将其中的"Change the text to your name"和"Change the text to your student ID"，修改为自己的姓名和学号，使用MinGW-W64编译运行. 提交修改后的源码，使用Visual Studio Code编辑代码和运行的截图
+* C++程序: 使用VS Code修改 [hello.cpp](./cpp/hello.cpp) 代码， 将其中的"Change the text to your name"和"Change the text to your student ID"，修改为自己的姓名和学号，使用MinGW-W64编译运行. 提交: 修改后的源码，使用Visual Studio Code编辑代码和运行时的截图
 
-```cpp  
+```cpp 
 /*
 g++ -o hello hello.cpp
 */
@@ -32,8 +32,8 @@ g++ -o hello hello.cpp
 using namespace std;
  
 int main() {
-   cout << "Your Name: "<<"Change the text to your name"<<endl;
-   cout << "Your Student ID: "<<"Change the text to your student ID"<<endl;
+   cout << "      Name: "<<"Change the text to your name"<<endl;
+   cout << "Student ID: "<<"Change the text to your student ID"<<endl;
    return 0;
 }
 ```
