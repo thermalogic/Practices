@@ -28,17 +28,18 @@ In 1973, the statistician F.J. Anscombe published a paper containing the table b
 
 ## 要求(10分)：
 
-  使用Python文件或Jupyter Notebook实现 
+使用Jupyter Notebook实现 
   
-Note: **不使用pandas包**
+* 1 数据文件及数据对象表达(3分)：**以纯文本格式组织数据文件；从数据文件读取数据,形成数据分析对象**：
 
-* 1 四组数据的数据文件(1分)：纯文本格式或MS Excel表格；
+   * 使用Python语言的文件操作; 使用List,Dict表达数据分析对象。**不使用NumPy,Pandas**
 
-* 2 数据分析对象表达(3分)：**从数据文件读取数据,形成数据分析对象**
+* 2 统计指标计算输出(2分)：计算均值、方差和相关系数等统计指标（1分，可使用Python统计库、Numpy或Scipy)；统计结果表格化输出(1分) [参考输出](#参考输出)
 
-* 3 统计指标计算输出(3分)：计算均值、方差和相关系数等统计指标（2分，可使用Python统计库、Numpy或Scipy）；统计结果输出(1分) [参考输出](#参考输出)
+* 3 回归分析和图形输出(3分): **线性回归**（1分,可使用Numpy或Scipy）；多图组合输出（2分）[参考输出](#参考输出)
 
-* 4 回归分析和图形输出(3分): **线性回归**（1分）；图形输出（2分）[参考输出](#参考输出)
+* 4 小结(2)：如何做一个好的统计分析结果的提供者和消费者？（建议分析角度：数据获取，数据分析，结果表述和展示)
+
 
 参考: [21 LIES DAMNED LIES ANDSTATISTICS](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture5-2-21_LIES_DAMNED_LIES_AND_STATISTICS.ipynb)
 
@@ -63,9 +64,9 @@ Note: **不使用pandas包**
 
 * Scipy. http://www.scipy.org/
   
-* numpy. http://www.numpy.org/
+* Numpy. http://www.numpy.org/
   
-* matplotlib.  http://matplotlib.org/
+* Matplotlib.  http://matplotlib.org/
 
 * Lectures on scientific computing with python https://github.com/jrjohansson/scientific-python-lectures
 
@@ -74,5 +75,4 @@ Note: **不使用pandas包**
 * 数据点图和回归曲线、统计结果
 
 ![参考输出](p4output.jpg)
-
 

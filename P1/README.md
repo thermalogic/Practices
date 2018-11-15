@@ -16,7 +16,7 @@ Deadline: 2019.03.17
 
 **4** 安装Jupyter, 编写一个Jupyter Notebook交互计算文件。提交交互计算文件和运行截图。
    
-* 交互计算文件内容：从 [02_INTRODUCTION_TO_PYTHON](http://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/Lecture1-2-02_INTRODUCTION_TO_PYTHON.ipynb)中任选一小段文字和代码，然后，文本部分加上自己的学号和姓名；代码部分加上用print输出自己的学号和姓名，实现为jupyter notebook版本（文本格式：Markdown，源码语言：Python3).
+* 交互计算文件内容：从 [02_INTRODUCTION_TO_PYTHON](http://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/Lecture1-2-02_INTRODUCTION_TO_PYTHON.ipynb)中任选一小段文字和代码，然后： 1）文本部分加上自己的学号和姓名；2）代码部分加上用print输出自己的学号和姓名，实现为jupyter notebook版本（文本格式：Markdown，源码语言：Python3).
 
 **5** 安装MinGW-W64，Visual Studio Code和Python，C/C++插件, 编写程序，提交源码和程序编写和运行截图。
    
@@ -41,9 +41,9 @@ int main() {
 ![vscode-gcc](./img/vscode-gcc.jpg)
 
 
-**6** 编写软件环境建立、程序设计过程和工作小结文档。文档使用 **Markdown** 格式
+**6** 编写软件环境建立、程序设计过程和工作小结文档。文档使用 * Docx** 格式
 
-## Markdown文档内容
+## Word文档内容
 
   * 1 Github简介；PySEE中的Github仓库:Home,PyRankine,SEUIF97简介(3)
    
@@ -57,9 +57,9 @@ int main() {
   
   * 6 工作小结(2)
 
-  * 7 Markdown文档格式(2)
+  * 7 Word文档格式(2)
 
-## Markdown文档编辑提示
+##  Word文档编辑提示
 
 * 1 使用Visual Studio Code编辑Markdown文档；只使用基本的Markdown格式标志符号，不使用HTML
 
