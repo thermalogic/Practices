@@ -4,7 +4,7 @@
 
 ---
 
-[1. Basic Programming(15)](https://github.com/PySEE/Practices/tree/S2019/P1)：Python,Jupyter,MinGW-W64,Visual Studio Code,Github and Markdown
+[1. Basic Programming(15)](https://github.com/PySEE/Practices/tree/S2019/P1)：Python,Jupyter,MinGW-W64,Visual Studio Code,Github
 
 * Deadline: 2019.03.17
 

@@ -16,21 +16,25 @@ Deadline: 2019.06.16
 
 ## 2 Version control with Git,Github(+2)
  
-* Version control with Git,Github for the codes
+* Version control with Git
 
-## 提交：
+* Submit to your Github 
 
-1 source codes,data files and image of Linear Regression 
+## Submit：
 
-2 images of Github repository for the codes
+The ziped file include:
 
-* 1 电邮：cmh@seu.edu.cn
+* 1 source codes,data files and image of Linear Regression 
 
-   * 主题：学号-姓名-B
+* 2 images of your Github repository for the codes
+
+**Email to：** cmh@seu.edu.cn
+
+   * Subject：学号-姓名-B
   
-   * 附件：学号-姓名-B.zip
+   * Attachment：学号-姓名-B.zip
 
-* 2 **截至时间**：2019.06.16
+**Deadline**：2019.06.16
 
 ## Reference
 
@@ -40,24 +44,31 @@ Deadline: 2019.06.16
 
 * [CPP_4_GSL_GNUPLOT_Ubuntu](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture8-4-CPP_4_GSL_GNUPLOT_Ubuntu.ipynb)
 
-* [Ubuntu](https://github.com/PySEE/home/blob/S2019/guide/Ubuntu-Python-C-Chinese.md)
+* [Ubuntu Python GCC](https://github.com/PySEE/home/blob/S2019/guide/Ubuntu-Python-C-Chinese.md)
 
 * GSL - GNU Scientific Library https://www.gnu.org/software/gsl/
 
-* The GSL Reference Manual online https://www.gnu.org/software/gsl/doc/html/index.html
+   * [The GSL Reference Manual online]( https://www.gnu.org/software/gsl/doc/html/index.html)
 
 * Gnuplot homepage http://gnuplot.info/
 
-* Nishanth Sastry：gnuplot 让您的数据可视化 https://www.ibm.com/developerworks/cn/linux/l-gnuplot/
+    * Nishanth Sastry：gnuplot [让您的数据可视化]( https://www.ibm.com/developerworks/cn/linux/l-gnuplot/)
 
 **Git and Github**
 
-* How to get started with GIT and work with GIT Remote Repo http://www3.ntu.edu.sg/home/ehchua/programming/howto/Git_HowTo.html
+* 知乎：怎样使用GitHub. http://www.zhihu.com/question/20070065
 
-* Git：https://git-scm.com/
+* [The Simple Steps Github(Chinese)](https://github.com/PySEE/home/blob/S2019/guide/TheSimpleStepsGithub(Chinese).md)
+
+* [Lecture7-5-DevTools-Git](http://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/Lecture7-5-DevTools-Git.ipynb)
+
+* [How to get started with GIT and work with GIT Remote Repo]( http://www3.ntu.edu.sg/home/ehchua/programming/howto/Git_HowTo.html)
 
 * Git Version Control in VS Code：https://code.visualstudio.com/docs/editor/versioncontrol
 
-* Scott Chacon，Ben Straub. Pro Git. https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
+* Git：https://git-scm.com/
 
-* http://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/Lecture7-5-DevTools-Git.ipynb
+* Scott Chacon，Ben Straub. [Pro Git]( https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
+
+
+

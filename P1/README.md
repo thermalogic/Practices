@@ -1,18 +1,20 @@
 ## Practice 1(15)
 
-**Basic Programming**: Python,Jupyter,Visual Studio Code，MinGW-W64,Github and Markdown
+**Basic Programming**: Python,Jupyter,Visual Studio Code，MinGW-W64,Github
 
 Deadline: 2019.03.17
 
 ## 练习内容
 
-了解课程教学内容；参考 [The Guide of Building Software Environment](https://github.com/PySEE/home/tree/S2019/guide/BuildingSoftwareEnvironment.md), 建立软件开发环境; 编写简单代码，练习软件操作，完成相应的文档。
+了解课程教学内容；参考 [The Guide of Building Software Environment](https://github.com/PySEE/home/tree/S2019/guide/BuildingSoftwareEnvironment.md), 建立软件开发环境; 编写简单代码，练习软件操作，完成相应的Word文档。
 
-**1** 了解Github，PySEE中的Github仓库内容,给出简介
+**1** 了解Github给出简介
 
 **2** 建立Github账户，Fork不少于2个和课程学习内容有关的Github仓库到个人Github账户，提交截图
 
-**3** 安装Python环境,用IDLE编一个简单程序：print输出本人的学号和姓名，提交编辑源码和程序运行结果的截图
+**3** 安装Python解释器和软件包autopep8, pylint；用IDLE编一个简单程序：print输出本人的学号和姓名，提交编辑源码和程序运行结果的截图
+
+    * 科学计算等软件包可本次练习后，根据学习进度逐步安装  
 
 **4** 安装Jupyter, 编写一个Jupyter Notebook交互计算文件。提交交互计算文件和运行截图。
    
@@ -41,45 +43,40 @@ int main() {
 ![vscode-gcc](./img/vscode-gcc.jpg)
 
 
-**6** 编写软件环境建立、程序设计过程和工作小结文档。文档使用 * Docx** 格式
+**6** 编写软件环境建立、程序设计过程和工作小结文档。文档使用微软Word2007以上版本docx格式。
 
 ## Word文档内容
 
-  * 1 Github简介；PySEE中的Github仓库:Home,PyRankine,SEUIF97简介(3)
+  * 1 Github简介(1)
    
   * 2 本人Github账户名，使用的电邮；账户主页面截图(fork仓库后)(1)
   
-  * 3 Python环境及软件包的安装过程简要说明；使用IDLE编程和运行结果的截图(2)
+  * 3 Python解释器及软件包的安装过程简要说明；使用IDLE编程和运行结果的截图(3)
   
   * 4 Jupyter Notebook安装过程的简要说明；Jupyter Notebook文档的运行截图 (2)
 
-  * 5 安装MinGW-w64,Visual Studio code和Python，C/C++插件过程的简要说明；使用VS Code编写运行简单的Python,C++程序的截图 (3)
+  * 5 安装MinGW-w64,Visual Studio code和Python，C/C++插件过程的简要说明；使用VS Code编写运行简单的Python,C++程序的截图 (4)
   
-  * 6 工作小结(2)
+  * 6 建立开发环境等过程中出现的问题和解决方法,工作小结（2）
 
-  * 7 Word文档格式(2)
-
-##  Word文档编辑提示
-
-* 1 使用Visual Studio Code编辑Markdown文档；只使用基本的Markdown格式标志符号，不使用HTML
-
-* 2 Markdown文档使用到的不同类型文件用相应的目录进行组织
-
-* 3 插入图片时，需要注意图片所在目录位置：如vscode-cpp.jpg在README.md文件所在目录的下一级目录/img中，格式标志：`![vscode-cpp](./img/vscode-cpp.jpg) `
+  * 7 微软Word文档排版(2)：参考《东南大学学生手册》中有关毕业设计报告格式规范
+      
+      * 版面整洁，合理划分和组织文档段落
+      
+      * 封面和目录
+      
+      * 页眉：练习一  学号 姓名
+      
+      * 页脚：页码
 
 ## 参考的目录和文件组织方式
-
-**注意**： 目录和文件名都用 **`英文`**，同时注意 **`大小`** 写。Linux操作系统和Windows不同:(1) 默认的中文编码是utf-8不同于Windows的GBK; (2) 目录和文件名区分大小写。为了使我们的工作内容在不同操作系统中都能正常使用，目录和文件名都使用 **`英文`**，同时注意 **`大小`** 写。
-
 
 ```bash
  ├──<Practices>
  │   │ 
  │   |── <P1>
  │   │    │ 
- │   │    |── README.md :练习markdown文件
- │   │    │ 
- │   │    |── <img>: README.md文件中使用的图形文件
+ │   │    |── 学号-姓名-1.docx
  │   │    │ 
  │   │    |── <python>: 练习的python源码
  │   │    |
@@ -95,13 +92,13 @@ int main() {
 
 ## 电邮提交：
 
-将练习目录压缩为：**学号-姓名-1.zip** (Markdown文档（含链接的图片文件），Python程序源码，jupyter notebook文件等)
+将练习目录压缩为：**学号-姓名-1.zip** (Word文件，Python源码，Jupyter Notebook文件，C++源码等)
 
 * 1 电邮：cmh@seu.edu.cn
 
   * 主题：学号-姓名-1
   
-  * 附件： 学号-姓名-1.zip
+  * 附件：学号-姓名-1.zip
 
 * 2 **截至时间：** 2019.03.17
 
@@ -111,21 +108,7 @@ int main() {
 
 ## 参考：
 
-* 03013级 
-     * https://github.com/PySEE/Practices/tree/S2016/P1  
-
-     * https://github.com/PySEE/Practices/tree/S2016/P2
-
-* 03014级 
-  * https://github.com/PySEE/Practices/tree/S2017/P1 
-
-  * https://github.com/PySEE/Practices/tree/S2017/P2 
-
-* 03015级 https://github.com/PySEE/Practices/tree/S2018/P1 
-
 * [The Guide of Building Software Environment](https://github.com/PySEE/home/tree/S2019/guide/BuildingSoftwareEnvironment.md) 
-
-* [Introduction to Markdown](https://github.com/PySEE/home/blob/S2019/guide/Introduction2Markdown.md)
 
 * Github
  
@@ -161,8 +144,6 @@ int main() {
   
    * Documentation: https://code.visualstudio.com/docs
 
-   * **Markdown** and VS Code： https://code.visualstudio.com/docs/languages/markdown
-
    * Getting Started with **Python** https://code.visualstudio.com/docs/python/python-tutorial
 
    * **C/C++** for VS Code： https://code.visualstudio.com/docs/languages/cpp
@@ -174,15 +155,4 @@ int main() {
    * MinGW-W64:GCC for Windows 64 & 32 bits：http://mingw-w64.org/
 
    * GCC and Make：Compiling, Linking and Building C/C++ Applications http://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html
-
-* Markdown
-  
-   * [CommonMark](http://commonmark.org/)
-  
-   * [WIKI Markdown](https://en.wikipedia.org/wiki/Markdown)
-
-   * [Github: Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
-   
-   * 王树义. 如何用Markdown写论文？ http://blog.sciencenet.cn/blog-377709-1088215.html
-
 

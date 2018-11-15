@@ -8,7 +8,7 @@
 
 ### Purposes
 
-The Rankine Cycle Simulator: training computational thinking and  programming skills  
+The Rankine Cycle Simulator: training computational thinking and  programming skills 
 
 Apply **abstraction** and **decomposition** to solve more complex problems
 
@@ -49,7 +49,7 @@ Chapter 8 Vapor Power System(7th Edition):
 
 设计提示：[tips](./tips.md)
 
-编码/文档工具：Visual Studio Code
+编码工具：Visual Studio Code
      
 **数据文件和Python3源码(15)：**
 
@@ -61,7 +61,9 @@ Chapter 8 Vapor Power System(7th Edition):
 
    * 计算结果输出到数据文件(2)
   
-**Markdown文档(5)**：软件设计思路、方法和体会（关键问题、解决思路；系统数据描述文件方案；设备组件，节点对象定义；循环计算方法；小结）(中英文皆可)
+**Word文档(5)**：问题描述; 求解思路；系统的数据文件表达方案；设备组件，节点对象设计；循环计算方法实现等；设计经验，体会等工作小结）
+
+   * 文档格式： 1) 版面整洁，合理划分和组织文档段落；2) 页眉：l练习三 学号 姓名； 3) 页脚：页码；4)**无需**封面和目录
 
  >**注意：** PyRankine Step3,Step4 提供了`csv`和`json`两种格式系统描述数据文件实例，根据自己的理解选择一种数据文件格式，进行程序设计工作。
  >
@@ -93,10 +95,4 @@ Chapter 8 Vapor Power System(7th Edition):
 *  http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture4-2-PyThermo-CSV-JSON-RankineCycle.ipynb
 
 *  http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture4-3-PyThermo-JSON-Python.ipynb
-
-**You need to**
- 
-* reading the codes
-* programming the general solution of the  rankine cycle for understanding computational thinking and developing the skills of programming 
-
 
