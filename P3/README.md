@@ -28,7 +28,7 @@ Chapter 8 Vapor Power System(7th Edition):
 
 ## 工作内容和要求(20)
 
-参考[PyRankine](https://github.com/PySEE/PyRankine), 以Michael J . Moran热力学教程中的[Example 8.1](./rankine81.md)，[Example 8.1](./rankine81.md)，[Example 8.1](./rankine81.md)为分析对象，进行通用Rankine Cycle能量平衡程序设计。
+参考[PyRankine](https://github.com/PySEE/PyRankine), 以Michael J . Moran热力学教程中的[Example 8.1](./rankine81.md)，[Example 8.5](./rankine85.md)，[Example 8.6](./rankine86.md)为分析对象，进行通用Rankine Cycle能量平衡程序设计。
 
 * 建立循环系统和设备的数据文件
 
