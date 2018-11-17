@@ -2,9 +2,9 @@
 
 **Object-oriented Programming**：The General Rankine Cycle Simulator 
 
-练习的工作量和难度都较大。同学们，多思考，多编码，尽自己的能力进行程序设计工作。从学习角度看，**程序设计的过程，比结果重要！**
-
 **Deadline:**  2019.05.19
+
+练习的工作量和难度都较大。同学们，多思考，多编码，尽自己的能力进行程序设计工作。从学习角度来讲，**程序设计的过程，比结果重要！**
 
 ### Purposes
 
@@ -31,9 +31,7 @@ Chapter 8 Vapor Power System(7th Edition):
 
 * Example 8.6 : Considering a Reheat–Regenerative Cycle with Two Feedwater Heaters, a closed feedwater heater and an open feedwater heater,Page 460
 
-## 要求：(总分20)
-
->**注意：** 这个练习不使用Jupyter Notebook。
+## 要求：(20)
 
 参考[PyRankine](https://github.com/PySEE/PyRankine), 进行通用Rankine Cycle能量平衡程序设计：
 
@@ -43,13 +41,14 @@ Chapter 8 Vapor Power System(7th Edition):
 
 * 输出结果到数据文件。
 
-计算对象：[Example 8.1](./rankine81.md)、[Example 8.5](./rankine85.md)、[Example 8.6](./rankine86.md)  
+分析对象：[Example 8.1](./rankine81.md)、[Example 8.5](./rankine85.md)、[Example 8.6](./rankine86.md)  
+分析结果：[rankine81-SP.txt](./rankine81-SP.txt)、[rankine85-SP.txt](./rankine85-SP.txt)、[rankine86-SP.txt](./rankine86-SP.txt)
 
-计算结果：[rankine81-SP.txt](./rankine81-SP.txt)、[rankine85-SP.txt](./rankine85-SP.txt)、[rankine86-SP.txt](./rankine86-SP.txt)
+**注意**：这个练习不使用Jupyter Notebook；使用Visual Studio Code进行代码设计等工作。
 
-设计提示：[tips](./tips.md)
+**提示**：Example8.6是回热-再热循环Rankine循环，比示例Example8.1，8.5多了不同类型的设备，需要在理解示例代码基础上，增加新设备类代码，进而实现更通用的循环计算。此外，可参考 [TIPS](./tips.md)。
 
-编码工具：Visual Studio Code
+
      
 **数据文件和Python3源码(15)：**
 

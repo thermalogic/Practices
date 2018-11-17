@@ -30,18 +30,13 @@ In 1973, the statistician F.J. Anscombe published a paper containing the table b
 
 使用Jupyter Notebook实现 
   
-* 1 数据文件及数据对象表达(3分)：**以纯文本格式组织数据文件；从数据文件读取数据,形成数据分析对象**：
-
-   * 使用Python语言的文件操作; 使用List,Dict表达数据分析对象。**不使用NumPy,Pandas**
+* 1 数据文件及数据对象表达(3分)： 使用Python语言基本文件读取数据文件[Anscombe.csv](./Anscombe.csv)， 使用List,Dict表达数据分析对象。**不使用csv模块，NumPy和Pandas**
 
 * 2 统计指标计算输出(2分)：计算均值、方差和相关系数等统计指标（1分，可使用Python统计库、Numpy或Scipy)；统计结果表格化输出(1分) [参考输出](#参考输出)
 
-* 3 回归分析和图形输出(3分): **线性回归**（1分,可使用Numpy或Scipy）；多图组合输出（2分）[参考输出](#参考输出)
+* 3 回归分析和图形输出(3分): **线性回归**(1分,可使用Numpy或Scipy）；多图组合输出（2分）[参考输出](#参考输出)
 
 * 4 小结(2)：如何做一个好的统计分析结果的提供者和消费者？（建议分析角度：数据获取，数据分析，结果表述和展示)
-
-
-参考: [21 LIES DAMNED LIES ANDSTATISTICS](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture5-2-21_LIES_DAMNED_LIES_AND_STATISTICS.ipynb)
 
 ## 提交：
 
@@ -54,13 +49,15 @@ In 1973, the statistician F.J. Anscombe published a paper containing the table b
 
 * 3  改进更新：提交作业后可改进，改进截至时间：2019.06.16
 
-## 提示：
+## 参考：
 
-* 参考第11、18、21章
+* [Lecture5-2-21_LIES_DAMNED_LIES_AND_STATISTICS](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture5-2-21_LIES_DAMNED_LIES_AND_STATISTICS.ipynb)
 
-  * [Lecture3-2-11_PLOTTING_AND_MORE_ABOUT_CLASSES](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture3-2-11_PLOTTING_AND_MORE_ABOUT_CLASSES.ipynb)
-  * [Lecture5-1-18_UNDERSTANDING_EXPERIMENTAL_DATA](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture5-1-18_UNDERSTANDING_EXPERIMENTAL_DATA.ipynb)
-  * [Lecture5-2-21_LIES_DAMNED_LIES_AND_STATISTICS](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture5-2-21_LIES_DAMNED_LIES_AND_STATISTICS.ipynb)
+* [Lecture1-5-05_STRUCTURED_TYPES_MUTABILITY_AND_HIGHERORDER_FUNCTIONS：Data Table,Dict and List](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture1-5-05_STRUCTURED_TYPES_MUTABILITY_AND_HIGHERORDER_FUNCTIONS.ipynb)
+
+* [Lecture3-2-11-1_PLOTTING_USING_MATPLOTLIB](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture3-2-11-1_PLOTTING_USING_MATPLOTLIB.ipynb)
+
+* [Lecture5-1-18_UNDERSTANDING_EXPERIMENTAL_DATA](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture5-1-18_UNDERSTANDING_EXPERIMENTAL_DATA.ipynb)
 
 * Scipy. http://www.scipy.org/
   
@@ -72,7 +69,7 @@ In 1973, the statistician F.J. Anscombe published a paper containing the table b
 
 ### 参考输出
 
-* 数据点图和回归曲线、统计结果
+ 数据点图和回归曲线、统计结果
 
 ![参考输出](p4output.jpg)
 
