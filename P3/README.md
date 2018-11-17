@@ -89,9 +89,8 @@ Chapter 8 Vapor Power System(7th Edition):
 
 *  PyRankine Step2,Step3,Step4 https://github.com/PySEE/PyRankine 
 
-*  http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture4-1-PyThermo-IdealRankineCycle-OOP.ipynb
+*  [Lecture4-1-PyThermo-IdealRankineCycle-OOP](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture4-1-PyThermo-IdealRankineCycle-OOP.ipynb)
 
-*  http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture4-2-PyThermo-CSV-JSON-RankineCycle.ipynb
+*  [Lecture4-2-PyThermo-CSV-JSON-RankineCycle](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture4-2-PyThermo-CSV-JSON-RankineCycle.ipynb)
 
-*  http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture4-3-PyThermo-JSON-Python.ipynb
-
+*  [Lecture4-3-PyThermo-JSON-Python](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture4-2-PyThermo-JSON-Python.ipynb)
