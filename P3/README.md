@@ -8,14 +8,8 @@
 
 ### Purposes
 
-The Rankine Cycle Simulator: training computational thinking and  programming skills 
+Training computational thinking and  programming skills  to apply **abstraction** and **decomposition** to solve more complex problems
 
-Apply **abstraction** and **decomposition** to solve more complex problems
-
-* Can decompose a large problem into parts and design algorithms to solve them
-* Can recognise similar problems, and apply generic solutions and abstractions
-* Can effectively combine functionality from multiple libraries or APIs and refer to documentation
-* Can write code in a readable way, and/or includes comments where necessary
 
 ## The Rankine Cycle: 
 
@@ -47,7 +41,6 @@ Chapter 8 Vapor Power System(7th Edition):
 **注意**：这个练习不使用Jupyter Notebook；使用Visual Studio Code进行代码设计等工作。
 
 **提示**：Example8.6是回热-再热循环Rankine循环，比示例Example8.1，8.5多了不同类型的设备，需要在理解示例代码基础上，增加新设备类代码，进而实现更通用的循环计算。此外，可参考 [TIPS](./tips.md)。
-
 
      
 **数据文件和Python3源码(15)：**
