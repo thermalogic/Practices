@@ -18,7 +18,7 @@ Please download the ebook from SEU: http://www.lib.seu.edu.cn/ （查找资源->
 
 Chapter 8 Vapor Power System(7th Edition): 
 
- * [Example 8.1](./rankine81.md)：An Ideal Regenerative Cycle, Page 438
+* [Example 8.1](./rankine81.md)：An Ideal Regenerative Cycle, Page 438
 
 * [Example 8.5](./rankine85.md): A Regenerative Cycle with Open Feedwater Heater,Page 456
 
