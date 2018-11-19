@@ -2,7 +2,7 @@
 
 **Object-oriented Programming**：The General Rankine Cycle Simulator 
 
-Training computational thinking and  programming skills  to apply **abstraction** and **decomposition** to solve more complex problems
+Apply computational thinking to solve more complex problems
 
 **Deadline:**  2019.05.19
 
