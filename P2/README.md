@@ -1,12 +1,20 @@
 ## Practice 2(15)
 
-**Python and Interactive Computing**(15)：The Simple Simulator of Rankine Cycle 
-  
-* Purpose：**Jupyter Notebook**: shareing the code and reproducible research
+**Python and Interactive Computing**：The Simple Simulator of Rankine Cycle 
 
-* Deadline: 2019.04.21
-  
-## The Rankine Cycle: 
+Deadline: 2019.04.21
+
+## Goal
+
+Use **Jupyter Notebook** to simulate the Rankine Cycle 
+
+* interactive analysis and literate programming
+
+* abstracte the items in the problem with the structure types
+
+* recap the knowledge of Rankine Cycle
+
+## The Rankine Cycle 
 
 Michael J. Moran. Fundamentals of Engineering Thermodynamics (7th Edition).  John Wiley & Sons, Inc. 2011
 
@@ -26,7 +34,7 @@ Chapter 8 Vapor Power System:(Page 460-463)
     
 *  **代码部分**(10)：
   
-   * 使用结构数据类型：**元组、列表、字典**等
+   * 使用结构数据类型：**列表、字典**等
 
    * 使用**函数**封装方法；
    
@@ -52,7 +60,7 @@ Chapter 8 Vapor Power System:(Page 460-463)
      
 * **文档部分**(5);   
     
-    * 格式：使用Markdown，公式用Mathjax; 中英文皆可。
+    * 格式：原则上采用Markdown，如果需特殊效果，可少量使用HTML; 公式用Mathjax; 中英文皆可。
 
     * 内容：
 
@@ -64,7 +72,7 @@ Chapter 8 Vapor Power System:(Page 460-463)
         
       * 小结 
 
-> **注意：** 需要合理组织Notebook中文档和代码的顺序，如：先交待被计算对象，然后，设计思路，进一步是文档和相关代码，最后，小结      
+> **注意：** 需要合理组织Notebook中文档和代码的顺序，如：先交待被计算对象，然后，设计思路，进一步是文档和相关代码，最后，小结 。
 
 ## 提交：
 
@@ -94,15 +102,16 @@ Chapter 8 Vapor Power System:(Page 460-463)
 * [PyThermo-IF97](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture2-1-PyThermo-IF97.ipynb)
 
 * [Jupyter Notebook of IdealRankine Cycle](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture2-2-PyThermo-IdealRankineCycle.ipynb) 
+
 *  PyRankine https://github.com/PySEE/PyRankine
 
-   * step 0 : Zero @  Data Structures,Program architecture, Algorithms(The Ideal Rankine Cycle)
-                    
-        simple data type and expression  only
+     * step 0 :  **Zero Abstraction** of The Ideal Rankine Cycle
 
-   * step 1 :  Basic @  Data Structures,Program architecture, Algorithms(The Ideal Rankine Cycle)
-                    
-        list,dict,function
+       the simple data type and expression only 
+
+     * step 1 : **Simple Abstraction** of The Ideal Rankine Cycle
+
+       structure data type: List,Dict and functions
 
 *  Excel4Engineering https://github.com/PySEE/Excel4Engineering  
 
