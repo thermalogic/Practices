@@ -12,7 +12,7 @@ Use **Jupyter Notebook** to simulate the Rankine Cycle
 
 * abstracte the items in the problem with the structure types
 
-* recap the knowledge of Rankine Cycle
+* review the knowledge of Rankine Cycle
 
 ## The Rankine Cycle 
 
