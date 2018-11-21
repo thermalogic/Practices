@@ -44,7 +44,7 @@ The ziped file include:
 
 * [CPP_4_GSL_GNUPLOT_Ubuntu](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture8-4-CPP_4_GSL_GNUPLOT_Ubuntu.ipynb)
 
-* [Ubuntu Python GCC](https://github.com/PySEE/home/blob/S2019/guide/Ubuntu-Python-C-Chinese.md)
+* [Ubuntu Python CPP](https://github.com/PySEE/home/blob/S2019/guide/Ubuntu-Python-CPP(Chinese).md)
 
 * GSL - GNU Scientific Library https://www.gnu.org/software/gsl/
 
