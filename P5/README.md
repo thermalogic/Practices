@@ -14,23 +14,23 @@ https://en.wikipedia.org/wiki/Exponentiation_by_squaring
 Please use the [fastipow.cpp](./cpp/fastipow.cpp) 
 TO DO the following tasks:
 
-* The source codes(C/C++):(1.5)
+* The source codes/headers(C/C++):(1.5)
 
     *  The function of The Repeated Squaring Method
 
-    *  The example code to call The Repeated Squaring Method
+    *  The example application to call The Repeated Squaring Method
 
 * Makefiles(3)
 
-    * Making EXE with the source code of The Repeated Squaring Method and it's caller
+    * Making EXE with multi-source files: the codes of The Repeated Squaring Method and it's caller
 
     * Making The Shared Library of The Repeated Squaring Method
 
-    * Making EXE using the shared library 
+    * Making EXE to use the shared library 
 
 * Images：(0.5)
 
-     * The screenshot of coding,making exe using the shared library and running the exe
+     * The screenshot of coding,making exe to use the shared library and running the exe
    
      Example:
 
@@ -46,13 +46,13 @@ TO DO the following tasks:
  │   │    │ 
  │   │    |── <bin>: *.exe, *.dll
  │   │    |
- │   │    |── <cpp>: *.c,*.cpp, *.h
+ │   │    |── <src>: *.c,*.cpp, *.h
  │   │    |
- │   │    │── makefile: makefile for building exe with the source code of Eq(31) and it's caller
+ │   │    │── makefile:  building exe with multi-source files: the function code and it's caller code
  │   │    │ 
- │   │    │── makefile-dll: makefile for building shared library 
+ │   │    │── makefile-dll:  building the shared library 
  │   │    │               
- │   │    │── makefile-exe: makefile for building exe using shared librariy  
+ │   │    │── makefile-exe: building exe to use the shared library  
  │   │                   
 ```  
 
@@ -78,3 +78,4 @@ TO DO the following tasks:
 
 * [CPP_2_DLL_Python](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture8-2-CPP_2_DLL_Python.ipynb)
 
+* [CPP_3_DLL_VBA_Python](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture8-3-CPP_2_DLL_VBA_Python.ipynb)
