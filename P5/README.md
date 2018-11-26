@@ -11,7 +11,7 @@ The exponentiating by squaring is a general method for fast computation of large
 
 https://en.wikipedia.org/wiki/Exponentiation_by_squaring
 
-Please use the [fastipow.cpp](./cpp/fastipow.cpp) 
+Please use the [fastipow.cpp](./src/fastipow.cpp) 
 TO DO the following tasks:
 
 * The source codes/headers(C/C++):(1.5)
