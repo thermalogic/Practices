@@ -42,7 +42,7 @@ The ziped file include:
 
 * [18_UNDERSTANDING_EXPERIMENTAL_DATA](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture5-1-18_UNDERSTANDING_EXPERIMENTAL_DATA.ipynb)
 
-* [CPP_4_Ubuntu_GSL_GNUPLOT](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture8-4-CPP_4_Ubuntu_GSL_GNUPLOT.ipynb)
+* [CPP_5_Ubuntu_GSL_GNUPLOT](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture8-5-CPP_5_Ubuntu_GSL_GNUPLOT.ipynb)
 
 * [Ubuntu Python CPP](https://github.com/PySEE/home/blob/S2019/guide/Ubuntu-Python-CPP(Chinese).md)
 
