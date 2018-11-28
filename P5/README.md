@@ -74,7 +74,7 @@ TO DO the following tasks:
 
 ## Reference
 
-* [CPP_1_GCC_MAKE](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture8-1-CPP_1_GCC_MAKE.ipynb)
+* [GCC_MAKE](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture8-1-GCC_MAKE.ipynb)
 
-* [CPP_2_GCC_DLL](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture8-2-CPP_2_GCC_DLL.ipynb)
+* [GCC_DLL](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture8-2-GCC_DLL.ipynb)
 
