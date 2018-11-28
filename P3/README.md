@@ -75,9 +75,9 @@ PyRankine Step3,Step4 提供了`csv`和`json`两种格式系统描述数据文�
 
 可读性好,但需要学习json相关知识。
 
-*  [Lecture4-2-PyThermo-CSV-JSON-RankineCycle](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture4-2-PyThermo-CSV-JSON-RankineCycle.ipynb)
+*  [Lecture4-2-PyThermo-CSV-JSON-RankineCycle](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-2-PyThermo-CSV-JSON-RankineCycle.ipynb)
  
- * [Lecture4-3-PyThermo-JSON-Python](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture4-3-PyThermo-JSON-Python.ipynb)
+ * [Lecture4-3-PyThermo-JSON-Python](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-3-PyThermo-JSON-Python.ipynb)
 
 
 ## 电邮提交：
@@ -95,8 +95,8 @@ PyRankine Step3,Step4 提供了`csv`和`json`两种格式系统描述数据文�
 
 *  PyRankine Step2,Step3,Step4 https://github.com/PySEE/PyRankine 
 
-*  [Lecture4-1-PyThermo-IdealRankineCycle-OOP](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture4-1-PyThermo-IdealRankineCycle-OOP.ipynb)
+*  [PyThermo-IdealRankineCycle-OOP](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-1-PyThermo-IdealRankineCycle-OOP.ipynb)
 
-*  [Lecture4-2-PyThermo-CSV-JSON-RankineCycle](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture4-2-PyThermo-CSV-JSON-RankineCycle.ipynb)
+*  [PyThermo-CSV-JSON-RankineCycle](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-2-PyThermo-CSV-JSON-RankineCycle.ipynb)
 
-*  [Lecture4-3-PyThermo-JSON-Python](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture4-3-PyThermo-JSON-Python.ipynb)
+*  [PyThermo-JSON-Python](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-3-PyThermo-JSON-Python.ipynb)

@@ -18,11 +18,11 @@ Deadline: 2019.03.17
 
 **4** 安装Jupyter, 编写一个Jupyter Notebook交互计算文件。提交交互计算文件和运行截图。
    
-* 交互计算文件内容：从 [02_INTRODUCTION_TO_PYTHON](http://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/Lecture1-2-02_INTRODUCTION_TO_PYTHON.ipynb)中任选一小段文字和代码，然后： 1）文本部分加上自己的学号和姓名；2）代码部分加上用print输出自己的学号和姓名，实现为jupyter notebook版本（文本格式：Markdown，源码语言：Python3).
+* 交互计算文件内容：从 [02_INTRODUCTION_TO_PYTHON](http://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/Unit1-2-02_INTRODUCTION_TO_PYTHON.ipynb)中任选一小段文字和代码，然后： 1）文本部分加上自己的学号和姓名；2）代码部分加上用print输出自己的学号和姓名，实现为jupyter notebook版本（文本格式：Markdown，源码语言：Python3).
 
 **5** 安装MinGW-W64，Visual Studio Code和Python，C/C++插件, 编写程序，提交源码和程序编写和运行截图。
    
-* Python程序：从[02_INTRODUCTION_TO_PYTHON](http://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/Lecture1-2-02_INTRODUCTION_TO_PYTHON.ipynb)中任选一段代码，代码加上用print输出自己的学号和姓名。
+* Python程序：从[02_INTRODUCTION_TO_PYTHON](http://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/Unit1-2-02_INTRODUCTION_TO_PYTHON.ipynb)中任选一段代码，代码加上用print输出自己的学号和姓名。
 
 * C++程序: 使用VS Code修改 [hello.cpp](./cpp/hello.cpp) 代码， 将其中的"Change the text to your name"和"Change the text to your student ID"，修改为自己的姓名和学号，使用MinGW-W64编译运行. 提交: 修改后的源码，使用Visual Studio Code编辑代码和运行时的截图
 
@@ -126,7 +126,7 @@ int main() {
 
    * Scott Chacon，Ben Straub. [Pro Git](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
 
-   * [DevTools-Git](http://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/Lecture7-5-DevTools-Git.ipynb)
+   * [DevTools-Git](http://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/Unit7-5-DevTools-Git.ipynb)
 
 * Python https://www.python.org/
 

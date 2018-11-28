@@ -40,9 +40,9 @@ The ziped file include:
 
 **GCC,GSL,Gnuplot**
 
-* [18_UNDERSTANDING_EXPERIMENTAL_DATA](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture5-1-18_UNDERSTANDING_EXPERIMENTAL_DATA.ipynb)
+* [18_UNDERSTANDING_EXPERIMENTAL_DATA](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit5-1-18_UNDERSTANDING_EXPERIMENTAL_DATA.ipynb)
 
-* [Ubuntu_GSL_GNUPLOT](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Lecture8-5-Ubuntu_GSL_GNUPLOT.ipynb)
+* [Ubuntu_GSL_GNUPLOT](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit8-5-Ubuntu_GSL_GNUPLOT.ipynb)
 
 * [Ubuntu Python CPP](https://github.com/PySEE/home/blob/S2019/guide/Ubuntu-Python-CPP(Chinese).md)
 
@@ -60,7 +60,7 @@ The ziped file include:
 
 * [The Simple Steps Github(Chinese)](https://github.com/PySEE/home/blob/S2019/guide/TheSimpleStepsGithub(Chinese).md)
 
-* [DevTools-Git](http://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/Lecture7-5-DevTools-Git.ipynb)
+* [DevTools-Git](http://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/Unit7-5-DevTools-Git.ipynb)
 
 * [How to get started with GIT and work with GIT Remote Repo]( http://www3.ntu.edu.sg/home/ehchua/programming/howto/Git_HowTo.html)
 
