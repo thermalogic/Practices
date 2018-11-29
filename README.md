@@ -2,35 +2,35 @@
 
 ---
 
-[1. Basic Programming(15)](https://github.com/PySEE/Practices/tree/S2019/P1)：Python,Jupyter,MinGW-W64,Visual Studio Code,Github
+[1. Basic Programming(15)](./P1)：Python,Jupyter,MinGW-W64,Visual Studio Code,Github
 
 * Deadline: 2019.03.17
 
 ---
 
-[2. Python and Interactive Computing(15)](https://github.com/PySEE/Practices/tree/S2019/P2)：Jupyter Notebook of the Rankine Cycle Simulator 
+[2. Python and Interactive Computing(15)](./P2)：Jupyter Notebook of the Rankine Cycle Simulator 
 
 * Deadline: 2019.04.21
 
 ---
 
-[3. Object-oriented Programming(20)](https://github.com/PySEE/Practices/tree/S2019/P3)： The General Rankine Cycle Simulator
+[3. Object-oriented Programming(20)](./P3)： The General Rankine Cycle Simulator
 
 * Deadline: 2019.05.19
 ---
 
-[4. Data Analysis(10)](https://github.com/PySEE/Practices/tree/S2019/P4)：Statistics, regression and visualization
+[4. Data Analysis(10)](./P4)：Statistics, regression and visualization
 
 * Deadline: 2019.06.02
 
 ---
 
-[5. C/C++ Programming(5)](https://github.com/PySEE/Practices/tree/S2019/P5)：C/C++ Programming with GCC(MinGW-w64),MakeFile,Shared Library
+[5. C/C++ Programming(5)](./P5)：C/C++ Programming with GCC(MinGW-w64),MakeFile,Shared Library
 
 * Deadline: 2019.06.09
 ---
 
-[Bonus(+5)](https://github.com/PySEE/Practices/tree/S2019/Bonus)： C/C++ Programming with GCC,GSL,Gnuplot,Ubuntu,Version Control:Git/Github 
+[Bonus(+5)](./Bonus)： C/C++ Programming with GCC,GSL,Gnuplot,Ubuntu,Version Control:Git/Github 
 
 * Deadline: 2019.06.16
 
