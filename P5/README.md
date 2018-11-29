@@ -5,16 +5,15 @@
 
 Deadline: 2019.06.09
 
-## 要求(5分)：
+## Task(5分)：
 
 The exponentiating by squaring is a general method for fast computation of large positive integer powers of a number.
 
 https://en.wikipedia.org/wiki/Exponentiation_by_squaring
 
-Please use the [fastipow.cpp](./src/fastipow.cpp) 
-TO DO the following tasks:
+Please use the [fastipow.cpp](./src/fastipow.cpp) to program the following tasks:
 
-* The source codes/headers(C/C++):(1.5)
+* Source files(C/C++ code/header):(1.5)
 
     *  The function of The Repeated Squaring Method
 
@@ -22,11 +21,11 @@ TO DO the following tasks:
 
 * Makefiles(3)
 
-    * Making EXE with multi-source files: the codes of The Repeated Squaring Method and it's caller
+    * Making the executable file with multiple source files: the function of The Repeated Squaring Method and it's caller
 
-    * Making The Shared Library of The Repeated Squaring Method
+    * Making the shared library of the Repeated Squaring Method
 
-    * Making EXE to use the shared library 
+    * Making the executable file to call the shared library 
 
 * Images：(0.5)
 
