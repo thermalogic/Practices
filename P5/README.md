@@ -1,11 +1,11 @@
 
 ## Practice 5
 
-**C/C++ Programming**(5)：C/C++ Programming with MinGW-w64（GCC,Make),Visual Studio Code 
+**C/C++ Programming**(5)：C/C++ Programming with MinGW-w64（GCC)，MakeFile,the Shared Library
 
 Deadline: 2019.06.09
 
-## Task(5分)：
+## To Do(5 marks)：
 
 The exponentiating by squaring is a general method for fast computation of large positive integer powers of a number.
 
@@ -13,13 +13,13 @@ https://en.wikipedia.org/wiki/Exponentiation_by_squaring
 
 Please use the [fastipow.cpp](./src/fastipow.cpp) to program the following tasks:
 
-* Source files(C/C++ code/header):(1.5)
+* Source files(C/C++ code/header):(1.5 marks)
 
     *  The function of The Repeated Squaring Method
 
     *  The example application to call The Repeated Squaring Method
 
-* Makefiles(3)
+* Makefiles(3 marks)
 
     * Making the executable file with multiple source files: the function of The Repeated Squaring Method and it's caller
 
@@ -27,9 +27,9 @@ Please use the [fastipow.cpp](./src/fastipow.cpp) to program the following tasks
 
     * Making the executable file to call the shared library 
 
-* Images：(0.5)
+* Images：(0.5 marks)
 
-     * The screenshot of coding,making exe to use the shared library and running the exe
+     * The screenshot of coding,making exe to use the shared library and running the  executable file
    
      Example:
 
@@ -47,29 +47,29 @@ Please use the [fastipow.cpp](./src/fastipow.cpp) to program the following tasks
  │   │    |
  │   │    |── <src>: *.c,*.cpp, *.h
  │   │    |
- │   │    │── makefile:  building exe with multi-source files: the function code and it's caller code
+ │   │    │── makefile:  building the executable file with multiple source files
  │   │    │ 
- │   │    │── makefile-dll:  building the shared library 
+ │   │    │── makefile-dll: building the shared library 
  │   │    │               
- │   │    │── makefile-exe: building exe to use the shared library  
+ │   │    │── makefile-exe: building the executable file to call the shared library  
  │   │                   
 ```  
 
-## 提交：
+## Submission：
 
-压缩练习目录为zip文件：**学号-姓名-5.zip**
+Compress your practice floder to ：**StudentNumber-Name-5.zip**
 
-* 1 电邮：cmh@seu.edu.cn 
+* 1 Email to：cmh@seu.edu.cn 
     
-  * 主题：学号-姓名-5
+  * Subject：StudentNumber-Name-5
     
-  * 附件：程序文件压缩包：**学号-姓名-5.zip**
+  * Attachment：**StudentNumber-Name-5.zip**
 
-* 2 截至时间：2019.06.09
+* 2 Deadline：2019.06.09
 
-   * 截至时间后可补交， 得分<=3 (2019.06.16 )
+   * make up after deadline: points<=3 (2019.06.16)
 
-* 3 改进更新：提交作业后可改进，改进截至时间：2019.06.16
+* 3 Improvement: due：2019.06.16
 
 ## Reference
 

@@ -1,10 +1,12 @@
-# Bonus(+5) 
+# Bonus(+5 marks) 
 
 Programming with GCC,Ubuntu，Version control
 
 Deadline: 2019.06.16
  
-## 1 C/C++ Programming with `GCC and make`,`GSL and GNUPlot`(+3) 
+## To do
+
+### 1 C/C++ Programming with `GCC and make`,`GSL and GNUPlot`(+3 marks) 
 
 * Using **GSL** to do Linear Regression of Springs Behavior Data in [springData.csv](springData.csv)
 
@@ -14,25 +16,25 @@ Deadline: 2019.06.16
 
 ![Linear Regression of Springs Behavior](spring.jpg)
 
-## 2 Version control with Git,Github(+2)
+### 2 Version control with Git,Github(+2 marks)
  
 * Version control with Git
 
 * Submit to your Github 
 
-## Submit：
+## Submission
 
-The ziped file include:
+The zipped file include:
 
 * 1 source codes,data files and image of Linear Regression 
 
-* 2 images of your Github repository for the codes
+* 2 images of your locate git and remote Github repository for the codes
 
 **Email to：** cmh@seu.edu.cn
 
-   * Subject：学号-姓名-B
+   * Subject：StudentNumber-Name-B
   
-   * Attachment：学号-姓名-B.zip
+   * Attachment：StudentNumber-Name-B.zip
 
 **Deadline**：2019.06.16
 
