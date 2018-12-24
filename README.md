@@ -25,12 +25,12 @@
 
 ---
 
-[5. C/C++ Programming(5)](./P5)：C/C++ Programming with GCC(MinGW-w64),MakeFile,Shared Library
+[5. C/C++ Programming(5)](./P5)：C/C++ Programming with GCC(MinGW-w64),Makefile,Shared Library
 
 * Deadline: 2019.06.09
 ---
 
-[Bonus(+5)](./Bonus)： C/C++ Programming with GCC,GSL,Gnuplot,Ubuntu,Version Control:Git/Github 
+[Bonus(+5)](./Bonus)： GCC,GSL,Gnuplot,Ubuntu,Git/Github 
 
 * Deadline: 2019.06.16
 
