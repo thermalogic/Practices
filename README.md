@@ -30,7 +30,7 @@
 * Deadline: 2019.06.09
 ---
 
-[Bonus(+5)](./Bonus)： GCC,GSL,Gnuplot,Ubuntu,Git/Github 
+[Bonus(+5)](./Bonus)： Scientific Programming with GCC,GSL and Gnuplot under Ubuntu，Version control
 
 * Deadline: 2019.06.16
 

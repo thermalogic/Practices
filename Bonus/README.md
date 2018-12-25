@@ -1,12 +1,12 @@
 # Bonus(+5 marks) 
 
-Programming with GCC,Ubuntu，Version control
+Scientific Programming with GCC,GSL and Gnuplot under Ubuntu，Version control
 
 Deadline: 2019.06.16
  
 ## To do
 
-### 1 C/C++ Programming with `GCC and make`,`GSL and GNUPlot`(+3 marks) 
+### 1 Scientific Programming with `GCC`,`GSL and GNUPlot`(+3 marks) 
 
 * Using **GSL** to do Linear Regression of Springs Behavior Data in [springData.csv](springData.csv)
 
@@ -54,7 +54,7 @@ The zipped file include:
 
 * Gnuplot homepage http://gnuplot.info/
 
-    * Nishanth Sastry：gnuplot [让您的数据可视化]( https://www.ibm.com/developerworks/cn/linux/l-gnuplot/)
+    * Nishanth Sastry：[gnuplot 让您的数据可视化](https://www.ibm.com/developerworks/cn/linux/l-gnuplot/)
 
 **Git and Github**
 
