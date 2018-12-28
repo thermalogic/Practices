@@ -38,7 +38,7 @@ In 1973, the statistician F.J. Anscombe published a paper containing the table b
     
     ![统计结果数据表](table.jpg)
 
-* 3 回归分析和图形输出(3分): **线性回归**(1分,可使用Numpy或Scipy)；多图输出（2分,使用Matplotlib）
+* 3 线性回归和图形输出(3分): **线性回归**(1分,可使用Numpy或Scipy)；多图输出（2分,使用Matplotlib）
 
    参考输出图
    
