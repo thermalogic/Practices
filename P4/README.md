@@ -44,7 +44,7 @@ In 1973, the statistician F.J. Anscombe published a paper containing the table b
    
    ![数据点图和回归曲线](Anscombe.png)
 
-* 4 小结(2)：如何做一个好的统计分析结果的提供者和消费者？（建议分析角度：数据获取，数据分析，结果展示方式)
+* 4 小结(2)：如何做一个好的统计分析结果的提供者和消费者？（建议分析角度：数据获取，数据分析，结果解析和展示方式)
 
 ## 提交：
 
