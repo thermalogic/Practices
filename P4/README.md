@@ -71,5 +71,5 @@ In 1973, the statistician F.J. Anscombe published a paper containing the table b
 
  数据点图和回归曲线、统计结果
 
-![参考输出](p4output.jpg)
+![参考输出](Anscombe.png)
 
