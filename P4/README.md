@@ -32,9 +32,15 @@ In 1973, the statistician F.J. Anscombe published a paper containing the table b
   
 * 1 数据文件及数据对象表达(3分)： 使用Python语言基本文件读取数据文件[Anscombe.csv](./Anscombe.csv)， 使用List,Dict表达数据分析对象。**不使用csv模块，NumPy和Pandas**
 
-* 2 统计指标计算输出(2分)：计算均值、方差和相关系数等统计指标（1分，可使用Python统计库、Numpy或Scipy)；统计结果表格化输出(1分) [参考输出](#参考输出)
+* 2 统计指标计算输出(2分)：计算均值、方差和相关系数等统计指标（1分，可使用Python统计库、Numpy或Scipy)；统计结果表格化输出(1分，可使用Python的表格化数据输出软件包，如prettytable) 
 
-* 3 回归分析和图形输出(3分): **线性回归**(1分,可使用Numpy或Scipy）；多图组合输出（2分）[参考输出](#参考输出)
+>参考输出数据表
+>![统计结果数据表](table.jpg)
+
+* 3 回归分析和图形输出(3分): **线性回归**(1分,可使用Numpy或Scipy）；多图组合输出（2分）
+
+>参考输出图
+>![数据点图和回归曲线](Anscombe.png)
 
 * 4 小结(2)：如何做一个好的统计分析结果的提供者和消费者？（建议分析角度：数据获取，数据分析，结果表述和展示)
 
@@ -67,9 +73,5 @@ In 1973, the statistician F.J. Anscombe published a paper containing the table b
 
 * Lectures on scientific computing with python https://github.com/jrjohansson/scientific-python-lectures
 
-### 参考输出
 
- 数据点图和回归曲线、统计结果
-
-![参考输出](Anscombe.png)
 
