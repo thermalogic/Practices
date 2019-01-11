@@ -22,7 +22,7 @@ Chapter 8 Vapor Power System:(Page 460-463)
 
 [Example 8.6](./rankine86.md): Considering a Reheat–Regenerative Cycle with Two Feedwater Heaters, a closed feedwater heater and an open feedwater heater. 
 
-* [Jupyter Notebook of Example 8.6](http://nbviewer.ipython.org/github.com/PySEE/Practices/tree/S2019/P2/RankineCycle86.ipynb) 
+* [Jupyter Notebook of Example 8.6](https://nbviewer.ipython.org/github/PySEE/Practices/blob/S2019/P3/RankineCycle86.ipynb) 
   
 * [Solution of Example 8.6](./rankine86-SP.txt)
 
@@ -60,7 +60,7 @@ Example 8.6热力循环计算的Jupyter Notebook
 
   * [Jupyter Notebook of IdealRankine Cycle](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit2-2-PyThermo-IdealRankineCycle.ipynb)
 
-  * [Jupyter Notebook of Example 8.6](http://nbviewer.ipython.org/github.com/PySEE/Practices/tree/S2019/P2/RankineCycle86.ipynb) 
+  * [Jupyter Notebook of Example 8.6](https://nbviewer.ipython.org/github/PySEE/Practices/blob/S2019/P3/RankineCycle86.ipynb) 
   
     **Note: you may use the Notebook to start the practice** 
      
