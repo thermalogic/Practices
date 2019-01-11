@@ -22,7 +22,7 @@ Chapter 8 Vapor Power System:(Page 460-463)
 
 [Example 8.6](./rankine86.md): Considering a Reheat–Regenerative Cycle with Two Feedwater Heaters, a closed feedwater heater and an open feedwater heater. 
 
-* [Jupyter Notebook of Example 8.6](http://nbviewer.ipython.org/github/PySEE/Practices/tree/master/P2/RankineCycle86.ipynb) 
+* [Jupyter Notebook of Example 8.6](https://github.com/PySEE/Practices/tree/S2019/P2/RankineCycle86.ipynb) 
   
 * [Solution of Example 8.6](./rankine86-SP.txt)
 
