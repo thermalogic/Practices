@@ -20,60 +20,50 @@ Michael J. Moran. Fundamentals of Engineering Thermodynamics (7th Edition).  Joh
 
 Chapter 8 Vapor Power System:(Page 460-463)
 
-* Example 8.6 : Considering a Reheat–Regenerative Cycle with Two Feedwater Heaters, a closed feedwater heater and an open feedwater heater. 
+[Example 8.6](./rankine86.md): Considering a Reheat–Regenerative Cycle with Two Feedwater Heaters, a closed feedwater heater and an open feedwater heater. 
 
-  * [Example 8.6](./rankine86.md) 
-
-  * [Solution of Example 8.6](./rankine86-SP.txt)
+* [Jupyter Notebook of Example 8.6](http://nbviewer.ipython.org/github/PySEE/Practices/tree/master/P2/RankineCycle86.ipynb) 
+  
+* [Solution of Example 8.6](./rankine86-SP.txt)
 
 ## 要求：(15)
 
-### 1 文件类型：Jupyter Notebook(Python 3)
+Example 8.6热力循环计算的Jupyter Notebook
     
-### 2 Jupyter Notebook交互计算:
-    
-*  **代码部分**(10)：
+**代码部分**(10)：
   
-   * 使用结构数据类型：**列表、字典**等
+  * 使用结构数据类型：**列表、字典**等描述循环中的状态点，设备和循环性能指标(4)
 
-   * 使用**函数**封装方法；
-   
-   >**要点提示：**
-       
-     * 1 用怎样的数据结构描述循环中：
-        
-        * 状态点？
+  * 基于数据结构的设计，使用**函数**封装计算模块，组织循环计算(3)
 
-        * 设备？
-
-        * 循环性能指标等参数？
-
-    * 2 计算步骤组织；函数安排；基于数据结构的函数实现，、
-
-    * 3 在1、2的基础上，计算给定循环条件的循环指标。  
-
-    * **参考设计:**
-       
-       * PyRankine https://github.com/PySEE/PyRankine  step0, step1
-
-       * [Jupyter Notebook of IdealRankine Cycle](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit2-2-PyThermo-IdealRankineCycle.ipynb)
-     
-* **文档部分**(5);   
+  * 全面清晰输出：循环参数和性能指标等计算结果(3)
+  
+  
+**文档部分**(5);   
     
-    * 格式：原则上采用Markdown，如果需特殊效果，可少量使用HTML; 公式用Mathjax; 中英文皆可。
+* 格式：原则上采用Markdown，如果需特殊效果，可少量使用HTML; 公式用Mathjax; 中英文皆可。
 
-    * 内容：
+* 内容：
 
-      * 问题描述
+  * 问题描述(1)
         
-      * 设计思路
+  * 设计思路(2)
         
-      * 模块说明
+  * 模块说明(1)
         
-      * 小结 
-
+  * 小结(1) 
 > **注意：** 需要合理组织Notebook中文档和代码的顺序，如：先交待被计算对象，然后，设计思路，进一步是文档和相关代码，最后，小结 。
 
+**参考设计:**
+       
+  * PyRankine https://github.com/PySEE/PyRankine  step0, step1
+
+  * [Jupyter Notebook of IdealRankine Cycle](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit2-2-PyThermo-IdealRankineCycle.ipynb)
+
+  * [Jupyter Notebook of Example 8.6](http://nbviewer.ipython.org/github/PySEE/Practices/tree/master/P2/RankineCycle86.ipynb) 
+  
+    **Note: you may use the Notebook to start the practice** 
+     
 ## 提交：
 
 * 1 电邮： cmh@seu.edu.cn
@@ -105,15 +95,9 @@ Chapter 8 Vapor Power System:(Page 460-463)
 
 *  PyRankine https://github.com/PySEE/PyRankine
 
-     * step 0 :  **Zero Abstraction** of The Ideal Rankine Cycle
+     * step 0 : **Zero Abstraction** :  the simple data type and expression only 
 
-       the simple data type and expression only 
-
-     * step 1 : **Simple Abstraction** of The Ideal Rankine Cycle
-
-       structure data type: List,Dict and functions
-
-*  Excel4Engineering https://github.com/PySEE/Excel4Engineering  
+     * step 1 : **Simple Abstraction** : structure data type: List,Dict and functions
 
 *  Michael J . Moran. [Chapter 8's Jupyter Notebook for Fundamentals of Engineering Thermodynamics](https://github.com/FOSSEE/Python-Textbook-Companions/blob/master/Fundamental_of_Thermodynamics_by_Moran_and_Shapiro_by_Michael_J._Moran_and_Howard_N._Shapiro/Chapter_8.ipynb)
 

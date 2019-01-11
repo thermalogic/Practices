@@ -31,5 +31,22 @@ and temperatures are specified, and the net power output is given.
 
    * **Find:** Determine the thermal efficiency and the mass flow rate entering the first turbine, in kg/h.
 
-![fig86](fig86.jpg)  
+![rankine86](./img/rankine86.jpg)  
+
+* Engineering Model:
+
+   1. Each component in the cycle is analyzed as a control volume at steady state. The control volumes are
+shown on the accompanying sketch by dashed lines.
+
+   2. There is no stray heat transfer from any component to its surroundings.
+
+   3. The working fluid undergoes internally reversible processes as it passes through the turbines, pumps,
+steam generator, reheater, and condenser.
+
+   4. The expansion through the trap is a throttling process.
+
+   5. Kinetic and potential energy effects are negligible.
+
+  6. Condensate exits the closed heater as a saturated liquid at 2 MPa. Feedwater exits the open heater as a saturated liquid at 0.3 MPa. Condensate exits the condenser as a saturated liquid.
+
 

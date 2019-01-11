@@ -20,11 +20,23 @@ Chapter 8 Vapor Power System(7th Edition):
 
 * [Example 8.1](./rankine81.md)：An Ideal Regenerative Cycle, Page 438
 
+  * [Jupyter Notebook of Example 8.1](http://nbviewer.ipython.org/github/PySEE/Practices/tree/master/P3/RankineCycle81.ipynb) 
+
 * [Example 8.5](./rankine85.md): A Regenerative Cycle with Open Feedwater Heater,Page 456
 
-* [Example 8.6](./rankine86.md) : Considering a Reheat–Regenerative Cycle with Two Feedwater Heaters, a closed feedwater heater and an open feedwater heater,Page 460
+  * [Jupyter Notebook of Example 8.5](http://nbviewer.ipython.org/github/PySEE/Practices/tree/master/P3/RankineCycle85.ipynb) 
 
-参考结果：[Example 8.1: rankine81-SP.txt](./rankine81-SP.txt)、[Example 8.5: rankine85-SP.txt](./rankine85-SP.txt)、[Example 8.6：rankine86-SP.txt](./rankine86-SP.txt)
+* [Example 8.6](./rankine86.md) : A Reheat–Regenerative Cycle with Two Feedwater Heaters, a closed feedwater heater and an open feedwater heater,Page 460
+
+  * [Jupyter Notebook of Example 8.6](http://nbviewer.ipython.org/github/PySEE/Practices/tree/master/P3/RankineCycle86.ipynb) 
+
+参考结果：
+
+* Example 8.1: [rankine81-SP.txt](./rankine81-SP.txt)
+
+* Example 8.5: [rankine85-SP.txt](./rankine85-SP.txt)
+
+* Example 8.6：[rankine86-SP.txt](./rankine86-SP.txt)
 
 ## 工作内容和要求(20)
 
