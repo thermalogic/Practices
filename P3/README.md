@@ -20,15 +20,15 @@ Chapter 8 Vapor Power System(7th Edition):
 
 * [Example 8.1](./rankine81.md)：An Ideal Regenerative Cycle, Page 438
 
-  * [Jupyter Notebook of Example 8.1](https://nbviewer.ipython.org/github/PySEE/Practices/blob/S2019/P3/RankineCycle86.ipynb) 
+   * [Jupyter Notebook of Example 8.1 @PySEE/PyRankine](https://nbviewer.ipython.org/github/PySEE/PyRankine/blob/master/notebook/RankineCycle81-Step0-1.ipynb) 
 
 * [Example 8.5](./rankine85.md): A Regenerative Cycle with Open Feedwater Heater,Page 456
 
-  * [Jupyter Notebook of Example 8.5: Step0](https://nbviewer.ipython.org/github/PySEE/Practices/blob/S2019/P3/RankineCycle85.ipynb) 
+   * [Jupyter Notebook of Example 8.5 @PySEE/PyRankine](https://nbviewer.ipython.org/github/PySEE/PyRankine/blob/master/notebook/RankineCycle85-Step0.ipynb) 
 
 * [Example 8.6](./rankine86.md) : A Reheat–Regenerative Cycle with Two Feedwater Heaters, a closed feedwater heater and an open feedwater heater,Page 460
 
-  * [Jupyter Notebook of Example 8.6: Step0](https://nbviewer.ipython.org/github/PySEE/Practices/blob/S2019/P3/RankineCycle86.ipynb) 
+   * [Jupyter Notebook of Example 8.6 @PySEE/PyRankine](https://nbviewer.ipython.org/github/PySEE/PyRankine/blob/master/notebook/RankineCycle86-Step0.ipynb) 
 
 参考结果：
 
@@ -105,10 +105,12 @@ PyRankine Step3,Step4 提供了`csv`和`json`两种格式系统描述数据文�
 
 ## 参考资源：
 
-*  PyRankine Step2,Step3,Step4 https://github.com/PySEE/PyRankine 
+*  PySEE/PyRankine Step2,Step3,Step4 https://github.com/PySEE/PyRankine 
 
-*  [PyThermo-IdealRankineCycle-OOP](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-1-PyThermo-IdealRankineCycle-OOP.ipynb)
+* [Jupyter Notebook of Example 8.1,8.3,8.4,8.5,8.6  @PySEE/PyRankine](https://github.com/PySEE/PyRankine/tree/master/notebook)
 
-*  [PyThermo-CSV-JSON-RankineCycle](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-2-PyThermo-CSV-JSON-RankineCycle.ipynb)
+* [PyThermo-IdealRankineCycle-OOP](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-1-PyThermo-IdealRankineCycle-OOP.ipynb)
 
-*  [PyThermo-JSON-Python](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-3-PyThermo-JSON-Python.ipynb)
+* [PyThermo-CSV-JSON-RankineCycle](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-2-PyThermo-CSV-JSON-RankineCycle.ipynb)
+
+* [PyThermo-JSON-Python](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-3-PyThermo-JSON-Python.ipynb)

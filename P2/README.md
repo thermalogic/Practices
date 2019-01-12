@@ -22,7 +22,7 @@ Chapter 8 Vapor Power System:(Page 460-463)
 
 [Example 8.6](./rankine86.md): Considering a Reheat–Regenerative Cycle with Two Feedwater Heaters, a closed feedwater heater and an open feedwater heater. 
 
-* [Jupyter Notebook of Example 8.6](https://nbviewer.ipython.org/github/PySEE/Practices/blob/S2019/P3/RankineCycle86.ipynb) 
+* [Jupyter Notebook of Example 8.6 @PySEE/PyRankine](https://nbviewer.ipython.org/github/PySEE/PyRankine/blob/master/notebook/RankineCycle85-Step0.ipynb) 
   
 * [Solution of Example 8.6](./rankine86-SP.txt)
 
@@ -56,14 +56,10 @@ Example 8.6热力循环计算的Jupyter Notebook
 
 **参考设计:**
        
-  * PyRankine https://github.com/PySEE/PyRankine  step0, step1
+  * [Jupyter Notebook of Example 8.1,8.3,8.4,8.5,8.6 @PySEE/PyRankine](https://github.com/PySEE/PyRankine/tree/master/notebook)
 
-  * [Jupyter Notebook of IdealRankine Cycle](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit2-2-PyThermo-IdealRankineCycle.ipynb)
-
-  * [Jupyter Notebook of Example 8.6: Step0 ](https://nbviewer.ipython.org/github/PySEE/Practices/blob/S2019/P3/RankineCycle86.ipynb) 
-  
-    **Note: you may use the Notebook to start the practice** 
-     
+     * **Note** you may use [Jupyter Notebook of Example 8.6](https://nbviewer.ipython.org/github/PySEE/PyRankine/blob/master/notebook/RankineCycle86-Step0.ipynb) to start the practice
+      
 ## 提交：
 
 * 1 电邮： cmh@seu.edu.cn
@@ -89,17 +85,7 @@ Example 8.6热力循环计算的Jupyter Notebook
     
     * A gallery of interesting notebook：https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks
 
-* [PyThermo-IF97](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit2-1-PyThermo-IF97.ipynb)
-
-* [Jupyter Notebook of IdealRankine Cycle](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit2-2-PyThermo-IdealRankineCycle.ipynb) 
-
-*  PyRankine https://github.com/PySEE/PyRankine
-
-     * step 0 : **Zero Abstraction** :  the simple data type and expression only 
-
-     * step 1 : **Simple Abstraction** : structure data type: List,Dict and functions
-
-*  Michael J . Moran. [Chapter 8's Jupyter Notebook for Fundamentals of Engineering Thermodynamics](https://github.com/FOSSEE/Python-Textbook-Companions/blob/master/Fundamental_of_Thermodynamics_by_Moran_and_Shapiro_by_Michael_J._Moran_and_Howard_N._Shapiro/Chapter_8.ipynb)
+* [IAPWS-IF97 high-speed shared library:SEUIF97](https://github.com/PySEE/SEUIF97)
 
 
 
