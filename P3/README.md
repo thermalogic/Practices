@@ -24,11 +24,11 @@ Chapter 8 Vapor Power System(7th Edition):
 
 * [Example 8.5](./rankine85.md): A Regenerative Cycle with Open Feedwater Heater,Page 456
 
-  * [Jupyter Notebook of Example 8.5](https://nbviewer.ipython.org/github/PySEE/Practices/blob/S2019/P3/RankineCycle85.ipynb) 
+  * [Jupyter Notebook of Example 8.5: Step0](https://nbviewer.ipython.org/github/PySEE/Practices/blob/S2019/P3/RankineCycle85.ipynb) 
 
 * [Example 8.6](./rankine86.md) : A Reheat–Regenerative Cycle with Two Feedwater Heaters, a closed feedwater heater and an open feedwater heater,Page 460
 
-  * [Jupyter Notebook of Example 8.6](https://nbviewer.ipython.org/github/PySEE/Practices/blob/S2019/P3/RankineCycle86.ipynb) 
+  * [Jupyter Notebook of Example 8.6: Step0](https://nbviewer.ipython.org/github/PySEE/Practices/blob/S2019/P3/RankineCycle86.ipynb) 
 
 参考结果：
 

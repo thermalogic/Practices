@@ -60,7 +60,7 @@ Example 8.6热力循环计算的Jupyter Notebook
 
   * [Jupyter Notebook of IdealRankine Cycle](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit2-2-PyThermo-IdealRankineCycle.ipynb)
 
-  * [Jupyter Notebook of Example 8.6](https://nbviewer.ipython.org/github/PySEE/Practices/blob/S2019/P3/RankineCycle86.ipynb) 
+  * [Jupyter Notebook of Example 8.6: Step0 ](https://nbviewer.ipython.org/github/PySEE/Practices/blob/S2019/P3/RankineCycle86.ipynb) 
   
     **Note: you may use the Notebook to start the practice** 
      
