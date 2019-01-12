@@ -54,7 +54,7 @@ Example 8.6热力循环计算的Jupyter Notebook
 
 **参考设计:**
        
-  * [Jupyter Notebooks of Example 8.1 @PySEE/PyRankine](https://nbviewer.ipython.org/github/PySEE/PyRankine/blob/master/notebook/RankineCycle81-Step0-1.ipynb)
+  * [Jupyter Notebooks of Example 8.1 @PySEE/PyRankine](https://nbviewer.ipython.org/github/PySEE/PyRankine/blob/master/notebook/RankineCycle81-82-Step0-1.ipynb)
 
   * **Note** you may use [Jupyter Notebook of Example 8.6](https://nbviewer.ipython.org/github/PySEE/PyRankine/blob/master/notebook/RankineCycle86-Step0.ipynb) to start the practice
       

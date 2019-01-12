@@ -20,7 +20,7 @@ Chapter 8 Vapor Power System(7th Edition):
 
 * [Example 8.1](./rankine81.md)：An Ideal Regenerative Cycle, Page 438
 
-   * [Jupyter Notebook of Example 8.1 @PySEE/PyRankine](https://nbviewer.ipython.org/github/PySEE/PyRankine/blob/master/notebook/RankineCycle81-Step0-1.ipynb) 
+   * [Jupyter Notebook of Example 8.1 @PySEE/PyRankine](https://nbviewer.ipython.org/github/PySEE/PyRankine/blob/master/notebook/RankineCycle81-82-Step0-1.ipynb) 
 
 * [Example 8.5](./rankine85.md): A Regenerative Cycle with Open Feedwater Heater,Page 456
 
