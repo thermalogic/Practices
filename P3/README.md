@@ -36,7 +36,7 @@ Chapter 8 Vapor Power System(7th Edition):
 
 * Example 8.5: [rankine85-SP.txt](./rankine85-SP.txt)
 
-* Example 8.6：[rankine86-SP.txt](./rankine86-SP.txt)
+* Example 8.6: [rankine86-SP.txt](./rankine86-SP.txt)
 
 ## 工作内容和要求(20)
 
