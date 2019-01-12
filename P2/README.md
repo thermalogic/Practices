@@ -35,7 +35,7 @@ Example 8.6热力循环计算的Jupyter Notebook
 
   * 基于数据结构的设计，使用**函数**封装计算模块，组织循环计算(3)
 
-  * 参考[Solution of Example 8.6](./rankine86-SP.txt)的输出，编程输出循环参数和性能指标等计算结果(3)
+  * 参考[Solution of Example 8.6](./rankine86-SP.txt)的输出，在Jupyter Notebook中输出工整的循环参数和性能指标等计算结果(3)
 
 **文档部分**(5);   
     
@@ -54,9 +54,9 @@ Example 8.6热力循环计算的Jupyter Notebook
 
 **参考设计:**
        
-  * [Jupyter Notebook of Example 8.1,8.3,8.4,8.5,8.6 @PySEE/PyRankine](https://github.com/PySEE/PyRankine/tree/master/notebook)
+  * [Jupyter Notebooks of Example 8.1 @PySEE/PyRankine](https://nbviewer.ipython.org/github/PySEE/PyRankine/blob/master/notebook/RankineCycle81-Step0-1.ipynb)
 
-     * **Note** you may use [Jupyter Notebook of Example 8.6](https://nbviewer.ipython.org/github/PySEE/PyRankine/blob/master/notebook/RankineCycle86-Step0.ipynb) to start the practice
+  * **Note** you may use [Jupyter Notebook of Example 8.6](https://nbviewer.ipython.org/github/PySEE/PyRankine/blob/master/notebook/RankineCycle86-Step0.ipynb) to start the practice
       
 ## 提交：
 
