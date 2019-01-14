@@ -36,7 +36,7 @@
 
 ---
 
-## Python Quick Review
+##  Self Exercise(0  points)
 
 [Python Quick Review](./Python-Quick-Review)
 
@@ -44,4 +44,3 @@ The notebook is designed for you to review python conveniently. Please finish th
 
 You may reference the structure to learn any new programming Language
 
-* The notebook does not count points.
