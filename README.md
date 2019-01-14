@@ -36,9 +36,9 @@
 
 ---
 
-##  Self Exercise(0  points)
+## Self Exercises
 
-[Python Quick Review](./Review)
+[Python Quick Review](./self-exercises)(0  points)
 
 The notebook is designed for you to review python conveniently. Please finish the notebook by yourself.
 
