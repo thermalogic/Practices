@@ -35,3 +35,13 @@
 * Deadline: 2019.06.16
 
 ---
+
+## Python Quick Review
+
+[Python Quick Review](./Python-Quick-Review)
+
+The notebook is designed for you to review python conveniently. Please finish the notebook by yourself.
+
+You may reference the structure to learn any new programming Language
+
+* The notebook does not count points.
