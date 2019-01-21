@@ -105,9 +105,9 @@ PyRankine Step3,Step4 提供了`csv`和`json`两种格式系统描述数据文�
 
 ## 参考资源：
 
-*  PySEE/PyRankine Step2,Step3,Step4 https://github.com/PySEE/PyRankine 
+*  PySEE/PyRankine Step2~5 https://github.com/PySEE/PyRankine 
 
-* [Jupyter Notebook of Example 8.1,8.3,8.4,8.5,8.6  @PySEE/PyRankine](https://github.com/PySEE/PyRankine/tree/master/notebook)
+* [Jupyter Notebook of Example 8.1~8.6  @PySEE/PyRankine](https://github.com/PySEE/PyRankine/tree/master/notebook)
 
 * [PyThermo-IdealRankineCycle-OOP](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-1-PyThermo-IdealRankineCycle-OOP.ipynb)
 
