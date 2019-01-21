@@ -51,17 +51,16 @@ Chapter 8 Vapor Power System(7th Edition):
 **数据文件和Python3源码(15)：**
 
    * 使用类描述循环中的设备(组件)、节点(6)
-   
-   * 解析描述循环系统的数据文件，计算热力参数,计算循环的各项指标(4)
 
    * 循环描述数据文件(拓扑结构、设备数据)(3)
+   
+   * 解析描述循环系统的数据文件，计算热力参数,计算循环的各项指标(4)
 
    * 计算结果输出到数据文件(2)
   
 **Word文档(5)**：问题描述; 求解思路；系统的数据文件表达方案；设备组件，节点对象设计；循环计算方法实现等；设计经验，体会等工作小结）
 
    * 文档格式： 1) 版面整洁，合理划分和组织文档段落；2) 页眉：练习三 学号 姓名； 3) 页脚：页码；4)**无需**封面和目录
-
 
 **注意**：这个练习不使用Jupyter Notebook；使用Visual Studio Code进行代码设计等工作。
 
@@ -73,7 +72,7 @@ Example8.6是再热-回热循环Rankine循环，比示例Example8.1，8.5多了�
 
 ### 循环描述数据文件
 
-PyRankine Step3,Step4 提供了`csv`和`json`两种格式系统描述数据文件实例，根据自己的理解选择一种数据文件格式，进行程序设计工作。
+PyRankine Step3~5 使用了`csv`和`json`两种格式的系统描述数据文件实例，根据自己的理解选择一种数据文件格式，进行程序设计工作。
 
 #### csv格式
 
@@ -87,10 +86,9 @@ PyRankine Step3,Step4 提供了`csv`和`json`两种格式系统描述数据文�
 
 可读性好,需学习json相关知识。
 
-*  [PyThermo-CSV-JSON-RankineCycle](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-2-PyThermo-CSV-JSON-RankineCycle.ipynb)
+* [PyThermo-RankineCycle-CSV-JSON-UML](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-2-PyThermo-RankineCycle-CSV-JSON-UML.ipynb)
  
- * [PyThermo-JSON-Python](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-3-PyThermo-JSON-Python.ipynb)
-
+* [PyThermo-JSON-Python](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-3-PyThermo-JSON-Python.ipynb)
 
 ## 提交：
 
@@ -105,12 +103,12 @@ PyRankine Step3,Step4 提供了`csv`和`json`两种格式系统描述数据文�
 
 ## 参考资源：
 
-*  PySEE/PyRankine Step2~5 https://github.com/PySEE/PyRankine 
+* [PySEE/PyRankine Step2~5](https://github.com/PySEE/PyRankine)
 
 * [Jupyter Notebook of Example 8.1~8.6  @PySEE/PyRankine](https://github.com/PySEE/PyRankine/tree/master/notebook)
 
 * [PyThermo-IdealRankineCycle-OOP](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-1-PyThermo-IdealRankineCycle-OOP.ipynb)
 
-* [PyThermo-CSV-JSON-RankineCycle](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-2-PyThermo-CSV-JSON-RankineCycle.ipynb)
+* [PyThermo-RankineCycle-CSV-JSON-UML](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-2-PyThermo-RankineCycle-CSV-JSON-UML.ipynb)
 
 * [PyThermo-JSON-Python](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-3-PyThermo-JSON-Python.ipynb)
