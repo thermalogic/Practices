@@ -68,7 +68,7 @@ Chapter 8 Vapor Power System(7th Edition):
 
 ### 设备类的实现
 
-Example8.6是再热-回热循环Rankine循环，比示例Example8.1，8.5多了不同类型的设备，需要在理解示例代码基础上，增加新设备类代码，进而实现更通用的循环计算。此外，可参考 [TIPS](./tips.md)。
+Example8.6是再热-回热循环Rankine循环，比示例Example8.1，8.5多了不同类型的设备(reheater,the closed feedwater heater)，需要在理解示例代码基础上，增加新设备类代码，进而实现更通用的循环计算程序。此外，可参考 [TIPS](./tips.md)。
 
 ### 循环描述数据文件
 
@@ -84,7 +84,7 @@ PyRankine Step3~5 使用了`csv`和`json`两种格式的系统描述数据文件
 
 #### json格式 
 
-可读性好,需学习json相关知识。
+数据结构性好,需学习json相关知识。
 
 * [PyThermo-RankineCycle-CSV-JSON-UML](https://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-2-PyThermo-RankineCycle-CSV-JSON-UML.ipynb)
  
