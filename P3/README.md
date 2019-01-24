@@ -42,23 +42,23 @@ Chapter 8 Vapor Power System(7th Edition):
 
 参考[PyRankine](https://github.com/PySEE/PyRankine), 以Michael J . Moran热力学教程中的[Example 8.1](./rankine81.md)，[Example 8.5](./rankine85.md)，[Example 8.6](./rankine86.md)为分析对象，进行通用Rankine Cycle能量平衡程序设计。
 
-* 建立循环系统和设备的json文件
+* 建立描述循环系统和设备的json文件
 
-* 编程实现，读取系统描述json文件，解析其描述的循环系统拓扑结构，计算热力参数，给出循环系统的各项指标
+* 编程读取系统描述json文件，解析其描述的循环系统，进行循环的能量平衡分析
 
-* 输出结果到数据文件。
+* 输出分析结果到数据文件。
 
 **数据文件和Python3源码(15)：**
 
    * 使用类描述循环中的设备(组件)、节点(6)
 
-   * 循环描述json文件(拓扑结构、设备数据)(3)
+   * 循环描述json文件(节点、设备)(3)
    
-   * 解析描述循环系统的数据文件，计算热力参数,计算循环的各项指标(4)
+   * 读取系统描述json文件，解析其描述的循环系统，进行循环的能量平衡分析(4)
 
-   * 计算结果输出到数据文件(2)
+   * 分析结果输出到数据文件(2)
   
-**Word文档(5)**：问题描述; 求解思路；系统的数据文件表达方案；设备组件，节点对象设计；循环计算方法实现等；设计经验，体会等工作小结）
+**Word文档(5)**：问题描述; 求解思路；系统json文件描述方案；节点和设备的设计；循环能量平衡计算等；设计经验，体会等工作小结
 
    * 文档格式： 1) 版面整洁，合理划分和组织文档段落；2) 页眉：练习三 学号 姓名； 3) 页脚：页码；4)**无需**封面和目录
 
@@ -66,9 +66,17 @@ Chapter 8 Vapor Power System(7th Edition):
 
 ## 提示
 
-Example8.6是再热-回热循环Rankine循环，比示例Example8.1，8.5多了不同类型的设备(reheater,the closed feedwater heater)。
+Example8.6是再热-回热Rankine Cycle。比示例`Example8.1，8.5`,多了不同类型的设备(reheater,the closed feedwater heater)。
 
-需要在理解示例基础上，增加新设备类的json描述，计算分析Python类实现及相关代码，实现更通用的循环计算程序。此外，可参考 [TIPS](./tips.md)。
+需要在理解示例基础上，增加新设备类的json描述，计算分析Python类实现及相关代码，实现更通用的循环计算程序。
+
+通用Rankine Cycle程序的泛化要点:
+
+1.  设备
+
+2.  设备间连接
+
+3.  系统能量平衡计算方法
 
 ## 提交：
 
