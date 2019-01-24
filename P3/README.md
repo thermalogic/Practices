@@ -77,13 +77,6 @@ Please download the ebook from SEU: http://www.lib.seu.edu.cn/ （查找资源->
 
 ## 参考资源：
 
-* [Jupyter Notebook of Example 8.1 @PySEE/PyRankine](https://nbviewer.ipython.org/github/PySEE/PyRankine/blob/master/notebook/RankineCycle81-82-Step0-1.ipynb) 
-
-
-   * [Jupyter Notebook of Example 8.5 @PySEE/PyRankine](https://nbviewer.ipython.org/github/PySEE/PyRankine/blob/master/notebook/RankineCycle85-Step0.ipynb) 
-
-   * [Jupyter Notebook of Example 8.6 @PySEE/PyRankine](https://nbviewer.ipython.org/github/PySEE/PyRankine/blob/master/notebook/RankineCycle86-Step0.ipynb)
-
 * [PySEE/PyRankine Step2~5](https://github.com/PySEE/PyRankine)
 
 * [Jupyter Notebooks of Example 8.1~8.6  @PySEE/PyRankine](https://github.com/PySEE/PyRankine/tree/master/notebook)

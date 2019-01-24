@@ -48,13 +48,13 @@ You may use [Jupyter Notebook of Example 8.6](https://nbviewer.ipython.org/githu
 
 **Results for reference**
 
-[Solution of Example 8.6](./rankine86-SP.txt)
+* [Solution of Example 8.6](./rankine86-SP.txt)
 
 **Jupyter notebooks for reference**
        
-[Jupyter notebooks of Example 8.1 @PySEE/PyRankine](https://nbviewer.ipython.org/github/PySEE/PyRankine/blob/master/notebook/RankineCycle81-82-Step0-1.ipynb)
+* [Jupyter notebooks of Example 8.1 @PySEE/PyRankine](https://nbviewer.ipython.org/github/PySEE/PyRankine/blob/master/notebook/RankineCycle81-82-Step0-1.ipynb)
 
-
+* [Jupyter Notebook of Example 8.6](https://nbviewer.ipython.org/github/PySEE/PyRankine/blob/master/notebook/RankineCycle86-Step0.ipynb)
 
 **Download  the ebook**
 
