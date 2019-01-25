@@ -42,11 +42,11 @@ The zipped file include:
 
 **GCC,GSL,Gnuplot**
 
-* [18_UNDERSTANDING_EXPERIMENTAL_DATA](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit5-1-18_UNDERSTANDING_EXPERIMENTAL_DATA.ipynb)
+* [18. UNDERSTANDING EXPERIMENTAL DATA](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit5-1-18_UNDERSTANDING_EXPERIMENTAL_DATA.ipynb)
 
-* [Ubuntu_GSL_GNUPLOT](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit8-5-Ubuntu_GSL_GNUPLOT.ipynb)
+* [Ubuntu, GSL, GNUPLOT](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit8-5-Ubuntu_GSL_GNUPLOT.ipynb)
 
-* [Ubuntu Python CPP](https://github.com/PySEE/home/blob/S2019/guide/Ubuntu-Python-CPP(Chinese).md)
+* [Ubuntu, Python, CPP](https://github.com/PySEE/home/blob/S2019/guide/Ubuntu-Python-CPP(Chinese).md)
 
 * GSL - GNU Scientific Library https://www.gnu.org/software/gsl/
 
@@ -54,7 +54,9 @@ The zipped file include:
 
 * Gnuplot homepage http://gnuplot.info/
 
-    * Nishanth Sastry：[gnuplot 让您的数据可视化](https://www.ibm.com/developerworks/cn/linux/l-gnuplot/)
+   * Nishanth Sastry. [Visualize your data with gnuplot](http://fitzkee.chemistry.msstate.edu/sites/default/files/ch8990/ibm-gnuplot.pdf)
+  
+      * [中文版:Gnuplot让您的数据可视化](https://www.ibm.com/developerworks/cn/linux/l-gnuplot/)
 
 **Git and Github**
 
@@ -64,7 +66,7 @@ The zipped file include:
 
 * [DevTools-Git](http://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/Unit7-5-DevTools-Git.ipynb)
 
-* [How to get started with GIT and work with GIT Remote Repo]( http://www3.ntu.edu.sg/home/ehchua/programming/howto/Git_HowTo.html)
+* [How to get started with GIT and work with GIT Remote Repo](http://www3.ntu.edu.sg/home/ehchua/programming/howto/Git_HowTo.html)
 
 * Git Version Control in VS Code：https://code.visualstudio.com/docs/editor/versioncontrol
 
