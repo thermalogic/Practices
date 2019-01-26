@@ -38,7 +38,7 @@ Apply computational thinking to solve more complex problems
 
 ## 提示
 
-`Example8.6`是再热-回热Rankine Cycle。比示例`Example8.1，8.5`,多了不同类型的设备(reheater, the closed feedwater heater), trap)。
+[Example 8.6：A Reheat–Regenerative Cycle with Two Feedwater Heaters](./rankine86.md) 比 `Example8.1，8.5`, 多了不同类型的设备(reheater, the closed feedwater heater, trap)。
 
 需要在理解示例基础上，增加新设备类的json描述，计算分析Python类实现及相关代码，实现更通用的循环计算程序。
 
