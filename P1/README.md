@@ -29,6 +29,8 @@ Deadline: 2019.03.17
 ```cpp 
 /*
 g++ -o hello hello.cpp
+
+./hello
 */
 #include <iostream>
 using namespace std;
