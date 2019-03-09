@@ -80,15 +80,19 @@ int main() {
  │   │    │ 
  │   │    |── 学号-姓名-1.docx
  │   │    │ 
- │   │    |── <python>: python文件夹，存放python源码文件, 文件名不要使用中文
+ │   │    |── <python>: 存放python源码文件夹, 文件名不要使用中文
+ │   │    |           |
+ │   │    |           │ ── *.py
  │   │    |
- │   │    |── <cpp>: cpp文件夹，存放C/C++源码文件, 文件名不要使用中文
+ │   │    |── <cpp>:  存放C/C++源码文件夹, 文件名不要使用中文
+ │   │    |           |
+ │   │    |           │ ── *.c/cpp
  │   │    │ 
- │   │    │── <notebook> notebook文件夹，存放Jupyter Notebook等文件
- │   │    │             │
- │   │    │             │── start.bat: 内容为jupyter notebook的bat文件 
+ │   │    │── <notebook> 存放Jupyter Notebook等文件夹, 文件名不要使用中文
+ │   │                  │
+ │   │                  │── start.bat: 内容为jupyter notebook的bat文件 
  │   │                  │     
- │   │                  |── 存放Jupyter Notebook文件, 文件名不要使用中文
+ │   │                  |── *.ipynb
  │   │
  |   │ ── <P2>
  │   │ 
