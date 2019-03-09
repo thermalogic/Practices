@@ -80,13 +80,15 @@ int main() {
  │   │    │ 
  │   │    |── 学号-姓名-1.docx
  │   │    │ 
- │   │    |── <python>: 练习的python源码
+ │   │    |── <python>: python文件夹，存放python源码文件, 文件名不要使用中文
  │   │    |
- │   │    |── <cpp>: 练习的C++源码
+ │   │    |── <cpp>: cpp文件夹，存放C/C++源码文件, 文件名不要使用中文
  │   │    │ 
- │   │    │── <notebook> ── start.bat: 内容为jupyter notebook的bat文件 
+ │   │    │── <notebook> notebook文件夹，存放Jupyter Notebook等文件
+ │   │    │             │
+ │   │    │             │── start.bat: 内容为jupyter notebook的bat文件 
  │   │                  │     
- │   │                  |── Jupyter Notebook文件
+ │   │                  |── 存放Jupyter Notebook文件, 文件名不要使用中文
  │   │
  |   │ ── <P2>
  │   │ 
