@@ -1,7 +1,16 @@
 /*
-g++ -o hello hello.cpp
+Compiling:
+ 
+   g++ -o hello hello.cpp
+
+Compiling for output Chinese to console in GBK
+
+   g++ -o hello hello.cpp -fexec-charset=GBK
+
+Running
 
 ./hello
+
 */
 #include <iostream>
 using namespace std;
