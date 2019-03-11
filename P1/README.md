@@ -123,6 +123,8 @@ int main() {
 
 * [The Guide of Building Software Environment](https://github.com/PySEE/home/tree/S2019/guide/BuildingSoftwareEnvironment.md) 
 
+  * [File Path](https://github.com/PySEE/home/tree/S2019/guide/FilePath(Chinese).md) 
+
 * Github
  
   * 知乎：怎样使用GitHub. http://www.zhihu.com/question/20070065
