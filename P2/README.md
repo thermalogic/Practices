@@ -16,11 +16,11 @@ Use **Jupyter Notebook** to simulate the Rankine Cycle
 
 ## 要求：(15)
 
-设计计算分析 [Example 8.6：The Reheat–Regenerative Cycle with Two Feedwater Heater](./rankine86.md) 的Jupyter Notebook。
+设计分析 [Example 8.6：The Reheat–Regenerative Cycle with Two Feedwater Heater](./rankine86.md) 的Jupyter Notebook。
 
 需合理组织Notebook中的文档和代码。如：先给出被计算对象描述文档，然后，给出设计思路，进一步是文档和及其代码实现，最后，是设计过程的小结 。
     
-### 代码部分(10)
+### Jupyter Notebook中的代码(10)
   
 * 使用结构数据类型：**列表、字典**等描述循环中的状态点，设备和循环性能指标(4)
 
@@ -28,7 +28,7 @@ Use **Jupyter Notebook** to simulate the Rankine Cycle
 
 * 参考 [Solution of Example 8.6](./rankine86-SP.txt) 的输出，在Jupyter Notebook中输出工整的循环参数和性能指标等结果(3)
 
-### 文档部分(5)   
+### Jupyter Notebook中的文档(5)   
     
  格式：原则上采用Markdown，如果需特殊效果，可少量使用HTML; 公式用MathJax(LaTeX)
 
@@ -85,7 +85,7 @@ Download the ebook from SEU: http://www.lib.seu.edu.cn/ （查找资源->外文�
     
     * A gallery of interesting notebook：https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks
 
-* [MathJax LaTeX](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit2-3-Thermo-MathJax-LaTeX.ipynb)
+* [MathJax LaTeX](https://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/Unit2-3-PyThermo-MathJax-LaTeX.ipynb)
 
 * [IAPWS-IF97 high-speed shared library:SEUIF97](https://github.com/PySEE/SEUIF97)
 
