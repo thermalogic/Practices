@@ -18,7 +18,12 @@ Deadline: 2019.03.17
 
 **4** 安装Jupyter, 编写一个Jupyter Notebook交互计算文件。提交交互计算文件和运行截图。
    
-* 交互计算文件内容：从 [02_INTRODUCTION_TO_PYTHON](http://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/Unit1-2-02_INTRODUCTION_TO_PYTHON.ipynb)中任选一小段文字和代码，然后： 1）文本部分加上自己的学号和姓名；2）代码部分加上用print输出自己的学号和姓名，实现为jupyter notebook版本（文本格式：Markdown，源码语言：Python3).
+* 交互计算文件(ipynb)：
+  
+   从 [02_INTRODUCTION_TO_PYTHON](http://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/Unit1-2-02_INTRODUCTION_TO_PYTHON.ipynb)中任选一小段文本和代码，然后： 
+   
+     * 1）文本部分加上自己的学号和姓名（Markdown格式）
+     * 2）代码部分加上用print输出自己的学号和姓名（Python3）
 
 **5** 安装MinGW-W64，Visual Studio Code和Python，C/C++插件, 编写程序，提交源码和程序编写和运行截图。
    
@@ -55,7 +60,7 @@ int main() {
   
   * 3 Python解释器及软件包的安装过程简要说明；使用IDLE编程和运行结果的截图(3)
   
-  * 4 Jupyter Notebook安装过程的简要说明；Jupyter Notebook文档的运行截图 (2)
+  * 4 Jupyter Notebook安装过程的简要说明；Jupyter Notebook文件的运行截图 (2)
 
   * 5 安装MinGW-w64,Visual Studio code和Python，C/C++插件过程的简要说明；使用VS Code编写运行简单的Python,C++程序的截图 (4)
   
