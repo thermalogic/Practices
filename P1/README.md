@@ -125,6 +125,8 @@ int main() {
 
   * [File Path](https://github.com/PySEE/home/tree/S2019/guide/FilePath(Chinese).md) 
 
+  * [Coding With Terminal](.https://github.com/PySEE/home/tree/S2019/guide/CodingWithTerminal.md/)
+
 * Github
  
   * 知乎：怎样使用GitHub. http://www.zhihu.com/question/20070065
