@@ -125,7 +125,7 @@ int main() {
 
   * [File Path](https://github.com/PySEE/home/tree/S2019/guide/FilePath(Chinese).md) 
 
-  * [Coding With Terminal](.https://github.com/PySEE/home/tree/S2019/guide/CodingWithTerminal.md)
+  * [Coding With Terminal](https://github.com/PySEE/home/tree/S2019/guide/CodingWithTerminal.md)
 
 * Github
  
