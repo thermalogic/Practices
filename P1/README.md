@@ -10,13 +10,19 @@ Deadline: 2019.03.17
 
 **1** 了解Github给出简介
 
-**2** 建立Github账户，Fork不少于2个和课程学习内容有关的Github仓库到个人Github账户，提交截图
+**2** 建立Github账户，Fork不少于2个和课程学习内容有关的Github仓库到个人Github账户；
+     
+   *  提交Github账户主页面截图
 
-**3** 安装Python解释器和软件包autopep8, pylint；用IDLE编一个简单程序：print输出本人的学号和姓名，提交编辑源码和程序运行结果的截图
+**3** 安装Python解释器和软件包autopep8, pylint；用IDLE编一个简单Python程序：用print语句输出本人的学号和姓名。( **不是使用`Python Shell`**,那个不是编Python程序的程序设计，是解释用户在Shell中输入的Python语句的解释运行过程)
+    
+* 提交：Python程序源码文件； 编辑源码界面和程序运行结果的截图
 
-    * 科学计算等软件包可本次练习后，根据学习进度逐步安装  
+>    `科学计算等软件包可本次练习后，根据学习进度逐步安装`  
 
-**4** 安装Jupyter, 编写一个Jupyter Notebook交互计算文件。提交交互计算文件和运行截图。
+**4** 安装Jupyter, 编写一个Jupyter Notebook交互计算文件。
+
+* 提交：交互计算文件；Jupyter Notebook运行截图。
    
 * 交互计算文件(ipynb)：
   
@@ -29,7 +35,9 @@ Deadline: 2019.03.17
    
 * Python程序：从[02_INTRODUCTION_TO_PYTHON](http://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/Unit1-2-02_INTRODUCTION_TO_PYTHON.ipynb)中任选一段代码，代码加上用print输出自己的学号和姓名。
 
-* C++程序: 使用VS Code修改 [hello.cpp](./cpp/hello.cpp) 代码， 将其中的"Change the text to your name"和"Change the text to your student ID"，修改为自己的姓名( **用拼音，不要用中文** ）和学号，使用MinGW-W64编译运行. 提交: 修改后的源码，使用Visual Studio Code编辑代码和运行时的截图
+* C++程序: 使用VS Code修改 [hello.cpp](./cpp/hello.cpp) 代码， 将其中的"Change the text to your name"和"Change the text to your student ID"，修改为自己的姓名( **用拼音，不要用中文** ）和学号，使用MinGW-W64编译运行. 
+
+   * 提交: 修改后的Python, C++源码文件；使用Visual Studio Code编辑代码和运行截图
 
 ```cpp 
 /*
