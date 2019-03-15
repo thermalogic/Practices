@@ -14,7 +14,7 @@ Deadline: 2019.03.17
      
    *  提交Github账户主页面截图
 
-**3** 安装Python解释器和软件包autopep8, pylint；用IDLE编一个简单Python程序：用print语句输出本人的学号和姓名。( **不是使用`Python Shell`**,那个不是编Python程序的程序设计，是解释用户在Shell中输入的Python语句的解释运行过程)
+**3** 安装Python解释器和软件包autopep8, pylint；用IDLE编一个简单Python程序：用print语句输出本人的学号和姓名。(不是使用 **Python Shell**的解释语句，是使用 **File** 编辑和运行Python程序源码)
     
 * 提交：Python程序源码文件； 编辑源码界面和程序运行结果的截图
 
