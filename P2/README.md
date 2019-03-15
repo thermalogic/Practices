@@ -83,7 +83,7 @@ Download the ebook from SEU: http://www.lib.seu.edu.cn/ （查找资源->外文�
 * 1 电邮： cmh@seu.edu.cn
    
   * 主题：学号-姓名-2
-  * 附件：压缩工作目录，命名为： **学号-姓名-2.zip**
+  * 附件：压缩工作目录(如：P2)，命名为： **学号-姓名-2.zip**
 
 * 2 **截至时间：** 2019.04.21
   

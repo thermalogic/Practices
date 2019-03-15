@@ -86,7 +86,7 @@ int main() {
       
       * 页脚：页码(通过`布局`->`分隔符`,插入`分节符`, 设定从`分节符`开始的页码编号)
 
-## 参考的目录和文件组织方式
+## 练习目录和文件组织
 
 ```bash
  ├──<Practices>
@@ -115,7 +115,7 @@ int main() {
 
 ## 电邮提交：
 
-将练习目录压缩为：**学号-姓名-1.zip** (Word文件，Python源码，Jupyter Notebook文件，C++源码等)
+将练习目录(如：P1)压缩为：**学号-姓名-1.zip** (Word文件，Python源码，Jupyter Notebook文件，C++源码等)
 
 * 1 电邮：cmh@seu.edu.cn
 
