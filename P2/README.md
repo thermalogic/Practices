@@ -18,7 +18,7 @@ Use **Jupyter Notebook** to simulate the Rankine Cycle
 
 设计分析 [Example 8.6：The Reheat–Regenerative Cycle with Two Feedwater Heater](./rankine86.md) 的Jupyter Notebook。
 
-需合理组织Notebook中的文档和代码。如：先给出被计算对象描述文档，然后，给出设计思路，进一步是文档和及其代码实现，最后，是设计过程的小结 。
+合理组织Notebook中的文档(使用Markdown Cell)和代码。如：先给出被计算对象描述，然后，给出总体设计思路，进一步是各部分程序模块说明文字、代码，最后，是设计小结。
     
 ### Jupyter Notebook中的代码(10)
   
@@ -30,7 +30,7 @@ Use **Jupyter Notebook** to simulate the Rankine Cycle
 
 ### Jupyter Notebook中的文档(5)   
     
- 格式：原则上采用Markdown，如果需特殊效果，可少量使用HTML; 公式用MathJax(LaTeX)
+ 格式：原则上采用Markdown，如果需特殊效果，可少量使用HTML; 公式用MathJax
 
 **内容**：
 
@@ -56,18 +56,34 @@ You may use [Jupyter Notebook of Example 8.6](https://nbviewer.ipython.org/githu
 
 * [Jupyter Notebook of Example 8.6](https://nbviewer.ipython.org/github/PySEE/PyRankine/blob/master/notebook/RankineCycle86-Step0.ipynb)
 
-**Download  the ebook**
+**Download the ebook**
 
-Michael J . Moran. Fundamentals of Engineering Thermodynamics (7th Edition).  John Wiley & Sons, Inc. 2011/(8th Edition) 2015
+Michael J . Moran. Fundamentals of Engineering Thermodynamics(7th Edition).  John Wiley & Sons, Inc. 2011 
 
 Download the ebook from SEU: http://www.lib.seu.edu.cn/ （查找资源->外文电子书->Wiley电子教材->T(工业技术)->TK(能源与动力工程)->TK1(热力工程,热机)）
+
+## 工作目录和文件
+
+```bash
+ ├──<Practices>
+ │   │ 
+ │   |── <P2>
+ │   │    │ 
+ │   │    |── start.bat (内容为jupyter notebook的bat文件)
+ │   │    │ 
+ │   │    |── *.ipynb  (Example 8.6循环分析ipynb文件)
+ │   │    |
+ │   │    |── <img> 存放ipynb文件中使用的图片文件
+                 |
+                 │ ── *.jpg/png/
+``` 
 
 ## 提交：
 
 * 1 电邮： cmh@seu.edu.cn
    
   * 主题：学号-姓名-2
-  * 附件：Jupyter Notebook等文件的压缩包： **学号-姓名-2.zip**；
+  * 附件：压缩工作目录，命名为： **学号-姓名-2.zip**
 
 * 2 **截至时间：** 2019.04.21
   
