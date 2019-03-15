@@ -18,6 +18,8 @@ Deadline: 2019.03.17
     
 * 提交：Python程序源码文件； 编辑源码界面和程序运行结果的截图
 
+![idle](./img/idle.jpg)
+
 >    `科学计算等软件包可本次练习后，根据学习进度逐步安装`  
 
 **4** 安装Jupyter, 编写一个Jupyter Notebook交互计算文件。
