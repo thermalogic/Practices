@@ -9,7 +9,13 @@ Compiling for output Chinese to console in GBK
 
 Running
 
-./hello
+  For PowerShell 
+
+     ./hello
+
+  For cmd
+
+     hello
 
 */
 #include <iostream>

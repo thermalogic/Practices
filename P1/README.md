@@ -42,11 +42,6 @@ Deadline: 2019.03.17
    * 提交: 修改后的Python, C++源码文件；使用Visual Studio Code编辑代码和运行截图
 
 ```cpp 
-/*
-g++ -o hello hello.cpp
-
-./hello
-*/
 #include <iostream>
 using namespace std;
  
