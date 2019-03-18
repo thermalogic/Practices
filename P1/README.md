@@ -13,10 +13,8 @@ Deadline: 2019.03.17
 **2** 建立Github账户，Fork不少于2个和课程学习内容有关的Github仓库到个人Github账户；
   
 **3** 安装Python解释器和软件包autopep8, pylint；用IDLE编一个简单Python程序： 代码中须有输出本人的学号和姓名的print语句。(不是使用 **Python Shell**解释输入的Python语句，是使用 **File** 编辑和运行Python程序源码)
-    
-![idle](./img/idle.jpg)
-
->    `科学计算等软件包可本次练习后，根据学习进度逐步安装`  
+  
+         科学计算等软件包可本次练习后，根据学习进度逐步安装`  
 
 **4** 安装Jupyter, 编写一个Jupyter Notebook交互计算文件。
  
@@ -43,9 +41,6 @@ int main() {
    return 0;
 }
 ```
-
-![vscode-gcc](./img/vscode-gcc.jpg)
-
 
 **6** 编写软件环境建立、程序设计过程和工作小结文档。文档使用微软Word2007以上版本docx格式。
 
