@@ -11,21 +11,15 @@ Deadline: 2019.03.17
 **1** 了解Github给出简介
 
 **2** 建立Github账户，Fork不少于2个和课程学习内容有关的Github仓库到个人Github账户；
-     
-   *  提交Github账户主页面截图
-
+  
 **3** 安装Python解释器和软件包autopep8, pylint；用IDLE编一个简单Python程序： 代码中须有输出本人的学号和姓名的print语句。(不是使用 **Python Shell**解释输入的Python语句，是使用 **File** 编辑和运行Python程序源码)
     
-* 提交：Python程序源码文件； 编辑源码界面和程序运行结果的截图
-
 ![idle](./img/idle.jpg)
 
 >    `科学计算等软件包可本次练习后，根据学习进度逐步安装`  
 
 **4** 安装Jupyter, 编写一个Jupyter Notebook交互计算文件。
-
-* 提交：交互计算文件；Jupyter Notebook运行截图。
-   
+ 
 * 交互计算文件(ipynb)：
   
    从 [02_INTRODUCTION_TO_PYTHON](http://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/Unit1-2-02_INTRODUCTION_TO_PYTHON.ipynb)中任选一小段文本和代码，然后： 
@@ -33,7 +27,7 @@ Deadline: 2019.03.17
      * 1）文本部分加上自己的学号和姓名（Markdown格式）
      * 2）代码部分加上用print输出自己的学号和姓名（Python3）
 
-**5** 安装MinGW-W64，Visual Studio Code和Python，C/C++插件, 编写程序，提交源码和程序编写和运行截图。
+**5** 安装MinGW-W64，Visual Studio Code和Python，C/C++插件, 在VS Code编写Python,C/C++程序。
    
 * Python程序：从[02_INTRODUCTION_TO_PYTHON](http://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/Unit1-2-02_INTRODUCTION_TO_PYTHON.ipynb)中任选一段代码，代码加上用print输出自己的学号和姓名。
 
@@ -90,15 +84,15 @@ int main() {
  │   │    │ 
  │   │    |── 学号-姓名-1.docx
  │   │    │ 
- │   │    |── <python>: 存放python源码文件夹, 文件名不要使用中文
+ │   │    |── <python>: 存放练习中python源码文件夹, 文件名不要使用中文
  │   │    |           |
  │   │    |           │ ── *.py
  │   │    |
- │   │    |── <cpp>:  存放C/C++源码文件夹, 文件名不要使用中文
+ │   │    |── <cpp>:  存放练习中C/C++源码文件夹, 文件名不要使用中文
  │   │    |           |
  │   │    |           │ ── *.c/cpp
  │   │    │ 
- │   │    │── <notebook> 存放Jupyter Notebook等文件夹, 文件名不要使用中文
+ │   │    │── <notebook> 存放练习中Jupyter Notebook等文件夹, 文件名不要使用中文
  │   │                  │
  │   │                  │── start.bat: 内容为jupyter notebook的bat文件 
  │   │                  │     
