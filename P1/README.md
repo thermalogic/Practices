@@ -16,16 +16,14 @@ Deadline: 2019.03.17
   
          科学计算等软件包可本次练习后，根据学习进度逐步安装`  
 
-**4** 安装Jupyter, 编写一个Jupyter Notebook交互计算文件。
- 
-* 交互计算文件(ipynb)：
+**4** 安装Jupyter, 编写一个Jupyter Notebook交互计算文件(ipynb)
   
-   从 [02_INTRODUCTION_TO_PYTHON](http://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/Unit1-2-02_INTRODUCTION_TO_PYTHON.ipynb)中任选一小段文本和代码，然后： 
+ 从 [02_INTRODUCTION_TO_PYTHON](http://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/Unit1-2-02_INTRODUCTION_TO_PYTHON.ipynb)中任选一小段文本和代码，编写练习要求的Jupyter Notebook文件： 
    
-     * 1）文本部分加上自己的学号和姓名（Markdown格式）
-     * 2）代码部分加上用print输出自己的学号和姓名（Python3）
+  * 1）文本部分加上自己的学号和姓名（Markdown格式）
+  * 2）代码部分加上用print输出自己的学号和姓名（Python3）
 
-**5** 安装MinGW-W64，Visual Studio Code和Python，C/C++插件, 在VS Code编写Python,C/C++程序。
+**5** 安装MinGW-W64，Visual Studio Code和Python，C/C++插件； 用VS Code编写Python、C/C++程序
    
 * Python程序：从[02_INTRODUCTION_TO_PYTHON](http://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/Unit1-2-02_INTRODUCTION_TO_PYTHON.ipynb)中任选一段代码，代码加上用print输出自己的学号和姓名。
 
@@ -42,7 +40,7 @@ int main() {
 }
 ```
 
-**6** 编写软件环境建立、程序设计过程和工作小结文档。文档使用微软Word2007以上版本docx格式。
+**6** 编写软件环境建立、程序设计过程和工作小结的文档。文档使用微软Word2007以上版本docx格式。
 
 ## Word文档内容
 
