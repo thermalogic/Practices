@@ -93,7 +93,7 @@ Download the ebook from SEU: http://www.lib.seu.edu.cn/ （查找资源->外文�
 
 ## 参考资源：
 
-* [Markdown](https://github.com/PySEE/home/blob/S2019/guide/Introduction2Markdown.md)
+* [Markdown](https://github.com/PySEE/home/blob/S2019/guide/Introduction2Markdown(Chinese).md)
 
 * Jupyter Documentation. http://jupyter.readthedocs.org/en/latest/
     
