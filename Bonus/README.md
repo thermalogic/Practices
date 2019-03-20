@@ -22,7 +22,7 @@ Deadline: 2019.06.16
 
 * Submit to your Github 
 
-## Submission
+## Submission requirements
 
 The zipped file include:
 

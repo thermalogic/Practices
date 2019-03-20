@@ -6,9 +6,9 @@ Apply computational thinking to solve more complex problems
 
 **Deadline:**  2019.05.19
 
-## Contents and Requirements(20)
+## Contents and Requirements
 
-参考 [PyRankine](https://github.com/PySEE/PyRankine), 以
+Reference [PyRankine](https://github.com/PySEE/PyRankine), design a general energy balance software with Python to analysis the following cycles:
 
 * [Example 8.1：An Ideal Regenerative Cycle](./rankine81.md)
 
@@ -16,25 +16,35 @@ Apply computational thinking to solve more complex problems
  
 * [Example 8.6：A Reheat–Regenerative Cycle with Two Feedwater Heaters](./rankine86.md) 
 
-为分析对象，进行通用Rankine Cycle能量平衡程序设计。
+**注意**：练习不使用Jupyter Notebook；使用Visual Studio Code进行代码设计等工作，使用MS Word编写设计文档。
 
-### 数据文件和Python3源码(15)
+### 数据文件和Python3源码(12)
 
-* 建立描述循环系统和设备的json文件(3)
+* 数据文件：建立描述循环系统和设备的json文件(2)
 
-* 使用类描述循环中的设备(组件)、节点(6)
+* Python3源码
+ 
+   * 使用类描述循环中的设备(组件)、节点(5)
 
-* 编程读取系统描述json文件，解析其描述的循环系统，进行循环的能量平衡分析(4)
+   * 编程读取系统描述json文件，解析其描述的循环系统，进行循环的能量平衡分析(4)
 
-* 输出分析结果到数据文件(2)
+* 数据文件：输出分析结果到数据文件(1)
   
-### Word文档(5)
+### 软件设计工作Word文档(8)
 
-问题描述; 程序设计总体思路；系统json文件描述方案；节点和设备类的设计；循环能量平衡计算等；设计体会等工作小结
+* 设计问题简要描述(1); 
 
-* 格式要求： 1) 版面整洁，合理划分和组织文档段落；2) 页眉：练习三 学号 姓名； 3) 页脚：页码；4) **无需**封面和目录
+* 程序设计方案简要描述(5)
+  * 总体思路；   
+  * 系统json文件描述；
+  * 节点和设备类的设计；
+  * 循环能量平衡计算过程；
 
-**注意**：这个练习不使用Jupyter Notebook；使用Visual Studio Code进行代码设计等工作。
+* 设计工作小结(1)
+
+* Word排版(1): 版面整洁，合理划分和组织文档段落；页眉：练习三 学号 姓名； 页脚：页码 
+
+  * **无需** 封面和目录
 
 ## 提示
 
@@ -58,17 +68,39 @@ Apply computational thinking to solve more complex problems
 
 * Example 8.6: [rankine86-SP.txt](./rankine86-SP.txt)
 
-**Download  the ebook**
+**Download the ebook**
 
 Michael J . Moran. Fundamentals of Engineering Thermodynamics (7th Edition).  John Wiley & Sons, Inc. 2011/(8th Edition) 2015
 
-Please download the ebook from SEU: http://www.lib.seu.edu.cn/ （查找资源->外文电子书->Wiley电子教材->T(工业技术)->TK(能源与动力工程)->TK1(热力工程,热机)）
+Please download the ebook from SEU: http://www.lib.seu.edu.cn/ （查找资源->外文电子书->Wiley电子教材->T(工业技术)->TK(能源与动力工程)->TK1(热力工程,热机)
+
+## Directories and Files
+
+```bash
+ ├──<Practices>
+     │ 
+     |── <P3>
+          │ 
+          |── *.docx 设计工作Word文档
+          |
+          |── <components> components包的源码文件
+          │    |
+          │    │ ── *.py
+          │   
+          |── <txtcycle> 各循环描述json文件
+          │    |
+          │    │ ── *.json
+          │ 
+          |── <output> 各循环分析结果文件
+               |
+               │ ── *.txt
+``` 
 
 ## 提交：
 
 * 1 电邮： cmh@seu.edu.cn
    * 主题：学号-姓名-3
-   * 附件：程序文件压缩包： **学号-姓名-3.zip**；
+   * 附件：工作目录压缩文件： **学号-姓名-3.zip**；
 
 * 2 截至时间：2019.05.19
    * 截至时间后可补交，补交得分<=13. (2019.06.16)

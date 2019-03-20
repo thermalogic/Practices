@@ -8,17 +8,15 @@ Deadline: 2019.04.21
 
 Use **Jupyter Notebook** to simulate the Rankine Cycle 
 
+* description the objects with the structure types，abstraction of procedure with functions 
+
 * interactive analysis and literate programming
-
-* abstracte the items in the problem with the structure types
-
-* review the knowledge of Rankine Cycle
 
 ## 要求：(15)
 
 设计分析 [Example 8.6：The Reheat–Regenerative Cycle with Two Feedwater Heater](./rankine86.md) 的Jupyter Notebook。
 
-合理组织Notebook中的文档(使用Markdown Cell)和代码。如：先给出被计算对象描述，然后，给出总体设计思路，进一步是各部分程序模块说明文字、代码，最后，是设计小结。
+合理组织Notebook中的文档(Markdown Cell)和代码(Code Cell)。如：先给出被计算对象描述，然后，给出总体设计思路，进一步是各部分程序模块说明文字、代码，最后，是设计小结。
     
 ### Jupyter Notebook中的代码(10)
   
@@ -42,7 +40,7 @@ Use **Jupyter Notebook** to simulate the Rankine Cycle
        
 * 小结(1) 
 
-## 提示
+## Tips
 
 You may use [Jupyter Notebook of Example 8.6](https://nbviewer.ipython.org/github/PySEE/PyRankine/blob/master/notebook/RankineCycle86-Step0.ipynb) to start the practice
 
@@ -62,7 +60,7 @@ Michael J . Moran. Fundamentals of Engineering Thermodynamics(7th Edition).  Joh
 
 Download the ebook from SEU: http://www.lib.seu.edu.cn/ （查找资源->外文电子书->Wiley电子教材->T(工业技术)->TK(能源与动力工程)->TK1(热力工程,热机)）
 
-## 工作目录和文件
+## Directories and Files
 
 ```bash
  ├──<Practices>
@@ -75,7 +73,7 @@ Download the ebook from SEU: http://www.lib.seu.edu.cn/ （查找资源->外文�
  │   │    |
  │   │    |── <img> 存放ipynb文件中使用的图片文件
                  |
-                 │ ── *.jpg/png/
+                 │ ── *.jpg/png
 ``` 
 
 ## 提交：
@@ -91,7 +89,7 @@ Download the ebook from SEU: http://www.lib.seu.edu.cn/ （查找资源->外文�
 
 * 3 改进更新：提交作业后可改进，改进截至时间：2019.06.16
 
-## 参考资源：
+## Reference：
 
 * [Markdown](https://github.com/PySEE/home/blob/S2019/guide/Introduction2Markdown(Chinese).md)
 
