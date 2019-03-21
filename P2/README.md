@@ -8,7 +8,7 @@ Deadline: 2019.04.21
 
 Use **Jupyter Notebook** to simulate the Rankine Cycle 
 
-* description the objects with the structure types，abstraction of procedure with functions 
+* description of the objects with the structure types，abstraction of procedure with functions 
 
 * interactive analysis and literate programming
 
