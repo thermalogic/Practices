@@ -28,13 +28,15 @@ Use **Jupyter Notebook** to simulate the Rankine Cycle
 
 ### Jupyter Notebook中的文档(5)   
     
- 格式：原则上采用Markdown，如果需特殊效果，可少量使用HTML; 公式用MathJax
+ **格式(1)**
+ 
+原则上采用Markdown，如果需特殊效果，可少量使用HTML/CSS; 公式用MathJax
 
-**内容**：
+**内容**
 
 * 问题描述(1)
         
-* 设计思路(2)
+* 设计思路(1)
         
 * 模块说明(1)
        
