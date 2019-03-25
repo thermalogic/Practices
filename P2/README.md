@@ -30,7 +30,7 @@ Use **Jupyter Notebook** to simulate the Rankine Cycle
     
  **格式(1)**
  
-原则上采用Markdown，如果需特殊效果，可少量使用HTML/CSS; 公式用MathJax
+原则上采用Markdown，如果需特殊效果，可少量使用HTML/CSS; 公式用LaTex(MathJax)
 
 **内容**
 
