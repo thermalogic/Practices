@@ -9,17 +9,19 @@ Deadline: 2019.06.09
 
 The exponentiating by squaring is a general method for fast computation of large positive integer powers of a number.
 
-https://en.wikipedia.org/wiki/Exponentiation_by_squaring
+* https://en.wikipedia.org/wiki/Exponentiation_by_squaring
 
-Please use the [fastipow.cpp](./src/fastipow.cpp) to program the following tasks:
+Please use the [fastipow.cpp](./src/fastipow.cpp) to do the following tasks:
 
-* Source files(C/C++ code/header):(1.5 marks)
+* Coding C/C++(C/C++ code/header):(1 marks)
+
+  Split the [fastipow.cpp](./src/fastipow.cpp) into the two parts:
 
     *  The function of The Repeated Squaring Method
 
     *  The example application to call The Repeated Squaring Method
 
-* Makefiles(3 marks)
+* Building dll, exe with three makefiles(3 marks)
 
     * Making the executable file with multiple source files: the function of The Repeated Squaring Method and it's caller
 
@@ -27,37 +29,48 @@ Please use the [fastipow.cpp](./src/fastipow.cpp) to program the following tasks
 
     * Making the executable file to call the shared library 
 
-* Images：(0.5 marks)
+* Documenting your works: README.md and Images：(1 marks)
 
-     * The screenshot of coding,making exe to use the shared library and running the  executable file
+    * README.md: intro of your works
+     
+    * The screenshot of coding,making exe to use `the shared library` and running the  executable file
    
      Example:
 
-   ![screenshots](./img/vscode-gcc.jpg)
+    ![screenshots](./img/vscode-gcc.jpg)
 
+## Directories and Files
 
-```bash
- ├──<Practices>
- │   │ 
- │   |── <P5>
- │   │    │ 
- │   │    |── <img>: screenshots of coding,making and running
- │   │    │ 
- │   │    |── <bin>: *.exe, *.dll
- │   │    |
- │   │    |── <src>: *.c,*.cpp, *.h
- │   │    |
- │   │    │── makefile:  building the executable file with multiple source files
- │   │    │ 
- │   │    │── makefile-dll: building the shared library 
- │   │    │               
- │   │    │── makefile-exe: building the executable file to call the shared library  
- │   │                   
+```txt
+ 
+|── <P5>
+     │ 
+     │── README.md: intro of your works(display the screenshots of coding,making and running)
+     | 
+     │── makefile:  building the executable file with multiple source     
+     │ 
+     │── makefile-dll: building the shared library 
+     │               
+     │── makefile-exe: building the executable file to call the shared library  
+     │
+     |── <img>: screenshots of coding,making and running
+     |       │
+     |       |── *.jpg/png 
+     |
+     |── <bin>:
+     |       │
+     |       |── *.exe
+     |       |     
+     |       |── *.dll
+     |
+     |── <src>: 
+             │
+             |──*.c/cpp, *.h                   
 ```  
 
 ## Submission：
 
-Compress your practice floder to ：**StudentNumber-Name-5.zip**
+Compress your practice folder to ：**StudentNumber-Name-5.zip**
 
 * 1 Email to：cmh@seu.edu.cn 
     

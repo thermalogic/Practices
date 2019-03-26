@@ -32,7 +32,7 @@ In 1973, the statistician F.J. Anscombe published a paper containing the table b
   
 * 1 读取数据文件及数据对象表达(3分)： 使用Python语言读取数据文件[Anscombe.csv](./Anscombe.csv)， 使用List,Dict表达数据分析对象。**不使用: csv，NumPy和Pandas软件包**
 
-* 2 统计指标计算和输出(2分)：计算均值、方差和相关系数等统计指标（1分，可使用Python统计库、Numpy或Scipy)；统计结果表格化输出(1分，可使用Python的表格化数据输出软件包，如prettytable) 
+* 2 统计指标计算和输出(2分)：计算均值、方差和相关系数等统计指标（1分，可使用Python统计库、Numpy或Scipy)；统计结果表格化输出(1分，可使用表格化数据输出软件包，如prettytable) 
 
     参考输出数据表
     
@@ -61,7 +61,7 @@ In 1973, the statistician F.J. Anscombe published a paper containing the table b
 
 * [21_LIES_DAMNED_LIES_AND_STATISTICS](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit5-2-21_LIES_DAMNED_LIES_AND_STATISTICS.ipynb)
 
-* [05_STRUCTURED_TYPES_MUTABILITY_AND_HIGHERORDER_FUNCTIONS：Data Table,Dict and List](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-5-05_STRUCTURED_TYPES_MUTABILITY_AND_HIGHERORDER_FUNCTIONS.ipynb)
+* [List,Dict and Data Table(Files)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-5-4-46-Files-List-Dict.ipynb)
 
 * [11-1_PLOTTING_USING_MATPLOTLIB](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit3-2-11-1_PLOTTING_USING_MATPLOTLIB.ipynb)
 
@@ -73,7 +73,7 @@ In 1973, the statistician F.J. Anscombe published a paper containing the table b
   
 * Matplotlib.  http://matplotlib.org/
 
-* Lectures on scientific computing with python https://github.com/jrjohansson/scientific-python-lectures
+* Robert Johansson. [Lectures on scientific computing with python](https://github.com/jrjohansson/scientific-python-lectures)
 
 
 

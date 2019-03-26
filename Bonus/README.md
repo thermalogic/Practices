@@ -8,13 +8,13 @@ Deadline: 2019.06.16
 
 ### 1 Scientific Programming with `GCC`,`GSL and GNUPlot`(+3 marks) 
 
-* Using **GSL** to do Linear Regression of Springs Behavior Data in [springData.csv](springData.csv)
+* Using **GSL** to do Linear Regression of Springs Behavior Data in [spring_data.csv](./data/spring_data.csv)
 
-  * **Note**: read data from the file of `springData.csv`
+  * **Note**: read data from the file of `spring_data.csv`
 
 * Using **Gnuplot** to visualize the  data and Linear Regression results 
 
-![Linear Regression of Springs Behavior](spring.jpg)
+![Linear Regression of Springs Behavior](./img/spring.jpg)
 
 ### 2 Version control with Git,Github(+2 marks)
  
@@ -22,13 +22,41 @@ Deadline: 2019.06.16
 
 * Submit to your Github 
 
+### 3 Directories and Files
+
+```txt
+ ├──<Practices>
+ │   │ 
+ │   |──<Bonus> 
+ │   │    │ 
+          |── README.md 工作简要说明（需要显示the image of Linear Regression）
+          │
+          |── makefile : 编译源码生成、运行exe文件
+          │ 
+          |── *.exe
+          |
+          |──<src> 源码
+          |       |
+          |       │ ── *.c/cpp
+          |
+          |──<data> 数据
+          |       |
+          |       │ ── *.csv   
+          | 
+          |──<img> 图片
+                  |
+                  │ ── *.jpg/png
+``` 
+
 ## Submission requirements
 
-The zipped file include:
+The zipped files in the `Bonus` directory:
 
-* 1 source codes,data files and image of Linear Regression 
+* 1 README.md：introduction of your works
 
-* 2 images of your locate git and remote Github repository for the codes
+* 2 source codes, makefile, exe, data files and image of Linear Regression 
+
+* 3 images of your locate git and remote Github repository for the codes
 
 **Email to：** cmh@seu.edu.cn
 
