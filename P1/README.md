@@ -18,7 +18,7 @@ Deadline: 2019.03.17
 
 **4** 安装Jupyter, 编写一个Jupyter Notebook交互计算文件(ipynb)
   
- 从 [02_INTRODUCTION_TO_PYTHON](http://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/Unit1-2-02_INTRODUCTION_TO_PYTHON.ipynb)中任选一小段文本和代码，编写练习要求的Jupyter Notebook文件： 
+ 从 [02_INTRODUCTION_TO_PYTHON](http://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/Unit1-2-02-INTRODUCTION_TO_PYTHON.ipynb)中任选一小段文本和代码，编写练习要求的Jupyter Notebook文件： 
    
   * 1）文本部分加上自己的学号和姓名（Markdown格式）
   * 2）代码部分加上用print输出自己的学号和姓名（Python3）
