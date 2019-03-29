@@ -93,6 +93,12 @@ Download the ebook from SEU: http://www.lib.seu.edu.cn/ （查找资源->外文�
 
 ## Reference：
 
+* Michael J. Moran, Howard N. Shapiro, Daisie D. Boettner, Margaret B. Bailey. Fundamentals of Engineering Thermodynamics(7th Edition). John Wiley & Sons, Inc. 2011
+   
+   * The ebook at SEU http://www.lib.seu.edu.cn/
+
+     查找资源->外文电子书->Wiley电子教材->T(工业技术)->TK(能源与动力工程)->TK1(热力工程,热机)
+
 * [Markdown](https://github.com/PySEE/home/blob/S2019/guide/Introduction2Markdown(Chinese).md)
 
 * Jupyter Documentation. http://jupyter.readthedocs.org/en/latest/
