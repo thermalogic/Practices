@@ -17,8 +17,6 @@ Use **Jupyter Notebook** to simulate the Rankine Cycle
 设计分析 [Example 8.6：The Reheat–Regenerative Cycle with Two Feedwater Heater](./rankine86.md) 的Jupyter Notebook。
 
 合理组织Notebook中的文档(Markdown Cell)和代码(Code Cell)。如：先给出被计算对象描述，然后，给出总体设计思路，进一步是各部分程序模块说明文字、代码，最后，是设计小结。
-
-* 循环状态点（节点:nodes)数据CSV文件： [The Node Data of Example 8.6](./rankine86-nd.csv) 
     
 ### Jupyter Notebook中的代码(10)
   
@@ -26,7 +24,11 @@ Use **Jupyter Notebook** to simulate the Rankine Cycle
 
 * 基于数据结构的设计，使用**函数**封装计算模块，组织循环计算(3)
 
-* 参考循环计算结果输出： [Solution of Example 8.6](./rankine86-sp.txt)，在Jupyter Notebook中输出工整的循环参数和性能指标等结果(3)
+* 参考循环计算结果输出： [Solution of Example 8.6](./data/rankine86-sp.txt)，在Jupyter Notebook中输出工整的循环参数和性能指标等结果(3)
+
+* **可选：** 使用数据文件作为循环分析软件的输入输出
+
+   * 参考循环状态点)节点:nodes)数据文件： [The Node Data of Example 8.6](./data/rankine86-nd.csv) 
 
 ### Jupyter Notebook中的文档(5)   
     
