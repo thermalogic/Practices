@@ -1,11 +1,11 @@
-NAME,TYPE,EFF,NODES
-HP Turbine,TURBINE-EX1,100,0,2,1
-Reheater,REHEATER,,2,3
-LP Turbine,TURBINE-EX1,100,3,5,4
-Condenser,CONDENSER,,5,6
-Condensate Pump,PUMP,100,6,7
+NAME,TYPE,EFF,NODE0,NODE1,NODE2,NODE3
+HP Turbine,TURBINE-EX1,100,0,2,1,
+Reheater,REHEATER,,2,3,,
+LP Turbine,TURBINE-EX1,100,3,5,4,
+Condenser,CONDENSER,,5,6,,
+Condensate Pump,PUMP,100,6,7,,
 LP Feedwater Heater,OH-FEEDWATER-DW1,,4,7,8,12
-Feedwater Pump,PUMP,100,8,9
+Feedwater Pump,PUMP,100,8,9,,
 HP Feedwater Heater,CH-FEEDWATER-DW0,,1,11,9,10
-Steam Generator,BOILER,,10,0
-Trap,TRAP,,11,12
+Steam Generator,BOILER,,10,0,,
+Trap,TRAP,,11,12,,
