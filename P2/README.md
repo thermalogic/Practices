@@ -17,6 +17,8 @@ Use **Jupyter Notebook** to simulate the Rankine Cycle
 设计分析 [Example 8.6：The Reheat–Regenerative Cycle with Two Feedwater Heater](./rankine86.md) 的Jupyter Notebook。
 
 合理组织Notebook中的文档(Markdown Cell)和代码(Code Cell)。如：先给出被计算对象描述，然后，给出总体设计思路，进一步是各部分程序模块说明文字、代码，最后，是设计小结。
+
+* 循环状态点（节点:nodes)数据CSV文件： [The Node Data of Example 8.6](./rankine86-nd.csv) 
     
 ### Jupyter Notebook中的代码(10)
   
@@ -24,7 +26,7 @@ Use **Jupyter Notebook** to simulate the Rankine Cycle
 
 * 基于数据结构的设计，使用**函数**封装计算模块，组织循环计算(3)
 
-* 参考 [Solution of Example 8.6](./rankine86-SP.txt) 的输出，在Jupyter Notebook中输出工整的循环参数和性能指标等结果(3)
+* 参考循环计算结果输出： [Solution of Example 8.6](./rankine86-sp.txt)，在Jupyter Notebook中输出工整的循环参数和性能指标等结果(3)
 
 ### Jupyter Notebook中的文档(5)   
     
@@ -48,7 +50,7 @@ You may use [Jupyter Notebook of Example 8.6](https://nbviewer.ipython.org/githu
 
 **Results for reference**
 
-* [Solution of Example 8.6](./rankine86-SP.txt)
+* [Solution of Example 8.6](./rankine86-sp.txt)
 
 **Jupyter notebooks for reference**
        
@@ -73,7 +75,11 @@ Download the ebook from SEU: http://www.lib.seu.edu.cn/ （查找资源->外文�
  │   │    │ 
  │   │    |── *.ipynb  (Example 8.6循环分析ipynb文件)
  │   │    |
- │   │    |── <img> 存放ipynb文件中使用的图片文件
+          |── <data> 存放数据文件
+          │        |
+          │        │ ── *.csv/txt
+          │    
+          |── <img> 存放ipynb文件中使用的图片文件
                  |
                  │ ── *.jpg/png
 ``` 

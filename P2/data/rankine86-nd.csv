@@ -1,0 +1,14 @@
+NAME,NID,p,t,x, mdot,  fdot  
+MainSteam,0,8,480,,,1
+ExtractedSteamOfHP,1,2,,,,
+EXhaustedSteamofHP,2,0.7,,,,
+InletSteamOfLP,3,0.7,440,,,
+ExtractedSteamOfLP,4,0.3,,,,
+EXhaustedSteamofLP,5,0.008,,,,
+CondensateWater,6,0.008,,0,,
+FW of OutletCondensatePump,7,0.3,,,,
+FW of InletFeedwaterPump,8,0.3,,0,,
+FW of OutletFeedwaterPump,9,8,,,,
+MainFeedwater,10,8,205,,,
+DrainwaterInletOfTrap,11,2,,0,,
+DrainwaterOutletOfTrap,12,0.3,,,,
