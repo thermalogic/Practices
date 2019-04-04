@@ -83,6 +83,8 @@ Please download the ebook from SEU: http://www.lib.seu.edu.cn/ （查找资源->
           │ 
           |── *.docx 设计工作Word文档
           |
+          |── *.py  循环分析Python源码文件
+          |
           |── <components> components包的源码文件
           │    |
           │    │ ── *.py
