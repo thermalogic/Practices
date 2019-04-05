@@ -50,7 +50,7 @@ Use **Jupyter Notebook** to simulate the Rankine Cycle
 
 2. 阅读和运行 [RankineCycle86-Step0.ipynb](./RankineCycle86-Step0.ipynb) 熟悉分析对象
 
-3. `Make a copy` [RankineCycle86-Step0.ipynb](./RankineCycle86-Step0.ipynb) 为`*-Copy1.ipynb`, 然后，重命名为设计用ipynb文件，如：`03016？??-P2.ipynb`
+3. `Make a copy` [RankineCycle86-Step0.ipynb](./RankineCycle86-Step0.ipynb) 为`*-Copy1.ipynb`, 然后，重命名为设计用ipynb文件，如：`03016???-P2.ipynb`
 
 4. 初始设计，可将循环数据放在代码中，先实现计算功能，然后，再逐步改进设计
 
