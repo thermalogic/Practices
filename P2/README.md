@@ -19,7 +19,9 @@ Use **Jupyter Notebook** to simulate the Rankine Cycle
 合理组织Notebook中的文档(Markdown Cell)和代码(Code Cell)。如：先给出被计算对象描述，然后，给出总体设计思路，进一步是各部分程序模块说明文字、代码，最后，是设计小结。
     
 ### Jupyter Notebook中的代码(10)
-  
+
+参考 [Unit2-2-PyThermo-RankineCycle](https://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/Unit2-2-PyThermo-RankineCycle.ipynb)  
+
 * 使用结构数据类型：**列表、字典**等描述循环中的状态点，设备和循环性能指标(4)
 
 * 基于数据结构的设计，使用**函数**封装计算模块，组织循环计算(3)
@@ -48,19 +50,19 @@ Use **Jupyter Notebook** to simulate the Rankine Cycle
        
 * 小结(1) 
 
-## Tips
+## 工作步骤提示
 
-You may use [Jupyter Notebook of Example 8.6](https://nbviewer.ipython.org/github/PySEE/PyRankine/blob/master/notebook/RankineCycle86-Step0.ipynb) to start the practice
+1.  分析和运行[Unit2-2-PyThermo-RankineCycle](https://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/Unit2-2-PyThermo-RankineCycle.ipynb)，熟悉语言和设计思路
 
-**Results for reference**
+2. 运行 [Jupyter Notebook of Example 8.6](https://nbviewer.ipython.org/github/PySEE/PyRankine/blob/master/notebook/RankineCycle86-Step0.ipynb) 熟悉分析对象
 
-* [Solution of Example 8.6](./rankine86-sp.txt)
+3. 制作一个[Jupyter Notebook of Example 8.6](https://nbviewer.ipython.org/github/PySEE/PyRankine/blob/master/notebook/RankineCycle86-Step0.ipynb)的备份ipynb作为设计用ipynb文件
 
-**Jupyter notebooks for reference**
-       
-* [Jupyter notebooks of Example 8.1 @PySEE/PyRankine](https://nbviewer.ipython.org/github/PySEE/PyRankine/blob/master/notebook/RankineCycle81-82-Step0-1.ipynb)
+4. 初始设计，可将循环数据放在代码中，先实现计算功能，然后，再逐步改进设计
 
-* [Jupyter Notebook of Example 8.6](https://nbviewer.ipython.org/github/PySEE/PyRankine/blob/master/notebook/RankineCycle86-Step0.ipynb)
+5. 完善ipynb中的文字内容
+
+6. 有时间和兴趣，可在计算正确的设计基础上，改用文件作为输入
 
 **Download the ebook**
 
