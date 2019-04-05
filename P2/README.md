@@ -52,11 +52,11 @@ Use **Jupyter Notebook** to simulate the Rankine Cycle
 
 ## 工作步骤提示
 
-1.  分析和运行[Unit2-2-PyThermo-RankineCycle](https://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/Unit2-2-PyThermo-RankineCycle.ipynb)，熟悉语言和设计思路
+1. 阅读、运行和分析 [Unit2-2-PyThermo-RankineCycle](https://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/Unit2-2-PyThermo-RankineCycle.ipynb)，熟悉语言和设计思路
 
-2. 运行 [Jupyter Notebook of Example 8.6](https://nbviewer.ipython.org/github/PySEE/PyRankine/blob/master/notebook/RankineCycle86-Step0.ipynb) 熟悉分析对象
+2. 阅读和运行 [Jupyter Notebook of Example 8.6](https://nbviewer.ipython.org/github/PySEE/PyRankine/blob/master/notebook/RankineCycle86-Step0.ipynb) 熟悉分析对象
 
-3. 制作一个[Jupyter Notebook of Example 8.6](https://nbviewer.ipython.org/github/PySEE/PyRankine/blob/master/notebook/RankineCycle86-Step0.ipynb)的备份ipynb作为设计用ipynb文件
+3. `Make a copy` [Jupyter Notebook of Example 8.6](https://nbviewer.ipython.org/github/PySEE/PyRankine/blob/master/notebook/RankineCycle86-Step0.ipynb) 为`*-Copy1.ipynb`, 然后，重命名为设计用ipynb文件，如：`030163??-P2.ipynb`
 
 4. 初始设计，可将循环数据放在代码中，先实现计算功能，然后，再逐步改进设计
 
