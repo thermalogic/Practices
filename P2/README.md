@@ -64,12 +64,6 @@ Use **Jupyter Notebook** to simulate the Rankine Cycle
 
 6. 有时间和兴趣，可在计算正确的设计基础上，改用文件作为输入
 
-**Download the ebook**
-
-Michael J . Moran. Fundamentals of Engineering Thermodynamics(7th Edition).  John Wiley & Sons, Inc. 2011 
-
-Download the ebook from SEU: http://www.lib.seu.edu.cn/ （查找资源->外文电子书->Wiley电子教材->T(工业技术)->TK(能源与动力工程)->TK1(热力工程,热机)）
-
 ## Directories and Files
 
 ```bash
