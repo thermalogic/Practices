@@ -40,15 +40,9 @@ Use **Jupyter Notebook** to simulate the Rankine Cycle
  
 原则上采用Markdown，如果需特殊效果，可少量使用HTML/CSS; 公式用LaTeX(MathJax)
 
-**内容**
+**内容**： 
 
-* 问题描述(1)
-        
-* 设计思路(1)
-        
-* 模块说明(1)
-       
-* 小结(1) 
+问题描述(1)；设计思路(1)； 模块说明(1)；小结(1) 
 
 ## 工作步骤提示
 
@@ -56,13 +50,13 @@ Use **Jupyter Notebook** to simulate the Rankine Cycle
 
 2. 阅读和运行 [Jupyter Notebook of Example 8.6](https://nbviewer.ipython.org/github/PySEE/PyRankine/blob/master/notebook/RankineCycle86-Step0.ipynb) 熟悉分析对象
 
-3. `Make a copy` [Jupyter Notebook of Example 8.6](https://nbviewer.ipython.org/github/PySEE/PyRankine/blob/master/notebook/RankineCycle86-Step0.ipynb) 为`*-Copy1.ipynb`, 然后，重命名为设计用ipynb文件，如：`030163??-P2.ipynb`
+3. `Make a copy` [Jupyter Notebook of Example 8.6](https://nbviewer.ipython.org/github/PySEE/PyRankine/blob/master/notebook/RankineCycle86-Step0.ipynb) 为`*-Copy1.ipynb`, 然后，重命名为设计用ipynb文件，如：`03016？??-P2.ipynb`
 
 4. 初始设计，可将循环数据放在代码中，先实现计算功能，然后，再逐步改进设计
 
 5. 完善ipynb中的文字内容
 
-6. 有时间和兴趣，可在计算正确的设计基础上，改用文件作为输入
+6. 有时间和兴趣，可在计算正确的设计基础上，改用文件作为输入输出
 
 ## Directories and Files
 
