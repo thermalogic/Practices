@@ -48,9 +48,9 @@ Use **Jupyter Notebook** to simulate the Rankine Cycle
 
 1. 阅读、运行和分析 [Unit2-2-PyThermo-RankineCycle](https://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/Unit2-2-PyThermo-RankineCycle.ipynb)，熟悉语言和设计思路
 
-2. 阅读和运行 [Jupyter Notebook of Example 8.6](https://nbviewer.ipython.org/github/PySEE/PyRankine/blob/master/notebook/RankineCycle86-Step0.ipynb) 熟悉分析对象
+2. 阅读和运行 [RankineCycle86-Step0.ipynb](./RankineCycle86-Step0.ipynb) 熟悉分析对象
 
-3. `Make a copy` [Jupyter Notebook of Example 8.6](https://nbviewer.ipython.org/github/PySEE/PyRankine/blob/master/notebook/RankineCycle86-Step0.ipynb) 为`*-Copy1.ipynb`, 然后，重命名为设计用ipynb文件，如：`03016？??-P2.ipynb`
+3. `Make a copy` [RankineCycle86-Step0.ipynb](./RankineCycle86-Step0.ipynb) 为`*-Copy1.ipynb`, 然后，重命名为设计用ipynb文件，如：`03016？??-P2.ipynb`
 
 4. 初始设计，可将循环数据放在代码中，先实现计算功能，然后，再逐步改进设计
 
@@ -101,7 +101,9 @@ Use **Jupyter Notebook** to simulate the Rankine Cycle
 
 * [Markdown](https://github.com/PySEE/home/blob/S2019/guide/Introduction2Markdown(Chinese).md)
 
-* Jupyter Documentation. http://jupyter.readthedocs.org/en/latest/
+* Jupyter 
+
+    * Documentation. http://jupyter.readthedocs.org/en/latest/
     
     * IPython https://ipython.org/
     
@@ -110,6 +112,8 @@ Use **Jupyter Notebook** to simulate the Rankine Cycle
 * [MathJax LaTeX](https://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/Unit2-3-PyThermo-MathJax-LaTeX.ipynb)
 
 * [IAPWS-IF97 high-speed shared library:SEUIF97](https://github.com/PySEE/SEUIF97)
+
+* [Unit2-2-PyThermo-RankineCycle](https://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/Unit2-2-PyThermo-RankineCycle.ipynb)
 
 
 
