@@ -38,7 +38,7 @@ Use **Jupyter Notebook** to simulate the Rankine Cycle
     
  **格式(1)**
  
-原则上采用Markdown，如果需特殊效果，可少量使用HTML/CSS; 公式用LaTeX(MathJax)
+原则上采用Markdown，如果需特殊效果，可少量使用HTML/CSS; 公式用LaTeX(Math)
 
 **内容**： 
 
@@ -109,7 +109,7 @@ Use **Jupyter Notebook** to simulate the Rankine Cycle
     
     * A gallery of interesting notebook：https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks
 
-* [MathJax LaTeX](https://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/Unit2-3-PyThermo-MathJax-LaTeX.ipynb)
+* [LaTeX Math](https://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/Unit2-3-PyThermo-LaTeX-Math.ipynb)
 
 * [IAPWS-IF97 high-speed shared library:SEUIF97](https://github.com/PySEE/SEUIF97)
 
