@@ -20,7 +20,7 @@ Use **Jupyter Notebook** to simulate the Rankine Cycle
     
 ### Jupyter Notebook中的代码(10)
 
-参考 [Unit2-2-PyThermo-RankineCycle](https://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/Unit2-2-PyThermo-RankineCycle.ipynb)  
+参考 [RankineCycle：SimVer](https://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/Unit2-2-PyThermo-RankineCycle-SimVers.ipynb) 和 [RankineCycle：AdvVer](https://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/Unit2-3-PyThermo-RankineCycle-AdvVer.ipynb)  
 
 * 使用结构数据类型：**列表、字典**等描述循环中的状态点，设备和循环性能指标(4)
 
@@ -46,21 +46,21 @@ Use **Jupyter Notebook** to simulate the Rankine Cycle
 
 ## 工作提示
 
-1. 阅读、运行和分析 [Unit2-2-PyThermo-RankineCycle](https://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/Unit2-2-PyThermo-RankineCycle.ipynb)，熟悉语言和设计思路
+1. 阅读、运行和分析 [RankineCycle：SimVer](https://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/Unit2-2-PyThermo-RankineCycle-SimVers.ipynb) 和 [RankineCycle：AdvVer](https://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/Unit2-3-PyThermo-RankineCycle-AdvVer.ipynb)，熟悉语言和设计思路
 
 2. 阅读和运行 [RankineCycle86-Step0.ipynb](./RankineCycle86-Step0.ipynb) 熟悉分析对象
 
 3. `Make a copy` [RankineCycle86-Step0.ipynb](./RankineCycle86-Step0.ipynb) 为`*-Copy1.ipynb`, 然后，重命名为设计用ipynb文件，如：`03016???-P2.ipynb`
 
-4. 参照[Unit2-2-PyThermo-RankineCycle](https://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/Unit2-2-PyThermo-RankineCycle.ipynb)设计的关键是：增加的`新设备`程序设计
-   
+4. 一般设计：可参考[RankineCycle：SimVer](https://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/Unit2-2-PyThermo-RankineCycle-SimVer.ipynb)，使用List,Dict和Function做较简单的抽象，编程实现计算，以后再逐步改进。
+
+5. 更好设计：可参考[RankineCycle：AdvVer](https://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/Unit2-3-PyThermo-RankineCycle-AdvVer.ipynb)。基于此设计思路的要点是：`新设备`程序设计的如下4个方面：
+
    * 1 设备的字典描述及计算函数; 2 增加设备到系统设备字典；3 从数据文件生成系统设备字典；4 基于系统设备字典的循环计算
 
-5. 如果理解[Unit2-2-PyThermo-RankineCycle](https://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/Unit2-2-PyThermo-RankineCycle.ipynb)有困难，可使用简单、直接的程序实现计算。如：可将数据放在代码中，就事论事的“硬”编码实现计算，以后再逐步改进设计。
+6. 完善ipynb中的文字内容
 
-5. 完善ipynb中的文字内容
-
-6. 有时间和兴趣，可在计算正确的设计基础上，用文件作为输入输出，实现抽象程度高、通用性好的程序设计
+7. `一般设计` 基本要求，做好可以有满意分数。`更好设计` 给有时间和兴趣，目标是满分的同学。
 
 
 ## Directories and Files
