@@ -46,7 +46,7 @@ Use **Jupyter Notebook** to simulate the Rankine Cycle
 
 ## 工作提示
 
-1. 阅读、运行和分析 [RankineCycle：SimVer](https://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/Unit2-2-PyThermo-RankineCycle-SimVers.ipynb) 和 [RankineCycle：AdvVer](https://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/Unit2-3-PyThermo-RankineCycle-AdvVer.ipynb)，熟悉语言和设计思路
+1. 阅读、运行和分析 [RankineCycle：SimVer](https://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/Unit2-2-PyThermo-RankineCycle-SimVer.ipynb) 和 [RankineCycle：AdvVer](https://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/Unit2-3-PyThermo-RankineCycle-AdvVer.ipynb)，熟悉语言和设计思路
 
 2. 阅读和运行 [RankineCycle86-Step0.ipynb](./RankineCycle86-Step0.ipynb) 熟悉分析对象
 
