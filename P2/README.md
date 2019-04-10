@@ -20,7 +20,7 @@ Use **Jupyter Notebook** to simulate the Rankine Cycle
     
 ### Jupyter Notebook中的代码(10)
 
-参考 [RankineCycle：SimVer](https://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/Unit2-2-PyThermo-RankineCycle-SimVers.ipynb) 和 [RankineCycle：AdvVer](https://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/Unit2-3-PyThermo-RankineCycle-AdvVer.ipynb)  
+参考 [RankineCycle：SimVer](https://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/Unit2-2-PyThermo-RankineCycle-SimVer.ipynb) 和 [RankineCycle：AdvVer](https://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/Unit2-3-PyThermo-RankineCycle-AdvVer.ipynb)  
 
 * 使用结构数据类型：**列表、字典**等描述循环中的状态点，设备和循环性能指标(4)
 
