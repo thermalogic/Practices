@@ -52,11 +52,16 @@ Use **Jupyter Notebook** to simulate the Rankine Cycle
 
 3. `Make a copy` [RankineCycle86-Step0.ipynb](./RankineCycle86-Step0.ipynb) 为`*-Copy1.ipynb`, 然后，重命名为设计用ipynb文件，如：`03016???-P2.ipynb`
 
-4. 初始设计，可将循环数据放在代码中，先实现计算功能，然后，再逐步改进设计
+4. 参照[Unit2-2-PyThermo-RankineCycle](https://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/Unit2-2-PyThermo-RankineCycle.ipynb)设计的关键是：增加的`新设备`程序设计
+   
+   * 1 设备计算函数; 2 增加设备到系统设备字典；3 从数据文件生成系统设备字典；4 基于系统设备字典的循环计算
+
+5. 如果理解[Unit2-2-PyThermo-RankineCycle](https://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/Unit2-2-PyThermo-RankineCycle.ipynb)有困难，可使用简单、直接的程序实现计算。如：可将循如将数据放在代码中，就事论事的“硬”编码实现计算，以后再逐步改进设计。
 
 5. 完善ipynb中的文字内容
 
-6. 有时间和兴趣，可在计算正确的设计基础上，改用文件作为输入输出
+6. 有时间和兴趣，可在计算正确的设计基础上，用文件作为输入输出，实现抽象程度高、通用性好的程序设计
+
 
 ## Directories and Files
 
