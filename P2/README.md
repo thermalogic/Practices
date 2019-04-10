@@ -54,7 +54,7 @@ Use **Jupyter Notebook** to simulate the Rankine Cycle
 
 4. 参照[Unit2-2-PyThermo-RankineCycle](https://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/Unit2-2-PyThermo-RankineCycle.ipynb)设计的关键是：增加的`新设备`程序设计
    
-   * 1 设备计算函数; 2 增加设备到系统设备字典；3 从数据文件生成系统设备字典；4 基于系统设备字典的循环计算
+   * 1 设备的字典描述及计算函数; 2 增加设备到系统设备字典；3 从数据文件生成系统设备字典；4 基于系统设备字典的循环计算
 
 5. 如果理解[Unit2-2-PyThermo-RankineCycle](https://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/Unit2-2-PyThermo-RankineCycle.ipynb)有困难，可使用简单、直接的程序实现计算。如：可将数据放在代码中，就事论事的“硬”编码实现计算，以后再逐步改进设计。
 
