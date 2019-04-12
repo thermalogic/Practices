@@ -56,7 +56,7 @@ Reference [PyRankine](https://github.com/PySEE/PyRankine), design a general ener
 
 1.  设备
 
-2.  设备间连接
+2.  设备间连接关系
 
 3.  系统能量平衡计算方法
 
@@ -111,12 +111,13 @@ Please download the ebook from SEU: http://www.lib.seu.edu.cn/ （查找资源->
 
 ## 参考资源：
 
-* [PySEE/PyRankine Step2~5](https://github.com/PySEE/PyRankine)
+* [PySEE/PyRankine: step4,step5](https://github.com/PySEE/PyRankine)
 
-* [Jupyter Notebooks of Example 8.1~8.6  @PySEE/PyRankine](https://github.com/PySEE/PyRankine/tree/master/notebook)
+### PyThermo
 
-* [PyThermo-IdealRankineCycle-OOP](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-1-PyThermo-IdealRankineCycle-OOP.ipynb)
+* [RankineCycle OOP](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-1-PyThermo-RankineCycle-OOP.ipynb)
 
-* [PyThermo-RankineCycle-JSON-UML](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-2-PyThermo-RankineCycle-JSON-UML.ipynb)
+* [RankineCycle General](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-2-PyThermo-RankineCycle-General.ipynb)
 
-* [PyThermo-JSON-Python](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-3-PyThermo-JSON-Python.ipynb)
+* [Python: JSON](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-3-PyThermo-RankineCycle-JSON.ipynb)
+
