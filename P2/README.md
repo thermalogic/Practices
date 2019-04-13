@@ -118,9 +118,6 @@ Use **Jupyter Notebook** to simulate the Rankine Cycle
 
 * [IAPWS-IF97 high-speed shared library:SEUIF97](https://github.com/PySEE/SEUIF97)
 
-* [Unit2-2-PyThermo-RankineCycle](https://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/Unit2-2-PyThermo-RankineCycle.ipynb)
-
-
 
 
   
