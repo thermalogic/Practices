@@ -111,9 +111,9 @@ int main() {
 
 * [The Guide of Building Software Environment](https://github.com/PySEE/home/tree/S2019/guide/BuildingSoftwareEnvironment.md) 
 
-  * [File Path](https://github.com/PySEE/home/tree/S2019/guide/FilePath(Chinese).md) 
+  * [Computer Terminal](https://github.com/PySEE/home/tree/S2019/guide/ComputerTerminal.md)
 
-  * [Coding With Terminal](https://github.com/PySEE/home/tree/S2019/guide/CodingWithTerminal.md)
+  * [Windows File System](https://github.com/PySEE/home/tree/S2019/guide/WindowsFileSystem.md) 
 
 * [Problem and Answer](https://github.com/PySEE/home/tree/S2019/guide/Problem_Solution.md) 
 
