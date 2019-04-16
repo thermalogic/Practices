@@ -48,9 +48,15 @@ Reference [PyRankine](https://github.com/PySEE/PyRankine), design a general ener
 
 ## 提示
 
-[Example 8.6：A Reheat–Regenerative Cycle with Two Feedwater Heaters](./rankine86.md) 比 `Example8.1，8.5`, 多了不同类型的设备(reheater, the closed feedwater heater, trap)。
+[Example 8.6：A Reheat–Regenerative Cycle with Two Feedwater Heaters](./rankine86.md) 比 `Example8.1，8.5`, 多了不同类型的设备
 
-需要在理解示例基础上，增加新设备类的json描述，计算分析Python类实现及相关代码，实现更通用的循环计算程序。
+* reheater, trap
+
+* the closed feedwater heater, the opended feedwater heater with 1 drain water inlet
+
+需要在理解示例基础上，增加新设备。
+
+增加新设备的工作： 首先，需要规定好新设备的**唯一类型标识字符串**，然后，是设备的json描述，计算分析Python类实现及相关代码工作，实现更通用的循环计算程序。
 
 通用Rankine Cycle程序的泛化要点:
 
