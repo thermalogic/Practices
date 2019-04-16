@@ -68,11 +68,11 @@ Reference [PyRankine](https://github.com/PySEE/PyRankine), design a general ener
 
 **Results for reference**
 
-* Example 8.1: [rankine81-SP.txt](./rankine81-SP.txt)
+* Example 8.1: [rankine81-sp.txt](./rankine81-sp.txt)
 
-* Example 8.5: [rankine85-SP.txt](./rankine85-SP.txt)
+* Example 8.5: [rankine85-sp.txt](./rankine85-sp.txt)
 
-* Example 8.6: [rankine86-SP.txt](./rankine86-SP.txt)
+* Example 8.6: [rankine86-sp.txt](./rankine86-sp.txt)
 
 **Download the ebook**
 
