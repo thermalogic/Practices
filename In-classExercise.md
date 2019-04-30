@@ -12,7 +12,7 @@ make-up : <=50%
 
 ## 2 2019.04.29
 
- https://almarklein.org/open.html
+https://almarklein.org/open.html
 
 The importance of open source software in science -Almar Klein
 
@@ -20,7 +20,7 @@ Open source software is rising
 
 When I started using Python in 2008, the scientific Python stack was not very mature yet. So although I believed that Python was a great tool for scientists, I did not feel that I could recommend it to my colleagues or students yet.
 
-Wow, a lot has changed since then! The development of the scientific Python community is increasing fast, and with that the development of the scientific packages. Many packages can be considered quite mature now. We have also established the Scipy stack, a set of packages that is considered the core of the Scipy ecosystem.
+Wow, a lot has changed since_ then! The development of the scientific Python community is increasing fast, and with that the development of the scientific packages. Many packages can be considered quite mature now. We have also established the Scipy stack, a set of packages that is considered the core of the Scipy ecosystem.
  
 Right now, I would definitely recommend Python to anyone who wants to do something related to scientific computing, imaging or data analysis ...
   
