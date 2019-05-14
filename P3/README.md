@@ -42,6 +42,22 @@ Reference [PyRankine](https://github.com/PySEE/PyRankine), design a general ener
 
 * 设计工作小结(1)
 
+    小结中，建议结合练习，给出你对下面短文的理解:
+
+ 
+  >Programming is about managing complexity in a way that facilitates change. There are two powerful mechanisms available for accomplishing this: decomposition and abstraction`
+  > 
+  >Apply `abstraction` and `decomposition` to solve more complex problems
+  >
+  > * decompose a large problem into parts and design algorithms to solve them
+  >
+  > * recognise similar problems, and apply generic solutions and abstractions
+  >
+  > * creating algorithms to obtain the generic solution results
+  >
+  > The set of problem-solving methods with computer is also called **Computational Thinking**. 
+  
+ 
 * Word排版(1): 版面整洁，合理划分和组织文档段落；页眉：练习三 学号 姓名； 页脚：页码 
 
   * **无需** 封面和目录
