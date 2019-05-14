@@ -43,7 +43,6 @@ Reference [PyRankine](https://github.com/PySEE/PyRankine), design a general ener
 * 设计工作小结(1)
 
     小结中，建议结合练习，给出你对下面短文的理解:
-
  
   >Programming is about managing complexity in a way that facilitates change. There are two powerful mechanisms available for accomplishing this: decomposition and abstraction`
   > 
