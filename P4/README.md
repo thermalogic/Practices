@@ -32,12 +32,24 @@ In 1973, the statistician F.J. Anscombe published a paper containing the table b
   
 * 1 读取数据文件及数据对象表达(3分)： 使用Python语言读取数据文件[Anscombe.csv](./Anscombe.csv)， 使用List,Dict表达数据分析对象。**不使用: csv，NumPy和Pandas软件包**
 
-* 2 统计指标计算和输出(2分)：计算均值、方差和相关系数等统计指标（1分，可使用Python统计库、Numpy或Scipy)；统计结果表格化输出(1分，可使用表格化数据输出软件包，如prettytable) 
+* 2 统计指标计算和输出(2分)：计算均值、方差和相关系数统计指标（1分，可使用Python统计库、Scipy)；统计结果表格化输出(1分，可使用表格化数据输出软件包，如prettytable) 
 
-    参考输出数据表
-    
-    ![统计结果数据表](table.jpg)
+```python
+from  statistics import mean,pvariance
+from scipy import stats
+```
 
+参考输出数据表
+```
++----------+-------+--------+-------+--------+-----------+
+| data set | x-avg | x-pvar | y-avg | y-pvar | pearson_r |
++----------+-------+--------+-------+--------+-----------+
+| 1        | 9.0   | 10.0   | 7.5   | 3.75   |     0.816 |
+| 2        | 9.0   | 10.0   | 7.5   | 3.75   |     0.816 |
+| 3        | 9.0   | 10.0   | 7.5   | 3.75   |     0.816 |
+| 4        | 9.0   | 10.0   | 7.5   | 3.75   |     0.817 |
++----------+-------+-------+--------+--------+-----------+
+``` 
 * 3 线性回归和图形输出(3分): **线性回归**(1分,可使用Numpy或Scipy)；多图输出（2分,使用Matplotlib）
 
    参考输出图
