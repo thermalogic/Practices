@@ -36,7 +36,7 @@ In 1973, the statistician F.J. Anscombe published a paper containing the table b
 
 ```python
 from  statistics import mean,pvariance
-from scipy import stats
+from scipy.stats import pearsonr
 ```
 
 参考输出数据表
@@ -57,6 +57,18 @@ from scipy import stats
    ![数据点图和回归曲线](Anscombe.png)
 
 * 4 小结(2)：如何做一个好的统计分析结果的提供者和消费者？（建议分析角度：数据获取，数据分析，结果解析和展示方式)
+
+>Since that time people have used statistics as much to **mislead as to inform**.
+>
+>* Some have  **willfully** used statistics to mislead;
+>
+>* others have merely been **incompetent**
+>
+>We trust that you will use this information only for good,
+>
+>  * **a better consumer** 
+>  
+>  * **a more honest purveyor of statistical information**.
 
 ## 提交：
 
