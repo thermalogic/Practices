@@ -28,4 +28,3 @@ At the same time, other very interesting open source projects are being develope
  
 A similar trend occurs for the reproducibility of scientific results. Any scientific publication that talks of results that cannot be reproduced by others is essentially worthless
 
-
