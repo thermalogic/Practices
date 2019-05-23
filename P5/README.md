@@ -13,7 +13,7 @@ The exponentiating by squaring is a general method for fast computation of large
 
 Please use the [fastipow.cpp](./src/fastipow.cpp) to do the following tasks:
 
-* Coding C/C++(C/C++ code/header):(1 marks)
+1. Coding C/C++： **C/C++ code/header**(1 marks)
 
   Split the [fastipow.cpp](./src/fastipow.cpp) into the two parts:
 
@@ -21,7 +21,7 @@ Please use the [fastipow.cpp](./src/fastipow.cpp) to do the following tasks:
 
     *  The example application to call The Repeated Squaring Method
 
-* Building dll, exe with three makefiles(3 marks)
+2. Building dll, exe with three **makefiles**(3 marks)
 
     * Making the executable file with multiple source files: the function of The Repeated Squaring Method and it's caller
 
@@ -29,7 +29,7 @@ Please use the [fastipow.cpp](./src/fastipow.cpp) to do the following tasks:
 
     * Making the executable file to call the shared library 
 
-* Documenting your works: README.md and Images：(1 marks)
+3. Documenting your works: **README.md and Images**：(1 marks)
 
     * README.md: intro of your works
      
