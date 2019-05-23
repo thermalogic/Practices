@@ -83,13 +83,13 @@ from scipy.stats import pearsonr
 
 ## 参考：
 
-* [21_LIES_DAMNED_LIES_AND_STATISTICS](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit5-2-21_LIES_DAMNED_LIES_AND_STATISTICS.ipynb)
+* [21_LIES_DAMNED_LIES_AND_STATISTICS](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit5-3-21_LIES_DAMNED_LIES_AND_STATISTICS.ipynb)
 
-* [List,Dict and Data Table(Files)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-5-4-46-Files-List-Dict.ipynb)
+* [List,Dict and Data Table(Files)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-5-Files.ipynb)
 
-* [11-1_PLOTTING_USING_MATPLOTLIB](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit3-2-11-1_PLOTTING_USING_MATPLOTLIB.ipynb)
+* [11-1_PLOTTING_USING_MATPLOTLIB](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit5-1-11-1_PLOTTING_USING_MATPLOTLIB.ipynb)
 
-* [18_UNDERSTANDING_EXPERIMENTAL_DATA](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit5-1-18_UNDERSTANDING_EXPERIMENTAL_DATA.ipynb)
+* [18_UNDERSTANDING_EXPERIMENTAL_DATA](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit5-2-18_UNDERSTANDING_EXPERIMENTAL_DATA.ipynb)
 
 * Scipy. http://www.scipy.org/
   
