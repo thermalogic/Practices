@@ -34,6 +34,8 @@ Please use the [fastipow.cpp](./src/fastipow.cpp) to do the following tasks:
     * README.md: intro of your works
      
     * The screenshot of coding,making exe to use `the shared library` and running the  executable file
+
+        * display in the README.md
    
      Example:
 
