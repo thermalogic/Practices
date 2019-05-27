@@ -28,3 +28,28 @@ At the same time, other very interesting open source projects are being develope
  
 A similar trend occurs for the reproducibility of scientific results. Any scientific publication that talks of results that cannot be reproduced by others is essentially worthless
 
+
+## 3 2019.05.27
+
+What did Huawei do to land in such hot water with the US?
+
+By David Goldman, CNN Business
+
+Updated 8:16 PM ET, Mon May 20, 2019 
+
+https://us.cnn.com/2019/05/20/tech/huawei-us/index.html
+
+
+**New York (CNN Business)** Huawei has endured a tenuous relationship with the United States for a decade, reaching a boiling point last week when the Trump administration banned American corporations from doing business with the Chinese company.
+
+Although the United States has long suspected Huawei of engaging in illegal activity, it's not clear that Huawei did anything specific recently to become the object of such concern. The ban came as something of a surprise to observers. 
+
+The Trump administration temporarily eased up — just a bit — on its restrictions Monday. But the reprieve was narrow and aimed at a small group of rural American network providers that use Huawei equipment. For Huawei and most American companies, the ban remains firmly in place.
+What landed Huawei in such hot water with US officials?
+
+
+**Battle for the future of technology**
+
+Huawei's technology is essential to the future of 5G, a technology the United States desperately wants to dominate. 
+
+The United States wants to ensure that its telecommunications companies are at the forefront of the new technology. 5G could help usher in the next wave of economy-changing technologies, including driverless cars.
