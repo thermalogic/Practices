@@ -12,7 +12,7 @@ John V. Guttag. Introduction to Computation and Programming Using Python: With A
   
 In 1973, the statistician F.J. Anscombe published a paper containing the table below. It contains the <x, y> coordinates of the points in each of four data sets.
 
-|x0 |y0|x1|y2|x2|y2|x3|y3|
+|x0 |y0|x1|y1|x2|y2|x3|y3|
 | ---- |:------:| :------:| :------:|  :------:| :------:| :------:|  ----:|
 |10.0|	8.04 |	10.0|	9.14 |	10.0 	|7.46	|8.0    |6.58|
 |8.0| 	6.95 |	8.0 |	8.14 |	8.0     |6.77	|8.0    |5.76|
