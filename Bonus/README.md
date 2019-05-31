@@ -74,7 +74,7 @@ The zipped files in the `Bonus` directory:
 
 * [18. UNDERSTANDING EXPERIMENTAL DATA](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit5-2-18_UNDERSTANDING_EXPERIMENTAL_DATA.ipynb)
 
-* [GSL, GNUPLOT](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit8-7_GSL_GNUPLOT.ipynb)
+* [GSL, GNUPLOT](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit8-7-GSL_GNUPLOT.ipynb)
 
 * [Ubuntu, Python, CPP](https://github.com/PySEE/home/blob/S2019/guide/Ubuntu-Python-CPP(Chinese).md)
 
