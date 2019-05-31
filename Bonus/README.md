@@ -94,7 +94,7 @@ The zipped files in the `Bonus` directory:
 
 * [The Simple Steps Github(Chinese)](https://github.com/PySEE/home/blob/S2019/guide/TheSimpleStepsGithub(Chinese).md)
 
-* [DevTools-Git](http://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/Unit9-1-Git.ipynb)
+* [Git and Github](http://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/Unit9-1-Git.ipynb)
 
 * [How to get started with GIT and work with GIT Remote Repo](http://www3.ntu.edu.sg/home/ehchua/programming/howto/Git_HowTo.html)
 
