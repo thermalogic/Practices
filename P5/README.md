@@ -15,7 +15,7 @@ Please use the [fastipow.cpp](./src/fastipow.cpp) to do the following tasks:
 
 1. Coding C/C++： **C/C++ code/header**(1 marks)
 
-  Split the [fastipow.cpp](./src/fastipow.cpp) into the two parts:
+  Split the [fastipow.cpp](./src/fastipow.cpp) into the two source files:
 
     *  The function of The Repeated Squaring Method
 
