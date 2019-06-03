@@ -74,7 +74,9 @@ Please use the [fastipow.cpp](./src/fastipow.cpp) to do the following tasks:
 
 Compress your practice folder to ：**StudentNumber-Name-5.zip**
 
-     注意压缩工作目录时，删除VS Code环境产生的缓存预编译头文件目录：.vscode/ipch(隐藏目录，需要开启“文件资源管理器”的显示“隐藏的项目”)
+     注意压缩工作目录时，删除`C/C++ for Visual Studio Code`产生的缓存预编译头文件目录：.vscode/ipch
+     
+     .vscode/是隐藏目录，需开启“文件资源管理器”的显示“隐藏的项目”
 
 * 1 Email to：cmh@seu.edu.cn 
     
