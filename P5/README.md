@@ -74,6 +74,8 @@ Please use the [fastipow.cpp](./src/fastipow.cpp) to do the following tasks:
 
 Compress your practice folder to ：**StudentNumber-Name-5.zip**
 
+     注意压缩工作目录时，删除VS Code自动产生的.vscode/ipch文件夹（缓存的预编译头文件）
+
 * 1 Email to：cmh@seu.edu.cn 
     
   * Subject：StudentNumber-Name-5
