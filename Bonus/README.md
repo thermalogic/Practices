@@ -29,7 +29,7 @@ Deadline: 2019.06.16
  │   │ 
  │   |──<Bonus> 
  │   │    │ 
-          |── README.md 工作简要说明（必须内容：1. 显示the image of Linear Regression 2. 本地仓库，远程分github仓库的网址和截图）
+          |── README.md 工作简要说明（必须内容：1. 显示image of Linear Regression 2. 远程github仓库的网址和截图）
           │
           |── makefile : 编译源码生成运行文件
           │ 
