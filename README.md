@@ -89,7 +89,7 @@
 
 | 03016312 |03016432  | 03016330 |03016332 | 03016329 | 03016403  |03016327  | 03016417 |03016307 |
 |:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:---------:|:---------:|:---------:|
-|  詹卓轩   | 张翼     |  [★陈浩](https://github.com/1998CHNB/03016330---B)  |  陈显浩  |  吴笛     | [刘祎璇](https://github.com/YixuanLiu0329/Bonus)    | 张崇辉     |  [张家齐](https://github.com/JiaqiZhang529/Bonus/)  |陈可心    |
+|  [詹卓轩](https://github.com/Lukasjame/bonus)   | 张翼     |  [★陈浩](https://github.com/1998CHNB/03016330---B)  |  陈显浩  |  吴笛     | [刘祎璇](https://github.com/YixuanLiu0329/Bonus)    | 张崇辉     |  [张家齐](https://github.com/JiaqiZhang529/Bonus/)  |陈可心    |
 
 ---
 
