@@ -92,9 +92,9 @@
 |  [詹卓轩](https://github.com/Lukasjame/bonus)   | 张翼     |  [★陈浩](https://github.com/1998CHNB/03016330---B)  |  [陈显浩](https://github.com/qingyibaixiu/Bonus)  |  吴笛     | [刘祎璇](https://github.com/YixuanLiu0329/Bonus)    | 张崇辉     |  [张家齐](https://github.com/JiaqiZhang529/Bonus/)  |陈可心    |
 
 
-| 03016401 |
-|:--------:|
-| [陈美君](https://github.com/cctau7283/Bonus-CMJ)  |
+| 03016401 |03016429 |
+|:--------:|:--------:|
+| [陈美君](https://github.com/cctau7283/Bonus-CMJ)  | [陈宇恒](https://github.com/RatPeter/Practice-Bonus) 
 
 
 
