@@ -1,14 +1,14 @@
 # Bonus(+5 marks) 
 
-Scientific Programming with GCC,GSL and Gnuplot under Ubuntu，Version control
+Scientific Programming with GCC,GSL and Gnuplot under **Ubuntu**，Version control
 
 Deadline: 2019.06.16
  
 ## To do
 
-### 1 Scientific Programming with `GCC`,`GSL and GNUPlot`(+3 marks) 
+### 1 Scientific Programming with `GCC`,`GSL and GNUPlot` under Ubuntu(+3 marks) 
 
-* Using **GSL** to do Linear Regression of Springs Behavior Data in [spring_data.csv](./data/spring_data.csv)
+* Using **GSL** to do Linear Regression of Springs Behavior Data in [spring_data.csv](./data/spring_data.csv) 
 
   * **Note**: read data from the file of `spring_data.csv`
 
