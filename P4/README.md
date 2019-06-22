@@ -5,41 +5,17 @@
 
 Deadline: 
 
-## To Do(5 marks)：
+## 要求：
 
-The exponentiating by squaring is a general method for fast computation of large positive integer powers of a number.
-
-* https://en.wikipedia.org/wiki/Exponentiation_by_squaring
-
-Please use the [fastipow.cpp](./src/fastipow.cpp) to do the following tasks:
-
-1. Coding C/C++： **C/C++ code/header**(1 marks)
-
-  Split the [fastipow.cpp](./src/fastipow.cpp) into the two source files:
-
-    *  The function of The Repeated Squaring Method
-
-    *  The example application to call The Repeated Squaring Method
-
-2. Building dll, exe with three **makefiles**(3 marks)
-
-    * Making the executable file with multiple source files: the function of The Repeated Squaring Method and it's caller
-
-    * Making the shared library of the Repeated Squaring Method
-
-    * Making the executable file to call the shared library 
-
-3. Documenting your works: **README.md and Images**：(1 marks)
-
-    * README.md: intro of your works
-     
-    * The screenshot of coding,making exe to use `the shared library` and running the  executable file
-
-        * display in the README.md
-   
-     Example:
-
-    ![screenshots](./img/vscode-gcc.jpg)
+1 实现MIT书中的蒙特卡罗方法计算Pi的C语言共享库 -使用makefile
+               
+2 给出C/C++调用共享库的算例（不同needle的计算）- 使用makefile
+                  
+3 给出Python语言调用共享库的算例，和纯Python语言实现蒙特卡罗方法比较计算速度timeit
+                  
+4 撰写练习的README.md文档：
+                      
+   算法说明  程序设计工作简要说明    终端中编译，运行过程及结果输出截图1
 
 ## Directories and Files
 
@@ -70,9 +46,9 @@ Please use the [fastipow.cpp](./src/fastipow.cpp) to do the following tasks:
              |──*.c/cpp, *.h                   
 ```  
 
-## Submission：
+## 提交：
 
-Compress your practice folder to ：**StudentNumber-Name-5.zip**
+Compress your practice folder to ：**StudentNumber-Name-4.zip**
 
      注意压缩工作目录时，删除`C/C++ for Visual Studio Code`产生的缓存预编译头文件目录：.vscode/ipch
      
