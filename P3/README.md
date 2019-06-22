@@ -4,7 +4,7 @@
 
 Apply computational thinking to solve more complex problems
 
-**Deadline:**  2019.05.19
+**Deadline:** 
 
 ## Contents and Requirements
 

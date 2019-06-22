@@ -1,9 +1,9 @@
 
-## Practice 5
+## Practice 4
 
-**C/C++ Programming**(5)：C/C++ Programming with MinGW-w64（GCC)，MakeFile,the Shared Library
+**C/C++ Programming**(15)：C/C++ Programming with MinGW-w64（GCC)，MakeFile,the Shared Library
 
-Deadline: 2019.06.09
+Deadline: 
 
 ## To Do(5 marks)：
 
@@ -45,7 +45,7 @@ Please use the [fastipow.cpp](./src/fastipow.cpp) to do the following tasks:
 
 ```txt
  
-|── <P5>
+|── <P4>
      │ 
      │── README.md: intro of your works(display the screenshots of coding,making and running)
      | 
@@ -80,15 +80,15 @@ Compress your practice folder to ：**StudentNumber-Name-5.zip**
 
 * 1 Email to：cmh@seu.edu.cn 
     
-  * Subject：StudentNumber-Name-5
+  * Subject：StudentNumber-Name-4
     
   * Attachment：**StudentNumber-Name-5.zip**
 
-* 2 Deadline：2019.06.09
+* 2 Deadline：
 
-   * make up after deadline: points<=3 (2019.06.16)
+   * make up after deadline: points<=9 
 
-* 3 Improvement: due：2019.06.16
+* 3 Improvement: due：
 
 ## Reference
 

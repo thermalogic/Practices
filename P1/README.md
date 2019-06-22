@@ -2,7 +2,7 @@
 
 **Basic Programming**: Python,Jupyter,Visual Studio Code，MinGW-W64,Github
 
-Deadline: 2019.03.17
+Deadline: 
 
 ## 练习内容
 
@@ -47,23 +47,7 @@ int main() {
   * 1 Github简介(1)
    
   * 2 本人Github账户名，使用的电邮；账户主页面截图(fork仓库后)(1)
-  
-  * 3 Python解释器及软件包的安装过程简要说明；使用IDLE编程和运行结果的截图(3)
-  
-  * 4 Jupyter Notebook安装过程的简要说明；Jupyter Notebook文件的运行截图 (2)
-
-  * 5 安装MinGW-w64,Visual Studio code和Python，C/C++插件过程的简要说明；使用VS Code编写运行简单的Python,C++程序的截图 (4)
-  
-  * 6 建立开发环境等过程中出现的问题和解决方法,工作小结（2）
-
-  * 7 微软Word文档排版(2)：参考《东南大学学生手册》中毕业设计报告格式规范，合理划分和组织文档段落, 注意版面整洁
-      
-      * 封面和目录(设定`段落`题目的`大纲`等级，然后，通过`引用`生成基于大纲的`目录`)
-      
-      * 页眉：练习一  学号 姓名((通过`插入`->`分页`，对文档分页)
-      
-      * 页脚：页码(通过`布局`->`分隔符`,插入`分节符`, 设定从`分节符`开始的页码编号)
-
+ 
 ## 练习目录和文件组织
 
 ```bash
@@ -93,7 +77,7 @@ int main() {
 
 ## 电邮提交：
 
-将练习目录(如：P1)压缩为：**学号-姓名-1.zip** (Word文件，Python源码，Jupyter Notebook文件，C++源码等)
+将练习目录(如：P1)压缩为：**学号-姓名-1.zip**
 
 * 1 电邮：cmh@seu.edu.cn
 
@@ -101,11 +85,9 @@ int main() {
   
   * 附件：学号-姓名-1.zip
 
-* 2 **截至时间：** 2019.03.17
+* 2 **截至时间：** 
 
-  * 截至时间后可补交，补交得分<=10. (2019.06.16)
-
-* 3 改进更新：提交作业后可改进，改进截至时间：2019.06.16
+  * 截至时间后可补交，补交得分<=3.
 
 ## 参考：
 
@@ -117,49 +99,5 @@ int main() {
 
 * [Problem and Answer](https://github.com/PySEE/home/tree/S2019/guide/Problem_Solution.md) 
 
-* Github
+* 知乎：怎样使用GitHub. http://www.zhihu.com/question/20070065
  
-  * 知乎：怎样使用GitHub. http://www.zhihu.com/question/20070065
-
-  * [The Simple Guide of Github](https://github.com/PySEE/home/blob/S2019/guide/TheSimpleGuide2Github.md)
-
-  * Thank you for 100 million repositories https://blog.github.com/2018-11-08-100M-repos/
-    
-* Git
-   
-   * Git：https://git-scm.com/
-
-   * [How to get started with GIT and work with GIT Remote Repo](http://www3.ntu.edu.sg/home/ehchua/programming/howto/Git_HowTo.html)
-
-   * Scott Chacon，Ben Straub. [Pro Git](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
-
-   * [DevTools-Git](http://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/Unit7-5-DevTools-Git.ipynb)
-
-* Python https://www.python.org/
-
-   * Python development team. [Python Tutorial](https://docs.python.org/tutorial/index.html)
-
-* Jupyter  http://jupyter.org/
-    
-    * Jupyter Documentation. http://jupyter.readthedocs.org/en/latest/
-    
-    * IPython https://ipython.org/
-    
-    * A gallery of interesting notebook： https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks
-
-* Visual Studio Code  https://code.visualstudio.com/
-  
-   * Documentation: https://code.visualstudio.com/docs
-
-   * Getting Started with **Python** https://code.visualstudio.com/docs/python/python-tutorial
-
-   * **C/C++** for VS Code： https://code.visualstudio.com/docs/languages/cpp
-
-   * **Git** Version Control in VS Code：https://code.visualstudio.com/docs/editor/versioncontrol
-
-* GCC, the GNU Compiler Collection：http://gcc.gnu.org/
-
-   * MinGW-W64:GCC for Windows 64 & 32 bits：http://mingw-w64.org/
-
-   * GCC and Make：Compiling, Linking and Building C/C++ Applications http://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html
-

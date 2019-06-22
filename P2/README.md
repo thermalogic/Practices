@@ -1,8 +1,8 @@
-## Practice 4
+## Practice 2
 
 **Data Analysis**(10)：Statistics, regression and visualization
 
-* Deadline: 2019.06.02
+* Deadline: 
 
 ## Problem
 
