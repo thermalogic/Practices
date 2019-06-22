@@ -1,103 +1,98 @@
-## Practice 4
 
-**Data Analysis**(10)：Statistics, regression and visualization
+## Practice 5
 
-* Deadline: 2019.06.02
+**C/C++ Programming**(5)：C/C++ Programming with MinGW-w64（GCC)，MakeFile,the Shared Library
 
-## Problem
+Deadline: 2019.06.09
 
-John V. Guttag. Introduction to Computation and Programming Using Python: With Application to Understanding Data(Second Edition). MIT Press, 2016. 
+## To Do(5 marks)：
 
-**21.5 Statistical Measures Don't, Tell the Whole Story**（Page411-412） 
-  
-In 1973, the statistician F.J. Anscombe published a paper containing the table below. It contains the <x, y> coordinates of the points in each of four data sets.
+The exponentiating by squaring is a general method for fast computation of large positive integer powers of a number.
 
-|x |y|x|y|x|y|x|y|
-| ---- |:------:| :------:| :------:|  :------:| :------:| :------:|  ----:|
-|10.0|	8.04 |	10.0|	9.14 |	10.0 	|7.46	|8.0    |6.58|
-|8.0| 	6.95 |	8.0 |	8.14 |	8.0     |6.77	|8.0    |5.76|
-|13.0| 	7.58 |	13.0|	8.74 |	13.0    |12.74	|8.0    |7.71|
-|9.0|	8.81 |	9.0 |	8.77 |	9.0     |7.11	|8.0    |8.84|
-|11.0| 	8.33 |	11.0|	9.26|	11.0    |7.81	|8.0    |8.47|
-|14.0| 	9.96 |	14.0|	8.10 |	14.0    |8.84	|8.0    |7.04|
-|6.0|	7.24 |	6.0 |	6.13 |	6.0     |6.08	|8.0 	|5.25|
-|4.0| 	4.26 |	4.0 |	3.10| 	4.0     |5.39	|19.0 	|12.5|
-|12.0|	10.84| 	12.0| 	9.13| 	12.0    |8.15	|8.0 	|5.56|
-|7.0| 	4.82 | 	7.0 |	7.26| 	7.0     |6.42	|8.0 	|7.91|
-|5.0| 	5.68 | 	5.0 | 	4.74| 	5.0     |5.73	|8.0 	|6.89|
+* https://en.wikipedia.org/wiki/Exponentiation_by_squaring
 
-## 要求(10分)：
+Please use the [fastipow.cpp](./src/fastipow.cpp) to do the following tasks:
 
-使用Jupyter Notebook实现 
-  
-* 1 读取数据文件及**数据对象**表达(3分)： 使用Python语言读取数据文件[Anscombe.csv](./Anscombe.csv)， 使用List,Dict表达数据分析对象。**不使用: csv，NumPy和Pandas软件包**
+1. Coding C/C++： **C/C++ code/header**(1 marks)
 
-* 2 统计指标计算和输出(2分)：计算均值、方差和相关系数统计指标（1分，可使用Python统计库、Scipy)；统计结果表格化输出(1分，可使用表格化数据输出软件包，如prettytable) 
+  Split the [fastipow.cpp](./src/fastipow.cpp) into the two source files:
 
-```python
-from  statistics import mean,pvariance
-from scipy.stats import pearsonr
-```
+    *  The function of The Repeated Squaring Method
 
-参考输出数据表
-```
-+----------+-------+--------+-------+--------+-----------+
-| data set | x-avg | x-pvar | y-avg | y-pvar | pearson_r |
-+----------+-------+--------+-------+--------+-----------+
-| 1        | 9.0   | 10.0   | 7.5   | 3.75   |     0.816 |
-| 2        | 9.0   | 10.0   | 7.5   | 3.75   |     0.816 |
-| 3        | 9.0   | 10.0   | 7.5   | 3.75   |     0.816 |
-| 4        | 9.0   | 10.0   | 7.5   | 3.75   |     0.817 |
-+----------+-------+-------+--------+--------+-----------+
-``` 
-* 3 线性回归和图形输出(3分): **线性回归**(1分,可使用Numpy或Scipy)；多图输出（2分,使用Matplotlib）
+    *  The example application to call The Repeated Squaring Method
 
-   参考输出图
+2. Building dll, exe with three **makefiles**(3 marks)
+
+    * Making the executable file with multiple source files: the function of The Repeated Squaring Method and it's caller
+
+    * Making the shared library of the Repeated Squaring Method
+
+    * Making the executable file to call the shared library 
+
+3. Documenting your works: **README.md and Images**：(1 marks)
+
+    * README.md: intro of your works
+     
+    * The screenshot of coding,making exe to use `the shared library` and running the  executable file
+
+        * display in the README.md
    
-   ![数据点图和回归曲线](Anscombe.png)
+     Example:
 
-* 4 小结(2)：如何做一个好的统计分析结果的提供者和消费者？（建议分析角度：数据获取，数据分析，结果解析和展示方式)
+    ![screenshots](./img/vscode-gcc.jpg)
 
->Since that time people have used statistics as much to **mislead as to inform**.
->
->* Some have  **willfully** used statistics to mislead;
->
->* others have merely been **incompetent**
->
->We trust that you will use this information only for good,
->
->  * **a better consumer** 
->  
->  * **a more honest purveyor of statistical information**.
+## Directories and Files
 
-## 提交：
+```txt
+ 
+|── <P5>
+     │ 
+     │── README.md: intro of your works(display the screenshots of coding,making and running)
+     | 
+     │── makefile:  building the executable file with multiple source     
+     │ 
+     │── makefile-dll: building the shared library 
+     │               
+     │── makefile-exe: building the executable file to call the shared library  
+     │
+     |── <img>: screenshots of coding,making and running
+     |       │
+     |       |── *.jpg/png 
+     |
+     |── <bin>:
+     |       │
+     |       |── *.exe
+     |       |     
+     |       |── *.dll
+     |
+     |── <src>: 
+             │
+             |──*.c/cpp, *.h                   
+```  
 
-* 1 电邮：cmh@seu.edu.cn 
-  * 主题：学号-姓名-4
-  * 附件：程序文件压缩包：**学号-姓名-4.zip**
+## Submission：
 
-* 2 截至时间： 2019.06.02
-  *  截至时间后可补交，补交得分<=6. (2019.06.16)
+Compress your practice folder to ：**StudentNumber-Name-5.zip**
 
-* 3  改进更新：提交作业后可改进，改进截至时间：2019.06.16
+     注意压缩工作目录时，删除`C/C++ for Visual Studio Code`产生的缓存预编译头文件目录：.vscode/ipch
+     
+     .vscode/是隐藏目录，需开启“文件资源管理器”的显示“隐藏的项目”
 
-## 参考：
+* 1 Email to：cmh@seu.edu.cn 
+    
+  * Subject：StudentNumber-Name-5
+    
+  * Attachment：**StudentNumber-Name-5.zip**
 
-* [21_LIES_DAMNED_LIES_AND_STATISTICS](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit5-3-21_LIES_DAMNED_LIES_AND_STATISTICS.ipynb)
+* 2 Deadline：2019.06.09
 
-* [List,Dict and Data Table(Files)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-5-Files.ipynb)
+   * make up after deadline: points<=3 (2019.06.16)
 
-* [11-1_PLOTTING_USING_MATPLOTLIB](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit5-1-11-1_PLOTTING_USING_MATPLOTLIB.ipynb)
+* 3 Improvement: due：2019.06.16
 
-* [18_UNDERSTANDING_EXPERIMENTAL_DATA](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit5-2-18_UNDERSTANDING_EXPERIMENTAL_DATA.ipynb)
+## Reference
 
-* Scipy. http://www.scipy.org/
-  
-* Numpy. http://www.numpy.org/
-  
-* Matplotlib.  http://matplotlib.org/
+* [GCC_MAKE](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit8-1-GCC_MAKE.ipynb)
 
-* Robert Johansson. [Lectures on scientific computing with python](https://github.com/jrjohansson/scientific-python-lectures)
-
-
+* [GCC_DLL](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit8-2-GCC_DLL.ipynb)
 

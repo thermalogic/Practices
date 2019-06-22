@@ -1,124 +1,103 @@
-## Practice 2(15)
+## Practice 4
 
-**Python and Interactive Computing**：The Simple Simulator of Rankine Cycle 
+**Data Analysis**(10)：Statistics, regression and visualization
 
-Deadline: 2019.04.21
+* Deadline: 2019.06.02
 
-## Goal
+## Problem
 
-Use **Jupyter Notebook** to simulate the Rankine Cycle 
+John V. Guttag. Introduction to Computation and Programming Using Python: With Application to Understanding Data(Second Edition). MIT Press, 2016. 
 
-* description of the objects with the structure types，abstraction of procedure with functions 
+**21.5 Statistical Measures Don't, Tell the Whole Story**（Page411-412） 
+  
+In 1973, the statistician F.J. Anscombe published a paper containing the table below. It contains the <x, y> coordinates of the points in each of four data sets.
 
-* interactive analysis and literate programming
+|x |y|x|y|x|y|x|y|
+| ---- |:------:| :------:| :------:|  :------:| :------:| :------:|  ----:|
+|10.0|	8.04 |	10.0|	9.14 |	10.0 	|7.46	|8.0    |6.58|
+|8.0| 	6.95 |	8.0 |	8.14 |	8.0     |6.77	|8.0    |5.76|
+|13.0| 	7.58 |	13.0|	8.74 |	13.0    |12.74	|8.0    |7.71|
+|9.0|	8.81 |	9.0 |	8.77 |	9.0     |7.11	|8.0    |8.84|
+|11.0| 	8.33 |	11.0|	9.26|	11.0    |7.81	|8.0    |8.47|
+|14.0| 	9.96 |	14.0|	8.10 |	14.0    |8.84	|8.0    |7.04|
+|6.0|	7.24 |	6.0 |	6.13 |	6.0     |6.08	|8.0 	|5.25|
+|4.0| 	4.26 |	4.0 |	3.10| 	4.0     |5.39	|19.0 	|12.5|
+|12.0|	10.84| 	12.0| 	9.13| 	12.0    |8.15	|8.0 	|5.56|
+|7.0| 	4.82 | 	7.0 |	7.26| 	7.0     |6.42	|8.0 	|7.91|
+|5.0| 	5.68 | 	5.0 | 	4.74| 	5.0     |5.73	|8.0 	|6.89|
 
-## 要求：(15)
+## 要求(10分)：
 
-设计分析 [Example 8.6：The Reheat–Regenerative Cycle with Two Feedwater Heater](./rankine86.md) 的Jupyter Notebook。
+使用Jupyter Notebook实现 
+  
+* 1 读取数据文件及**数据对象**表达(3分)： 使用Python语言读取数据文件[Anscombe.csv](./Anscombe.csv)， 使用List,Dict表达数据分析对象。**不使用: csv，NumPy和Pandas软件包**
 
-合理组织Notebook中的文档(Markdown Cell)和代码(Code Cell)。如：先给出被计算对象描述，然后，给出总体设计思路，进一步是各部分程序模块说明文字、代码，最后，是设计小结。
-    
-### Jupyter Notebook中的代码(10)
+* 2 统计指标计算和输出(2分)：计算均值、方差和相关系数统计指标（1分，可使用Python统计库、Scipy)；统计结果表格化输出(1分，可使用表格化数据输出软件包，如prettytable) 
 
-参考 [RankineCycle：SimVer](https://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/Unit2-2-PyThermo-RankineCycle-SimVer.ipynb) 和 [RankineCycle：AdvVer](https://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/Unit2-3-PyThermo-RankineCycle-AdvVer.ipynb)  
+```python
+from  statistics import mean,pvariance
+from scipy.stats import pearsonr
+```
 
-* 使用结构数据类型：**列表、字典**等描述循环中的状态点，设备和循环性能指标(4)
-
-* 基于数据结构的设计，使用**函数**封装计算模块，组织循环计算(3)
-
-* 参考循环计算结果输出： [rankine86-sp.txt](./data/rankine86-sp.txt)，在Jupyter Notebook中输出工整的循环参数和性能指标等结果(3)
-
-* **可选：** 使用数据文件作为循环分析软件的输入输出
-
-   * 参考循环状态点(节点:nodes)数据文件： [rankine86-nd.csv](./data/rankine86-nd.csv) 
-
-   * 参考设备数据文件： [rankine86-de.csv](./data/rankine86-de.csv) 
-
-### Jupyter Notebook中的文档(5)   
-    
- **格式(1)**
- 
-原则上采用Markdown，如果需特殊效果，可少量使用HTML/CSS; 公式用LaTeX(Math)
-
-**内容**： 
-
-问题描述(1)；设计思路(1)； 模块说明(1)；小结(1) 
-
-## 工作提示
-
-1. 阅读、运行和分析 [RankineCycle：SimVer](https://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/Unit2-2-PyThermo-RankineCycle-SimVer.ipynb) 和 [RankineCycle：AdvVer](https://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/Unit2-3-PyThermo-RankineCycle-AdvVer.ipynb)，熟悉语言和设计思路
-
-2. 阅读和运行 [RankineCycle86-Step0.ipynb](./RankineCycle86-Step0.ipynb) 熟悉分析对象
-
-3. `Make a copy` [RankineCycle86-Step0.ipynb](./RankineCycle86-Step0.ipynb) 为`*-Copy1.ipynb`, 然后，重命名为设计用ipynb文件，如：`03016???-P2.ipynb`
-
-4. 一般设计：可参考[RankineCycle：SimVer](https://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/Unit2-2-PyThermo-RankineCycle-SimVer.ipynb)，使用List,Dict和Function做较简单的抽象，编程实现计算，以后再逐步改进。
-
-5. 更好设计：可参考[RankineCycle：AdvVer](https://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/Unit2-3-PyThermo-RankineCycle-AdvVer.ipynb)。基于此设计思路的要点是：`新设备`程序设计的如下4个方面：
-
-   * 1 设备的字典描述及计算函数; 2 增加设备到系统设备字典；3 从数据文件生成系统设备字典；4 基于系统设备字典的循环计算
-
-6. 完善ipynb中的文字内容
-
-7. `一般设计` 基本要求，做好可以有满意分数。`更好设计` 给有时间和兴趣，目标是满分的同学。
-
-
-## Directories and Files
-
-```bash
- ├──<Practices>
- │   │ 
- │   |── <P2>
- │   │    │ 
- │   │    |── start.bat (内容为jupyter notebook的bat文件)
- │   │    │ 
- │   │    |── *.ipynb  (Example 8.6循环分析ipynb文件)
- │   │    |
-          |── <data> 存放数据文件
-          │        |
-          │        │ ── *.csv/txt
-          │    
-          |── <img> 存放ipynb文件中使用的图片文件
-                 |
-                 │ ── *.jpg/png
+参考输出数据表
+```
++----------+-------+--------+-------+--------+-----------+
+| data set | x-avg | x-pvar | y-avg | y-pvar | pearson_r |
++----------+-------+--------+-------+--------+-----------+
+| 1        | 9.0   | 10.0   | 7.5   | 3.75   |     0.816 |
+| 2        | 9.0   | 10.0   | 7.5   | 3.75   |     0.816 |
+| 3        | 9.0   | 10.0   | 7.5   | 3.75   |     0.816 |
+| 4        | 9.0   | 10.0   | 7.5   | 3.75   |     0.817 |
++----------+-------+-------+--------+--------+-----------+
 ``` 
+* 3 线性回归和图形输出(3分): **线性回归**(1分,可使用Numpy或Scipy)；多图输出（2分,使用Matplotlib）
+
+   参考输出图
+   
+   ![数据点图和回归曲线](Anscombe.png)
+
+* 4 小结(2)：如何做一个好的统计分析结果的提供者和消费者？（建议分析角度：数据获取，数据分析，结果解析和展示方式)
+
+>Since that time people have used statistics as much to **mislead as to inform**.
+>
+>* Some have  **willfully** used statistics to mislead;
+>
+>* others have merely been **incompetent**
+>
+>We trust that you will use this information only for good,
+>
+>  * **a better consumer** 
+>  
+>  * **a more honest purveyor of statistical information**.
 
 ## 提交：
 
-* 1 电邮： cmh@seu.edu.cn
-   
-  * 主题：学号-姓名-2
-  * 附件：压缩工作目录(如：P2)，命名为： **学号-姓名-2.zip**
+* 1 电邮：cmh@seu.edu.cn 
+  * 主题：学号-姓名-4
+  * 附件：程序文件压缩包：**学号-姓名-4.zip**
 
-* 2 **截至时间：** 2019.04.21
+* 2 截至时间： 2019.06.02
+  *  截至时间后可补交，补交得分<=6. (2019.06.16)
+
+* 3  改进更新：提交作业后可改进，改进截至时间：2019.06.16
+
+## 参考：
+
+* [21_LIES_DAMNED_LIES_AND_STATISTICS](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit5-3-21_LIES_DAMNED_LIES_AND_STATISTICS.ipynb)
+
+* [List,Dict and Data Table(Files)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-5-Files.ipynb)
+
+* [11-1_PLOTTING_USING_MATPLOTLIB](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit5-1-11-1_PLOTTING_USING_MATPLOTLIB.ipynb)
+
+* [18_UNDERSTANDING_EXPERIMENTAL_DATA](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit5-2-18_UNDERSTANDING_EXPERIMENTAL_DATA.ipynb)
+
+* Scipy. http://www.scipy.org/
   
-  * 截至时间后补交，补交得分<10. (2019.06.16)
-
-* 3 改进更新：提交作业后可改进，改进截至时间：2019.06.16
-
-## Reference：
-
-* Michael J. Moran, Howard N. Shapiro, Daisie D. Boettner, Margaret B. Bailey. Fundamentals of Engineering Thermodynamics(7th Edition). John Wiley & Sons, Inc. 2011
-   
-   * The ebook at SEU http://www.lib.seu.edu.cn/
-
-     查找资源->外文电子书->Wiley电子教材->T(工业技术)->TK(能源与动力工程)->TK1(热力工程,热机)
-
-* [Markdown](https://github.com/PySEE/home/blob/S2019/guide/Introduction2Markdown(Chinese).md)
-
-* Jupyter 
-
-    * Documentation. http://jupyter.readthedocs.org/en/latest/
-    
-    * IPython https://ipython.org/
-    
-    * A gallery of interesting notebook：https://github.com/jupyter/jupyter/wiki/A-gallery-of-interesting-Jupyter-Notebooks
-
-* [LaTeX Math](https://nbviewer.jupyter.org/github/PySEE/home/blob/S2019/notebook/Unit2-3-PyThermo-LaTeX-Math.ipynb)
-
-* [IAPWS-IF97 high-speed shared library:SEUIF97](https://github.com/PySEE/SEUIF97)
-
-
-
+* Numpy. http://www.numpy.org/
   
+* Matplotlib.  http://matplotlib.org/
+
+* Robert Johansson. [Lectures on scientific computing with python](https://github.com/jrjohansson/scientific-python-lectures)
+
+
 
