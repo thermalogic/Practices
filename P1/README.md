@@ -20,7 +20,7 @@ Deadline: 2020.03.13
     
 1. 个人Github账户(1)
 
-  * 账户名地址， Github账户主页面截图(fork仓库后)
+   * 账户名地址， Github账户主页面截图(fork仓库后)
 
 2. Github简介(2)
 
@@ -35,7 +35,7 @@ Deadline: 2020.03.13
 3. 参考他人文档时，不要拷贝, 用自己的语言表达
 
 ## 工作目录和文件组织
-
+```text
 |── <P1>
      │ 
      │── 学号-姓名-1.md
@@ -43,7 +43,7 @@ Deadline: 2020.03.13
      |── <img>: screenshot of your github account
      |       │
      |       |── *.jpg 
-  
+```  
 
 ## 提交：
 
