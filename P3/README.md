@@ -125,20 +125,19 @@ Please download the ebook from SEU: http://www.lib.seu.edu.cn/ （查找资源->
    * 主题：学号-姓名-3
    * 附件：工作目录压缩文件： **学号-姓名-3.zip**；
 
-* 2 截至时间：2019.05.19
-   * 截至时间后可补交，补交得分<=13. (2019.06.16)
+* 2 截至时间：2020.05.19
+   * 截至时间后可补交，补交得分<=13. (2020.06.16)
 
-* 3 改进更新：提交作业后可修改，修改截至时间：2019.06.16
+* 3 改进更新：提交作业后可修改，修改截至时间：2020.06.16
 
 ## 参考资源：
 
-* [PySEE/PyRankine: step4,step5](https://github.com/PySEE/PyRankine)
+* [PySEE/PyRankine](https://github.com/PySEE/PyRankine)
 
 ### PyThermo
 
-* [RankineCycle OOP](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-1-PyThermo-RankineCycle-OOP.ipynb)
+* [RankineCycle OOP](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-3-PyThermo-RankineCycle-OOP.ipynb)
 
-* [RankineCycle General](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-2-PyThermo-RankineCycle-General.ipynb)
+* [RankineCycle General](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-4-PyThermo-RankineCycle-General.ipynb)
 
-* [Python: JSON](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-3-PyThermo-Python-JSON.ipynb)
 

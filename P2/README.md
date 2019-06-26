@@ -32,12 +32,8 @@ In 1973, the statistician F.J. Anscombe published a paper containing the table b
   
 * 1 读取数据文件及**数据对象**表达(3分)： 使用Python语言读取数据文件[Anscombe.csv](./Anscombe.csv)， 使用List,Dict表达数据分析对象。**不使用: csv，NumPy和Pandas软件包**
 
-* 2 统计指标计算和输出(2分)：计算均值、方差和相关系数统计指标（1分，可使用Python统计库、Scipy)；统计结果表格化输出(1分，可使用表格化数据输出软件包，如prettytable) 
+* 2 统计指标计算和输出(3分)：计算均值、方差和相关系数统计指标（1分， 自己编码，不可使用软件包中的方法)；统计结果表格化输出(1分，不可使用软件包) 
 
-```python
-from  statistics import mean,pvariance
-from scipy.stats import pearsonr
-```
 
 参考输出数据表
 ```
@@ -50,7 +46,7 @@ from scipy.stats import pearsonr
 | 4        | 9.0   | 10.0   | 7.5   | 3.75   |     0.817 |
 +----------+-------+-------+--------+--------+-----------+
 ``` 
-* 3 线性回归和图形输出(3分): **线性回归**(1分,可使用Numpy或Scipy)；多图输出（2分,使用Matplotlib）
+* 3 线性回归和图形输出(2分): **线性回归**(1分,可使用Numpy或Scipy)；多图输出（1分,使用Matplotlib）
 
    参考输出图
    
@@ -73,23 +69,23 @@ from scipy.stats import pearsonr
 ## 提交：
 
 * 1 电邮：cmh@seu.edu.cn 
-  * 主题：学号-姓名-4
-  * 附件：程序文件压缩包：**学号-姓名-4.zip**
+  * 主题：学号-姓名-2
+  * 附件：程序文件压缩包：**学号-姓名-2.zip**
 
-* 2 截至时间： 2019.06.02
-  *  截至时间后可补交，补交得分<=6. (2019.06.16)
+* 2 截至时间： 2020.04.02
+  *  截至时间后可补交，补交得分<=6. (2020.06.16)
 
-* 3  改进更新：提交作业后可改进，改进截至时间：2019.06.16
+* 3  改进更新：提交作业后可改进，改进截至时间：2020.06.16
 
 ## 参考：
 
-* [21_LIES_DAMNED_LIES_AND_STATISTICS](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit5-3-21_LIES_DAMNED_LIES_AND_STATISTICS.ipynb)
+* [LIES_DAMNED_LIES_AND_STATISTICS](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit2-4-LIES_DAMNED_LIES_AND_STATISTICS.ipynb)
 
 * [List,Dict and Data Table(Files)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit1-5-Files.ipynb)
 
-* [11-1_PLOTTING_USING_MATPLOTLIB](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit5-1-11-1_PLOTTING_USING_MATPLOTLIB.ipynb)
+* [PLOTTING_USING_MATPLOTLIB](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit2-2-PLOTTING_USING_MATPLOTLIB.ipynb)
 
-* [18_UNDERSTANDING_EXPERIMENTAL_DATA](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit5-2-18_UNDERSTANDING_EXPERIMENTAL_DATA.ipynb)
+* [UNDERSTANDING_EXPERIMENTAL_DATA](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit2-3-UNDERSTANDING_EXPERIMENTAL_DATA.ipynb)
 
 * Scipy. http://www.scipy.org/
   
