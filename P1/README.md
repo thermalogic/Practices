@@ -1,18 +1,20 @@
 ## 练习 1(5)
-
- 在Github上建立个人账户，了解Github和课程仓库，安装软件，为进一步的学习和程序开发做好准备。
+ 
+Github，Markdown等
 
 Deadline: 2020.03.13
 
 ## 工作内容：
 
-* 建立Github账户
+* 在Github上建立自己的Github账户
 
 * Fork不少于2个和课程学习内容有关的Github仓库到个人Github账户
 
 * 学习Github有关概念，了解课程Github仓库的内容
 
-*  安装课程学习软件，使用Visual Studio Code制作Markdown文档
+* 安装课程学习软件，为进一步的学习和程序开发做好准备
+
+* 使用Visual Studio Code制作练习的Markdown文档
 
 ## Markdown文档内容要求：(总计5分)
     
@@ -26,13 +28,11 @@ Deadline: 2020.03.13
 
 ## 注意
 
-1. md文档使用到的不同类型文件用相应的目录进行组织
+1. 不使用HTML，只使用最基本的Markdown标志符号
 
-2. 不使用HTML，只使用最基本的Markdown标志符号
+2. 文件名中不要使用空格
 
-3. 文件名中不要使用空格
-
-4. 参考他人文档时，不要拷贝, 用自己的语言表达
+3. 参考他人文档时，不要拷贝, 用自己的语言表达
 
 ## 工作目录和文件组织
 
@@ -51,23 +51,23 @@ Deadline: 2020.03.13
 
 1. 电邮：cmh@seu.edu.cn
 
-主题：学号-姓名-1
+    主题：学号-姓名-1
 
-附件： 学号-姓名-1.zip
+    附件： 学号-姓名-1.zip
 
 2. 截至时间： 2020.03.13
    
-   截至时间后可补交，补交得分<=3. (2020.06.15)
+     截至时间后可补交，补交得分<=3. (2020.06.15)
 
 3. 改进截至时间：2020.06.15
 
 
 ## 参考
 
-* Building Software Environment https://github.com/PySEE/home/blob/S2020/guide/BuildingSoftwareEnvironment.md
+* [Building Software Environment](https://github.com/PySEE/home/blob/S2020/guide/BuildingSoftwareEnvironment.md)
 
-* Introduction to Markdown https://github.com/PySEE/home/blob/S2020/guide/Introduction2Markdown(Chinese).md
+* [Introduction to Markdown](https://github.com/PySEE/home/blob/S2020/guide/Introduction2Markdown(Chinese).md)
 
-* 知乎：怎样使用GitHub. http://www.zhihu.com/question/20070065
+* [知乎：怎样使用GitHub](http://www.zhihu.com/question/20070065)
 
-* Markdown and Visual Studio Code https://code.visualstudio.com/docs/languages/markdown/
+* [Markdown and Visual Studio Code](https://code.visualstudio.com/docs/languages/markdown/)
