@@ -75,8 +75,6 @@ In 1973, the statistician F.J. Anscombe published a paper containing the table b
 * 2 截至时间： 2020.04.02
   *  截至时间后可补交，补交得分<=6. (2020.06.16)
 
-* 3  改进更新：提交作业后可改进，改进截至时间：2020.06.16
-
 ## 参考：
 
 * [LIES_DAMNED_LIES_AND_STATISTICS](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit2-4-LIES_DAMNED_LIES_AND_STATISTICS.ipynb)

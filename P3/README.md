@@ -128,8 +128,6 @@ Please download the ebook from SEU: http://www.lib.seu.edu.cn/ （查找资源->
 * 2 截至时间：2020.05.19
    * 截至时间后可补交，补交得分<=13. (2020.06.16)
 
-* 3 改进更新：提交作业后可修改，修改截至时间：2020.06.16
-
 ## 参考资源：
 
 * [PySEE/PyRankine](https://github.com/PySEE/PyRankine)

@@ -157,8 +157,6 @@ estPi(0.01, 100)
    
    * 补交截至时间： 2020.06.10
 
-* 3 改进截至时间：2020.06.10
-
 ## Reference
 
 * [GCC_MAKE](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit8-1-GCC_MAKE.ipynb)
