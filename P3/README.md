@@ -132,10 +132,8 @@ Please download the ebook from SEU: http://www.lib.seu.edu.cn/ （查找资源->
 
 * [PySEE/PyRankine](https://github.com/PySEE/PyRankine)
 
-### PyThermo
+* [Rankine Cycle：OOP](http://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit4-3-PyThermo-RankineCycle-OOP.ipynb)
 
-* [RankineCycle OOP](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-3-PyThermo-RankineCycle-OOP.ipynb)
-
-* [RankineCycle General](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit4-4-PyThermo-RankineCycle-General.ipynb)
+* [Rankine Cycle：General](http://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit4-4-PyThermo-RankineCycle-General.ipynb)
 
 
