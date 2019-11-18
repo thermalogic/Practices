@@ -54,9 +54,9 @@ def getEst(numNeedles, numTrials):
     return (curEst, sDev)
 ```
 
-2. C/C++调用算法共享库的算例
+2. C调用算法共享库的算例
 
-    * 参考[14_MONTE_CARLO_SIMULATION.ipynb](./14_MONTE_CARLO_SIMULATION.ipynb)给出调用算法共享库的C/C++算例程序
+    * 参考[14_MONTE_CARLO_SIMULATION.ipynb](./14_MONTE_CARLO_SIMULATION.ipynb)给出调用算法共享库的C算例程序
     
     * 编译算例程序生成运行文件的makefile文件
 
@@ -81,7 +81,7 @@ estPi(0.01, 100)
    
    * 使用接口程序，调用共享库的Python算例程序
    
-   * 使用timeit比较C语言共享库计算和纯Python蒙特卡罗计算圆周率的算速度
+   * 使用timeit比较C语言共享库计算和纯Python蒙特卡罗计算圆周率的计算速度
 
 ```python
 def estPi(precision, numTrials):
@@ -97,11 +97,11 @@ def estPi(precision, numTrials):
 
 estPi(0.01, 100)
 ```
-4 练习的工作的README.md文档
+4. 练习工作的README.md文档,建议内容：
                       
    * 算法说明 
    
-   * 程序设计工作简要说明：过程，结果(必须内容：终端中编译共享库及算例的过程和结果截图）
+   * 程序设计工作简要说明：过程，结果(必须内容：计算机终端中，使用命令编译共享库及算例的`过程`、`结果`截图）
 
    * 工作小结
 
@@ -113,11 +113,11 @@ estPi(0.01, 100)
      │ 
      │── README.md: intro of your works(display the screenshots of coding,making and running)
      | 
-     │── makefile-dll: building the shared library 
+     │── makefile-dll.mk: building the shared library 
      │               
-     │── makefile-exe: building the executable file to call the shared library  
+     │── makefile-exe.mk: building the executable file to call the shared library  
      │
-     |── <img>: screenshots of coding,making and running
+     |── <img>: screenshots of coding,building and running
      |       │
      |       |── *.jpg/png 
      |
@@ -127,9 +127,9 @@ estPi(0.01, 100)
      |       |     
      |       |── *.dll
      |
-     |── <cpp>: 
+     |── <c>: 
      |        │
-     |        |──*.c/cpp, *.h     
+     |        |──*.c, *.h     
      |
      |
      |── <python>: 
@@ -141,7 +141,7 @@ estPi(0.01, 100)
 
 压缩工作目录为文件 ：**学号-姓名-4.zip**
 
-   * 注意压缩工作目录时，删除`C/C++ for Visual Studio Code`产生的缓存预编译头文件目录：`.vscode/ipch`
+   * 注意压缩工作目录时，删除`C/C++ for Visual Studio Code`产生的缓存预编译头文件目录：`.vscode/ipch`，否则，文件过大
      
    * `.vscode/`是隐藏目录，需开启 `“文件资源管理器”`的显示 `“隐藏的项目”`
 
@@ -159,7 +159,9 @@ estPi(0.01, 100)
 
 ## Reference
 
-* [GCC_MAKE](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit8-1-GCC_MAKE.ipynb)
+* [GCC:MAKE](http://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-1-GCC_MAKE.ipynb)
 
-* [GCC_DLL](http://nbviewer.ipython.org/github/PySEE/home/tree/S2019/notebook/Unit8-2-GCC_DLL.ipynb)
+* [C: stdio](http://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-2-C_stdio.ipynb)
+
+* [GCC:Lib](http://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit9-1-GCC_Lib.ipynb)
 
