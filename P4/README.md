@@ -1,19 +1,21 @@
 
 ## Practice 4
 
-**C/C++ Programming**(15)：C/C++ Programming with MinGW-w64 (GCC)，MakeFile,the Shared Library
+**C/C++ Programming**(15)：C/C++ with MinGW-w64 (GCC)，MakeFile,the Shared Library and ctypes
 
-Deadline: 
+*  Monte Carlo simulation of finding PI
+
+Deadline: 2020.06.09
 
 ## 要求：
 
-学习蒙特卡罗(Monte Carlo)计算圆周率的方法[14_MONTE_CARLO_SIMULATION.ipynb](./14_MONTE_CARLO_SIMULATION.ipynb)，然后。完成以下程序设计任务
+学习蒙特卡罗(Monte Carlo)计算圆周率的方法[16_MONTE_CARLO_SIMULATION.ipynb](./16_MONTE_CARLO_SIMULATION.ipynb)，然后。完成以下程序设计任务
 
-**注意：** 此Jupyter Notebook供学习使用，练习时不要使用Jupyter Notebook的形式
+**注意：** 此Jupyter Notebook供学习使用，练习不使用Jupyter Notebook形式
 
-1.  蒙特卡罗(Monte Carlo)计算圆周率的方法共享库
+1.  蒙特卡罗计算圆周率的方法共享库(4)
 
-    * 蒙特卡罗(Monte Carlo)计算圆周率的方法的C语言代码，
+    * 蒙特卡罗计算圆周率方法的C/C++语言代码
 
     * 编译生成算法的共享库（Windows下DLL）的makefile文件
 
@@ -54,9 +56,9 @@ def getEst(numNeedles, numTrials):
     return (curEst, sDev)
 ```
 
-2. C调用算法共享库的算例
+2. C/C++调用算法共享库的算例(4)
 
-    * 参考[14_MONTE_CARLO_SIMULATION.ipynb](./14_MONTE_CARLO_SIMULATION.ipynb)给出调用算法共享库的C算例程序
+    * 参考[16_MONTE_CARLO_SIMULATION.ipynb](./16_MONTE_CARLO_SIMULATION.ipynb)给出调用算法共享库的C/C++算例程序
     
     * 编译算例程序生成运行文件的makefile文件
 
@@ -75,7 +77,7 @@ def estPi(precision, numTrials):
 estPi(0.01, 100)
 ```
 
-3. Python语言调用共享库的算例
+3. Python语言调用共享库的算例(3)
                   
    * Python语言调用共享库的接口程序
    
@@ -97,7 +99,9 @@ def estPi(precision, numTrials):
 
 estPi(0.01, 100)
 ```
-4. 练习工作的README.md文档,建议内容：
+4. 练习工作的README.md文档(4)：
+
+建议内容:
                       
    * 算法说明 
    
@@ -129,7 +133,7 @@ estPi(0.01, 100)
      |
      |── <c>: 
      |        │
-     |        |──*.c, *.h     
+     |        |──*.c/cpp, *.h     
      |
      |
      |── <python>: 

@@ -6,7 +6,7 @@
 
 ---
 
-[2. Data Analysis(10)](./P4)：Statistics, regression and visualization, Jupyter 
+[2. Data Analysis(10)](./P2)：Statistics, regression and visualization, Jupyter 
 
 * Deadline: 2020.05.02
 
@@ -18,8 +18,7 @@
 
 ---
 
-
-[4. C/C++ Programming(15)](./P5)：C/C++ Programming with GCC(MinGW-w64),Makefile,Shared Library
+[4. C/C++ Programming(15)](./P4)：GCC(MinGW-w64),Makefile,Shared Library and ctypes
 
 * Deadline: 2020.06.09
 
