@@ -1,4 +1,4 @@
-# [行是知之始，知是行之成 - 陶行知](https://book.douban.com/subject/3353668/）
+# 行是知之始，知是行之成 - 陶行知
 
 [1. Github(5)](./P1)：Github,Markdown
 
