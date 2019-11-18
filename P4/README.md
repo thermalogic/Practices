@@ -1,7 +1,7 @@
 
 ## Practice 4
 
-**C/C++ Programming**(15)：C/C++ with MinGW-w64 (GCC)，MakeFile,the Shared Library and ctypes
+**C/C++ Programming**(15)：MinGW-w64 (GCC)，MakeFile,the Shared Library and ctypes
 
 *  Monte Carlo simulation of finding PI
 
