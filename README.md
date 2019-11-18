@@ -18,7 +18,7 @@
 
 ---
 
-[4. C/C++ Programming(15)](./P4)：GCC(MinGW-w64),Makefile,Shared Library and ctypes
+[4. C/C++ Programming(15)](./P4)：MinGW-w64(GCC), Makefile, Shared Library and ctypes
 
 * Deadline: 2020.06.09
 

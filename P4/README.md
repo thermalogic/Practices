@@ -1,7 +1,7 @@
 
 ## Practice 4
 
-**C/C++ Programming**(15)：MinGW-w64 (GCC)，MakeFile,the Shared Library and ctypes
+**C/C++ Programming**(15)：MinGW-w64(GCC), MakeFile, the Shared Library and ctypes
 
 *  Monte Carlo simulation of finding PI
 
@@ -9,7 +9,7 @@ Deadline: 2020.06.09
 
 ## 要求：
 
-学习蒙特卡罗(Monte Carlo)计算圆周率的方法[16_MONTE_CARLO_SIMULATION.ipynb](./16_MONTE_CARLO_SIMULATION.ipynb)，然后。完成以下程序设计任务
+学习蒙特卡罗(Monte Carlo)计算圆周率的方法[16_MONTE_CARLO_SIMULATION.ipynb:16.4 Finding π](./16_MONTE_CARLO_SIMULATION.ipynb)，然后。完成以下程序设计任务
 
 **注意：** 此Jupyter Notebook供学习使用，练习不使用Jupyter Notebook形式
 
