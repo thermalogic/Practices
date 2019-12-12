@@ -57,7 +57,7 @@ Reference [PyRankine](https://github.com/PySEE/PyRankine), design a general ener
   > The set of problem-solving methods with computer is also called **Computational Thinking**. 
   
  
-* Word排版(1): 版面整洁，合理划分和组织文档段落；页眉：练习三 学号 姓名； 页脚：页码 
+* Word排版(1): 版面整洁，合理划分和组织文档段落；页眉：练习二 学号 姓名； 页脚：页码 
 
   * **无需** 封面和目录
 

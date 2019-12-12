@@ -2,7 +2,7 @@
 
 [1. Data Analysis(10)](./P2)：Statistics, regression and visualization, Jupyter 
 
-* Deadline: 2020.05.02
+* Deadline: 2020.05.03
 
 ---
 
