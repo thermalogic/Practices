@@ -1,97 +1,139 @@
-## Practice 2
+## Practice 2(20)
 
-**Data Analysis**(10)：Statistics, regression and visualization
+**Object-oriented Programming**：The General Rankine Cycle Simulator 
 
-* Deadline: 
+Apply computational thinking to solve more complex problems
 
-## Problem
+**Deadline:** 
 
-John V. Guttag. Introduction to Computation and Programming Using Python: With Application to Understanding Data(Second Edition). MIT Press, 2016. 
+## Contents and Requirements
 
-**21.5 Statistical Measures Don't, Tell the Whole Story**（Page411-412） 
+Reference [PyRankine](https://github.com/PySEE/PyRankine), design a general energy balance software with Python to analysis the following cycles:
+
+* [Example 8.1：An Ideal Regenerative Cycle](./rankine81.md)
+
+* [Example 8.5：A Regenerative Cycle with Open Feedwater Heater](./rankine85.md)
+ 
+* [Example 8.6：A Reheat–Regenerative Cycle with Two Feedwater Heaters](./rankine86.md) 
+
+**注意**：练习不使用Jupyter Notebook；使用Visual Studio Code进行代码设计等工作，使用MS Word编写设计文档。
+
+### 数据文件和Python3源码(12)
+
+* 数据文件：建立描述循环系统和设备的json文件(2)
+
+* Python3源码
+ 
+   * 使用类描述循环中的设备(组件)、节点(5)
+
+   * 编程读取系统描述json文件，解析其描述的循环系统，进行循环的能量平衡分析(4)
+
+* 数据文件：输出分析结果到数据文件(1)
   
-In 1973, the statistician F.J. Anscombe published a paper containing the table below. It contains the <x, y> coordinates of the points in each of four data sets.
+### 软件设计工作Word文档(8)
 
-|x |y|x|y|x|y|x|y|
-| ---- |:------:| :------:| :------:|  :------:| :------:| :------:|  ----:|
-|10.0|	8.04 |	10.0|	9.14 |	10.0 	|7.46	|8.0    |6.58|
-|8.0| 	6.95 |	8.0 |	8.14 |	8.0     |6.77	|8.0    |5.76|
-|13.0| 	7.58 |	13.0|	8.74 |	13.0    |12.74	|8.0    |7.71|
-|9.0|	8.81 |	9.0 |	8.77 |	9.0     |7.11	|8.0    |8.84|
-|11.0| 	8.33 |	11.0|	9.26|	11.0    |7.81	|8.0    |8.47|
-|14.0| 	9.96 |	14.0|	8.10 |	14.0    |8.84	|8.0    |7.04|
-|6.0|	7.24 |	6.0 |	6.13 |	6.0     |6.08	|8.0 	|5.25|
-|4.0| 	4.26 |	4.0 |	3.10| 	4.0     |5.39	|19.0 	|12.5|
-|12.0|	10.84| 	12.0| 	9.13| 	12.0    |8.15	|8.0 	|5.56|
-|7.0| 	4.82 | 	7.0 |	7.26| 	7.0     |6.42	|8.0 	|7.91|
-|5.0| 	5.68 | 	5.0 | 	4.74| 	5.0     |5.73	|8.0 	|6.89|
+* 设计问题简要描述(1); 
 
-## 要求(10分)：
+* 程序设计方案简要描述(5)
+  * 总体思路；   
+  * 系统json文件描述；
+  * 节点和设备类的设计；
+  * 循环能量平衡计算过程；
 
-使用Jupyter Notebook实现 
+* 设计工作小结(1)
+
+    小结中，建议结合练习，给出你对下面短文的理解:
+ 
+  >Programming is about managing complexity in a way that facilitates change. There are two powerful mechanisms available for accomplishing this: decomposition and abstraction`
+  > 
+  >Apply `abstraction` and `decomposition` to solve more complex problems
+  >
+  > * decompose a large problem into parts and design algorithms to solve them
+  >
+  > * recognise similar problems, and apply generic solutions and abstractions
+  >
+  > * creating algorithms to obtain the generic solution results
+  >
+  > The set of problem-solving methods with computer is also called **Computational Thinking**. 
   
-* 1 读取数据文件及**数据对象**表达(3分)： 使用Python语言读取数据文件[Anscombe.csv](./Anscombe.csv)， 使用List,Dict表达数据分析对象。**不使用: csv，NumPy和Pandas软件包**
+ 
+* Word排版(1): 版面整洁，合理划分和组织文档段落；页眉：练习三 学号 姓名； 页脚：页码 
 
-* 2 统计指标计算和输出(3分)：计算均值、方差和相关系数统计指标（1分， 自己编码，不可使用软件包中的方法)；统计结果表格化输出(1分，不可使用软件包) 
+  * **无需** 封面和目录
 
+## 提示
 
-参考输出数据表
-```
-+----------+-------+--------+-------+--------+-----------+
-| data set | x-avg | x-pvar | y-avg | y-pvar | pearson_r |
-+----------+-------+--------+-------+--------+-----------+
-| 1        | 9.0   | 10.0   | 7.5   | 3.75   |     0.816 |
-| 2        | 9.0   | 10.0   | 7.5   | 3.75   |     0.816 |
-| 3        | 9.0   | 10.0   | 7.5   | 3.75   |     0.816 |
-| 4        | 9.0   | 10.0   | 7.5   | 3.75   |     0.817 |
-+----------+-------+-------+--------+--------+-----------+
+[Example 8.6：A Reheat–Regenerative Cycle with Two Feedwater Heaters](./rankine86.md) 比 `Example8.1，8.5`, 多了不同类型的设备
+
+* reheater, trap
+
+* the closed feedwater heater, the opended feedwater heater with 1 drain water inlet
+
+需要在理解示例基础上，增加新设备。
+
+增加新设备的工作： 首先，需要规定好新设备的**唯一类型标识字符串**，然后，是设备的json描述，计算分析Python类实现及相关代码工作，实现更通用的循环计算程序。
+
+通用Rankine Cycle程序的泛化要点:
+
+1.  设备
+
+2.  设备间连接关系
+
+3.  系统能量平衡计算方法
+
+**Results for reference**
+
+* Example 8.1: [rankine81-sp.txt](./rankine81-sp.txt)
+
+* Example 8.5: [rankine85-sp.txt](./rankine85-sp.txt)
+
+* Example 8.6: [rankine86-sp.txt](./rankine86-sp.txt)
+
+**Download the ebook**
+
+Michael J . Moran. Fundamentals of Engineering Thermodynamics (7th Edition).  John Wiley & Sons, Inc. 2011/(8th Edition) 2015
+
+Please download the ebook from SEU: http://www.lib.seu.edu.cn/ （查找资源->外文电子书->Wiley电子教材->T(工业技术)->TK(能源与动力工程)->TK1(热力工程,热机)
+
+## Directories and Files
+
+```bash
+ ├──<Practices>
+     │ 
+     |── <P2>
+          │ 
+          |── *.docx 设计工作Word文档
+          |
+          |── *.py  循环分析Python源码文件
+          |
+          |── <components> components包的源码文件
+          │    |
+          │    │ ── *.py
+          │   
+          |── <txtcycle> 各循环描述json文件
+          │    |
+          │    │ ── *.json
+          │ 
+          |── <output> 各循环分析结果文件
+               |
+               │ ── *.txt
 ``` 
-* 3 线性回归和图形输出(2分): **线性回归**(1分,可使用Numpy或Scipy)；多图输出（1分,使用Matplotlib）
-
-   参考输出图
-   
-   ![数据点图和回归曲线](Anscombe.png)
-
-* 4 小结(2)：如何做一个好的统计分析结果的提供者和消费者？（建议分析角度：数据获取，数据分析，结果解析和展示方式)
-
->Since that time people have used statistics as much to **mislead as to inform**.
->
->* Some have  **willfully** used statistics to mislead;
->
->* others have merely been **incompetent**
->
->We trust that you will use this information only for good,
->
->  * **a better consumer** 
->  
->  * **a more honest purveyor of statistical information**.
 
 ## 提交：
 
-* 1 电邮：cmh@seu.edu.cn 
-  * 主题：学号-姓名-2
-  * 附件：程序文件压缩包：**学号-姓名-2.zip**
+* 1 电邮： cmh@seu.edu.cn
+   * 主题：学号-姓名-2
+   * 附件：工作目录压缩文件： **学号-姓名-2.zip**；
 
-* 2 截至时间： 2020.04.02
-  *  截至时间后可补交，补交得分<=6. (2020.06.16)
+* 2 截至时间：2020.05.19
+   * 截至时间后可补交，补交得分<=13. (2020.06.16)
 
-## 参考：
+## 参考资源：
 
-* [LIES_DAMNED_LIES_AND_STATISTICS](http://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit2-4-LIES_DAMNED_LIES_AND_STATISTICS.ipynb)
+* [PySEE/PyRankine](https://github.com/PySEE/PyRankine)
 
-* [List,Dict and Data Table(Files)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-5-Files.ipynb)
+* [Rankine Cycle：OOP](http://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit4-3-PyThermo-RankineCycle-OOP.ipynb)
 
-* [PLOTTING_USING_MATPLOTLIB](http://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit2-2-PLOTTING_USING_MATPLOTLIB.ipynb)
-
-* [UNDERSTANDING_EXPERIMENTAL_DATA](http://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit2-3-UNDERSTANDING_EXPERIMENTAL_DATA.ipynb)
-
-* Scipy. http://www.scipy.org/
-  
-* Numpy. http://www.numpy.org/
-  
-* Matplotlib.  http://matplotlib.org/
-
-* Robert Johansson. [Lectures on scientific computing with python](https://github.com/jrjohansson/scientific-python-lectures)
-
+* [Rankine Cycle：General](http://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit4-4-PyThermo-RankineCycle-General.ipynb)
 
 

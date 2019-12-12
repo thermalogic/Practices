@@ -1,139 +1,171 @@
-## Practice 3(20)
 
-**Object-oriented Programming**：The General Rankine Cycle Simulator 
+## Practice 3
 
-Apply computational thinking to solve more complex problems
+**C/C++ Programming**(20)：MinGW-w64(GCC), MakeFile, the Shared Library and ctypes
 
-**Deadline:** 
+*  Monte Carlo simulation of finding PI
 
-## Contents and Requirements
+Deadline: 2020.06.09
 
-Reference [PyRankine](https://github.com/PySEE/PyRankine), design a general energy balance software with Python to analysis the following cycles:
+## 要求：
 
-* [Example 8.1：An Ideal Regenerative Cycle](./rankine81.md)
+学习蒙特卡罗(Monte Carlo)计算圆周率的方法[16_MONTE_CARLO_SIMULATION.ipynb:16.4 Finding π](./16_MONTE_CARLO_SIMULATION.ipynb)，然后。完成以下程序设计任务
 
-* [Example 8.5：A Regenerative Cycle with Open Feedwater Heater](./rankine85.md)
- 
-* [Example 8.6：A Reheat–Regenerative Cycle with Two Feedwater Heaters](./rankine86.md) 
+**注意：** 此Jupyter Notebook供学习使用，练习不使用Jupyter Notebook形式
 
-**注意**：练习不使用Jupyter Notebook；使用Visual Studio Code进行代码设计等工作，使用MS Word编写设计文档。
+1.  蒙特卡罗计算圆周率的方法共享库(5)
 
-### 数据文件和Python3源码(12)
+    * 蒙特卡罗计算圆周率方法的C/C++语言代码
 
-* 数据文件：建立描述循环系统和设备的json文件(2)
+    * 编译生成算法的共享库（Windows下DLL）的makefile文件
 
-* Python3源码
- 
-   * 使用类描述循环中的设备(组件)、节点(5)
+```python  
+import random
 
-   * 编程读取系统描述json文件，解析其描述的循环系统，进行循环的能量平衡分析(4)
+def variance(X):
+    """Assumes that X is a list of numbers.
+       Returns the standard deviation of X"""
+    mean = sum(X)/len(X)
+    tot = 0.0
+    for x in X:
+        tot += (x - mean)**2
+    return tot/len(X)
+    
+def stdDev(X):
+    """Assumes that X is a list of numbers.
+       Returns the standard deviation of X"""
+    return variance(X)**0.5
 
-* 数据文件：输出分析结果到数据文件(1)
-  
-### 软件设计工作Word文档(8)
+def throwNeedles(numNeedles):
+    inCircle = 0
+    for Needles in range(1, numNeedles + 1):
+        x = random.random()
+        y = random.random()
+        if (x*x + y*y)**0.5 <= 1.0:
+            inCircle += 1
+    #Counting needles in one quadrant only, so multiply by 4
+    return 4*(inCircle/float(numNeedles))
 
-* 设计问题简要描述(1); 
+def getEst(numNeedles, numTrials):
+    estimates = []
+    for t in range(numTrials):
+        piGuess = throwNeedles(numNeedles)
+        estimates.append(piGuess)
+    sDev = stdDev(estimates)
+    curEst = sum(estimates)/len(estimates)
+    return (curEst, sDev)
+```
 
-* 程序设计方案简要描述(5)
-  * 总体思路；   
-  * 系统json文件描述；
-  * 节点和设备类的设计；
-  * 循环能量平衡计算过程；
+2. C/C++调用算法共享库的算例(5)
 
-* 设计工作小结(1)
+    * 参考[16_MONTE_CARLO_SIMULATION.ipynb](./16_MONTE_CARLO_SIMULATION.ipynb)给出调用算法共享库的C/C++算例程序
+    
+    * 编译算例程序生成运行文件的makefile文件
 
-    小结中，建议结合练习，给出你对下面短文的理解:
- 
-  >Programming is about managing complexity in a way that facilitates change. There are two powerful mechanisms available for accomplishing this: decomposition and abstraction`
-  > 
-  >Apply `abstraction` and `decomposition` to solve more complex problems
-  >
-  > * decompose a large problem into parts and design algorithms to solve them
-  >
-  > * recognise similar problems, and apply generic solutions and abstractions
-  >
-  > * creating algorithms to obtain the generic solution results
-  >
-  > The set of problem-solving methods with computer is also called **Computational Thinking**. 
-  
- 
-* Word排版(1): 版面整洁，合理划分和组织文档段落；页眉：练习三 学号 姓名； 页脚：页码 
+```python
+def estPi(precision, numTrials):
+    numNeedles = 1000
+    sDev = precision
+    while sDev >= precision/1.96:
+        curEst, sDev = getEst(numNeedles, numTrials)
+        print('Est. = ' + str(round(curEst, 5)) +
+          ', Std. dev. = ' + str(round(sDev, 5))
+          + ', Needles = ' + str(numNeedles))
+        numNeedles *= 2
+    return curEst  
 
-  * **无需** 封面和目录
+estPi(0.01, 100)
+```
 
-## 提示
+3. Python语言调用共享库的算例(5)
+                  
+   * Python语言调用共享库的接口程序
+   
+   * 使用接口程序，调用共享库的Python算例程序
+   
+   * 使用timeit比较C语言共享库计算和纯Python蒙特卡罗计算圆周率的计算速度
 
-[Example 8.6：A Reheat–Regenerative Cycle with Two Feedwater Heaters](./rankine86.md) 比 `Example8.1，8.5`, 多了不同类型的设备
+```python
+def estPi(precision, numTrials):
+    numNeedles = 1000
+    sDev = precision
+    while sDev >= precision/1.96:
+        curEst, sDev = getEst(numNeedles, numTrials)
+        print('Est. = ' + str(round(curEst, 5)) +
+          ', Std. dev. = ' + str(round(sDev, 5))
+          + ', Needles = ' + str(numNeedles))
+        numNeedles *= 2
+    return curEst  
 
-* reheater, trap
+estPi(0.01, 100)
+```
+4. 练习工作的README.md文档(5)：
 
-* the closed feedwater heater, the opended feedwater heater with 1 drain water inlet
+建议内容:
+                      
+   * 算法说明 
+   
+   * 程序设计工作简要说明：过程，结果(必须内容：计算机终端中，使用命令编译共享库及算例的`过程`、`结果`截图）
 
-需要在理解示例基础上，增加新设备。
-
-增加新设备的工作： 首先，需要规定好新设备的**唯一类型标识字符串**，然后，是设备的json描述，计算分析Python类实现及相关代码工作，实现更通用的循环计算程序。
-
-通用Rankine Cycle程序的泛化要点:
-
-1.  设备
-
-2.  设备间连接关系
-
-3.  系统能量平衡计算方法
-
-**Results for reference**
-
-* Example 8.1: [rankine81-sp.txt](./rankine81-sp.txt)
-
-* Example 8.5: [rankine85-sp.txt](./rankine85-sp.txt)
-
-* Example 8.6: [rankine86-sp.txt](./rankine86-sp.txt)
-
-**Download the ebook**
-
-Michael J . Moran. Fundamentals of Engineering Thermodynamics (7th Edition).  John Wiley & Sons, Inc. 2011/(8th Edition) 2015
-
-Please download the ebook from SEU: http://www.lib.seu.edu.cn/ （查找资源->外文电子书->Wiley电子教材->T(工业技术)->TK(能源与动力工程)->TK1(热力工程,热机)
+   * 工作小结
 
 ## Directories and Files
 
-```bash
- ├──<Practices>
+```txt
+ 
+|── <P3>
      │ 
-     |── <P3>
-          │ 
-          |── *.docx 设计工作Word文档
-          |
-          |── *.py  循环分析Python源码文件
-          |
-          |── <components> components包的源码文件
-          │    |
-          │    │ ── *.py
-          │   
-          |── <txtcycle> 各循环描述json文件
-          │    |
-          │    │ ── *.json
-          │ 
-          |── <output> 各循环分析结果文件
-               |
-               │ ── *.txt
-``` 
+     │── README.md: intro of your works(display the screenshots of coding,making and running)
+     | 
+     │── makefile-dll.mk: building the shared library 
+     │               
+     │── makefile-exe.mk: building the executable file to call the shared library  
+     │
+     |── <img>: screenshots of coding,building and running
+     |       │
+     |       |── *.jpg/png 
+     |
+     |── <bin>:
+     |       │
+     |       |── *.exe
+     |       |     
+     |       |── *.dll
+     |
+     |── <c>: 
+     |        │
+     |        |──*.c/cpp, *.h     
+     |
+     |
+     |── <python>: 
+             │
+             |──*.py                       
+```  
 
 ## 提交：
 
-* 1 电邮： cmh@seu.edu.cn
-   * 主题：学号-姓名-3
-   * 附件：工作目录压缩文件： **学号-姓名-3.zip**；
+压缩工作目录为文件 ：**学号-姓名-3.zip**
 
-* 2 截至时间：2020.05.19
-   * 截至时间后可补交，补交得分<=13. (2020.06.16)
+   * 注意压缩工作目录时，删除`C/C++ for Visual Studio Code`产生的缓存预编译头文件目录：`.vscode/ipch`，否则，文件过大
+     
+   * `.vscode/`是隐藏目录，需开启 `“文件资源管理器”`的显示 `“隐藏的项目”`
 
-## 参考资源：
+* 1 电邮到：cmh@seu.edu.cn 
+    
+  * 主题：学号-姓名-3
+    
+  * 附件：**学号-姓名-3.zip**
 
-* [PySEE/PyRankine](https://github.com/PySEE/PyRankine)
+* 2 截至时间：2020.05.20
 
-* [Rankine Cycle：OOP](http://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit4-3-PyThermo-RankineCycle-OOP.ipynb)
+   * 补交分数：<=9 
+   
+   * 补交截至时间： 2020.06.10
 
-* [Rankine Cycle：General](http://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit4-4-PyThermo-RankineCycle-General.ipynb)
+## Reference
 
+* [GCC:MAKE](http://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-1-GCC_MAKE.ipynb)
+
+* [C: stdio](http://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-2-C_stdio.ipynb)
+
+* [GCC:Lib](http://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit9-1-GCC_Lib.ipynb)
 
