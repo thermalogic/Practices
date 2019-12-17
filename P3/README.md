@@ -13,7 +13,7 @@ Deadline: 2020.06.09
 
 **注意：** 此Jupyter Notebook供学习使用，练习不使用Jupyter Notebook形式
 
-1.  蒙特卡罗计算圆周率的方法共享库(5)
+1.  蒙特卡罗计算圆周率的方法共享库(8)
 
     * 蒙特卡罗计算圆周率方法的C/C++语言代码
 
@@ -54,15 +54,7 @@ def getEst(numNeedles, numTrials):
     sDev = stdDev(estimates)
     curEst = sum(estimates)/len(estimates)
     return (curEst, sDev)
-```
 
-2. C/C++调用算法共享库的算例(5)
-
-    * 参考[16_MONTE_CARLO_SIMULATION.ipynb](./16_MONTE_CARLO_SIMULATION.ipynb)给出调用算法共享库的C/C++算例程序
-    
-    * 编译算例程序生成运行文件的makefile文件
-
-```python
 def estPi(precision, numTrials):
     numNeedles = 1000
     sDev = precision
@@ -72,12 +64,20 @@ def estPi(precision, numTrials):
           ', Std. dev. = ' + str(round(sDev, 5))
           + ', Needles = ' + str(numNeedles))
         numNeedles *= 2
-    return curEst  
+    return curEst      
+```
 
+2. C/C++调用算法共享库的算例(4)
+
+    * 参考[16_MONTE_CARLO_SIMULATION.ipynb](./16_MONTE_CARLO_SIMULATION.ipynb)给出调用算法共享库的C/C++算例程序
+    
+    * 编译算例程序生成运行文件的makefile文件
+
+```python
 estPi(0.01, 100)
 ```
 
-3. Python语言调用共享库的算例(5)
+3. Python语言调用共享库的算例(4)
                   
    * Python语言调用共享库的接口程序
    
@@ -86,20 +86,9 @@ estPi(0.01, 100)
    * 使用timeit比较C语言共享库计算和纯Python蒙特卡罗计算圆周率的计算速度
 
 ```python
-def estPi(precision, numTrials):
-    numNeedles = 1000
-    sDev = precision
-    while sDev >= precision/1.96:
-        curEst, sDev = getEst(numNeedles, numTrials)
-        print('Est. = ' + str(round(curEst, 5)) +
-          ', Std. dev. = ' + str(round(sDev, 5))
-          + ', Needles = ' + str(numNeedles))
-        numNeedles *= 2
-    return curEst  
-
 estPi(0.01, 100)
 ```
-4. 练习工作的README.md文档(5)：
+4. 练习工作的README.md文档(4)：
 
 建议内容:
                       
@@ -155,11 +144,9 @@ estPi(0.01, 100)
     
   * 附件：**学号-姓名-3.zip**
 
-* 2 截至时间：2020.05.20
+* 2 截至时间：2020.06.09
 
-   * 补交分数：<=9 
-   
-   * 补交截至时间： 2020.06.10
+   * 补交：补交分数：<=13，截至时间： 2020.06.14
 
 ## Reference
 
