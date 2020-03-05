@@ -46,7 +46,7 @@ Reference [PyRankine](https://github.com/PySEE/PyRankine), design a general ener
  
   >Programming is about managing complexity in a way that facilitates change. There are two powerful mechanisms available for accomplishing this: decomposition and abstraction`
   > 
-  >Apply `abstraction` and `decomposition` to solve more complex problems
+  >Apply `abstraction` and `decomposition` to model and solve more complex problems
   >
   > * decompose a large problem into parts and design algorithms to solve them
   >
