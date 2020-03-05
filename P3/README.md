@@ -98,6 +98,14 @@ estPi(0.01, 100)
 
    * 工作小结
 
+## 配置VS Code不产生C/C++的缓存预编译头文件
+ 
+VS  Code的C/C++插件默认 `会自动产生预编译头文件`，改进编译、调试性能。但是，其缓存的预编译头文件过大, 小规模项目没有必要使用。
+
+因此，建议配置为 `不产生缓存预编译头文件`。 方法见：[软件安装指导文档的disable precompiled header caching](https://github.com/PySEE/home/blob/S2020/guide/doc/BuildingSoftwareEnvironment.md#d33-disable-precompiled-header-caching) 
+ 
+如果已经产生了建议删除。该预编译头文件的缓存预编译头文件目录当前项目目录的：`.vscode/ipch`。注意： `.vscode/`是隐藏目录，需开启 `“文件资源管理器”`的  `“显示隐藏的项目”`
+
 ## Directories and Files
 
 ```txt
@@ -134,11 +142,7 @@ estPi(0.01, 100)
 
 压缩工作目录为文件 ：**学号-姓名-3.zip**
 
-   * 注意压缩工作目录时，删除`C/C++ for Visual Studio Code`产生的缓存预编译头文件目录：`.vscode/ipch`，否则，文件过大
-     
-   * `.vscode/`是隐藏目录，需开启 `“文件资源管理器”`的显示 `“隐藏的项目”`
-
-* 1 电邮到：cmh@seu.edu.cn 
+* 电邮到：cmh@seu.edu.cn 
     
   * 主题：学号-姓名-3
     
