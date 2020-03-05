@@ -89,12 +89,6 @@ Reference [PyRankine](https://github.com/PySEE/PyRankine), design a general ener
 
 * Example 8.6: [rankine86-sp.txt](./rankine86-sp.txt)
 
-**Download the ebook**
-
-Michael J . Moran. Fundamentals of Engineering Thermodynamics (7th Edition).  John Wiley & Sons, Inc. 2011/(8th Edition) 2015
-
-Please download the ebook from SEU: http://www.lib.seu.edu.cn/ （查找资源->外文电子书->Wiley电子教材->T(工业技术)->TK(能源与动力工程)->TK1(热力工程,热机)
-
 ## Directories and Files
 
 ```bash
@@ -121,19 +115,19 @@ Please download the ebook from SEU: http://www.lib.seu.edu.cn/ （查找资源->
 
 ## 提交：
 
-* 1 电邮： cmh@seu.edu.cn
-   * 主题：学号-姓名-2
-   * 附件：工作目录压缩文件： **学号-姓名-2.zip**；
+* 电邮： cmh@seu.edu.cn
+  * 主题：学号-姓名-2
+  * 附件：工作目录压缩文件： **学号-姓名-2.zip**；
 
-* 2 截至时间：2020.05.19
-   * 截至时间后可补交，补交得分<=13. (2020.06.14)
+* 截至时间：2020.05.19
+  * 截至时间后可补交，补交得分<=13. (2020.06.14)
 
 ## 参考资源：
 
 * [PySEE/PyRankine](https://github.com/PySEE/PyRankine)
 
-* [Rankine Cycle：OOP](http://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit4-3-PyThermo-RankineCycle-OOP.ipynb)
+* [Rankine Cycle：OOP](http://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit4-3-RankineCycle-OOP.ipynb)
 
-* [Rankine Cycle：General](http://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit4-4-PyThermo-RankineCycle-General.ipynb)
+* [Rankine Cycle：General](http://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit4-4-RankineCycle-General.ipynb)
 
 
