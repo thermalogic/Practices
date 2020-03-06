@@ -112,6 +112,16 @@ Reference [PyRankine](https://github.com/PySEE/PyRankine), design a general ener
                |
                │ ── *.txt
 ``` 
+## 配置项目工作目录外的pyc目录
+
+Python程序运行时，import模块.py文件时，会生成相应的.pyc文件（编译的字节码byte-compiled），并保存于当前目录的新文件夹__pycache__当中，以加快下次执行文件的速度。
+
+如果不希望 __pycache__位于项目工作目录中，可以
+
+1. 建立一个项目工作目录外的`.pyc文件目录`
+2. 在操作系统中增加系统环境变量`PYTHONPYCACHEPREFIX`(Python3.8以上解释器支持),值为建立的`.pyc文件目录`
+
+这个目录被计算机中所有的Python项目公用。
 
 ## 提交：
 
