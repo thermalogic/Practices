@@ -86,9 +86,9 @@ In 1973, the statistician F.J. Anscombe published a paper containing the table b
 
 * [List,Dict and Data Table(Files)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-5-Files.ipynb)
 
-* [PLOTTING_USING_MATPLOTLIB](http://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit2-2-PLOTTING-USING-MATPLOTLIB.ipynb)
+* [PLOTTING USING MATPLOTLIB](http://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit2-2-PLOTTING-USING-MATPLOTLIB.ipynb)
 
-* [UNDERSTANDING_EXPERIMENTAL_DATA](http://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit2-3-UNDERSTANDING_EXPERIMENTAL_DATA.ipynb)
+* [UNDERSTANDING EXPERIMENTAL DATA](http://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit2-3-UNDERSTANDING_EXPERIMENTAL_DATA.ipynb)
 
 * Scipy. http://www.scipy.org/
   
