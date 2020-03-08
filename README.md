@@ -6,6 +6,8 @@
 
 * [Good enough practices in scientific computing](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510)
 
+* [Computational Thinking Benefits Society](http://socialissues.cs.toronto.edu/index.html%3Fp=279.html)
+
 [1. Data Analysis(10)](./P1)：Statistics, regression and visualization, Jupyter 
 
 * Deadline: 2020.05.03
