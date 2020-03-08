@@ -1,6 +1,6 @@
 # 行是知之始，知是行之成 - 陶行知
 
-* [Readme Driven Development](https://tom.preston-werner.com/2010/08/23/readme-driven-development.html)
+* Tom Preston-Werner Github's Co-founder:[Readme Driven Development](https://tom.preston-werner.com/2010/08/23/readme-driven-development.html)
 
 * [Best Practices for Scientific Computing](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745)
 
