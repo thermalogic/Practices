@@ -98,7 +98,7 @@ estPi(0.01, 100)
 
    * 工作小结
 
-## 配置VS Code不产生C/C++的缓存预编译头文件
+###  建议配置VS Code不产生C/C++的缓存预编译头文件
  
 VS  Code的C/C++插件默认 `会自动产生预编译头文件`，改进编译、调试性能。但是，其缓存的预编译头文件过大, 小规模项目没有必要使用。
 
@@ -154,9 +154,10 @@ VS  Code的C/C++插件默认 `会自动产生预编译头文件`，改进编译�
 
 ## Reference
 
-* [GCC:MAKE](http://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-1-GCC_MAKE.ipynb)
+* [GCC: MAKE](http://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit7-1-GCC_MAKE.ipynb)
 
-* [C: stdio](http://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-2-C_stdio.ipynb)
+* [C: stdio](http://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit7-2-C_stdio.ipynb)
 
-* [GCC:Lib](http://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit9-1-GCC_Lib.ipynb)
+* [GCC: Lib](http://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-1-GCC_Lib.ipynb)
 
+* [ctypes](http://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-2-ctypes.ipynb)
