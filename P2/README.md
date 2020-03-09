@@ -30,12 +30,12 @@ Reference [PyRankine](https://github.com/PySEE/PyRankine), design a general ener
 
 * 数据文件：输出分析结果到数据文件(1)
   
-### 软件设计工作Word文档(8)
+### 软件设计工作Markdown文档(8)
 
 * 设计问题简要描述(1); 
 
-* 程序设计方案简要描述(5)
-  * 总体思路；   
+* 程序设计方案简要描述(6)
+  * 总体思路；软件项目总体结构； 计算分析主流程图  
   * 系统json文件描述；
   * 节点和设备类的设计；
   * 循环能量平衡计算过程；
@@ -56,12 +56,15 @@ Reference [PyRankine](https://github.com/PySEE/PyRankine), design a general ener
   >
   > The set of problem-solving methods with computer is also called **Computational Thinking**. 
   
- 
-* Word排版(1): 版面整洁，合理划分和组织文档段落；页眉：练习二 学号 姓名； 页脚：页码 
-
-  * **无需** 封面和目录
-
 ## 提示
+
+通用Rankine Cycle程序的泛化要点:
+
+1.  设备
+
+2.  设备间连接关系
+
+3.  系统能量平衡计算方法
 
 [Example 8.6：A Reheat–Regenerative Cycle with Two Feedwater Heaters](./rankine86.md) 比 `Example8.1，8.5`, 多了不同类型的设备
 
@@ -72,14 +75,6 @@ Reference [PyRankine](https://github.com/PySEE/PyRankine), design a general ener
 需要在理解示例基础上，增加新设备。
 
 增加新设备的工作： 首先，需要规定好新设备的**唯一类型标识字符串**，然后，是设备的json描述，计算分析Python类实现及相关代码工作，实现更通用的循环计算程序。
-
-通用Rankine Cycle程序的泛化要点:
-
-1.  设备
-
-2.  设备间连接关系
-
-3.  系统能量平衡计算方法
 
 **Results for reference**
 
@@ -96,32 +91,41 @@ Reference [PyRankine](https://github.com/PySEE/PyRankine), design a general ener
      │ 
      |── <P2>
           │ 
-          |── *.docx 设计工作Word文档
+          |── README.md 设计工作Markdown文档
           |
-          |── *.py  循环分析Python源码文件
+          |── <img>
+          |     |── *.jpg/png  Markdown文档图片
+          | 
+          |── rankine.py  # main app
           |
-          |── <components> components包的源码文件
+          |── <rankinecycle> 
           │    |
-          │    │ ── *.py
+          │    |─ *.py
+          |
+          |── <components> components包
+          │    |
+          │    |─ *.py
           │   
-          |── <txtcycle> 各循环描述json文件
-          │    |
-          │    │ ── *.json
-          │ 
-          |── <output> 各循环分析结果文件
-               |
-               │ ── *.txt
+          |── <data>
+                |        
+                |──<txtcycle> 循环描述json文件
+                │    |
+                │    |─ *.json
+                │ 
+                |── <output> 分析结果文件
+                      |
+                      |─ *.txt/json
 ``` 
-### 配置项目工作目录外的pyc目录
+### 建议配置：项目目录外的pyc目录
 
-Python程序运行mport模块.py文件时，会生成相应的.pyc文件（编译的字节码byte-compiled），并保存于当前目录的新文件夹__pycache__当中，以加快下次执行文件的速度。
+Python程序运行import模块.py文件时，会生成相应的.pyc文件（编译的字节码byte-compiled），并保存于当前目录的新文件夹__pycache__当中，以加快下次执行文件的速度。
 
 如果不希望 __pycache__位于项目工作目录中，可以
 
 1. 建立一个项目工作目录外的`.pyc文件目录`
 2. 在操作系统中增加系统环境变量`PYTHONPYCACHEPREFIX`(Python3.8以上解释器支持),值为建立的`.pyc文件目录`
 
-这个目录被计算机中所有的Python项目公用。
+这个目录将被计算机中所有的Python项目公用。
 
 ## 提交：
 
