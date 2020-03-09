@@ -115,8 +115,8 @@ Reference [PyRankine](https://github.com/PySEE/PyRankine), design a general ener
         │    |─ *.json
         │ 
         |── <output> 分析结果文件
-        |
-        |─ *.txt/json
+             |
+             |─ *.txt
 ``` 
 ### 建议配置：项目目录外的pyc目录
 
