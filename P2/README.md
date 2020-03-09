@@ -16,13 +16,13 @@ Reference [PyRankine](https://github.com/PySEE/PyRankine), design a general ener
  
 * [Example 8.6：A Reheat–Regenerative Cycle with Two Feedwater Heaters](./rankine86.md) 
 
-**注意**：练习不使用Jupyter Notebook；使用Visual Studio Code进行代码设计等工作，使用MS Word编写设计文档。
+**注意**：练习不使用Jupyter Notebook；使用Visual Studio Code进行代码设计和文档撰写等工作。
 
 ### 数据文件和Python3源码(12)
 
 * 数据文件：建立描述循环系统和设备的json文件(2)
 
-* Python3源码
+* Python3源码(9)
  
    * 使用类描述循环中的设备(组件)、节点(5)
 
@@ -74,7 +74,7 @@ Reference [PyRankine](https://github.com/PySEE/PyRankine), design a general ener
 
 需要在理解示例基础上，增加新设备。
 
-增加新设备的工作： 首先，需要规定好新设备的**唯一类型标识字符串**，然后，是设备的json描述，计算分析Python类实现及相关代码工作，实现更通用的循环计算程序。
+**增加新设备的工作**：首先，需要定义新设备的**唯一类型标识字符串**，然后，是设备的`json描述`，计算分析`Python类实现及相关代码`工作，实现更通用的循环计算程序。
 
 **Results for reference**
 
@@ -86,7 +86,7 @@ Reference [PyRankine](https://github.com/PySEE/PyRankine), design a general ener
 
 ## Directories and Files
 
-```bash
+```txt
  ├──<Practices>
      │ 
      |── <P2>
