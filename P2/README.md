@@ -100,34 +100,32 @@ Reference [PyRankine](https://github.com/PySEE/PyRankine), design a general ener
 ## Directories and Files
 
 ```txt
- ├──<Practices>
-     │ 
-     |── <P2>
-          │ 
-          |── README.md 设计工作Markdown文档
-          |
-          |── <img>
-          |     |── *.jpg/png  Markdown文档图片
-          | 
-          |── rankine.py  # main app
-          |
-          |── <rankinecycle> 
-          │    |
-          │    |─ *.py
-          |
-          |── <components> components包
-          │    |
-          │    |─ *.py
-          │   
-          |── <data>
-                |        
-                |──<txtcycle> 循环描述json文件
-                │    |
-                │    |─ *.json
-                │ 
-                |── <output> 分析结果文件
-                      |
-                      |─ *.txt/json
+ <P2>
+   │ 
+   |── README.md 设计工作Markdown文档
+   |
+   |── <img>
+   |     |── *.jpg/png  Markdown文档图片
+   | 
+   |── rankine.py  # main app
+   |
+   |── <rankinecycle> 
+   │    |
+   │    |─ *.py
+   |
+   |── <components> components包
+   │    |
+   │    |─ *.py
+   │   
+   |── <data>
+        |        
+        |──<txtcycle> 循环描述json文件
+        │    |
+        │    |─ *.json
+        │ 
+        |── <output> 分析结果文件
+        |
+        |─ *.txt/json
 ``` 
 ### 建议配置：项目目录外的pyc目录
 
