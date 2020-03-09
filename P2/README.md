@@ -32,6 +32,8 @@ Reference [PyRankine](https://github.com/PySEE/PyRankine), design a general ener
   
 ### 软件设计工作Markdown文档(8)
 
+**提示** ：VS Code中Markdown文档公式和流程图，可使用图片。如果有兴趣和时间，使用LaTex数学公式和脚本描述图像(如dot语言脚本)，需要安装Markdown Preview Enhanced插件
+
 * 设计问题简要描述(1); 
 
 * 程序设计方案简要描述(6)
