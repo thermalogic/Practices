@@ -56,16 +56,7 @@ Reference [PyRankine](https://github.com/PySEE/PyRankine), design a general ener
   >
   > The set of problem-solving methods with computer is also called **Computational Thinking**. 
 
- >**文档提示** ：VS Code中Markdown文档公式和流程图，可`使用图片`。如果有兴趣和时间，使用`LaTex数学公式和脚本描述图像`(如dot语言脚本)，需要安装Markdown Preview Enhanced插件
->
->$x^{34}$
->>
->```dot
->digraph G {
->    A -> B;
->    A -> c;
->}
->```
+ >**文档提示** ：VS Code中Markdown文档公式和流程图，可`使用图片`。如果有兴趣和时间，使用`LaTex数学公式和脚本描述图像`(如flowchart脚本)，需要安装Markdown Preview Enhanced插件
 > ![](./img/MarkdownEnhanced.jpg)
 > 
 
