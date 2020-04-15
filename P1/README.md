@@ -83,6 +83,8 @@ In 1973, the statistician F.J. Anscombe published a paper containing the table b
 
 ## 参考：
 
+* [Computational Thinking](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit3-1-CLASSES_AND_OBJECT-ORIENTED_PROGRAMMING.ipynb)
+
 * [LIES_DAMNED_LIES_AND_STATISTICS](http://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit2-4-LIES_DAMNED_LIES_AND_STATISTICS.ipynb)
 
 * [List,Dict and Data Table(Files)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-5-Files.ipynb)
