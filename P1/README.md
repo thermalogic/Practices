@@ -31,6 +31,7 @@ In 1973, the statistician F.J. Anscombe published a paper containing the table b
 使用Jupyter Notebook实现 
   
 * 1 读取数据文件及**数据对象**表达(3分)： 使用Python语言读取数据文件[Anscombe.csv](./Anscombe.csv)， 使用List,Dict表达数据分析对象。**不可使用: csv，NumPy和Pandas软件包**
+  * **提示**： 1) 抽象被分析的数据，使用适当的**数据结构**，定义数据对象变量； 2)读取数据文件赋值给数据对象变量
 
 * 2 统计指标计算和输出(3分)：
     * 计算均值、方差和相关系数统计指标（2分， 自己编码，不可使用软件包)；
