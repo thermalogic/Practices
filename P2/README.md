@@ -4,7 +4,7 @@
 
 Apply `computational thinking` to model and solve more complex problems
 
-**Deadline:**  2020.05.19
+**Deadline:**  2020.05.24
 
 ## Contents and Requirements
 
