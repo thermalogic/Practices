@@ -1,5 +1,11 @@
 ## 行是知之始，知是行之成 - 陶行知
 
+| CLASS  |    P1    |    P2    |  P3      |
+|:-------:|:--------:|:--------:|:--------:|
+| 030172  | 35(-11)  |   -      |    -     |  
+| 030174  | 27(-8)   |   -      |   -      |  
+
+
 [1. Data Analysis(10)](./P1)：Statistics, regression and visualization, Jupyter 
 
 * Deadline: 2020.05.03
