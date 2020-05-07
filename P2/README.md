@@ -58,6 +58,8 @@ Reference [PyRankine](https://github.com/PySEE/PyRankine), design a general ener
 
  >**文档提示** ：VS Code中Markdown文档公式和流程图，可`使用图片`。如果有兴趣和时间，使用`LaTex数学公式和文本描述图像`(如flowchart)，需要安装Markdown Preview Enhanced插件
 >  [The sinple example Markdown with Math and Flowchart](./Markdown-Math-Chart.md)
+>
+>flowchart: https://github.com/adrai/flowchart.js
 > 
 > ![](./img/MarkdownEnhanced.jpg)
 
