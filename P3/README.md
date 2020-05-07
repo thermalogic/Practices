@@ -82,8 +82,6 @@ estPi(0.01, 100)
    * Python语言调用共享库的接口程序
    
    * 使用接口程序，调用共享库的Python算例程序
-   
-   * 使用timeit比较C语言共享库计算和纯Python蒙特卡罗计算圆周率的计算速度
 
 ```python
 estPi(0.01, 100)
@@ -114,9 +112,11 @@ VS  Code的C/C++插件默认 `会自动产生预编译头文件`，改进编译�
      │ 
      │── README.md: intro of your works(display the screenshots of coding,making and running)
      | 
-     │── makefile-dll.mk: building the shared library 
+     │── makefile: building the executable file with source code of MONTE CARLO π
+     │ 
+     │── makefile-dll.mk: building the shared library of MONTE CARLO π
      │               
-     │── makefile-exe.mk: building the executable file to call the shared library  
+     │── makefile-exe.mk: building the executable file with the shared library of MONTE CARLO π
      │
      |── <img>: screenshots of coding,building and running
      |       │
