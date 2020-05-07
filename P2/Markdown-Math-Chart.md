@@ -1,6 +1,6 @@
 
 
-# Enhanced SMarkdown 
+# Enhanced Markdown 
 
 ## Math
 
