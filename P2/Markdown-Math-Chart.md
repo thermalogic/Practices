@@ -7,7 +7,7 @@
 $X^{34}$
 
 
-## Floachart
+## Flowchart
 
 ```flow
 st=>start
