@@ -78,10 +78,10 @@ heatAdded(kJ/kg) 	387.31
 heatExtracted(kJ/kg) 	387.31
 	heatExtracted_s(kJ/kg) 	 277.36
 	heatExtracted_d(kJ/kg) 	109.95
-QAdded(MW) 	22.72
-QExtracted(MW)  	22.72
-	QExtracted_s(MW) 	18.68
-	QExtracted_d(MW)	4.03
+QAdded(MW)      58.10
+QExtracted(MW)          58.10
+        QExtracted_s(MW)        41.60
+        QExtracted_d(MW)        16.49
 
 Feedwater Pump
 NodeID 	              Name              	 P(MPa)	      T(°C)	   H(kJ/kg)	 S(kJ/kg.K) 	  V(m^3/kg)	     X	   FDOT	      MDOT(kg/h)
@@ -98,8 +98,8 @@ NodeID 	              Name              	 P(MPa)	      T(°C)	   H(kJ/kg)	 S(kJ/
   10   	 HHToBoiler                     	    8.0	     205.00	     877.41	  2.37 	           0.001	   0.0	 1.0000	    279487.57
 heatAdded(kJ/kg): 	307.71 
 heatExtracted(kJ/kg): 	307.71
-Qdded(MW) 	23.89 
-QExtracted(MW) 	23.89 
+Qdded(MW) 	 46.16 
+QExtracted(MW) 46.16 
 
 Trap
 NodeID 	              Name              	 P(MPa)	      T(°C)	   H(kJ/kg)	 S(kJ/kg.K) 	  V(m^3/kg)	     X	   FDOT	      MDOT(kg/h)
