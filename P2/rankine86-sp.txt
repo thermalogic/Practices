@@ -78,10 +78,10 @@ heatAdded(kJ/kg) 	387.31
 heatExtracted(kJ/kg) 	387.31
 	heatExtracted_s(kJ/kg) 	 277.36
 	heatExtracted_d(kJ/kg) 	109.95
-QAdded(MW)      58.10
-QExtracted(MW)          58.10
-        QExtracted_s(MW)        41.60
-        QExtracted_d(MW)        16.49
+QAdded(MW)      30.07
+QExtracted(MW)          30.07
+        QExtracted_s(MW)        21.53
+        QExtracted_d(MW)        8.54
 
 Feedwater Pump
 NodeID 	              Name              	 P(MPa)	      T(°C)	   H(kJ/kg)	 S(kJ/kg.K) 	  V(m^3/kg)	     X	   FDOT	      MDOT(kg/h)
