@@ -8,13 +8,30 @@ Apply `computational thinking` to model and solve more complex problems
 
 ## Contents and Requirements
 
-Reference [PyRankine](https://github.com/PySEE/PyRankine), design a general energy balance software with Python to analysis the following cycles:
+Reference [PyRankine](https://github.com/PySEE/PyRankine), design a general energy balance software with Python to analysis the following cycles：
 
 * [Example 8.1：An Ideal Regenerative Cycle](./rankine81.md)
-
 * [Example 8.5：A Regenerative Cycle with Open Feedwater Heater](./rankine85.md)
- 
-* [Example 8.6：A Reheat–Regenerative Cycle with Two Feedwater Heaters](./rankine86.md) 
+* [Example 8.6：A Reheat–Regenerative Cycle with Two Feedwater Heaters](./rankine86.md)
+
+**SOLUTION**
+
+* The thermal efficiency, %
+* Heat Rate,  kJ/kWh
+* Steam Rate, kg/kWh
+
+* The specified net power output of the cycle is 100 MW
+
+   * the mass flow rate of the steam,  kg/h
+
+*  The specified mass flow rate of steam entering the first-stage turbine is 150 kg/s 
+
+   * the net power, MW
+
+*  The Specified : the net power output or the mass flow rates
+   * Turbine power(totalWExtracted), MW
+   * Pump power(totalWRequired), MW
+   * The rate of heat transfer into the working fluid as it passes through the boiler, (totalQAdded), MW
 
 **注意**：练习不使用Jupyter Notebook；使用Visual Studio Code进行代码设计和文档撰写等工作。
 
