@@ -98,8 +98,8 @@ NodeID 	              Name              	 P(MPa)	      T(°C)	   H(kJ/kg)	 S(kJ/
   10   	 HHToBoiler                     	    8.0	     205.00	     877.41	  2.37 	           0.001	   0.0	 1.0000	    279487.57
 heatAdded(kJ/kg): 	307.71 
 heatExtracted(kJ/kg): 	307.71
-Qdded(MW) 	 46.16 
-QExtracted(MW) 46.16 
+Qdded(MW) 	23.89 
+QExtracted(MW) 	23.89 
 
 Trap
 NodeID 	              Name              	 P(MPa)	      T(°C)	   H(kJ/kg)	 S(kJ/kg.K) 	  V(m^3/kg)	     X	   FDOT	      MDOT(kg/h)

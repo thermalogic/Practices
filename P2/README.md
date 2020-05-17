@@ -22,9 +22,9 @@ Reference [PyRankine](https://github.com/PySEE/PyRankine), design a general ener
 
 * The specified net power output of the cycle is 100 MW
 
-   * the mass flow rate of the steam,  kg/h
+  * the mass flow rate of the steam,  kg/h
 
-*  The specified mass flow rate of steam entering the first-stage turbine is 150 kg/s 
+*  The specified mass flow rate of steam entering the first-stage turbine is 150 kg/s
 
    * the net power, MW
 
