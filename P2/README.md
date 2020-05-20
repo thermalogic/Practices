@@ -10,7 +10,7 @@ Apply `computational thinking` to model and solve more complex problems
 
 Reference [PyRankine](https://github.com/PySEE/PyRankine), design a general energy balance software with Python to analysis the following cycles：
 
-* [Example 8.1：An Ideal Regenerative Cycle](./rankine81.md)
+* [Example 8.1：An Ideal Rankine Cycle](./rankine81.md)
 * [Example 8.5：A Regenerative Cycle with Open Feedwater Heater](./rankine85.md)
 * [Example 8.6：A Reheat–Regenerative Cycle with Two Feedwater Heaters](./rankine86.md)
 
