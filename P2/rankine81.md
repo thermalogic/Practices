@@ -4,7 +4,7 @@
 
  Chapter 8 : Vapour Power Systems Example
 
-* EXAMPLE 8.1 ：An Ideal  Cycle, Page 438
+* EXAMPLE 8.1 ：An Ideal Rankine  Cycle, Page 438
 
 Steam is the working fluid in an ideal Rankine cycle. 
 
