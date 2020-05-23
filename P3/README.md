@@ -104,7 +104,7 @@ VS  Code的C/C++插件默认 `会自动产生预编译头文件`，改进编译�
 
 因此，建议配置为 `不产生缓存预编译头文件`。 方法见：[软件安装指导文档的disable precompiled header caching](https://github.com/PySEE/home/blob/S2020/guide/doc/BuildingSoftwareEnvironment.md#d33-disable-precompiled-header-caching) 
  
-如果已经产生了建议删除。该预编译缓存头文件目录位于当前项目目录的：`.vscode/ipch`。注意： `.vscode/`是隐藏目录，需开启 `“文件资源管理器”`的  `“显示隐藏的项目”`
+如果已经产生了建议删除。该预编译缓存头文件位于当前项目目录的：`.vscode/ipch`。注意： `.vscode/`是隐藏目录，需开启 `“文件资源管理器”`的  `“显示隐藏的项目”`
 
 ## Directories and Files
 
