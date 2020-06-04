@@ -16,7 +16,7 @@
 
 [3. C/C++ Programming(20)](./P3)：MinGW-w64(GCC), Makefile, Shared Library and ctypes
 
-* Deadline: 2020.06.09
+* Deadline: **2020.06.14**
 ---
 * Greg Wilson, Co-founder of Software Carpentry 
   * [Best Practices for Scientific Computing](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745)
