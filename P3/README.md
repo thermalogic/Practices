@@ -5,7 +5,7 @@
 
 *  Monte Carlo simulation of finding PI
 
-Deadline: 2020.06.09
+Deadline: 2020.06.14
 
 ## 要求：
 

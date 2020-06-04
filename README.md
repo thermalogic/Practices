@@ -6,6 +6,8 @@
 | 030174  | 27(-8)   |  27(-6)  |   -      |  
 
 
+截至时间： **2020.06.21**
+
 [1. Data Analysis(10)](./P1)：Statistics, regression and visualization, Jupyter 
 
 * Deadline: 2020.05.03
