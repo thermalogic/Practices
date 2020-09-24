@@ -2,15 +2,15 @@
 
 [1. Data Analysis(10)](./P1)：Statistics, regression and visualization, Jupyter 
 
-* Deadline: 2020.05.03
+* Deadline: 2021.05.03
 
-[2. Object-oriented Programming(20)](./P2) The General Rankine Cycle Simulator
+[2. Object-oriented Programming(15)](./P2) The General Rankine Cycle Simulator
 
-* Deadline: 2020.05.24
+* Deadline: 2021.05.24
 
-[3. C/C++ Programming(20)](./P3)：MinGW-w64(GCC), Makefile, Shared Library and ctypes
+[3. GCC and Make(15)](./P3)：MinGW-w64(GCC), Makefile, Shared Library and ctypes
 
-* Deadline: **2020.06.14**
+* Deadline: **2021.06.14**
 ---
 * Greg Wilson, Co-founder of Software Carpentry 
   * [Best Practices for Scientific Computing](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745)

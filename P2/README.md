@@ -4,7 +4,7 @@
 
 Apply `computational thinking` to model and solve more complex problems
 
-**Deadline:**  2020.05.24
+**Deadline:**  2021.05.24
 
 ## Contents and Requirements
 
@@ -35,29 +35,24 @@ Reference [PyRankine](https://github.com/PySEE/PyRankine), design a general ener
 
 **注意**：练习不使用Jupyter Notebook；使用Visual Studio Code进行代码设计和文档撰写等工作。
 
-### 数据文件和Python3源码(12)
+### 数据文件和Python源码(10)
 
-* 数据文件：建立描述循环系统和设备的json文件(2)
+* 循环节点和设备描述json数据文件(3)
 
-* Python3源码(9)
+* Python源码(7)
  
-   * 使用类描述循环中的设备(组件)、节点(5)
+   * 循环中的设备、节点类设计，循环计算实现和结果输出
+ 
+### 软件设计工作Markdown文档(5)
 
-   * 编程读取系统描述json文件，解析其描述的循环系统，进行循环的能量平衡分析(4)
+* 设计目标的简要描述; 
 
-* 数据文件：输出分析结果到数据文件(1)
+* 设计方案简要描述
+  * 循环分析主流程  
+  * 软件中节点和设备类的设计方案：Python类设计(UML类图: 节点乐,设备通用类图）
+  * 节点和设备类的json描述
   
-### 软件设计工作Markdown文档(8)
-
-* 设计问题简要描述(1); 
-
-* 程序设计方案简要描述(6)
-  * 总体思路；软件项目总体结构； 计算分析主流程图  
-  * 系统json文件描述；
-  * 节点和设备类的设计；
-  * 循环能量平衡计算过程；
-
-* 设计工作小结(1)
+* 设计工作小结
 
     小结中，建议结合练习，给出你对下面短文的理解:
  
@@ -166,15 +161,15 @@ Python程序运行import模块.py文件时，会生成相应的.pyc文件（编�
   * 主题：学号-姓名-2
   * 附件：工作目录压缩文件： **学号-姓名-2.zip**；
 
-* 截至时间：2020.05.24
-  * 截至时间后可补交，补交得分<=13. (2020.06.21)
+* 截至时间：2021.05.24
+  * 截至时间后可补交，补交得分<=9. (2021.06.21)
 
 ## 参考资源：
 
 * [PySEE/PyRankine](https://github.com/PySEE/PyRankine)
 
-* [Rankine Cycle：OOP](http://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit4-3-RankineCycle-OOP.ipynb)
+* [Rankine Cycle：OOP](http://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit4-3-RankineCycle-OOP.ipynb)
 
-* [Rankine Cycle：General](http://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit4-4-RankineCycle-General.ipynb)
+* [Rankine Cycle：General](http://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit4-4-RankineCycle-General.ipynb)
 
 

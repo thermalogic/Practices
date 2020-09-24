@@ -1,11 +1,11 @@
 
 ## Practice 3
 
-**C/C++ Programming**(20)：MinGW-w64(GCC), MakeFile, the Shared Library and ctypes
+**C/C++ Programming**(15)：MinGW-w64(GCC), MakeFile, the Shared Library and ctypes
 
 *  Monte Carlo simulation of finding PI
 
-Deadline: 2020.06.14
+Deadline: 2021.06.14
 
 ## 要求：
 
@@ -60,14 +60,11 @@ def estPi(precision, numTrials):
     sDev = precision
     while sDev >= precision/1.96:
         curEst, sDev = getEst(numNeedles, numTrials)
-        print('Est. = ' + str(round(curEst, 5)) +
-          ', Std. dev. = ' + str(round(sDev, 5))
-          + ', Needles = ' + str(numNeedles))
         numNeedles *= 2
     return curEst      
 ```
 
-2. C/C++调用算法共享库的算例(4)
+2. C/C++调用算法共享库的算例(2)
 
     * 参考[16_MONTE_CARLO_SIMULATION.ipynb](./16_MONTE_CARLO_SIMULATION.ipynb)给出调用算法共享库的C/C++算例程序
     
@@ -77,7 +74,7 @@ def estPi(precision, numTrials):
 double vPi=estPi(0.01, 100);
 ```
 
-3. Python语言调用共享库的算例(4)
+3. Python语言调用共享库的算例(2)
                   
    * Python语言调用共享库的接口程序
    
@@ -86,7 +83,7 @@ double vPi=estPi(0.01, 100);
 ```python
 vPI=estPi(0.01, 100)
 ```
-4. 练习工作的README.md文档(4)：
+4. 练习工作的README.md文档(3)：
 
 建议内容:
                       
@@ -150,16 +147,18 @@ VS  Code的C/C++插件默认 `会自动产生预编译头文件`，改进编译�
     
   * 附件：**学号-姓名-3.zip**
 
-* 截至时间：2020.06.14
+* 截至时间：2021.06.14
 
-   * 补交得分：<=13，截至时间： 2020.06.21
+   * 补交得分：<=9，截至时间： 2021.06.21
 
 ## Reference
 
-* [GCC: MAKE](http://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit7-1-GCC_MAKE.ipynb)
+* [GCC: MAKE](http://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit7-1-GCC_MAKE.ipynb)
 
-* [C: stdio](http://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit7-2-C_stdio.ipynb)
+* [C: stdio](http://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit7-2-C_stdio.ipynb)
 
-* [GCC: Lib](http://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-1-GCC_Lib.ipynb)
+* [GCC: Lib](http://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit7-3-GCC_Lib.ipynb)
 
-* [ctypes](http://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit8-2-ctypes.ipynb)
+* [ctypes](http://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit7-4-ctypes.ipynb)
+
+* [ctypes-fun](http://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit7-5-ctypes-fun.ipynb)

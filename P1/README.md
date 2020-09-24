@@ -2,7 +2,7 @@
 
 **Data Analysis**(10)：Statistics, regression and visualization
 
-* Deadline: 2020.05.03
+* Deadline: 2021.05.03
 
 ## Problem
 
@@ -30,13 +30,12 @@ In 1973, the statistician F.J. Anscombe published a paper containing the table b
 
 使用Jupyter Notebook实现 
   
-* 1 读取数据文件及**数据对象**表达(3分)： 使用List,Dict表达数据分析对象, 使用Python语言读取数据文件[Anscombe.csv](./Anscombe.csv)(自己编码,不可使用软件包)
-  * **提示**： 1) 抽象被分析的数据，使用适当的**数据结构**，定义数据对象变量； 2)读取数据文件赋值给数据对象变量
+* 1 读取数据文件及使用List,Dict表达数据分析对象(3)：数据文件[Anscombe.csv](./Anscombe.csv)(自己编码,不可使用软件包)
+  * **提示**： 抽象被分析的数据，使用适当的**数据结构**定义数据对象变量
 
 * 2 统计指标计算和输出(3分)：
-    * 计算均值、方差和相关系数统计指标（2分， 自己编码，不可使用软件包)；
-    * 使用字符输出统计结果表格(1分，自己编码，不可使用软件包) 
-
+    * 计算均值、方差和相关系数统计指标（2分， 自己编码，不使用软件包)；
+    * 使用字符输出统计结果表格(1分，自己编码，不使用软件包) 
 
 参考输出结果表格
 ```
@@ -55,22 +54,7 @@ In 1973, the statistician F.J. Anscombe published a paper containing the table b
    
    ![数据点图和回归曲线](Anscombe.png)
 
-* 4 小结(2)：如何做一个好的统计分析结果的提供者和消费者？
-    * 建议分析角度：数据获取，数据分析，结果解析和展示方式
-
->21 LIES, DAMNED LIES, AND STATISTICS
-> 
-> Alas,since that time people have used statistics as much to **mislead as to inform**.
->
->* Some have  **willfully** used statistics to mislead;
->
->* others have merely been **incompetent**
->
->We trust that you will use this information only for good,
->
->* **a better consumer** 
->  
->* **a more honest purveyor of statistical information**.
+* 4 小结(2)：设计中遇到的问题、解决过程, 工作体会
 
 ## 提交：
 
@@ -78,28 +62,19 @@ In 1973, the statistician F.J. Anscombe published a paper containing the table b
   * 主题：学号-姓名-1
   * 附件：程序文件压缩包：**学号-姓名-1.zip**
 
-* 2 截至时间：2020.05.03
+* 2 截至时间：2021.05.03
   *  截至时间后可补交，补交得分<=6. (2020.06.21)
 
 ## 参考：
 
-* [Computational Thinking](https://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit3-1-CLASSES_AND_OBJECT-ORIENTED_PROGRAMMING.ipynb)
+* [List,Dict and Data Table(Files)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit1-5-Files.ipynb)
 
-* [LIES_DAMNED_LIES_AND_STATISTICS](http://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit2-4-LIES_DAMNED_LIES_AND_STATISTICS.ipynb)
+* [PLOTTING USING MATPLOTLIB](http://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit2-1-PLOTTING-USING-MATPLOTLIB.ipynb)
 
-* [List,Dict and Data Table(Files)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit1-5-Files.ipynb)
+* [UNDERSTANDING EXPERIMENTAL DATA](http://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit2-2-UNDERSTANDING_EXPERIMENTAL_DATA.ipynb)
 
-* [PLOTTING USING MATPLOTLIB](http://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit2-2-PLOTTING-USING-MATPLOTLIB.ipynb)
+* [LIES_DAMNED_LIES_AND_STATISTICS](http://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit2-3-LIES_DAMNED_LIES_AND_STATISTICS.ipynb)
 
-* [UNDERSTANDING EXPERIMENTAL DATA](http://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit2-3-UNDERSTANDING_EXPERIMENTAL_DATA.ipynb)
-
-* Scipy. http://www.scipy.org/
-  
-* Numpy. http://www.numpy.org/
-  
-* Matplotlib.  http://matplotlib.org/
-
-* Robert Johansson. [Lectures on scientific computing with python](https://github.com/jrjohansson/scientific-python-lectures)
 
 
 
