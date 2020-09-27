@@ -37,24 +37,27 @@ Reference [PyRankine](https://github.com/PySEE/PyRankine), design a general ener
 
 ### 数据文件和Python源码(10)
 
-* 循环节点和设备描述json数据文件(3)
+* 节点和设备json数据文件(3)
 
 * Python源码(7)
  
-   * 循环中的设备、节点类设计，循环计算实现和结果输出
+   * 循环中的设备、节点类设计，循环计算实现和输出
  
 ### 软件设计工作Markdown文档(5)
 
-* 设计目标的简要描述; 
+* 设计任务简要描述; 
 
 * 设计方案简要描述
-  * 循环分析主流程  
-  * 软件中节点和设备类的设计方案：Python类设计(UML类图: 节点乐,设备通用类图）
+  * 循环分析主流程图  
+  * 安装依赖关系计算循环中所有设备的算法流程图
+  * 节点、设备类设计
   * 节点和设备类的json描述
   
 * 设计工作小结
+   
+    *  遇到的问题、解决过程 
 
-    小结中，建议结合练习，给出你对下面短文的理解:
+    *  建议本练习，给出你对下面短文的理解:
  
   >Programming is about managing complexity in a way that facilitates change. There are two powerful mechanisms available for accomplishing this: decomposition and abstraction`
   > 
@@ -68,23 +71,20 @@ Reference [PyRankine](https://github.com/PySEE/PyRankine), design a general ener
   >
   > The set of problem-solving methods with computer is also called **Computational Thinking**. 
 
- >**文档提示** ：VS Code中Markdown文档公式和流程图，可`使用图片`。
- > 
- >如果有兴趣和时间，使用`LaTex数学公式和文本描述图像`(如flowchart)，需要安装Markdown Preview Enhanced插件
->* LaTex数学公式
-> $z=\frac{x}{y}$
->>
->* 文本描述图像flowchart: https://github.com/adrai/flowchart.js
+ **文档提示** ：数学公式使用：`LaTex`、流程图使用： [flowchart](https://github.com/adrai/flowchart.js). ( **安装**[Markdown Preview Enhanced](https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/)插件支持显示)
+
+>* LaTex数学公式: $z=\frac{x}{y}$
 >
->```flow
-> st=>start
->e=>end
->op1=>operation: My Operation
->st->op1->e
->```
+>* flowchart流程图：
 >
->* [The simple example Markdown with Math and Flowchart](./Markdown-Math-Chart.md)
-> ![](./img/MarkdownEnhanced.jpg)
+>>```flow
+>>st=>start
+>>e=>end
+>>op1=>operation: My Operation
+>>st->op1->e
+>>```
+>
+>>![](./img/MarkdownEnhanced.jpg)
 
 ## 软件设计提示
 
@@ -102,9 +102,9 @@ Reference [PyRankine](https://github.com/PySEE/PyRankine), design a general ener
 
 * the closed feedwater heater, the opended feedwater heater with 1 drain water inlet
 
-需要在理解示例基础上，增加新设备。
+在理解示例基础上，增加新设备。
 
-**增加新设备的工作**：首先，需要定义新设备的**唯一类型标识字符串**，然后，是设备的`json描述`，计算分析`Python类实现及相关代码`工作，实现更通用的循环计算程序。
+**增加新设备的工作**：设备Python类代码； 设备**唯一类型标识字符串**，设备`json描述`
 
 **Results for reference**
 
@@ -144,16 +144,6 @@ Reference [PyRankine](https://github.com/PySEE/PyRankine), design a general ener
              |
              |─ *.txt
 ``` 
-### 建议配置：项目目录外的pyc目录
-
-Python程序运行import模块.py文件时，会生成相应的.pyc文件（编译的字节码byte-compiled），并保存于当前目录的新文件夹__pycache__当中，以加快下次执行文件的速度。
-
-如果不希望 __pycache__位于项目工作目录中，可以
-
-1. 建立一个项目工作目录外的`.pyc文件目录`
-2. 在操作系统中增加系统环境变量`PYTHONPYCACHEPREFIX`(Python3.8以上解释器支持),值为建立的`.pyc文件目录`
-
-这个目录将被计算机中所有的Python项目公用。
 
 ## 提交：
 
