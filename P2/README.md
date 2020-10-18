@@ -35,13 +35,11 @@ Reference [PyRankine](https://github.com/PySEE/PyRankine), design a general ener
 
 **注意**：练习不使用Jupyter Notebook；使用Visual Studio Code进行代码设计和文档撰写等工作。
 
-### 数据文件和Python源码(10)
+### Python源码(10)
 
-* 节点和设备json数据文件(3)
+* 循环节点和设备数据Python模块(3)
 
-* Python源码(7)
- 
-   * 循环中的设备、节点类设计，循环计算实现和输出
+* 循环中的设备、节点类设计，循环计算实现和输出(7)
  
 ### 软件设计工作Markdown文档(5)
 
@@ -51,7 +49,7 @@ Reference [PyRankine](https://github.com/PySEE/PyRankine), design a general ener
   * 循环分析主流程图  
   * 安装依赖关系计算循环中所有设备的算法流程图
   * 节点、设备类设计
-  * 节点和设备类的json描述
+  * 循环节点和设备数据Python模块设计
   
 * 设计工作小结
    
@@ -124,7 +122,7 @@ Reference [PyRankine](https://github.com/PySEE/PyRankine), design a general ener
    |── <img>
    |     |── *.jpg/png  Markdown文档图片
    | 
-   |── rankine.py  # main app
+   |── rankineapp.py  # main app
    |
    |── <rankinecycle> 
    │    |
@@ -134,16 +132,15 @@ Reference [PyRankine](https://github.com/PySEE/PyRankine), design a general ener
    │    |
    │    |─ *.py
    │   
-   |── <data>
-        |        
-        |──<txtcycle> 循环描述json文件
-        │    |
-        │    |─ *.json
-        │ 
-        |── <output> 分析结果文件
-             |
-             |─ *.txt
-``` 
+   |── <cyclemodule> cycle dicts
+   │     |
+   │     │ ── rankine??.py # the Rankine cycle dict
+   │           
+   |── <result>          
+         |
+         │ ── Rankine??-sm.txt 
+         │ ── Rankine??.sp.txt
+          
 
 ## 提交：
 
