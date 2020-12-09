@@ -1,6 +1,6 @@
 ## Practice 1
 
-**Data Analysis**(10)：Statistics, regression and visualization
+**Data Analysis**(15)：Statistics, regression and visualization
 
 * Deadline: 2021.05.03
 

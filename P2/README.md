@@ -1,162 +1,164 @@
-## Practice 2(20)
 
-**Object-oriented Programming**：The General Rankine Cycle Simulator 
+## Practice 3
 
-Apply `computational thinking` to model and solve more complex problems
+**C/C++ Programming**(15)：MinGW-w64(GCC), MakeFile, the Shared Library and ctypes
 
-**Deadline:**  2021.05.24
+*  Monte Carlo simulation of finding PI
 
-## Contents and Requirements
+Deadline: 2021.06.14
 
-Reference [PyRankine](https://github.com/PySEE/PyRankine), design a general energy balance software with Python to analysis the following cycles：
+## 要求：
 
-* [Example 8.1：An Ideal Rankine Cycle](./rankine81.md)
-* [Example 8.5：A Regenerative Cycle with Open Feedwater Heater](./rankine85.md)
-* [Example 8.6：A Reheat–Regenerative Cycle with Two Feedwater Heaters](./rankine86.md)
+学习蒙特卡罗(Monte Carlo)计算圆周率的方法[16_MONTE_CARLO_SIMULATION.ipynb:16.4 Finding π](./16_MONTE_CARLO_SIMULATION.ipynb)，然后。完成以下程序设计任务
 
-**SOLUTION**
+**注意：** 此Jupyter Notebook供学习使用，练习不使用Jupyter Notebook形式
 
-* The thermal efficiency, %
-* Heat Rate,  kJ/kWh
-* Steam Rate, kg/kWh
+1.  蒙特卡罗计算圆周率的方法共享库(8)
 
-* The specified net power output of the cycle is 100 MW
+    * 蒙特卡罗计算圆周率方法的C/C++语言代码
 
-  * the mass flow rate of the steam,  kg/h
+    * 编译生成算法的共享库（Windows下DLL）的makefile文件
 
-*  The specified mass flow rate of steam entering the first-stage turbine is 150 kg/s
+```python  
+import random
 
-   * the net power, MW
+def variance(X):
+    """Assumes that X is a list of numbers.
+       Returns the standard deviation of X"""
+    mean = sum(X)/len(X)
+    tot = 0.0
+    for x in X:
+        tot += (x - mean)**2
+    return tot/len(X)
+    
+def stdDev(X):
+    """Assumes that X is a list of numbers.
+       Returns the standard deviation of X"""
+    return variance(X)**0.5
 
-*  The Specified : the net power output or the mass flow rates
-   * Turbine power(totalWExtracted), MW
-   * Pump power(totalWRequired), MW
-   * The rate of heat transfer into the working fluid as it passes through the boiler, (totalQAdded), MW
+def throwNeedles(numNeedles):
+    inCircle = 0
+    for Needles in range(1, numNeedles + 1):
+        x = random.random()
+        y = random.random()
+        if (x*x + y*y)**0.5 <= 1.0:
+            inCircle += 1
+    #Counting needles in one quadrant only, so multiply by 4
+    return 4*(inCircle/float(numNeedles))
 
-**注意**：练习不使用Jupyter Notebook；使用Visual Studio Code进行代码设计和文档撰写等工作。
+def getEst(numNeedles, numTrials):
+    estimates = []
+    for t in range(numTrials):
+        piGuess = throwNeedles(numNeedles)
+        estimates.append(piGuess)
+    sDev = stdDev(estimates)
+    curEst = sum(estimates)/len(estimates)
+    return (curEst, sDev)
 
-### Python源码(10)
+def estPi(precision, numTrials):
+    numNeedles = 1000
+    sDev = precision
+    while sDev >= precision/1.96:
+        curEst, sDev = getEst(numNeedles, numTrials)
+        numNeedles *= 2
+    return curEst      
+```
 
-* 循环节点和设备数据Python模块(3)
+2. C/C++调用算法共享库的算例(2)
 
-* 循环中的设备、节点类设计，循环计算实现和输出(7)
- 
-### 软件设计工作Markdown文档(5)
+    * 参考[16_MONTE_CARLO_SIMULATION.ipynb](./16_MONTE_CARLO_SIMULATION.ipynb)给出调用算法共享库的C/C++算例程序
+    
+    * 编译算例程序生成运行文件的makefile文件
 
-* 设计任务简要描述; 
+```c
+double vPi=estPi(0.01, 100);
+```
 
-* 设计方案简要描述
-  * 循环分析主流程图  
-  * 安装依赖关系计算循环中所有设备的算法流程图
-  * 节点、设备类设计
-  * 循环节点和设备数据Python模块设计
-  
-* 设计工作小结
+3. Python语言调用共享库的算例(2)
+                  
+   * Python语言调用共享库的接口程序
    
-    *  遇到的问题、解决过程 
+   * 使用接口程序，调用共享库的Python算例程序
 
-    *  建议本练习，给出你对下面短文的理解:
+```python
+vPI=estPi(0.01, 100)
+```
+4. 练习工作的README.md文档(3)：
+
+建议内容:
+                      
+   * 算法说明 
+   
+   * 程序设计工作简要说明：过程，结果(文字和截图）
+    
+     * 必含内容：在终端中编译共享库及算例的 **工作过程和结果的截图**
+
+   * 工作小结
+
+###  建议配置VS Code不产生C/C++的缓存预编译头文件
  
-  >Programming is about managing complexity in a way that facilitates change. There are two powerful mechanisms available for accomplishing this: decomposition and abstraction`
-  > 
-  >Apply `abstraction` and `decomposition` to model and solve more complex problems
-  >
-  > * decompose a large problem into parts and design algorithms to solve them
-  >
-  > * recognise similar problems, and apply generic solutions and abstractions
-  >
-  > * creating algorithms to obtain the generic solution results
-  >
-  > The set of problem-solving methods with computer is also called **Computational Thinking**. 
+VS  Code的C/C++插件默认 `会自动产生预编译头文件`，改进编译、调试性能。但是，其缓存的预编译头文件过大, 小规模项目没有必要使用。
 
- **文档提示** ：数学公式使用：`LaTex`、流程图使用： [flowchart](https://github.com/adrai/flowchart.js). ( **安装**[Markdown Preview Enhanced](https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/)插件支持显示)
-
->* LaTex数学公式: $z=\frac{x}{y}$
->
->* flowchart流程图：
->
->>```flow
->>st=>start
->>e=>end
->>op1=>operation: My Operation
->>st->op1->e
->>```
->
->>![](./img/MarkdownEnhanced.jpg)
-
-## 软件设计提示
-
-通用Rankine Cycle程序的泛化要点:
-
-1.  设备
-
-2.  设备间连接关系
-
-3.  系统能量平衡计算方法
-
-[Example 8.6：A Reheat–Regenerative Cycle with Two Feedwater Heaters](./rankine86.md) 比 `Example8.1，8.5`, 多了不同类型的设备
-
-* reheater, trap
-
-* the closed feedwater heater, the opended feedwater heater with 1 drain water inlet
-
-在理解示例基础上，增加新设备。
-
-**增加新设备的工作**：设备Python类代码； 设备**唯一类型标识字符串**，设备`json描述`
-
-**Results for reference**
-
-* Example 8.1: [rankine81-sp.txt](./rankine81-sp.txt)
-
-* Example 8.5: [rankine85-sp.txt](./rankine85-sp.txt)
-
-* Example 8.6: [rankine86-sp.txt](./rankine86-sp.txt)
+因此，建议配置为 `不产生缓存预编译头文件`。 方法见：[软件安装指导文档的disable precompiled header caching](https://github.com/PySEE/home/blob/S2020/guide/doc/BuildingSoftwareEnvironment.md#d33-disable-precompiled-header-caching) 
+ 
+如果已经产生了建议删除。该预编译缓存头文件位于当前项目目录的：`.vscode/ipch`。注意： `.vscode/`是隐藏目录，需开启 `“文件资源管理器”`的  `“显示隐藏的项目”`
 
 ## Directories and Files
 
 ```txt
- <P2>
-   │ 
-   |── README.md 设计工作Markdown文档
-   |
-   |── <img>
-   |     |── *.jpg/png  Markdown文档图片
-   | 
-   |── rankineapp.py  # main app
-   |
-   |── <rankinecycle> 
-   │    |
-   │    |─ *.py
-   |
-   |── <components> components包
-   │    |
-   │    |─ *.py
-   │   
-   |── <cyclemodule> cycle dicts
-   │     |
-   │     │ ── rankine??.py # the Rankine cycle dict
-   │           
-   |── <result>          
-         |
-         │ ── Rankine??-sm.txt 
-         │ ── Rankine??.sp.txt
-          
+ 
+|── <P3>
+     │ 
+     │── README.md: intro of your works(display the screenshots of coding,making and running)
+     | 
+     │── makefile: building the executable file with source code of MONTE CARLO π
+     │ 
+     │── makefile-dll.mk: building the shared library of MONTE CARLO π
+     │               
+     │── makefile-exe.mk: building the executable file with the shared library of MONTE CARLO π
+     │
+     |── <img>: screenshots of coding,building and running
+     |       │
+     |       |── *.jpg/png 
+     |
+     |── <bin>:
+     |       │
+     |       |── *.exe
+     |       |     
+     |       |── *.dll
+     |
+     |── <src>: 
+     |        │
+     |        |──*.c/cpp, *.h     
+     |
+     |
+     |── <python>: 
+             │
+             |──*.py                       
+```  
 
 ## 提交：
 
-* 电邮： cmh@seu.edu.cn
-  * 主题：学号-姓名-2
-  * 附件：工作目录压缩文件： **学号-姓名-2.zip**；
+压缩工作目录为文件 ：**学号-姓名-3.zip**
 
-* 截至时间：2021.05.24
-  * 截至时间后可补交，补交得分<=9. (2021.06.21)
+* 电邮到：cmh@seu.edu.cn 
+    
+  * 主题：学号-姓名-3
+    
+  * 附件：**学号-姓名-3.zip**
 
-## 参考资源：
+* 截至时间：2021.06.14
 
-* [PySEE/PyRankine](https://github.com/PySEE/PyRankine)
+   * 补交得分：<=9，截至时间： 2021.06.21
 
-* [Rankine Cycle：OOP](http://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit4-3-RankineCycle-OOP.ipynb)
+## Reference
 
-* [Rankine Cycle：General](http://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit4-4-RankineCycle-General.ipynb)
+* [GCC: MAKE](http://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit7-1-GCC_MAKE.ipynb)
 
+* [C: stdio](http://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit7-2-C_stdio.ipynb)
 
+* [GCC: Lib](http://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit7-3-GCC_Lib.ipynb)
+
+* [ctypes](http://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit7-4-ctypes.ipynb)
+
+* [ctypes-fun](http://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit7-5-ctypes-fun.ipynb)
