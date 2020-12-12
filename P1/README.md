@@ -65,15 +65,6 @@ In 1973, the statistician F.J. Anscombe published a paper containing the table b
 * 2 截至时间：2021.05.03
   *  截至时间后可补交，补交得分<=6. (2020.06.21)
 
-## 参考：
-
-* [List,Dict and Data Table(Files)](http://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit1-5-Files.ipynb)
-
-* [PLOTTING USING MATPLOTLIB](http://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit2-1-PLOTTING-USING-MATPLOTLIB.ipynb)
-
-* [UNDERSTANDING EXPERIMENTAL DATA](http://nbviewer.ipython.org/github/PySEE/home/tree/S2020/notebook/Unit2-2-UNDERSTANDING_EXPERIMENTAL_DATA.ipynb)
-
-* [LIES_DAMNED_LIES_AND_STATISTICS](http://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit2-3-LIES_DAMNED_LIES_AND_STATISTICS.ipynb)
 
 
 

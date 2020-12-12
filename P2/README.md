@@ -1,164 +1,77 @@
+## Practice 2(15)
 
-## Practice 3
+**Object-oriented Programming**：The VPR Rankine Cycle Simulator 
 
-**C/C++ Programming**(15)：MinGW-w64(GCC), MakeFile, the Shared Library and ctypes
+Apply `computational thinking` to model and solve more complex problems
 
-*  Monte Carlo simulation of finding PI
+**Deadline:**  2021.05.24
 
-Deadline: 2021.06.14
+## Contents and Requirements
 
-## 要求：
+参考[PySimVPR](https://github.com/PySEE/PySimVPR),编写代码，使其可计算如下循环：
 
-学习蒙特卡罗(Monte Carlo)计算圆周率的方法[16_MONTE_CARLO_SIMULATION.ipynb:16.4 Finding π](./16_MONTE_CARLO_SIMULATION.ipynb)，然后。完成以下程序设计任务
+Refrigerant 134a is the working fluid in an ideal vapor-compression refrigeration cycle that 
 
-**注意：** 此Jupyter Notebook供学习使用，练习不使用Jupyter Notebook形式
+* communicates thermally with a cold region at -10°C. Saturated vapor enters the compressor at -10°C and liquid leaves the condenser at 0.9MPa and 30°C. 
 
-1.  蒙特卡罗计算圆周率的方法共享库(8)
+* The compressor has an efficiency of 80%. 
 
-    * 蒙特卡罗计算圆周率方法的C/C++语言代码
+* The mass flow rate of the refrigerant is 0.08 kg/s. 
 
-    * 编译生成算法的共享库（Windows下DLL）的makefile文件
+**Determine**
 
-```python  
-import random
+ * (a) the compressor power, in kW
+ 
+ * (b) the refrigeration capacity, in tons
+ 
+ * (c) the coefficient of performance
 
-def variance(X):
-    """Assumes that X is a list of numbers.
-       Returns the standard deviation of X"""
-    mean = sum(X)/len(X)
-    tot = 0.0
-    for x in X:
-        tot += (x - mean)**2
-    return tot/len(X)
-    
-def stdDev(X):
-    """Assumes that X is a list of numbers.
-       Returns the standard deviation of X"""
-    return variance(X)**0.5
+ ![](img/example725.jpg)
 
-def throwNeedles(numNeedles):
-    inCircle = 0
-    for Needles in range(1, numNeedles + 1):
-        x = random.random()
-        y = random.random()
-        if (x*x + y*y)**0.5 <= 1.0:
-            inCircle += 1
-    #Counting needles in one quadrant only, so multiply by 4
-    return 4*(inCircle/float(numNeedles))
+**注意**：练习不使用Jupyter Notebook；使用Visual Studio Code进行代码设计和文档撰写等工作。
 
-def getEst(numNeedles, numTrials):
-    estimates = []
-    for t in range(numTrials):
-        piGuess = throwNeedles(numNeedles)
-        estimates.append(piGuess)
-    sDev = stdDev(estimates)
-    curEst = sum(estimates)/len(estimates)
-    return (curEst, sDev)
+### 软件设计提示
 
-def estPi(precision, numTrials):
-    numNeedles = 1000
-    sDev = precision
-    while sDev >= precision/1.96:
-        curEst, sDev = getEst(numNeedles, numTrials)
-        numNeedles *= 2
-    return curEst      
-```
+1. 修改压缩机类模块
 
-2. C/C++调用算法共享库的算例(2)
+2. 修改所有循环数据的Python模块
 
-    * 参考[16_MONTE_CARLO_SIMULATION.ipynb](./16_MONTE_CARLO_SIMULATION.ipynb)给出调用算法共享库的C/C++算例程序
-    
-    * 编译算例程序生成运行文件的makefile文件
+3. 其他修改和完善
 
-```c
-double vPi=estPi(0.01, 100);
-```
+### Python源码(8)
 
-3. Python语言调用共享库的算例(2)
-                  
-   * Python语言调用共享库的接口程序
+* 循环数据Python模块(3)
+
+* 循环中设备类(5)
+ 
+### 软件设计工作Markdown文档(7)
+
+* 设计任务简要描述;
+
+* 设计方案简要描述
+  * 循环分析主流程图  
+  * 节点、设备类设计
+  * 循环数据Python模块设计
+  
+* 设计工作小结
    
-   * 使用接口程序，调用共享库的Python算例程序
+    *  练习中遇到的问题及其解决过程 
 
-```python
-vPI=estPi(0.01, 100)
-```
-4. 练习工作的README.md文档(3)：
-
-建议内容:
-                      
-   * 算法说明 
-   
-   * 程序设计工作简要说明：过程，结果(文字和截图）
+    *  对编程思维理解
     
-     * 必含内容：在终端中编译共享库及算例的 **工作过程和结果的截图**
+    *  对工业软件设计的思考
+  
+ **文档提示** ：数学公式可使用：`LaTex` (**需**[Markdown Preview Enhanced](https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/)插件支持显示)
 
-   * 工作小结
-
-###  建议配置VS Code不产生C/C++的缓存预编译头文件
- 
-VS  Code的C/C++插件默认 `会自动产生预编译头文件`，改进编译、调试性能。但是，其缓存的预编译头文件过大, 小规模项目没有必要使用。
-
-因此，建议配置为 `不产生缓存预编译头文件`。 方法见：[软件安装指导文档的disable precompiled header caching](https://github.com/PySEE/home/blob/S2020/guide/doc/BuildingSoftwareEnvironment.md#d33-disable-precompiled-header-caching) 
- 
-如果已经产生了建议删除。该预编译缓存头文件位于当前项目目录的：`.vscode/ipch`。注意： `.vscode/`是隐藏目录，需开启 `“文件资源管理器”`的  `“显示隐藏的项目”`
-
-## Directories and Files
-
-```txt
- 
-|── <P3>
-     │ 
-     │── README.md: intro of your works(display the screenshots of coding,making and running)
-     | 
-     │── makefile: building the executable file with source code of MONTE CARLO π
-     │ 
-     │── makefile-dll.mk: building the shared library of MONTE CARLO π
-     │               
-     │── makefile-exe.mk: building the executable file with the shared library of MONTE CARLO π
-     │
-     |── <img>: screenshots of coding,building and running
-     |       │
-     |       |── *.jpg/png 
-     |
-     |── <bin>:
-     |       │
-     |       |── *.exe
-     |       |     
-     |       |── *.dll
-     |
-     |── <src>: 
-     |        │
-     |        |──*.c/cpp, *.h     
-     |
-     |
-     |── <python>: 
-             │
-             |──*.py                       
-```  
+>* LaTex数学公式: $z=\frac{x}{y}$
 
 ## 提交：
 
-压缩工作目录为文件 ：**学号-姓名-3.zip**
+* 电邮： cmh@seu.edu.cn
+  * 主题：学号-姓名-2
+  * 附件：工作目录压缩文件： **学号-姓名-2.zip**；
 
-* 电邮到：cmh@seu.edu.cn 
-    
-  * 主题：学号-姓名-3
-    
-  * 附件：**学号-姓名-3.zip**
+* 截至时间：2021.05.24
+  * 截至时间后可补交，补交得分<=9. (2021.06.21)
 
-* 截至时间：2021.06.14
 
-   * 补交得分：<=9，截至时间： 2021.06.21
-
-## Reference
-
-* [GCC: MAKE](http://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit7-1-GCC_MAKE.ipynb)
-
-* [C: stdio](http://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit7-2-C_stdio.ipynb)
-
-* [GCC: Lib](http://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit7-3-GCC_Lib.ipynb)
-
-* [ctypes](http://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit7-4-ctypes.ipynb)
-
-* [ctypes-fun](http://nbviewer.ipython.org/github/PySEE/home/tree/S2021/notebook/Unit7-5-ctypes-fun.ipynb)
