@@ -2,15 +2,15 @@
 
 [1. Data Analysis(10)](./P1)：Statistics, regression and visualization, Jupyter 
 
-* Deadline: 2021.05.03
+* Deadline: **2021.05.03**
 
 [2. Object-oriented Programming(15)](./P2)：The vapor-compression refrigeration cycle 
 
-* Deadline: 2021.05.24
+* Deadline: **2021.05.24**
 
-[3. GCC and Make(15)](./P2)：MinGW-w64(GCC), Makefile, Shared Library and ctypes
+[3. GCC and Make(15)](./P3)：MinGW-w64(GCC), Makefile, Shared Library and ctypes
 
-* Deadline: **2021.06.14**
+* Deadline: **2021.06.11**
 
 ---
 

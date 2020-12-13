@@ -5,7 +5,7 @@
 
 *  Monte Carlo simulation of finding PI
 
-Deadline: 2021.06.14
+Deadline: 2021.06.11
 
 ## 要求：
 
@@ -17,7 +17,7 @@ Deadline: 2021.06.14
 
     * 蒙特卡罗计算圆周率方法的C语言代码
 
-    * 编译生成算法的共享库（Windows下DLL）的makefile文件
+    * 编译生成算法的共享库(Windows下DLL)的makefile文件
 
 ```python  
 import random
