@@ -4,7 +4,7 @@
 
 * Deadline: 2021.05.03
 
-[2. Object-oriented Programming(15)](./P2)：**Object-oriented Programming**：The VPR Cycle Simulator  
+[2. Object-oriented Programming(15)](./P2)：The vapor-compression refrigeration cycle 
 
 * Deadline: 2021.05.24
 

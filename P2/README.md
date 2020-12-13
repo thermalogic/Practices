@@ -1,6 +1,6 @@
 ## Practice 2(15)
 
-**Object-oriented Programming**：The VPR Rankine Cycle Simulator 
+**Object-oriented Programming**：The  vapor-compression refrigeration  cycle simulator 
 
 Apply `computational thinking` to model and solve more complex problems
 
@@ -10,11 +10,11 @@ Apply `computational thinking` to model and solve more complex problems
 
 参考[PySimVPR](https://github.com/PySEE/PySimVPR),编写代码，使其可计算如下循环：
 
-Refrigerant 134a is the working fluid in an ideal vapor-compression refrigeration cycle that 
+Refrigerant 134a is the working fluid in an vapor-compression refrigeration cycle that 
 
 * communicates thermally with a cold region at -10°C. Saturated vapor enters the compressor at -10°C and liquid leaves the condenser at 0.9MPa and 30°C. 
 
-* The compressor has an efficiency of 80%. 
+* The compressor has **an efficiency of 80%**. 
 
 * The mass flow rate of the refrigerant is 0.08 kg/s. 
 
