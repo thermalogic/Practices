@@ -8,7 +8,7 @@
 
 * Deadline: 2021.05.24
 
-[2. GCC and Make(15)](./P2)：MinGW-w64(GCC), Makefile, Shared Library and ctypes
+[3. GCC and Make(15)](./P2)：MinGW-w64(GCC), Makefile, Shared Library and ctypes
 
 * Deadline: **2021.06.14**
 
