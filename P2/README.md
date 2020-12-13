@@ -2,7 +2,7 @@
 
 **Object-oriented Programming**：The  vapor-compression refrigeration  cycle simulator 
 
-Apply `computational thinking` to model and solve more complex problems
+Apply `computational thinking` to model and solve the industrial process problems
 
 **Deadline:**  2021.05.24
 
@@ -10,7 +10,7 @@ Apply `computational thinking` to model and solve more complex problems
 
 参考[PySimVCR](https://github.com/PySEE/PySimVCR),编写代码，使其可计算如下循环：
 
-Refrigerant 134a is the working fluid in an vapor-compression refrigeration cycle that 
+Refrigerant 134a is the working fluid in the vapor-compression refrigeration cycle that 
 
 * communicates thermally with a cold region at -10°C. Saturated vapor enters the compressor at -10°C and liquid leaves the condenser at 0.9MPa and 30°C. 
 
