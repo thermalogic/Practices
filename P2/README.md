@@ -8,7 +8,7 @@ Apply `computational thinking` to model and solve more complex problems
 
 ## Contents and Requirements
 
-参考[PySimVPR](https://github.com/PySEE/PySimVPR),编写代码，使其可计算如下循环：
+参考[PySimVCR](https://github.com/PySEE/PySimVCR),编写代码，使其可计算如下循环：
 
 Refrigerant 134a is the working fluid in an vapor-compression refrigeration cycle that 
 
