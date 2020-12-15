@@ -8,7 +8,11 @@ Apply `computational thinking` to model and solve the industrial process problem
 
 ## Contents and Requirements
 
-参考[PySimVCR](https://github.com/PySEE/PySimVCR),编写代码，使其可计算如下循环：
+以[PySimVCR](https://github.com/PySEE/PySimVCR)为基础，编写代码，使其可计算如下循环：
+
+**2 Example 7.2-5 Page4** 
+
+* Thuan Ke Nguyen, [CHE 302 Chemical and Materials Engineering Thermodynamics I: chap7-2](https://www.cpp.edu/~tknguyen/che302/Notes/chap7-2.pdf)
 
 Refrigerant 134a is the working fluid in the vapor-compression refrigeration cycle that 
 
@@ -18,6 +22,8 @@ Refrigerant 134a is the working fluid in the vapor-compression refrigeration cyc
 
 * The mass flow rate of the refrigerant is 0.08 kg/s. 
 
+ ![](img/example725.jpg)
+
 **Determine**
 
  * (a) the compressor power, in kW
@@ -25,9 +31,7 @@ Refrigerant 134a is the working fluid in the vapor-compression refrigeration cyc
  * (b) the refrigeration capacity, in tons
  
  * (c) the coefficient of performance
-
- ![](img/example725.jpg)
-
+ 
 **注意**：练习不使用Jupyter Notebook；使用Visual Studio Code进行代码设计和文档撰写等工作。
 
 ### 软件设计提示
