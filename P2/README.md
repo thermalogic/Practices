@@ -8,39 +8,79 @@ Apply `computational thinking` to model and solve the industrial process problem
 
 ## Contents and Requirements
 
-以[PySimVCR](https://github.com/PySEE/PySimVCR)为基础，编写代码，使其可计算如下循环：
-
-**2 Example 7.2-5 Page4** 
+以[PySimVCR](https://github.com/PySEE/PySimVCR)为基础，编写代码，使其可计算如下2个循环：
 
 * Thuan Ke Nguyen, [CHE 302 Chemical and Materials Engineering Thermodynamics I: chap7-2](https://www.cpp.edu/~tknguyen/che302/Notes/chap7-2.pdf)
 
-Refrigerant 134a is the working fluid in the vapor-compression refrigeration cycle that 
+### 1. Example 7.2-5 Page4 
 
-* communicates thermally with a cold region at -10°C. Saturated vapor enters the compressor at -10°C and liquid leaves the condenser at 0.9MPa and 30°C. 
+Refrigerant 134a is the working fluid in the vapor-compression refrigeration cycle that communicates thermally with
+
+* a cold region at -10°C 
+
+* Saturated vapor enters the compressor at -10°C 
+
+* liquid leaves the condenser at 0.9MPa and 30°C 
 
 * The compressor has **an efficiency of 80%**. 
 
 * The mass flow rate of the refrigerant is 0.08 kg/s. 
 
- ![](img/example725.jpg)
+**Determine**
+
+ * the compressor power, in kW
+ 
+ * the refrigeration capacity, in tons
+ 
+ * the coefficient of performance
+
+### 2 Modified Example 7.2-5 Page4 
+
+Refrigerant 134a is the working fluid in the vapor-compression refrigeration cycle that communicates thermally with
+
+* a cold region at -10°C 
+
+* Saturated vapor enters the compressor at -10°C and Superheated vapor leaves the compressor at 50°C 
+
+* liquid leaves the condenser at 0.9MPa and 30°C. 
+
+* The mass flow rate of the refrigerant is 0.08 kg/s. 
 
 **Determine**
 
- * (a) the compressor power, in kW
- 
- * (b) the refrigeration capacity, in tons
- 
- * (c) the coefficient of performance
- 
-**注意**：练习不使用Jupyter Notebook；使用Visual Studio Code进行代码设计和文档撰写等工作。
+* the efficiency of compressor, in % 
 
-### 软件设计提示
+* the compressor power, in kW
+ 
+* the refrigeration capacity, in tons
+ 
+* the coefficient of performance
 
-1. 压缩机类模块
+ ![](img/example725.jpg) 
+
+### 练习提示
+
+[PySimVCR](https://github.com/PySEE/PySimVCR)示例中的压缩机类其压缩过程是等熵过程，练习中需计算的循环不是等熵过程。
+
+程序需要能够处理：等熵过程，不同已知参数的不可逆非等熵过程，因此，练习需做以下编码工作：
+
+1. compressor压缩机类模块修改：变量、计算及输出
+
+   * 循环Example 7.2-5：已知压缩机效率
+ 
+   * 修改了已知参数的循环Example 7.2-5，已知压缩机出口温度，计算压缩机效率
 
 2. 循环数据Python模块
 
+   * 修改数据模块节点和设备字典定义, 适应不同的已知参数
+
 3. 其他修改和完善
+
+**建议工作步骤**，
+
+* 首先，分析 **循环Example 7.2-5**，修改代码，实现其计算
+
+* 进一步，分析 **修改了已知参数的循环Example 7.2-5**，修改代码，实现可以计算不同类型和参数条件循环的分析软件程序
 
 ### Python源码(8)
 
