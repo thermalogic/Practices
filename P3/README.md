@@ -90,11 +90,11 @@ VS Code的C/C++插件默认 `会自动产生预编译头文件`，改进编译�
 
 建议配置为 `不产生缓存预编译头文件`, 方法如下：
 
-set the `"C_Cpp.intelliSenseCacheSize:"0` to disable Precompiled header caching   
+* set the `"C_Cpp.intelliSenseCacheSize:"0` to disable Precompiled header caching   
 
- ![vscode_pch_cache](./img/vscode_pch_cache.jpg)
+   ![vscode_pch_cache](./img/vscode_pch_cache.jpg)
  
-如果已经产生了建议删除:
+如果已经产生了, 建议删除:
 
 * 该预编译缓存头文件位于当前项目目录的：`.vscode/ipch`。注意： `.vscode/`是隐藏目录，需开启 `“文件资源管理器”`的  `“显示隐藏的项目”`
 
@@ -110,24 +110,26 @@ set the `"C_Cpp.intelliSenseCacheSize:"0` to disable Precompiled header caching
      │ 
      │── makefile-dll.mk: building the shared library of MONTE CARLO π
      │               
-     │── makefile-exe.mk: building the executable file with the shared library of MONTE CARLO π
+     │── makefile-exe.mk: building the executable caller of the shared library of MONTE CARLO π
      │
-     |── <img>: screenshots of coding,building and running
+     |── <img> screenshots of coding,building and running
      |       │
      |       |── *.jpg/png 
      |
-     |── <bin>:
+     |── <bin>
      |       │
      |       |── *.exe
      |       |     
      |       |── *.dll
      |
-     |── <src>: 
+     |── <include> 
      |        │
-     |        |──*.c, *.h     
+     |        |──*.h     
+     |── <src> 
+     |        │
+     |        |──*.c     
      |
-     |
-     |── <python>: 
+     |── <python> 
              │
              |──*.py                       
 ```  
