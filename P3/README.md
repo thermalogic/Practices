@@ -17,7 +17,7 @@ Deadline: 2021.06.11
 
     * 蒙特卡罗计算圆周率方法的C语言代码
 
-    * 编译生成算法的共享库(Windows下DLL)的makefile文件
+    * 编译生成算法共享库(使用`__cdecl`约定，Windows下DLL)的makefile文件
 
 ```python  
 import random
@@ -64,26 +64,13 @@ def estPi(precision, numTrials):
     return curEst      
 ```
 
-2. C调用算法共享库的算例(2)
+2. 调用算法共享库的算例(4)
 
-    * 参考[16_MONTE_CARLO_SIMULATION.ipynb](./16_MONTE_CARLO_SIMULATION.ipynb)给出调用算法共享库的C算例程序
-    
-    * 编译算例程序生成运行文件的makefile文件
+    * C语言调用共享库算例及其编译生成运行文件的makefile文件(2)
 
-```c
-double vPi=estPi(0.01, 100);
-```
+    * Python语言调用共享库的接口及其使用算例(2)
 
-3. Python语言调用共享库的算例(2)
-                  
-   * Python语言调用共享库的接口程序
-   
-   * 使用接口程序，调用共享库的Python算例程序
-
-```python
-vPI=estPi(0.01, 100)
-```
-4. 练习工作的README.md文档(3)：
+3. 练习工作的README.md文档(3)：
 
 建议内容:
                       
