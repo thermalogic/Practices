@@ -80,7 +80,7 @@ Refrigerant 134a is the working fluid in the vapor-compression refrigeration cyc
 
 * 首先，分析 **循环Example 7.2-5**，修改代码，实现其计算
 
-* 进一步，分析 **修改了已知参数的循环Example 7.2-5**，修改代码，实现可以计算不同类型和参数条件循环的分析软件程序
+* 进一步，分析 **修改了已知参数的循环Example 7.2-5**，修改代码，实现可以计算不同类型和参数条件循环的分析软件
 
 ### Python源码(8)
 
