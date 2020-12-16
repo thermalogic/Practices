@@ -40,7 +40,7 @@ Refrigerant 134a is the working fluid in the vapor-compression refrigeration cyc
 
 * a cold region at -10°C 
 
-* Saturated vapor enters the compressor at -10°C and Superheated vapor leaves the compressor at 50°C 
+* Saturated vapor enters the compressor at -10°C and **Superheated vapor leaves the compressor at 50°C** 
 
 * liquid leaves the condenser at 0.9MPa and 30°C. 
 
@@ -60,15 +60,15 @@ Refrigerant 134a is the working fluid in the vapor-compression refrigeration cyc
 
 ### 练习提示
 
-[PySimVCR](https://github.com/PySEE/PySimVCR)示例中的压缩机类其压缩过程是等熵过程，练习中需计算的循环不是等熵过程。
+[PySimVCR](https://github.com/PySEE/PySimVCR)示例中压缩机类的压缩过程是等熵过程，练习中需计算的循环不是等熵过程。
 
-程序需要能够处理：等熵过程，不同已知参数的不可逆非等熵过程，因此，练习需做以下编码工作：
+程序需要能够处理：等熵过程、不同已知参数的不可逆非等熵过程，因此，练习需做以下编码工作：
 
-1. compressor压缩机类模块修改：变量、计算及输出
+1. compressor压缩机类模块修改：属性、计算及输出
 
    * 循环Example 7.2-5：已知压缩机效率
  
-   * 修改了已知参数的循环Example 7.2-5，已知压缩机出口温度，计算压缩机效率
+   * 修改了已知参数的循环Example 7.2-5：已知压缩机出口温度，计算压缩机效率
 
 2. 循环数据Python模块
 
