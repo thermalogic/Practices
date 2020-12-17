@@ -1,7 +1,7 @@
 
 ## Practice 3(15)
 
-**C/C++ Programming**：MinGW-w64(GCC), MakeFile, the Shared Library and ctypes
+**C/C++ Programming**：MinGW-w64(GCC), Make, the Shared Library and ctypes
 
 *  Monte Carlo simulation of finding PI
 
@@ -112,6 +112,10 @@ VS Code的C/C++插件默认 `会自动产生预编译头文件`，改进编译�
      │               
      │── makefile-exe.mk: building the executable caller of the shared library of MONTE CARLO π
      │
+     |── demo.c the example in C
+     │
+     |── example.py the example in Python
+     │
      |── <img> screenshots of coding,building and running
      |       │
      |       |── *.jpg/png 
@@ -131,7 +135,7 @@ VS Code的C/C++插件默认 `会自动产生预编译头文件`，改进编译�
      |
      |── <python> 
              │
-             |──*.py                       
+             |──*.py  the API in Python                     
 ```  
 
 ## 提交：
@@ -144,7 +148,7 @@ VS Code的C/C++插件默认 `会自动产生预编译头文件`，改进编译�
     
   * 附件：**学号-姓名-3.zip**
 
-* 截至时间：2021.06.14
+* 截至时间：2021.06.11
 
    * 补交得分：<=9，截至时间： 2021.06.21
 

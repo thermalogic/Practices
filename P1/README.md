@@ -8,7 +8,7 @@
 
 John V. Guttag. Introduction to Computation and Programming Using Python: With Application to Understanding Data(Second Edition). MIT Press, 2016. 
 
-**21.5 Statistical Measures Don't, Tell the Whole Story**（Page411-412） 
+**21.5 Statistical Measures Don't, Tell the Whole Story**(Page411-412) 
   
 In 1973, the statistician F.J. Anscombe published a paper containing the table below. It contains the <x, y> coordinates of the points in each of four data sets.
 
@@ -37,7 +37,7 @@ In 1973, the statistician F.J. Anscombe published a paper containing the table b
     * 计算均值、方差和相关系数统计指标（2分， 自己编码，不使用软件包)；
     * 使用字符输出统计结果表格(1分，自己编码，不使用软件包) 
 
-参考输出结果表格
+参考输出
 ```
 ─────────────────────────────────────────────────
   No   x-avg  x-pvar  y-avg  y-pvar   pearson_r  
@@ -63,7 +63,7 @@ In 1973, the statistician F.J. Anscombe published a paper containing the table b
   * 附件：程序文件压缩包：**学号-姓名-1.zip**
 
 * 2 截至时间：2021.05.03
-  *  截至时间后可补交，补交得分<=6. (2020.06.21)
+  *  截至时间后可补交，补交得分<=6 (2020.06.21)
 
 
 
