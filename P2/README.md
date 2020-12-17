@@ -48,7 +48,7 @@ Refrigerant 134a is the working fluid in the vapor-compression refrigeration cyc
 
 **Determine**
 
-* the efficiency of compressor, in % 
+* **the efficiency of compressor, in %** 
 
 * the compressor power, in kW
  
