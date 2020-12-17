@@ -22,9 +22,9 @@ Refrigerant 134a is the working fluid in the vapor-compression refrigeration cyc
 
 * liquid leaves the condenser at 0.9MPa and 30°C 
 
-* The compressor has **an efficiency of 80%**. 
+* The compressor has **an efficiency of 80%** 
 
-* The mass flow rate of the refrigerant is 0.08 kg/s. 
+* The mass flow rate of the refrigerant is 0.08kg/s 
 
 **Determine**
 
@@ -42,9 +42,9 @@ Refrigerant 134a is the working fluid in the vapor-compression refrigeration cyc
 
 * Saturated vapor enters the compressor at -10°C and **Superheated vapor leaves the compressor at 50°C** 
 
-* liquid leaves the condenser at 0.9MPa and 30°C. 
+* liquid leaves the condenser at 0.9MPa and 30°C
 
-* The mass flow rate of the refrigerant is 0.08 kg/s. 
+* The mass flow rate of the refrigerant is 0.08kg/s
 
 **Determine**
 
