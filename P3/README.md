@@ -9,7 +9,7 @@ Deadline: 2021.06.11
 
 ## 要求：
 
-学习蒙特卡罗(Monte Carlo)计算圆周率的方法[16_MONTE_CARLO_SIMULATION.ipynb:16.4 Finding π](./16_MONTE_CARLO_SIMULATION.ipynb)，完成以下程序设计任务
+学习蒙特卡罗(Monte Carlo)计算圆周率的方法[MONTE CARLO SIMULATION:16.4 Finding π](./16_MONTE_CARLO_SIMULATION.ipynb)，完成以下程序设计任务
 
 **注意：** 此Jupyter Notebook供学习使用，练习不使用Jupyter Notebook形式
 
@@ -84,9 +84,9 @@ def estPi(precision, numTrials):
 
 ###  VS Code配置建议
 
-建议VS Code配置不产生C/C++的缓存预编译头文件
+建议配置VS Code不产生C/C++的缓存预编译头文件
  
-VS Code的C/C++插件默认 `会自动产生预编译头文件`，改进编译、调试性能, 但是，其缓存的预编译头文件过大(The defualt Cache Size is 5120 MB), 小规模项目没有必要使用。
+VS Code的C/C++插件默认 `自动产生预编译头文件`，用于改进编译、调试性能, 但是，其缓存的预编译头文件过大(The defualt Cache Size is 5120 MB), 小规模项目没有必要使用。
 
 建议配置为 `不产生缓存预编译头文件`, 方法如下：
 
