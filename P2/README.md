@@ -1,6 +1,6 @@
 ## Practice 2(15)
 
-**Object-oriented Programming**：The  vapor-compression refrigeration  cycle simulator 
+**Object-oriented Programming**：The  vapor-compression refrigeration cyclesimulator 
 
 Apply `computational thinking` to model and solve the industrial process problems
 
@@ -8,7 +8,7 @@ Apply `computational thinking` to model and solve the industrial process problem
 
 ## Contents and Requirements
 
-以[PySimVCR](https://github.com/PySEE/PySimVCR)为基础，编写代码，使其可计算如下2个循环：
+以[SimVCCE](https://github.com/PySEE/SimVCCE)中的Python语言版本为基础，编写代码，使其可计算如下2个循环：
 
 * Thuan Ke Nguyen, [CHE 302 Chemical and Materials Engineering Thermodynamics I: chap7-2](https://www.cpp.edu/~tknguyen/che302/Notes/chap7-2.pdf)
 
@@ -60,7 +60,7 @@ Refrigerant 134a is the working fluid in the vapor-compression refrigeration cyc
 
 ### 练习提示
 
-[PySimVCR](https://github.com/PySEE/PySimVCR)示例中压缩机类的压缩过程是等熵过程，练习中需计算的循环不是等熵过程。
+[SimVCCE](https://github.com/PySEE/SimVCCE) 示例中压缩机类的压缩过程是等熵过程，练习中需计算的循环不是等熵过程。
 
 程序需要能够处理：等熵过程、不同已知参数的不可逆非等熵过程，因此，练习需做以下编码工作：
 
@@ -105,7 +105,7 @@ Refrigerant 134a is the working fluid in the vapor-compression refrigeration cyc
     
     *  对工业软件的思考
   
- **文档提示** ：数学公式可使用：`LaTex` (**需**[Markdown Preview Enhanced](https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/)插件支持显示)
+ **文档提示** ：数学公式可使用：`LaTex` ( **需**[Markdown Preview Enhanced](https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/)插件支持显示)
 
 >* LaTex数学公式: $z=\frac{x}{y}$
 
