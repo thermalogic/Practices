@@ -93,16 +93,15 @@ Refrigerant 134a is the working fluid in the vapor-compression refrigeration cyc
 * 设计任务简要描述;
 
 * 设计方案简要描述
-  * 循环分析流程图  
-  * 节点、设备类
+  * 循环分析流程图 
+  * 循环分析算法要点 
+  * 节点、设备类定义
   * 循环数据Python模块
   
 * 设计工作小结
    
     *  练习中遇到的问题及其解决过程 
 
-    *  对编程思维理解
-    
     *  对工业软件的思考
   
  **文档提示** ：数学公式可使用：`LaTex` ( **需**[Markdown Preview Enhanced](https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/)插件支持显示)
