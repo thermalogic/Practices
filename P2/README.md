@@ -1,6 +1,6 @@
 ## Practice 2(15)
 
-**Object-oriented Programming**：The  vapor-compression refrigeration cyclesimulator 
+**Object-oriented Programming**：The  vapor-compression refrigeration cycle simulator 
 
 Apply `computational thinking` to model and solve the industrial process problems
 
@@ -72,7 +72,7 @@ Refrigerant 134a is the working fluid in the vapor-compression refrigeration cyc
 
 2. 循环数据Python模块
 
-   * 修改数据模块节点和设备字典定义, 适应不同的已知参数
+   * 修改数据模块节点和设备字典定义, 适应多种类型循环系统的数据描述
 
 3. 其他修改和完善
 
@@ -87,7 +87,7 @@ Refrigerant 134a is the working fluid in the vapor-compression refrigeration cyc
 * 循环数据Python模块(3)
 
 * 设备类(5)
- 
+
 ### 软件设计工作Markdown文档(7)
 
 * 设计任务简要描述;
@@ -103,16 +103,37 @@ Refrigerant 134a is the working fluid in the vapor-compression refrigeration cyc
     *  练习中遇到的问题及其解决过程 
 
     *  对工业软件的思考
-  
- **文档提示** ：数学公式可使用：`LaTex` ( **需**[Markdown Preview Enhanced](https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/)插件支持显示)
+
+**文档提示** ：数学公式可使用：`LaTex` ( **需**[Markdown Preview Enhanced](https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/)插件支持显示)
 
 >* LaTex数学公式: $z=\frac{x}{y}$
+
+## 建议工作目录
+
+```txt
+ 
+|── <P2>
+     │ 
+     │── README.md: 软件设计工作Markdown文档
+     | 
+     |── <img> Markdown文档使用的图形文件
+     |
+     |── vccapp.py
+     |
+     |── <components> 
+     |        
+     |── <vccmodel> 
+     |
+     |── <vcc> 
+     |
+     |── <result> 计算结果数据文件 
+```  
 
 ## 提交：
 
 * 电邮： cmh@seu.edu.cn
   * 主题：学号-姓名-2
-  * 附件：工作目录压缩文件： **学号-姓名-2.zip**；
+  * 附件：工作目录压缩文件： **学号-姓名-2.zip**； 其中，必须有**计算结果文件**
 
 * 截至时间：2021.05.24
   * 截至时间后可补交，补交得分<=9. (2021.06.21)
