@@ -2,7 +2,7 @@
 
 **Object-oriented Programming**：The  vapor-compression refrigeration cycle simulator 
 
-Apply `computational thinking` to model and solve the industrial process problems
+Apply `computational thinking` to model and solve the industrial system problems
 
 **Deadline:**  2021.05.24
 

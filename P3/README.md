@@ -1,7 +1,7 @@
 
 ## Practice 3(15)
 
-**C/C++ Programming**：MinGW-w64(GCC), Make, the Shared Library and ctypes
+**C/C++ Programming**： GCC on Windows, Make, the Shared Library and ctypes
 
 *  Monte Carlo simulation of finding PI
 
@@ -11,7 +11,7 @@ Deadline: 2021.06.11
 
 学习蒙特卡罗(Monte Carlo)计算圆周率的方法[MONTE CARLO SIMULATION:16.4 Finding π](./16_MONTE_CARLO_SIMULATION.ipynb)，完成以下程序设计任务
 
-**注意：** 此Jupyter Notebook供学习使用，练习不使用Jupyter Notebook形式
+**注意：** 此Jupyter Notebook供学习算法使用，练习不使用Jupyter Notebook形式
 
 1.  蒙特卡罗计算圆周率的方法共享库(8)
 
@@ -66,7 +66,7 @@ def estPi(precision, numTrials):
 
 2. 调用算法共享库的算例(4)
 
-    * C语言调用共享库算例及其编译生成运行文件的makefile文件(2)
+    * C语言调用共享库算例源码及编译生成运行文件的makefile文件(2)
 
     * Python语言调用共享库的接口及其使用算例(2)
 
@@ -108,9 +108,9 @@ VS Code的C/C++插件默认 `自动产生预编译头文件`，用于改进编�
      | 
      │── makefile: building the executable file with source code of MONTE CARLO π
      │ 
-     │── makefile-dll.mk: building the shared library of MONTE CARLO π
+     │── makedll.mk: building the shared library of MONTE CARLO π
      │               
-     │── makefile-exe.mk: building the executable caller of the shared library of MONTE CARLO π
+     │── makeexe.mk: building the executable caller of the shared library of MONTE CARLO π
      │
      |── demo.c the example in C
      │
