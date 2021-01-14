@@ -60,9 +60,9 @@ Refrigerant 134a is the working fluid in the vapor-compression refrigeration cyc
 
 ### 练习提示
 
-[SimVCCE](https://github.com/PySEE/SimVCCE) 示例中压缩机类的压缩过程是等熵过程，练习中需计算的循环不是等熵过程。
+[SimVCCE](https://github.com/PySEE/SimVCCE) 示例中压缩机类的压缩过程是等熵过程，练习中的循环不是等熵过程。
 
-程序需要能够处理：等熵过程、不同已知参数的不可逆非等熵过程，因此，练习需做以下编码工作：
+程序要处理：等熵过程、不同已知参数的不可逆非等熵过程，练习需做以下编码工作：
 
 1. compressor压缩机类模块修改：属性、计算及输出
 
@@ -70,9 +70,9 @@ Refrigerant 134a is the working fluid in the vapor-compression refrigeration cyc
  
    * 修改了已知参数的循环Example 7.2-5：已知压缩机出口温度，计算压缩机效率
 
-2. 循环数据Python模块
+2. 循环数据Python模块修改
 
-   * 修改数据模块节点和设备字典定义, 适应多种类型循环系统的数据描述
+   * 数据模块节点和设备字典的定义, 适应多种类型循环系统的数据描述
 
 3. 其他修改和完善
 
@@ -80,7 +80,7 @@ Refrigerant 134a is the working fluid in the vapor-compression refrigeration cyc
 
 * 首先，分析 **循环Example 7.2-5**，修改代码，实现其计算
 
-* 进一步，分析 **修改了已知参数的循环Example 7.2-5**，修改代码，实现可以计算不同类型和参数条件循环的分析软件
+* 进一步，分析 **修改了已知参数的循环Example 7.2-5**，修改代码，实现其计算
 
 ### Python源码(8)
 
@@ -90,7 +90,7 @@ Refrigerant 134a is the working fluid in the vapor-compression refrigeration cyc
 
 ### 软件设计工作Markdown文档(7)
 
-* 设计任务简要描述;
+* 设计任务简要描述
 
 * 设计方案简要描述
   * 循环分析流程图 
@@ -100,10 +100,8 @@ Refrigerant 134a is the working fluid in the vapor-compression refrigeration cyc
   
 * 设计工作小结
    
-    *  练习中遇到的问题及其解决过程 
-
-    *  对工业软件的思考
-
+  *  练习中遇到的问题及其解决过程 
+  
 **文档提示** ：数学公式可使用：`LaTex` ( **需**[Markdown Preview Enhanced](https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/)插件支持显示)
 
 >* LaTex数学公式: $z=\frac{x}{y}$
