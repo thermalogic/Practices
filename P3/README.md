@@ -1,5 +1,5 @@
 
-## Practice 3(15)
+## Practice 3(10)
 
 **C/C++ Programming**： GCC on Windows, Make, the Shared Library and ctypes
 
@@ -13,7 +13,7 @@ Deadline: 2021.06.11
 
 **注意：** 此Jupyter Notebook供学习算法使用，练习不使用Jupyter Notebook形式
 
-1.  蒙特卡罗计算圆周率的方法共享库(8)
+1.  蒙特卡罗计算圆周率的方法共享库(5)
 
     * 蒙特卡罗计算圆周率方法的C语言代码
 
@@ -64,13 +64,13 @@ def estPi(precision, numTrials):
     return curEst      
 ```
 
-2. 调用算法共享库的算例(4)
+2. 调用算法共享库的算例(3)
 
     * C语言调用共享库算例源码及编译生成运行文件的makefile文件(2)
 
-    * Python语言调用共享库的接口及其使用算例(2)
+    * Python语言调用共享库的接口及其使用算例(1)
 
-3. 练习工作的README.md文档(3)：
+3. 练习工作的README.md文档(2)：
 
 建议内容:
                       

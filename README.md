@@ -2,7 +2,7 @@
 
 **Project-Driven Learning-by-Doing(项目驱动，边做边学)**
 
-[1. Data Analysis(10)](./P1)：Statistics, regression and visualization, Jupyter 
+[1. Data Analysis(15)](./P1)：Statistics, regression and visualization, Jupyter 
 
 * Deadline: **2021.05.03**
 
@@ -10,6 +10,6 @@
 
 * Deadline: **2021.05.24**
 
-[3. GCC and Make(15)](./P3)：GCC on Windows, Make, Shared Library and ctypes
+[3. GCC and Make(10)](./P3)：GCC on Windows, Make, Shared Library and ctypes
 
 * Deadline: **2021.06.11**
