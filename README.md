@@ -1,7 +1,5 @@
 ## 行是知之始，知是行之成 - 陶行知
 
-**Project-Driven Learning-by-Doing(项目驱动，边做边学)**
-
 [1. Data Analysis(15)](./P1)：Statistics, regression and visualization, Jupyter 
 
 * Deadline: **2021.05.03**
