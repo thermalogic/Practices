@@ -94,7 +94,7 @@ Refrigerant 134a is the working fluid in the vapor-compression refrigeration cyc
 
 * 设计方案简要描述
   * 连接器、设备数据结构设计
-  * 数据Python模块数据结构设计
+  * 循环Python模块数据结构设计
   * 端口、设备类设计
   * 循环分析流程图 
   * 循环分析算法要点 
