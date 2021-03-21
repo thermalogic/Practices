@@ -103,7 +103,7 @@ Refrigerant 134a is the working fluid in the vapor-compression refrigeration cyc
   
 * 设计工作小结：设计过程的体会
 
-**文档提示** ：数学公式可使用：`LaTex` ( **需**[Markdown Preview Enhanced](https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/)插件支持显示)
+**文档提示** ：数学公式可使用：`LaTex` ( 在VS Code中**需**[Markdown Preview Enhanced](https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/)插件支持显示)
 
 >* LaTex数学公式: $z=\frac{x}{y}$
 
