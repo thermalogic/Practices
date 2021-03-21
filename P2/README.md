@@ -66,13 +66,13 @@ Refrigerant 134a is the working fluid in the vapor-compression refrigeration cyc
 
 1. compressor压缩机类模块修改：属性、计算及输出
 
-   * 循环Example 7.2-5：已知压缩机效率
+   * 循环Example 7.2-5：已知`压缩机效率`
  
-   * 修改了已知参数的循环Example 7.2-5：已知压缩机出口温度，计算压缩机效率
+   * 修改了已知参数的循环Example 7.2-5：已知`压缩机出口温度`，计算`压缩机效率`
 
-2. 循环数据Python模块修改
+2. 循环数据Python模块
 
-   * 数据模块节点和设备字典的定义, 适应多种类型循环系统的数据描述
+   * `设备`和`端口连接器`字典
 
 3. 其他修改和完善
 
@@ -95,7 +95,7 @@ Refrigerant 134a is the working fluid in the vapor-compression refrigeration cyc
 * 设计方案简要描述
   * 循环分析流程图 
   * 循环分析算法要点 
-  * 节点、设备类定义
+  * 端口、设备类定义
   * 循环数据Python模块
 
 * 练习中遇到的问题及解决过程 
