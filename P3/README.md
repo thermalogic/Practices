@@ -13,15 +13,15 @@ Deadline: 2021.06.11
  
    * 排序算法源码
    * 排序算法速度测试源码
-   * 编译生成测试速度程序的makefile文件：makefile:
+   * 编译生成测试速度程序的makefile文件：makefile
   
 3. 排序算法共享库(2)
 
-   * 编译生成算法共享库(`__cdecl`约定，Windows下DLL)的makefile文件： makedll.mk:
+   * 编译生成算法共享库(`__cdecl`约定，Windows下DLL)的makefile文件： makedll.mk
 
 4. 调用排序算法共享库(1)
 
-    * C语言调用排序算法及编译生成运行文件的makefile文件： makeexe.mk:
+    * C语言调用排序算法及编译生成运行文件的makefile文件： makeexe.mk
 
 5. 练习工作README.md文档(4)：结合算法编程和速度测试实践，对排序算法进行分析和总结
 
