@@ -1,87 +1,32 @@
 
 ## Practice 3(10)
 
-**C/C++ Programming**： GCC on Windows, Make, the Shared Library and ctypes
-
-*  Monte Carlo simulation of finding PI
+**C/C++ Programming**： GCC and Make, the Shared Library, Sorting Algorithms
 
 Deadline: 2021.06.11
 
 ## 要求：
 
-学习蒙特卡罗(Monte Carlo)计算圆周率的方法[MONTE CARLO SIMULATION:16.4 Finding π](./16_MONTE_CARLO_SIMULATION.ipynb)，完成以下程序设计任务
+基于[bubblesort及其速度测试示例](./demo_p3/)，完成以下工作
 
-**注意：** 此Jupyter Notebook供学习算法使用，练习不使用Jupyter Notebook形式
+1. 学习排序算法`UnitDS-3-Sorting_Algorithms.ipynb`, 然后，将mergesort、insertsort和quicksort排序算法加入示例工程，使用`小、大`数据集测试不同排序算法的计算速度(3)
+  
+2. 排序算法共享库(2)
 
-1.  蒙特卡罗计算圆周率的方法共享库(5)
+   * 编译生成算法共享库(`__cdecl`约定，Windows下DLL)的makefile文件
 
-    * 蒙特卡罗计算圆周率方法的C语言代码
+3. 调用排序算法共享库(1)
 
-    * 编译生成算法共享库(使用`__cdecl`约定，Windows下DLL)的makefile文件
+    * C语言调用排序算法及编译生成运行文件的makefile文件
 
-```python  
-import random
+4. 练习工作README.md文档(4)
 
-def variance(X):
-    """Assumes that X is a list of numbers.
-       Returns the standard deviation of X"""
-    mean = sum(X)/len(X)
-    tot = 0.0
-    for x in X:
-        tot += (x - mean)**2
-    return tot/len(X)
+   * 4种排序算法要点
+
+   * 4种排序算法的时间、空间复杂度和排序稳定性
+
+   * 4种排序算法适用场景
     
-def stdDev(X):
-    """Assumes that X is a list of numbers.
-       Returns the standard deviation of X"""
-    return variance(X)**0.5
-
-def throwNeedles(numNeedles):
-    inCircle = 0
-    for Needles in range(1, numNeedles + 1):
-        x = random.random()
-        y = random.random()
-        if (x*x + y*y)**0.5 <= 1.0:
-            inCircle += 1
-    #Counting needles in one quadrant only, so multiply by 4
-    return 4*(inCircle/float(numNeedles))
-
-def getEst(numNeedles, numTrials):
-    estimates = []
-    for t in range(numTrials):
-        piGuess = throwNeedles(numNeedles)
-        estimates.append(piGuess)
-    sDev = stdDev(estimates)
-    curEst = sum(estimates)/len(estimates)
-    return (curEst, sDev)
-
-def estPi(precision, numTrials):
-    numNeedles = 1000
-    sDev = precision
-    while sDev >= precision/1.96:
-        curEst, sDev = getEst(numNeedles, numTrials)
-        numNeedles *= 2
-    return curEst      
-```
-
-2. 调用算法共享库的算例(3)
-
-    * C语言调用共享库算例源码及编译生成运行文件的makefile文件(2)
-
-    * Python语言调用共享库的接口及其使用算例(1)
-
-3. 练习工作的README.md文档(2)：
-
-建议内容:
-                      
-   * 算法说明 
-   
-   * 程序设计工作简要说明：过程，结果(文字和截图）
-    
-     * 必含内容：在终端中编译共享库及算例的 **工作过程和结果的截图**
-
-   * 工作小结
-
 ###  VS Code配置建议
 
 建议配置VS Code不产生C/C++的缓存预编译头文件
@@ -104,22 +49,16 @@ VS Code的C/C++插件默认 `自动产生预编译头文件`，用于改进编�
  
 |── <P3>
      │ 
-     │── README.md: intro of your works(display the screenshots of coding,making and running)
+     │── README.md: doc of your works
      | 
-     │── makefile: building the executable file with source code of MONTE CARLO π
+     │── makefile: building the speed test executable file with source code of Sorting Algorithms
      │ 
-     │── makedll.mk: building the shared library of MONTE CARLO π
+     │── makedll.mk: building the shared library of Sorting Algorithms
      │               
-     │── makeexe.mk: building the executable caller of the shared library of MONTE CARLO π
+     │── makeexe.mk: building the speed test executable caller of the shared library of Sorting Algorithms
      │
-     |── demo.c the example in C
+     |── sortspeed.c the speed test example in C
      │
-     |── example.py the example in Python
-     │
-     |── <img> screenshots of coding,building and running
-     |       │
-     |       |── *.jpg/png 
-     |
      |── <bin>
      |       │
      |       |── *.exe
@@ -133,9 +72,7 @@ VS Code的C/C++插件默认 `自动产生预编译头文件`，用于改进编�
      |        │
      |        |──*.c     
      |
-     |── <python> 
-             │
-             |──*.py  the API in Python                     
+                         
 ```  
 
 ## 提交：

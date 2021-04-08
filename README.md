@@ -8,6 +8,6 @@
 
 * Deadline: **2021.05.24**
 
-[3. GCC and Make(10)](./P3)：GCC on Windows, Make, Shared Library and ctypes
+[3. GCC and Make(10)](./P3)：GCC and Make, Shared Library, Sorting Algorithms
 
 * Deadline: **2021.06.11**
