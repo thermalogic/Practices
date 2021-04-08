@@ -1,16 +1,16 @@
-/* Sorting an array using Bubble Sort (BubbleSort.c) */
+/* Sorting an array using Bubble Sort (bubbleSort.c) */
 
 #include "sort.h"
 
 // Sort the given array of size
 void bubbleSort(int a[], int size)
 {
-   int done = 0; // terminate if no more swap thru a pass
+   bool done = false; // terminate if no more swap thru a pass
    int temp;     // use for swapping
 
-   while (done == 0)
+   while (!done)
    {
-      done = 1;
+      done = true;
       // Pass thru the list, compare adjacent items and swap
       // them if they are in wrong order
       for (int i = 0; i < size - 1; ++i)
@@ -20,7 +20,7 @@ void bubbleSort(int a[], int size)
             temp = a[i];
             a[i] = a[i + 1];
             a[i + 1] = temp;
-            done = 0; // swap detected, one more pass
+            done = false; // swap detected, one more pass
          }
       }
    }
