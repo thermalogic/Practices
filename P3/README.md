@@ -10,16 +10,20 @@ Deadline: 2021.06.11
 基于[bubblesort及其速度测试示例](./demo_p3/)，完成以下工作
 
 1. 学习排序算法`UnitDS-3-Sorting_Algorithms.ipynb`, 然后，将mergesort、insertsort和quicksort排序算法加入示例工程，使用`小、大`数据集测试不同排序算法的计算速度(3)
+ 
+   * 排序算法源码
+   * 排序算法速度测试源码
+   * 编译生成测试速度程序的makefile文件：makefile:
   
-2. 排序算法共享库(2)
+3. 排序算法共享库(2)
 
-   * 编译生成算法共享库(`__cdecl`约定，Windows下DLL)的makefile文件
+   * 编译生成算法共享库(`__cdecl`约定，Windows下DLL)的makefile文件： makedll.mk:
 
-3. 调用排序算法共享库(1)
+4. 调用排序算法共享库(1)
 
-    * C语言调用排序算法及编译生成运行文件的makefile文件
+    * C语言调用排序算法及编译生成运行文件的makefile文件： makeexe.mk:
 
-4. 练习工作README.md文档(4)
+5. 练习工作README.md文档(4)：结合算法编程和速度测试实践，对排序算法进行分析和总结
 
    * 4种排序算法要点
 
