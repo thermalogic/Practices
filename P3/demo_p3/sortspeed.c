@@ -10,9 +10,9 @@ void sortingtimes(void (*f)(int a[], int SIZE), char *sortname, int a[], int SIZ
 {
   clock_t start = clock();
   clock_t clicks;
-  
+
   f(a, SIZE);
-  
+
   clicks = (clock() - start);
   double sec = (double)clicks / CLOCKS_PER_SEC;
   print(a, 0, 20);
@@ -29,7 +29,7 @@ int main()
   srand((unsigned)time(NULL));
   for (int i = 0; i < SIZE; i++)
   {
-    a[i] = (int)rand() % (SIZE *10) + 1;
+    a[i] = (int)rand() % (SIZE * 10) + 1;
   };
   print(a, 0, 20);
   printf("\n");
