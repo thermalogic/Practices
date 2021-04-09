@@ -10,16 +10,14 @@ void sortingtimes(void (*f)(int a[], int SIZE), char *sortname, int a[], int SIZ
 {
   clock_t start = clock();
   clock_t clicks;
-  int COUNTS = 10;
-  for (int i = 0; i < COUNTS; i++)
-  {
-    f(a, SIZE);
-  }
+  
+  f(a, SIZE);
+  
   clicks = (clock() - start);
   double sec = (double)clicks / CLOCKS_PER_SEC;
   print(a, 0, 20);
   printf("\n");
-  printf("The %s take %ju clicks(%.6f second) on %d times", sortname, (uintmax_t)(clock_t)clicks, sec, COUNTS);
+  printf("The %s take %ju clicks(%.6f second) on %d size", sortname, (uintmax_t)(clock_t)clicks, sec, SIZE);
 }
 
 int main()
