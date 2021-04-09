@@ -62,7 +62,10 @@ VS Code的C/C++插件默认 `自动产生预编译头文件`，用于改进编�
      │── makeexe.mk: building the speed test executable caller of the shared library of Sorting Algorithms
      │
      |── sortspeed.c the speed test example in C
-     │
+     |
+     |── <img> image used in README.md  │
+     |     │ *.jpg/png
+     |
      |── <bin>
      |       │
      |       |── *.exe
