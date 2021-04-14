@@ -5,8 +5,17 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
-void bubbleSort(int a[], int size);
+#ifdef __cplusplus
+extern "C"
+{
+#endif
 
-void print(const int a[], int iMin, int iMax);
+    void bubbleSort(int a[], int size);
+
+    void print(const int a[], int iMin, int iMax);
+
+#ifdef __cplusplus
+}
+#endif
 
 #endif
