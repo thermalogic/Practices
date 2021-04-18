@@ -9,7 +9,7 @@ Deadline: 2021.06.11
 
 基于[bubblesort及其速度测试示例](./demo_p3/)，完成以下工作
 
-1. 学习排序算法`UnitDS-3-Sorting_Algorithms.ipynb`, 然后，将mergesort、insertsort和quicksort排序算法加入示例工程，使用`1000、10000, 100000`数据集测试不同排序算法的计算速度(4)
+1. 学习排序算法`UnitDS-3-Sorting_Algorithms.ipynb`, 然后，将mergesort、insertsort和quicksort排序算法加入示例工程，使用`10000、50000, 100000`数据集测试不同排序算法的计算速度(4)
  
    * 排序算法源码
    * 排序算法速度测试源码
