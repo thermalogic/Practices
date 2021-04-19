@@ -102,7 +102,7 @@ Refrigerant 134a is the working fluid in the vapor-compression refrigeration cyc
   
 * 工作小结：从练习工作相关的以下2个方面做小结
    * 工业过程仿真软件开发现状 
-   * 软件开发模式： 如果你基于练习代码，研究数据结构和算法，进而开发更通用的循环分析软件，是什么开发模式？ 对大件开发模式理解？
+   * 软件开发模式： 如果你基于练习代码，研究数据结构和算法，进而开发更通用的循环分析软件，是什么开发模式？ 对开发模式理解？
 
 **文档提示** ：数学公式可使用：`LaTex` ( 在VS Code中**需**[Markdown Preview Enhanced](https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/)插件支持显示)
 
