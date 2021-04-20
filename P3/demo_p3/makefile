@@ -6,7 +6,7 @@ SRCS=./sortspeed.c \
 	./src/utils.c  \
 	./src/bubbleSort.c 
 
-OUTFILE=./bin/sortspeed
+OUTFILE=$(BIN)sortspeed
 
 all: $(OUTFILE)
 	$(OUTFILE)
