@@ -2,7 +2,7 @@
 
 [1. Data Analysis(15)](./P1)：Statistics, regression and visualization, Jupyter 
 
-* Deadline: **2021.05.03**
+* Deadline: **2021.05.06**
 
 [2. Object-oriented Programming(15)](./P2)：The vapor-compression refrigeration cycle 
 

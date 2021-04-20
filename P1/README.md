@@ -2,7 +2,7 @@
 
 **Data Analysis**(15)：Statistics, regression and visualization
 
-* Deadline: 2021.05.03
+* Deadline: 2021.05.06
 
 ## Problem
 
@@ -62,7 +62,7 @@ In 1973, the statistician F.J. Anscombe published a paper containing the table b
   * 主题：学号-姓名-1
   * 附件：程序文件压缩包：**学号-姓名-1.zip**
 
-* 2 截至时间：2021.05.03
+* 2 截至时间：2021.05.06
   *  截至时间后可补交，补交得分<=9 (2021.06.21)
 
 
