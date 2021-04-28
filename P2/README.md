@@ -95,18 +95,46 @@ Refrigerant 134a is the working fluid in the vapor-compression refrigeration cyc
 * 设计方案简要描述
   * 端口、设备、端口连接关系和循环输入数据变量的数据结构
   * 端口、设备、连接器、循环分析类
-  * 端口连接、连接节点物性和循环计算等算法 
-  * 循环分析流程图 
+  * 端口连接、连接节点物性和循环计算等算法(主要算法、循环分析流程图)
   
 * 练习中遇到的问题及解决过程 
   
 * 工作小结：从练习工作相关的以下2个方面做小结
    * 对工业过程仿真软件市场及开发现状的思考？
-   * 如果基于练习代码，研究问题求解的数据结构和算法，进而开发更通用的循环分析软件，是什么开发模式？ 通过练习对软件项目中如何使用开发模式的思考？
+   * 如果基于练习代码，研究问题求解的数据结构和算法，进而开发更通用的循环分析软件，是什么开发模式？ 对软件项目中如何使用开发模式的思考？
 
-**文档提示** ：数学公式可使用：`LaTex` ( 在VS Code中**需**[Markdown Preview Enhanced](https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/)插件支持显示)
+**文档提示** ：
+
+* 数学公式可使用：`LaTex` ( 在VS Code中**需**[Markdown Preview Enhanced](https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/)插件支持显示)
 
 >* LaTex数学公式: $z=\frac{x}{y}$
+
+* 流程图: Microsoft Visio 或者 [Markdown Preview Enhanced支持的图像类型](https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/diagrams),如：[flowchart](https://flowchart.js.org/
+
+flowchart常用的元素：
+```
+start
+end
+operation
+condition
+inputoutput
+subroutine
+```
+示例：
+
+```flow
+start=>start: 开始
+loginInfo=>inputoutput: 登录数据
+verifyLogin=>subroutine: 登录验证
+isSuccess=>condition: 验证成功？
+respondSuccess=>operation: 响应成功
+responseFailure=>operation: 响应失败
+end=>end: 结束
+
+start->loginInfo->verifyLogin->isSuccess
+isSuccess(yes)->respondSuccess->end
+isSuccess(no)->responseFailure->end
+```
 
 ## 建议工作目录
 

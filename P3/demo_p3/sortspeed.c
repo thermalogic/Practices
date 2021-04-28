@@ -13,11 +13,10 @@ void sortingtimes(void (*f)(int a[], int SIZE), char *sortname, int a[], int SIZ
 
   f(a, SIZE);
 
-  double sec = (clock() - start) / (double)CLOCKS_PER_SEC;
+  double sec = (double)(clock() - start) / CLOCKS_PER_SEC;
   printf("\n");
   print(a, 0, 20);
-  printf("\n");
-  printf("The %s take %.6f second on %d size", sortname, sec, SIZE);
+  printf("\n\tThe %s take %.6f s on %d size\n", sortname, sec, SIZE);
 }
 
 int main()
@@ -32,7 +31,6 @@ int main()
     b[i] = (int)rand() % (SIZE * 10) + 1;
   };
   print(b, 0, 20);
-  printf("\n");
 
   int *a;
   a = (int *)malloc(sizeof(int) * SIZE);
