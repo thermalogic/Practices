@@ -22,26 +22,26 @@ void sortingtimes(void (*f)(int a[], int SIZE), char *sortname, int a[], int SIZ
 int main()
 {
   const int SIZE = 10000;
-  int *b;
-  b = (int *)malloc(sizeof(int) * SIZE);
+  int *v;
+  v = (int *)malloc(sizeof(int) * SIZE);
 
   srand((unsigned)time(NULL));
   for (int i = 0; i < SIZE; i++)
   {
-    b[i] = (int)rand() % (SIZE * 10) + 1;
+    v[i] = (int)rand() % (SIZE * 10) + 1;
   };
-  print(b, 0, 20);
+  print(v, 0, 20);
 
   int *a;
   a = (int *)malloc(sizeof(int) * SIZE);
 
-  memcpy(a,b, sizeof(int) * SIZE);
+  memcpy(a,v, sizeof(int) * SIZE);
   sortingtimes(bubbleSort, "bubbleSort", a, SIZE);
 
-  //memcpy(a,b sizeof(int) * SIZE);
+  //memcpy(a,v sizeof(int) * SIZE);
   //sortingtimes(mergeSort, "mergeSort", a, SIZE);
 
-  free(b);
+  free(v);
   free(a);
   return EXIT_SUCCESS;
 }
