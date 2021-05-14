@@ -9,10 +9,7 @@ from scipy.interpolate import make_interp_spline
 def plot_speedvalue(filename):
     csvfile = open(filename, encoding='UTF-8')
     csvdata = csv.DictReader(csvfile)
-
-    table={"A_size":[],"Bubble":[]}
-    #table={"A_size":[],"Bubble":[]，"Merge":[],"Insertion":[],"Quick":[]}
-
+    table ={item:[] for item in csvdata.fieldnames}
     for line in csvdata:
         for key in line.keys():
             table[key].append(int(line[key]))
