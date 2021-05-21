@@ -3,7 +3,7 @@ BIN=./bin/
 INC=./include/
 
 SRCS=./sortspeed_group.c \
-	./src/bubbleSort.c \
+	./src/bubble_sort.c \
 	./src/utils.c
 
 EXENAME=sortspeed_group

@@ -10,7 +10,7 @@ extern "C"
 {
 #endif
 
-    void bubbleSort(int a[], int size);
+    void bubble_sort(int a[], int size);
 
     void print(const int a[], int iMin, int iMax);
 

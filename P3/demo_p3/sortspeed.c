@@ -36,10 +36,10 @@ int main()
   a = (int *)malloc(sizeof(int) * SIZE);
 
   memcpy(a,v, sizeof(int) * SIZE);
-  sortingtimes(bubbleSort, "bubbleSort", a, SIZE);
+  sortingtimes(bubble_sort, "bubble sort", a, SIZE);
 
   //memcpy(a,v sizeof(int) * SIZE);
-  //sortingtimes(mergeSort, "mergeSort", a, SIZE);
+  //sortingtimes(mergeSort, "merge sort", a, SIZE);
 
   free(v);
   free(a);

@@ -7,9 +7,9 @@ Deadline: 2021.06.11
 
 ## 要求：
 
-基于[bubblesort及其速度测试示例](./demo_p3/) 和 排序算法 `UnitDS-3-Sorting_Algorithms.ipynb`, 进行以下工作：
+基于[bubble sort及其速度测试示例](./demo_p3/) 和 排序算法 `UnitDS-3-Sorting_Algorithms.ipynb`, 进行以下工作：
 
-将mergesort、insertsort和quicksort排序算法加入示例工程，使用`10000`到`50000`范围中的多组数据集测试不同排序算法的计算速度
+将merge sort、insert sort和quick sort排序算法加入示例工程，使用`10000`到`50000`范围中的多组数据集测试不同排序算法的计算速度
 
 基于算法原理和速度测试，给出分析文档
 

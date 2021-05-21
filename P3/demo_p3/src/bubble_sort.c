@@ -3,7 +3,7 @@
 #include "sort.h"
 
 // Sort the given array of size
-void bubbleSort(int a[], int size)
+void bubble_sort(int a[], int size)
 {
     bool done = false; // terminate if no more swap thru a pass
     int temp;          // use for swapping

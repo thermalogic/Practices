@@ -4,7 +4,7 @@ INC=./include/
 
 SRCS=./sortspeed.c \
 	./src/utils.c  \
-	./src/bubbleSort.c 
+	./src/bubble_sort.c 
 
 OUTFILE=$(BIN)sortspeed
 
