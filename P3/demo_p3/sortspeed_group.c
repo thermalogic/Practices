@@ -45,7 +45,7 @@ int main()
 
         // Bubble sort
         memcpy(a, v, sizeof(int) * SIZE);
-        time_bubble[it] = sortingtimes(bubbleSort, a, SIZE);
+        time_bubble[it] = sortingtimes(bubble_sort, a, SIZE);
 
         // add code for Merge,Insertion,Quick Sort
         // merge sort

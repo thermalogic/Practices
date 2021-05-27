@@ -1,8 +1,6 @@
-/* Sorting an array using Bubble Sort (bubbleSort.c) */
-
 #include "sort.h"
 
-// Sort the given array of size
+// A function to implement bubble sort
 void bubble_sort(int a[], int size)
 {
     bool done = false; // terminate if no more swap thru a pass
@@ -11,6 +9,7 @@ void bubble_sort(int a[], int size)
     for (int i = 1; i < size; i++)
     {
         done = true;
+        // Last i elements are already in place
         for (int j = 0; j < size - i; j++)
         {
             if (a[j] > a[j + 1])

@@ -14,7 +14,7 @@ Apply `computational thinking` to model and solve the industrial system problems
 
 ### 1. Example 7.2-5 Page4 
 
-Refrigerant 134a is the working fluid in the vapor-compression refrigeration cycle that communicates thermally with
+Refrigerant 134a is the working fluid in an ideal vapor-compression refrigeration cycle that communicates thermally with
 
 * a cold region at -10°C 
 
@@ -36,7 +36,7 @@ Refrigerant 134a is the working fluid in the vapor-compression refrigeration cyc
 
 ### 2 Modified Example 7.2-5 Page4 
 
-Refrigerant 134a is the working fluid in the vapor-compression refrigeration cycle that communicates thermally with
+Refrigerant 134a is the working fluid in an ideal vapor-compression refrigeration cycle that communicates thermally with
 
 * a cold region at -10°C 
 
