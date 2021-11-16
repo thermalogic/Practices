@@ -3,16 +3,13 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <stdbool.h>
 
 #ifdef __cplusplus
 extern "C"
 {
 #endif
 
-    void bubble_sort(int a[], int size);
-
-    void print(const int a[], int iMin, int iMax);
+    void selection_sort(int a[], int size);
 
 #ifdef __cplusplus
 }

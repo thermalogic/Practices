@@ -2,7 +2,7 @@
 
 **Data Analysis**(15)：Statistics, regression and visualization
 
-* Deadline: 2021.05.06
+* Deadline: 2022.05.06
 
 ## Problem
 
@@ -29,15 +29,24 @@ In 1973, the statistician F.J. Anscombe published a paper containing the table b
 ## 要求(15分)：
 
 使用Jupyter Notebook实现 
-  
-* 1 读取数据文件及使用List,Dict表达数据分析对象(5)：数据文件[Anscombe.csv](./Anscombe.csv)(自己编码,不可使用软件包)
-  * **提示**： 抽象被分析的数据，使用适当的**数据结构**定义数据对象变量
 
+>
+> **注意：** Jupyter Notebook是`文本`+`代码`的交互式文档，练习时注意使用好这个特性
+
+* 1 读取数据文件(4分) [./data/anscombe.csv](./data/anscombe.csv)，使用List,Dict表达数据(自编码,不使用软件包)
+ 
 * 2 统计指标计算和输出(5分)：
-    * 计算均值、方差和相关系数统计指标 (3分， 自己编码，不使用软件包)；
-    * 使用字符输出统计结果表格 (2分，自己编码，不使用软件包) 
+    * 计算均值、方差和相关系数统计指标 (3分， 自编码，不使用软件包)
+    * 使用字符串输出统计结果表格 (2分，自编码，不使用软件包) 
 
-参考输出
+* 3 线性回归和图形输出(3分): 
+   * 线性回归  (1分,使用Numpy或Scipy)
+   * 图形输出（2分,使用Matplotlib）
+
+* 4 **如何做一个合格的统计信息消费/生产者？** (3分)
+
+### 参考输出
+
 ```
 ─────────────────────────────────────────────────
   No   x-avg  x-pvar  y-avg  y-pvar   pearson_r  
@@ -48,24 +57,27 @@ In 1973, the statistician F.J. Anscombe published a paper containing the table b
   4     9.0    10.0    7.5    3.75     0.817 
 ─────────────────────────────────────────────────
 ``` 
-* 3 线性回归和图形输出(3分): **线性回归**  (1分,可使用Numpy或Scipy)； 多图输出（2分,使用Matplotlib）
 
-   参考输出图
-   
-   ![数据点图和回归曲线](Anscombe.png)
+![数据点图和回归曲线](./img/anscombe.png)
 
-* 4 小结(2分)：设计中遇到的问题、解决过程, 工作体会
+## 工作目录和文件
+
+```txt
+ 
+|── <P1>
+     │ 
+     │──nb.bat ：启动jupyter服务的批处理文件
+     | 
+     │──学号-姓名-1.ipynb ：练习的Jupyter Notebook
+     │ 
+     |── <data> 数据文件目录  
+            │
+            |──anscombe.csv
+```
+
 
 ## 提交：
 
 * 1 电邮：cmh@seu.edu.cn 
   * 主题：学号-姓名-1
-  * 附件：程序文件压缩包：**学号-姓名-1.zip**
-
-* 2 截至时间：2021.05.06
-  *  截至时间后可补交，补交得分<=9 (2021.06.21)
-
-
-
-
-
+  * 附件：工作目录的压缩文件：**学号-姓名-1.zip**

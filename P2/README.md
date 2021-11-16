@@ -4,15 +4,15 @@
 
 Apply `computational thinking` to model and solve the industrial system problems
 
-**Deadline:**  2021.05.24
+**Deadline:**  2022.05.24
 
 ## Contents and Requirements
 
-以[SimVCCE](https://github.com/PySEE/SimVCCE)中的Python语言版本为基础，编写代码，使其可计算如下2个循环：
+以[SimVCCE](https://github.com/thermalogic/SimVCCE)中的Python语言版本为基础，编写代码，使其可计算如下循环：
 
-* Thuan Ke Nguyen, [CHE 302 Chemical and Materials Engineering Thermodynamics I: chap7-2](https://www.cpp.edu/~tknguyen/che302/Notes/chap7-2.pdf)
+* Thuan Ke Nguyen, [CHE 302 Chemical and Materials Engineering Thermodynamics I: chap7-2](ttps://www.cpp.edu/~tknguyen/che302/Notes/hchap7-2.pdf)
 
-### 1. Example 7.2-5 Page4 
+### The vapor-compression refrigeration cycles 
 
 Refrigerant 134a is the working fluid in an ideal vapor-compression refrigeration cycle that communicates thermally with
 
@@ -21,8 +21,6 @@ Refrigerant 134a is the working fluid in an ideal vapor-compression refrigeratio
 * Saturated vapor enters the compressor at -10°C 
 
 * liquid leaves the condenser at 0.9MPa and 30°C 
-
-* The compressor has **an efficiency of 80%** 
 
 * The mass flow rate of the refrigerant is 0.08kg/s 
 
@@ -34,61 +32,29 @@ Refrigerant 134a is the working fluid in an ideal vapor-compression refrigeratio
  
  * the coefficient of performance
 
+### 1. Example 7.2-5 Page4 
+
+* The compressor has **an efficiency of 80%** 
+
 ### 2 Modified Example 7.2-5 Page4 
 
-Refrigerant 134a is the working fluid in an ideal vapor-compression refrigeration cycle that communicates thermally with
-
-* a cold region at -10°C 
-
-* Saturated vapor enters the compressor at -10°C and **Superheated vapor leaves the compressor at 50°C** 
-
-* liquid leaves the condenser at 0.9MPa and 30°C
-
-* The mass flow rate of the refrigerant is 0.08kg/s
+* Superheated vapor **leaves the compressor at 50°C** 
 
 **Determine**
 
 * **the efficiency of compressor, in %** 
 
-* the compressor power, in kW
- 
-* the refrigeration capacity, in tons
- 
-* the coefficient of performance
-
  ![](img/example725.jpg) 
 
-### 练习提示
-
-[SimVCCE](https://github.com/PySEE/SimVCCE) 示例中压缩机类的压缩过程是等熵过程，练习中的循环不是等熵过程。
-
-程序要处理：等熵过程、不同已知参数的不可逆非等熵过程，练习需做以下编码工作：
-
-1. compressor压缩机类模块修改：属性、计算及输出
-
-   * 循环Example 7.2-5：已知`压缩机效率`
- 
-   * 修改了已知参数的循环Example 7.2-5：已知`压缩机出口温度`，计算`压缩机效率`
-
-2. 循环数据Python模块
-
-   * `设备`和`端口连接器`字典
-
-3. 其他修改和完善
-
-**建议工作步骤**，
-
-* 首先，分析 **循环Example 7.2-5**，修改代码，实现其计算
-
-* 进一步，分析 **修改了已知参数的循环Example 7.2-5**，修改代码，实现其计算
+## 计分
 
 ### Python源码(6)
 
-* 循环数据Python模块(2)
+* 循环数据Python模块(3)
 
-* 设备类(4)
+* 设备类(3)
 
-### 软件设计工作Markdown文档(9)
+### Markdown文档(9)
 
 * 设计任务简要描述
 
@@ -96,45 +62,36 @@ Refrigerant 134a is the working fluid in an ideal vapor-compression refrigeratio
   * 端口、设备、端口连接关系和循环输入数据变量的数据结构
   * 端口、设备、连接器、循环分析类
   * 端口连接、连接节点物性和循环计算等算法(主要算法、循环分析流程图)
-  
-* 练习中遇到的问题及解决过程 
-  
-* 工作小结：从练习工作相关的以下2个方面做小结
-   * 对工业过程仿真软件市场及开发现状的思考？
-   * 如果基于练习代码，研究问题求解的数据结构和算法，进而开发更通用的循环分析软件，是什么开发模式？ 对软件项目中如何使用开发模式的思考？
+ 
+* 结合练习工作，对以下问题的认识和思考
+   * 对编程思维的认识
+   * 对工业过程仿真软件的思考
 
-**文档提示** ：
+### 练习提示
 
-* 数学公式可使用：`LaTex` ( 在VS Code中**需**[Markdown Preview Enhanced](https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/)插件支持显示)
+**代码**
+
+[SimVCCE](https://github.com/thermalogic/SimVCCE) 示例中压缩机类的压缩过程是等熵过程，练习中是不可逆非等熵过程。
+
+练习需要编程处理：不同已知参数条件下的不可逆非等熵过程
+
+1. compressor压缩机类模块：
+
+   * 已知压缩机效率：计算`出口参数`
+ 
+   * 已知出口参数(压缩机出口温度): 计算`压缩机效率`
+
+2. 循环数据模块
+
+   * `设备`和`端口连接器`字典
+
+**文档** ：
+
+* 数学公式可使用：`LaTex` (在VS Code中**需**[Markdown Preview Enhanced](https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/)插件支持显示)
 
 >* LaTex数学公式: $z=\frac{x}{y}$
 
-* 流程图: Microsoft Visio 或者 [Markdown Preview Enhanced支持的图像类型](https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/diagrams),如：[flowchart](https://flowchart.js.org/
-
-flowchart常用的元素：
-```
-start
-end
-operation
-condition
-inputoutput
-subroutine
-```
-示例：
-
-```flow
-start=>start: 开始
-loginInfo=>inputoutput: 登录数据
-verifyLogin=>subroutine: 登录验证
-isSuccess=>condition: 验证成功？
-respondSuccess=>operation: 响应成功
-responseFailure=>operation: 响应失败
-end=>end: 结束
-
-start->loginInfo->verifyLogin->isSuccess
-isSuccess(yes)->respondSuccess->end
-isSuccess(no)->responseFailure->end
-```
+* 流程图: Microsoft Visio 
 
 ## 建议工作目录
 
@@ -142,7 +99,7 @@ isSuccess(no)->responseFailure->end
  
 |── <P2>
      │ 
-     │── README.md: 软件设计工作Markdown文档
+     │── README.md: Markdown文档
      | 
      |── <img> Markdown文档使用的图形文件
      |
@@ -161,9 +118,7 @@ isSuccess(no)->responseFailure->end
 
 * 电邮： cmh@seu.edu.cn
   * 主题：学号-姓名-2
-  * 附件：工作目录压缩文件： **学号-姓名-2.zip**； 其中，必须有**计算结果文件**
+  * 附件：工作目录压缩文件： **学号-姓名-2.zip** 其中，必须有**计算结果文件**
 
-* 截至时间：2021.05.24
-  * 截至时间后可补交，补交得分<=9. (2021.06.21)
 
 
