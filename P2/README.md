@@ -1,10 +1,10 @@
-## Practice 2(15)
+## Practice 2(10)
 
 **Object-oriented Programming**：The  vapor-compression refrigeration cycle simulator 
 
 Apply `computational thinking` to model and solve the industrial system problems
 
-**Deadline:**  2022.05.24
+**Deadline:**  2022.05.27
 
 ## Contents and Requirements
 
@@ -48,13 +48,13 @@ Refrigerant 134a is the working fluid in an ideal vapor-compression refrigeratio
 
 ## 计分
 
-### Python源码(6)
+### Python源码(4)
 
-* 循环数据Python模块(3)
+* 循环数据Python模块(2)
 
-* 设备类(3)
+* 设备类(2)
 
-### Markdown文档(9)
+### Markdown文档(6)
 
 * 设计任务简要描述
 

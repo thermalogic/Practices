@@ -3,7 +3,7 @@
 
 **C/C++ Programming**： GCC and Make, the Shared Library, Sorting Algorithms
 
-Deadline: 2022.06.11
+Deadline: 2022.06.10
 
 ## 要求：
 

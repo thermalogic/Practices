@@ -1,8 +1,8 @@
 ## Practice 1
 
-**Data Analysis**(15)：Statistics, regression and visualization
+**Data Analysis**(10)：Statistics, regression and visualization
 
-* Deadline: 2022.05.06
+* Deadline: 2022.04.29
 
 ## Problem
 
@@ -26,24 +26,24 @@ In 1973, the statistician F.J. Anscombe published a paper containing the table b
 | 7.0  | 4.82  |  7.0  | 7.26  |  7.0  | 6.42  |  8.0  | 7.91 |
 | 5.0  | 5.68  |  5.0  | 4.74  |  5.0  | 5.73  |  8.0  | 6.89 |
 
-## 要求(15分)：
+## 要求(10分)：
 
 使用Jupyter Notebook实现 
 
 >
 > **注意：** Jupyter Notebook是`文本`+`代码`的交互式文档，练习时注意使用好这个特性
 
-* 1 读取数据文件(4分) [./data/anscombe.csv](./data/anscombe.csv)，使用List,Dict表达数据(自编码,不使用软件包)
+* 1 读取数据文件(3分) [./data/anscombe.csv](./data/anscombe.csv)，使用List,Dict表达数据(自编码,不使用软件包)
  
-* 2 统计指标计算和输出(5分)：
-    * 计算均值、方差和相关系数统计指标 (3分， 自编码，不使用软件包)
-    * 使用字符串输出统计结果表格 (2分，自编码，不使用软件包) 
+* 2 统计指标计算和输出(3分)：
+    * 计算均值、方差和相关系数统计指标 (2分， 自编码，不使用软件包)
+    * 使用字符串输出统计结果表格 (1分，自编码，不使用软件包) 
 
 * 3 线性回归和图形输出(3分): 
    * 线性回归  (1分,使用Numpy或Scipy)
    * 图形输出（2分,使用Matplotlib）
 
-* 4 **如何做一个合格的统计信息消费/生产者？** (3分)
+* 4 **如何做一个合格的统计信息消费/生产者？** (1分)
 
 ### 参考输出
 
