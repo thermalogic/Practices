@@ -63,10 +63,20 @@ Refrigerant 134a is the working fluid in an ideal vapor-compression refrigeratio
   * 端口、设备、连接器、循环分析类
   * 端口连接、连接节点物性和循环计算等算法(主要算法、循环分析流程图)
  
-* 结合练习工作，对以下问题的认识和思考
-   * 对编程思维的认识
-   * 对工业过程仿真软件的思考
+* 将以下短文翻为中文； 结合练习工作，给出你对下面短文的理解
 
+>Programming is about managing complexity in a way that facilitates change. There are two powerful mechanisms available for accomplishing this: decomposition and abstraction`
+
+>Apply abstraction and decomposition to solve more complex problems
+
+> * decompose a large problem into parts and design algorithms to solve them
+
+> * recognise similar problems, and apply generic solutions and abstractions
+
+> * creating algorithms to obtain the generic solution results
+
+The set of problem-solving methods with computer is also called **Computational Thinking**.
+ 
 ### 练习提示
 
 **代码**
