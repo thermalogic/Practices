@@ -60,7 +60,7 @@ Refrigerant 134a is the working fluid in an ideal vapor-compression refrigeratio
 
 * 设计方案简要描述
   * 端口、设备、端口连接关系和循环输入数据变量的数据结构
-  * 端口、设备、连接器、循环分析类
+  * 端口、设备、连接器、循环分析类（含UML图）
   * 端口连接、连接节点物性和循环计算等算法(主要算法、循环分析流程图)
  
 * 将下面的短文译为中文； 结合练习工作，给出你对短文的理解
@@ -101,7 +101,7 @@ The set of problem-solving methods with computer is also called **Computational 
 
 >* LaTex数学公式: $z=\frac{x}{y}$
 
-* 流程图: Microsoft Visio 
+* UML、流程图等: Microsoft Visio 或者 flowchart.js、dot文本描述
 
 ## 建议工作目录
 
@@ -130,5 +130,30 @@ The set of problem-solving methods with computer is also called **Computational 
   * 主题：学号-姓名-2
   * 附件：工作目录压缩文件： **学号-姓名-2.zip** 其中，必须有**计算结果文件**
 
+## 图形的文本描述：flowchart.js、dot
 
+* https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/diagrams
+
+### flowchart.js描述流程图
+
+* https://github.com/adrai/flowchart.js
+
+```flow
+st=>start
+e=>end
+op1=>operation: My Operation
+st->op1->e
+```
+
+### dot描述UML类图
+
+* http://www.graphviz.org/
+
+```dot
+digraph "classes" {
+rankdir=BT
+charset="utf-8"
+"components.compressor.Compressor" [color="black", fontcolor="black", label="{Compressor|devtype: str\lenergy: str\lname:str \liPort: Port[1]\loPort: Port[1]\lportdict: dict port\lef: float\lWc: float\lisos: float\l|__init__(dictDev)\lbalance()\lstate()\l__str__()\l}", shape="record", style="solid"];
+}
+```
 
