@@ -145,6 +145,8 @@ op1=>operation: My Operation
 st->op1->e
 ```
 
+![](./img/flowchart.jpg)
+
 ### dot描述UML类图
 
 * http://www.graphviz.org/
@@ -156,6 +158,8 @@ charset="utf-8"
 "components.compressor.Compressor" [color="black", fontcolor="black", label="{Compressor|devtype: str\lenergy: str\lname:str \liPort: Port[1]\loPort: Port[1]\lportdict: dict port\lef: float\lWc: float\lisos: float\l|__init__(dictDev)\lbalance()\lstate()\l__str__()\l}", shape="record", style="solid"];
 }
 ```
+
+![](./img/dot.jpg)
 
 ### PlantUML描述UML类图
 
@@ -194,3 +198,5 @@ note right of Compressor::__str()__
   输出实例文本串
 end note
 ```
+
+![](img/plantuml.jpg)
