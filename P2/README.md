@@ -130,7 +130,7 @@ The set of problem-solving methods with computer is also called **Computational 
   * 主题：学号-姓名-2
   * 附件：工作目录压缩文件： **学号-姓名-2.zip** 其中，必须有**计算结果文件**
 
-## 图形的文本描述：flowchart.js、dot
+## 图形的文本描述：flowchart.js、dot、PlantUML
 
 * https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/diagrams
 
