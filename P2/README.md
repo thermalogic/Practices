@@ -101,7 +101,7 @@ The set of problem-solving methods with computer is also called **Computational 
 
 >* LaTex数学公式: $z=\frac{x}{y}$
 
-* UML、流程图等: Microsoft Visio 或者 flowchart.js、dot文本描述
+* UML、流程图等: Microsoft Visio 或者 flowchart.js、dot、PlantUML文本描述
 
 ## 建议工作目录
 
@@ -157,3 +157,40 @@ charset="utf-8"
 }
 ```
 
+### PlantUML描述UML类图
+
+* https://plantuml.com/zh/
+
+```puml
+class Compressor {
+ + {static} devtype: str
+ + {static} energy: str
+ + name: str
+ + iPort: Port[1]
+ + oPort: Port[1]
+ + portdict : dict port
+ + ef: float
+ + Wc: float
+ + isos: float
+
+ + __init__(dictDev)
+ + balance()
+ + state()
+ + __str()__
+}
+note left of Compressor::devtype
+  类属性，设备类型
+end note
+note left of Compressor::energy
+  类属性，设备能量类型
+end note
+note left of Compressor::iPort
+  设备的输入端口
+end note
+note left of Compressor::oPort
+  设备的输出端口
+end note
+note right of Compressor::__str()__
+  输出实例文本串
+end note
+```
