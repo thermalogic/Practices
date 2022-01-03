@@ -177,6 +177,8 @@ charset="utf-8"
 : Print results on console  
   Save  results to text file; 
 ```
+![](img/plantuml-flowchart.jpg)
+
 #### UML类图
 
 ```puml
