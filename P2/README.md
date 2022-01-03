@@ -130,7 +130,7 @@ The set of problem-solving methods with computer is also called **Computational 
   * 主题：学号-姓名-2
   * 附件：工作目录压缩文件： **学号-姓名-2.zip** 其中，必须有**计算结果文件**
 
-## 图形的文本描述：flowchart.js、dot、PlantUML
+## 文本描述图形：flowchart.js、dot、PlantUML
 
 * https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/diagrams
 
@@ -161,44 +161,23 @@ charset="utf-8"
 
 ![](./img/dot.jpg)
 
-### PlantUML描述UML类图
+### PlantUML描述Flowchart,UML类图
 
 * https://plantuml.com/zh/
 
+#### Flowchart
 ```puml
-class Compressor {
- + {static} devtype: str
- + {static} energy: str
- + name: str
- + iPort: Port[1]
- + oPort: Port[1]
- + portdict : dict port
- + ef: float
- + Wc: float
- + isos: float
-
- + __init__(dictDev)
- + balance()
- + state()
- + __str()__
-}
-note left of Compressor::devtype
-  类属性，设备类型
-end note
-note left of Compressor::energy
-  类属性，设备能量类型
-end note
-note left of Compressor::iPort
-  设备的输入端口
-end note
-note left of Compressor::oPort
-  设备的输出端口
-end note
-note right of Compressor::__str()__
-  输出实例文本串
-end note
+: Instance of Cycle using the dict of cycle 
+      * the Instance of devices    
+      * the instance of connector             
+  The port state with tx/px/pt;
+:The port state of device;
+:The mass and energy balance of device on the mdot ;
+:The performance of cycle  on the mdot;
+: Print results on console  
+  Save  results to text file; 
 ```
-
+#### UML类图
 
 ```puml
 class Compressor {
