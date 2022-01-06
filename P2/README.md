@@ -155,7 +155,7 @@ st->op1->e
 digraph "classes" {
 rankdir=BT
 charset="utf-8"
-"components.compressor.Compressor" [color="black", fontcolor="black", label="{Compressor|devtype: str\lenergy: str\lname:str \liPort: Port[1]\loPort: Port[1]\lportdict: dict port\lef: float\lWc: float\lisos: float\l|__init__(dictDev)\lbalance()\lstate()\l__str__()\l}", shape="record", style="solid"];
+"components.compressor.Compressor" [color="black", fontcolor="black", label="{Compressor|+ static devtype: str\l + static energy: str\l + name:str \l + iPort: Port[1]\l+ oPort: Port[1]\l + portdict: + dict port\l + ef: float\l + Wc: float\l + isos: float\l|+ Compressor(dictDev)\l + balance()\l + state()\l + __str__():str\l}", shape="record", style="solid"];
 }
 ```
 
@@ -193,10 +193,10 @@ class Compressor {
  + Wc: float
  + isos: float
 
- + __init__(dictDev)
+ + {static} Compressor(dictDev)
  + balance()
  + state()
- + __str()__
+ + __str()__:str
 }
 note left of Compressor::devtype
   类属性，设备类型
