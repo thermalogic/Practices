@@ -66,16 +66,16 @@ Refrigerant 134a is the working fluid in an ideal vapor-compression refrigeratio
 * 将下面的短文译为中文； 结合练习工作，给出你对短文的理解
 
 >Programming is about managing complexity in a way that facilitates change. There are two powerful mechanisms available for accomplishing this: decomposition and abstraction`
-
+>
 >Apply abstraction and decomposition to solve more complex problems
-
+>
 > * decompose a large problem into parts and design algorithms to solve them
-
+>
 > * recognise similar problems, and apply generic solutions and abstractions
-
+>
 > * creating algorithms to obtain the generic solution results
-
-The set of problem-solving methods with computer is also called **Computational Thinking**.
+>
+>The set of problem-solving methods with computer is also called **Computational Thinking**.
  
 ### 练习提示
 
@@ -130,7 +130,7 @@ The set of problem-solving methods with computer is also called **Computational 
   * 主题：学号-姓名-2
   * 附件：工作目录压缩文件： **学号-姓名-2.zip** 其中，必须有**计算结果文件**
 
-## 文本描述图形：flowchart.js、dot、PlantUML
+## 附加：文本描述图形：flowchart.js、dot、PlantUML
 
 * https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/diagrams
 
@@ -155,7 +155,24 @@ st->op1->e
 digraph "classes" {
 rankdir=BT
 charset="utf-8"
-"components.compressor.Compressor" [color="black", fontcolor="black", label="{Compressor|+ static devtype: str\l + static energy: str\l + name:str \l + iPort: Port[1]\l+ oPort: Port[1]\l + portdict: + dict port\l + ef: float\l + Wc: float\l + isos: float\l|+ Compressor(dictDev)\l + balance()\l + state()\l + __str__():str\l}", shape="record", style="solid"];
+"components.compressor.Compressor"
+ [color="black", fontcolor="black", 
+  label="{Compressor|
+    + static devtype: str\l 
+    + static energy: str\l 
+    + name:str \l 
+    + iPort: Port[1]\l 
+    + oPort: Port[1]\l
+    + portdict: + dict port\l 
+    + ef: float\l 
+    + Wc: float\l 
+    + isos: float\l|
+    + Compressor(dictDev)\l
+    + balance()\l
+    + state()\l
+    + __str__():str\l}",
+ shape="record", 
+ style="solid"];
 }
 ```
 
