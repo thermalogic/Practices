@@ -2,8 +2,6 @@
 
 **Object-oriented Programming**：The  vapor-compression refrigeration cycle simulator 
 
-Apply `computational thinking` to model and solve the industrial system problems
-
 **Deadline:**  2022.05.27
 
 ## Contents and Requirements
@@ -63,19 +61,9 @@ Refrigerant 134a is the working fluid in an ideal vapor-compression refrigeratio
   * 端口、设备、连接器、循环分析类（含UML图）
   * 端口连接、连接节点物性和循环计算等算法(主要算法、循环分析流程图)
  
-* 将下面的短文译为中文； 结合练习工作，给出你对短文的理解
+* 小结：结合练习工作，给出你对OOP和编程思维的理解
 
->Programming is about managing complexity in a way that facilitates change. There are two powerful mechanisms available for accomplishing this: decomposition and abstraction`
->
->Apply abstraction and decomposition to solve more complex problems
->
-> * decompose a large problem into parts and design algorithms to solve them
->
-> * recognise similar problems, and apply generic solutions and abstractions
->
-> * creating algorithms to obtain the generic solution results
->
->The set of problem-solving methods with computer is also called **Computational Thinking**.
+**Computational Thinking**.
  
 ### 练习提示
 
