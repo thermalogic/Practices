@@ -63,11 +63,9 @@ Refrigerant 134a is the working fluid in an ideal vapor-compression refrigeratio
  
 * 小结：结合练习工作，给出你对OOP和编程思维的理解
 
-**Computational Thinking**.
- 
-### 练习提示
+## 练习提示
 
-**代码**
+### 代码
 
 [SimVCCE](https://github.com/thermalogic/SimVCCE) 示例中压缩机类的压缩过程是等熵过程，练习中是不可逆非等熵过程。
 
@@ -83,7 +81,7 @@ Refrigerant 134a is the working fluid in an ideal vapor-compression refrigeratio
 
    * `设备`和`端口连接器`字典
 
-**文档** ：
+### 文档：
 
 * 数学公式可使用：`LaTex` (在VS Code中**需**[Markdown Preview Enhanced](https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/)插件支持显示)
 
@@ -91,7 +89,7 @@ Refrigerant 134a is the working fluid in an ideal vapor-compression refrigeratio
 
 * UML、流程图等: Microsoft Visio 或者 flowchart.js、dot、PlantUML文本描述
 
-## 建议工作目录
+### 工作目录
 
 ```txt
  
