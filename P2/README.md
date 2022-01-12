@@ -164,23 +164,9 @@ charset="utf-8"
 
 ![](./img/dot.jpg)
 
-### PlantUML描述Flowchart,UML类图
+### PlantUML描述UML类图
 
 * https://plantuml.com/zh/
-
-#### Flowchart
-```puml
-: Instance of Cycle using the dict of cycle 
-      * the Instance of devices    
-      * the instance of connector             
-  The port state with tx/px/pt;
-:The port state of device;
-:The mass and energy balance of device on the mdot ;
-:The performance of cycle  on the mdot;
-: Print results on console  
-  Save  results to text file; 
-```
-![](img/plantuml-flowchart.jpg)
 
 #### UML类图
 
