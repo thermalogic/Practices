@@ -8,9 +8,10 @@
   - [Simple action](#simple-action)
   - [start/stop/end](#startstopend)
   - [Conditional](#conditional)
-  - [Several tests (horizontal mode)](#several-tests-horizontal-mode)
-  - [Several tests (vertical mode)](#several-tests-vertical-mode)
-  - [5. Switch and case [switch, case, endswitch]](#5-switch-and-case-switch-case-endswitch)
+  - [Several tests](#several-tests)
+    - [horizontal mode](#horizontal-mode)
+    - [vertical mode](#vertical-mode)
+  - [Switch, case endswitch](#switch-case-endswitch)
   - [Conditional with stop on an action - kill, detach](#conditional-with-stop-on-an-action---kill-detach)
   - [Repeat loop](#repeat-loop)
     - [1 basic Repeat loop](#1-basic-repeat-loop)
@@ -126,7 +127,9 @@ else
 
 ```
 
-## Several tests (horizontal mode)
+## Several tests 
+
+### horizontal mode
 
 You can use the **elseif** keyword to have several tests (by default, it is the horizontal mode):
 
@@ -149,7 +152,7 @@ stop
 @enduml
 ```
 
-## Several tests (vertical mode)
+### vertical mode
 
 You can use the command `!pragma useVerticalIf on` to have the tests in vertical mode:
 
@@ -175,7 +178,7 @@ stop
 
 ```
 
-## 5. Switch and case [switch, case, endswitch]
+## Switch, case endswitch
 
 You can use **switch, case and endswitch** keywords to put switch in your diagram.
 Labels can be provided using parentheses().
