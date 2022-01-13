@@ -87,7 +87,11 @@ Refrigerant 134a is the working fluid in an ideal vapor-compression refrigeratio
 
 >* LaTex数学公式: $z=\frac{x}{y}$
 
-* UML、流程图等: Microsoft Visio 或者 flowchart.js、dot、PlantUML文本描述
+* UML、流程图等: Microsoft Visio 或者 PlantUML文本描述
+
+  * [markdown-preview-enhanced: text diagrams](https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/diagrams)
+
+  * [PlantUML](https://plantuml.com/zh/)
 
 ### 工作目录
 
@@ -116,92 +120,16 @@ Refrigerant 134a is the working fluid in an ideal vapor-compression refrigeratio
   * 主题：学号-姓名-2
   * 附件：工作目录压缩文件： **学号-姓名-2.zip** 其中，必须有**计算结果文件**
 
-## 附加：文本描述图形：flowchart.js、dot、PlantUML
+ ## 附加：VS Code中使用PlantUML
+ 
+ ### 安装The PlantUML本地运行软件
 
-* https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/diagrams
+* [Java](https://www.java.com/en/download/)
 
-### flowchart.js描述流程图
+* [Graphviz](https://plantuml.com/en/graphviz-dot)
 
-* https://github.com/adrai/flowchart.js
+### 安装VS Code插件
 
-```flow
-st=>start
-e=>end
-op1=>operation: My Operation
-st->op1->e
-```
+* [Markdown Preview Enhanced插件](https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/)
 
-![](./img/flowchart.jpg)
-
-### dot描述UML类图
-
-* http://www.graphviz.org/
-
-```dot
-digraph "classes" {
-rankdir=BT
-charset="utf-8"
-"components.compressor.Compressor"
- [color="black", fontcolor="black", 
-  label="{Compressor|
-    + static devtype: str\l 
-    + static energy: str\l 
-    + name:str \l 
-    + iPort: Port[1]\l 
-    + oPort: Port[1]\l
-    + portdict: + dict port\l 
-    + ef: float\l 
-    + Wc: float\l 
-    + isos: float\l|
-    + Compressor(dictDev)\l
-    + balance()\l
-    + state()\l
-    + __str__():str\l}",
- shape="record", 
- style="solid"];
-}
-```
-
-![](./img/dot.jpg)
-
-### PlantUML描述UML类图
-
-* https://plantuml.com/zh/
-
-#### UML类图
-
-```puml
-class Compressor {
- + {static} devtype: str
- + {static} energy: str
- + name: str
- + iPort: Port[1]
- + oPort: Port[1]
- + portdict : dict port
- + ef: float
- + Wc: float
- + isos: float
-
- + {static} Compressor(dictDev)
- + balance()
- + state()
- + __str()__:str
-}
-note left of Compressor::devtype
-  类属性，设备类型
-end note
-note left of Compressor::energy
-  类属性，设备能量类型
-end note
-note left of Compressor::iPort
-  设备的输入端口
-end note
-note left of Compressor::oPort
-  设备的输出端口
-end note
-note right of Compressor::__str()__
-  输出实例文本串
-end note
-```
-
-![](img/plantuml-class.jpg)
+* [PlantUML 插件](https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml)
