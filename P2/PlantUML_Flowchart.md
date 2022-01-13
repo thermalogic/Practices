@@ -5,6 +5,7 @@
 <!-- TOC -->
 
 - [Flowchart using PlantUML](#flowchart-using-plantuml)
+  - [The flowchart of the performance analysis of VCC cycle](#the-flowchart-of-the-performance-analysis-of-vcc-cycle)
   - [Simple action](#simple-action)
   - [start/stop/end](#startstopend)
   - [Conditional](#conditional)
@@ -31,26 +32,45 @@
 
 <!-- /TOC -->
 
-## Simple action
-
-Activities label starts with `:` and ends with `;`
-
-They are implicitly linked in their definition order.
+## The flowchart of the performance analysis of VCC cycle
 
 ```puml
-: Instance of Cycle using the dict of cycle 
-      * the Instance of devices    
-      * the instance of connector             
-  The port state with tx/px/pt;
-:The port state of device;
-:The mass and energy balance of device on the mdot ;
+: Instancing the cycle using the dict of cycle 
+      **the instance of devices**    
+      **the instance of connector**;
+note right
+    get the port state: pt/px/tx 
+      when **create** the port of device 
+end note
+:The port state of devices;
+note right
+    comps[].state() by **the thermal process**
+    node[].state()  by **the combined data**
+end note
+:The mass and energy balance of devices on the mdot;
+note right
+    Qin,Qout, Win,Wout, etc
+end note
+
 :The performance of cycle  on the mdot;
 : Print results on console  
   Save  results to text file; 
 ```
 
-![](img/plantuml-flowchart.jpg)
+![](img/plantuml-vcr-flowchart.jpg)
 
+## Simple action
+
+Activities label starts with `:` and ends with `;`
+
+They are implicitly linked in their definition order.
+```puml
+@startuml
+:Hello world;
+:This is on defined on
+several **lines**;
+@enduml
+```
 
 ## start/stop/end
 
@@ -545,6 +565,7 @@ end split
 :finish;
 @enduml
 ```
+
 
 ## Complete example
 
