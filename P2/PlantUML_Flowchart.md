@@ -1,9 +1,6 @@
 # Flowchart using PlantUML
 
->**Reference:** 
->
->* [PlantUML](https://plantuml.com/zh/)
->* [PlantUML: Activity Diagram(beta)](https://plantuml.com/zh/activity-diagram-beta)
+**Reference:** [PlantUML: Activity Diagram(beta)](https://plantuml.com/zh/activity-diagram-beta)
 
 <!-- TOC -->
 

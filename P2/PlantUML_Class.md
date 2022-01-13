@@ -1,8 +1,6 @@
 # PlantUML Class Diagrams
 
-* [PlantUML](https://plantuml.com/zh/)
-
-* [PlantUML: The Class Diagram ](https://plantuml.com/en/class-diagram)
+* [PlantUML: The Class Diagram ](https://plantuml.com/zh/class-diagram)
 
 ## The Class Diagram
 
