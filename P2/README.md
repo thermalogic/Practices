@@ -75,17 +75,11 @@ Refrigerant 134a is the working fluid in an ideal vapor-compression refrigeratio
 
 [SimVCCE](https://github.com/thermalogic/SimVCCE) 示例中压缩机类的压缩过程是等熵过程，练习中是不可逆非等熵过程。
 
-练习需要编程处理：不同已知参数条件下的不可逆非等熵过程
+练习需要编程compressor压缩机类模块，使其适用于：不同的已知参数、不可逆非等熵过程：
 
-1. compressor压缩机类模块：
-
-   * 已知压缩机效率：计算`出口参数`
+* 已知压缩机效率：计算`出口参数`
  
-   * 已知出口参数(压缩机出口温度): 计算`压缩机效率`
-
-2. 循环数据模块
-
-   * `设备`和`端口连接器`字典
+* 已知出口参数(压缩机出口温度): 计算`压缩机效率`
 
 ### 文档：
 
