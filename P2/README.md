@@ -46,22 +46,26 @@ Refrigerant 134a is the working fluid in an ideal vapor-compression refrigeratio
 
 ## 计分
 
-### Python源码(4)
+### Python源码(5)
 
 * 循环数据Python模块(2)
 
 * 设备类(2)
 
-### Markdown文档(6)
+* 异常处理(1): 修改`class VCCycle` 中的`component_balance`方法，使其可以捕获计算过程中的异常，并给出相关信息
+
+### Markdown文档(5)
 
 * 设计任务简要描述
 
-* 设计方案简要描述
+* 设计方案
   * 端口、设备、端口连接关系和循环输入数据变量的数据结构
-  * 端口、设备、连接器、循环分析类（含UML图）
+  * 端口、设备、连接器、循环分析类（含UML类图）
   * 端口连接、连接节点物性和循环计算等算法(主要算法、循环分析流程图)
  
-* 小结：结合练习工作，给出你对OOP和编程思维的理解
+* 小结：
+   * 练习中遇到的问题及其解决方法
+   * 结合练习工作，给出你对OOP和编程思维的理解
 
 ## 练习提示
 
