@@ -6,7 +6,7 @@
 
 ## Contents and Requirements
 
-以[SimVCCE](https://github.com/thermalogic/SimVCCE)中的Python语言版本为基础，编写代码，使其可计算如下循环：
+以[SimVCCE](https://github.com/thermalogic/SimVCCE)中的Python语言版本为基础，编写代码，使其可计算如下循环(循环数据使用 **json** 文件）：
 
 * Thuan Ke Nguyen, [CHE 302 Chemical and Materials Engineering Thermodynamics I: chap7-2](ttps://www.cpp.edu/~tknguyen/che302/Notes/hchap7-2.pdf)
 
@@ -30,7 +30,7 @@ Refrigerant 134a is the working fluid in an ideal vapor-compression refrigeratio
  
  * the coefficient of performance
 
-### 1. Example 7.2-5 Page4 
+### 1 Example 7.2-5 Page4 
 
 * The compressor has **an efficiency of 80%** 
 
@@ -46,13 +46,15 @@ Refrigerant 134a is the working fluid in an ideal vapor-compression refrigeratio
 
 ## 计分
 
-### Python源码(5)
+### Python源码(3)
 
 * 循环数据Python模块(2)
 
-* 设备类(2)
-
 * 异常处理(1): 修改`class VCCycle` 中的`component_balance`方法，使其可以捕获计算过程中的异常，并给出相关信息
+
+### 循环数据json文件(2)
+
+* 2个循环数据json文件，每个1分
 
 ### Markdown文档(5)
 
@@ -103,13 +105,13 @@ Refrigerant 134a is the working fluid in an ideal vapor-compression refrigeratio
      | 
      |── <img> Markdown文档使用的图形文件
      |
-     |── vccapp.py
+     |── vccapp_json.py
      |
      |── <components> 
-     |        
-     |── <vccmodel> 
      |
      |── <vcc> 
+     |
+     |── <jsonmodel> 循环数据json文件
      |
      |── <result> 计算结果数据文件 
 ```  

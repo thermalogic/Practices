@@ -36,16 +36,18 @@
 
 ```puml
 : Instancing the cycle using the dict of cycle 
-      **the instance of devices**    
-      **the instance of connector**;
+      1 the instance of **devices**    
+      2 the instance of **connector**;
 note right
     get the port state: pt/px/tx 
       when **create** the port of device 
 end note
-:The port state of devices;
+:The port state of devices
+    1 state by **thermal process in device**
+    2 state by **combined data of port**;
 note right
-    comps[].state() by **the thermal process**
-    node[].state()  by **the combined data**
+    1 comps[].state()
+    2 node[].state()
 end note
 :The mass and energy balance of devices on the mdot;
 note right
@@ -53,8 +55,8 @@ note right
 end note
 
 :The performance of cycle  on the mdot;
-: Print results on console  
-  Save  results to text file; 
+: Print results on **console**  
+  Save  results to **text file**; 
 ```
 
 ![](img/plantuml-vcr-flowchart.jpg)
