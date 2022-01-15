@@ -21,7 +21,7 @@
   - [while loop](#while-loop)
     - [1  basic while loop](#1--basic-while-loop)
     - [2 while loop with lables](#2-while-loop-with-lables)
-    - [3  an `infinite` while loop](#3--an-infinite-while-loop)
+    - [3 an `infinite` while loop](#3-an-infinite-while-loop)
   - [Notes](#notes)
   - [Colors](#colors)
   - [Lines without arrows](#lines-without-arrows)
@@ -359,7 +359,7 @@ end while (empty)
 @enduml
 ```
 
-### 3  an `infinite` while loop
+### 3 an `infinite` while loop
  
  you are using **detach** to form an `infinite` **while** loop, then you will want to also hide the partial arrow that results using `-[hidden]->`
 

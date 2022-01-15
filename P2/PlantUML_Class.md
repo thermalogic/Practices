@@ -11,12 +11,11 @@ class Compressor {
  + name: str
  + iPort: Port[1]
  + oPort: Port[1]
- + portdict : dict port
+ + portdict: dict
  + ef: float
  + Wc: float
  + isos: float
-
- + {static} Compressor(dictDev)
+ + {static} Compressor(dictDev:dict)
  + balance()
  + state()
  + __str()__:str
@@ -33,9 +32,22 @@ end note
 note left of Compressor::oPort
   设备的输出端口
 end note
-note right of Compressor::__str()__
+note left of Compressor::__str()__
   输出实例文本串
 end note
+note right of Compressor::portdict
+  **map the port name(str) to its obj**
+   {"iPort": self.iPort,
+    "oPort": self.oPort}
+end note
+note right of Compressor::Compressor(dictDev:dict)
+  **dict** {"name": "Compressor",
+            "devtype": "COMPRESSOR",
+            "iPort": {},
+             "oPort": {},
+             "ef": 0 ~ 1 }
+end note
+
 ```
 
-![](img/plantuml-class.jpg)
+![](img/uml-compressor.jpg)
