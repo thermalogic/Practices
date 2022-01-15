@@ -4,6 +4,8 @@
 
 ## The Class Diagram
 
+### 1 class Compressor
+
 ```puml
 class Compressor {
  + {static} devtype: str
@@ -51,3 +53,12 @@ end note
 ```
 
 ![](img/uml-compressor.jpg)
+
+### The Composition relation of Compressor and Port's instance 
+
+```puml
+Compressor "2" *-- "2" Port : iPort,oPort
+```
+
+![](img/uml-compressor-port.jpg)
+
