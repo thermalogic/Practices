@@ -6,7 +6,7 @@
 
 ## Contents and Requirements
 
-以[SimVCCE](https://github.com/thermalogic/SimVCCE)中的Python语言版本为基础，编写代码，使其可计算如下循环(循环数据使用 **json** 文件）：
+以[SimVCCE](https://gitee.com/thermalogic/simvcce)中的Python语言版本为基础，编写代码，使其可计算如下循环(循环数据使用 **json** 文件）：
 
 * Thuan Ke Nguyen, [CHE 302 Chemical and Materials Engineering Thermodynamics I: chap7-2](ttps://www.cpp.edu/~tknguyen/che302/Notes/hchap7-2.pdf)
 
@@ -48,7 +48,7 @@ Refrigerant 134a is the working fluid in an ideal vapor-compression refrigeratio
 
 ### Python源码(3)
 
-* 循环数据Python模块(2)
+* Compressor类(2)
 
 * 异常处理(1): 修改`class VCCycle` 中的`component_balance`方法，使其可以捕获计算过程中的异常，并给出相关信息
 
@@ -61,19 +61,19 @@ Refrigerant 134a is the working fluid in an ideal vapor-compression refrigeratio
 * 设计任务简要描述
 
 * 设计方案
-  * 端口、设备、端口连接关系和循环输入数据变量的数据结构
-  * 端口、设备、连接器、循环分析类（含UML类图）
-  * 端口连接、连接节点物性和循环计算等算法(主要算法、循环分析流程图)
+  * 端口、设备、端口连接关系和循环输入数据的数据结构设计
+  * 端口、设备、连接器、循环分析类设计（含UML类图）
+  * 端口连接、连接节点物性和循环计算等算法(含算法、循环分析流程图)
  
 * 小结：
    * 练习中遇到的问题及其解决方法
-   * 结合练习工作，给出你对OOP和编程思维的理解
+   * 结合练习工作，给出你对面向对象编程和编程思维的理解
 
 ## 练习提示
 
 ### 代码
 
-[SimVCCE](https://github.com/thermalogic/SimVCCE) 示例中压缩机类的压缩过程是等熵过程，练习中是不可逆非等熵过程。
+[SimVCCE](https://gitee.com/thermalogic/simvcce) 示例中压缩机类的压缩过程是等熵过程，练习中是不可逆非等熵过程。
 
 练习需要编程compressor压缩机类模块，使其适用于：不同的已知参数、不可逆非等熵过程：
 
@@ -87,7 +87,7 @@ Refrigerant 134a is the working fluid in an ideal vapor-compression refrigeratio
 
 >* LaTex数学公式: $z=\frac{x}{y}$
 
-* UML、流程图等: Microsoft Visio 或者 [PlantUML文本描述](https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/diagrams?id=plantuml)
+* UML、流程图等: Microsoft Visio 或者 [PlantUML文本描述](https://gitee.com/thermalogic/simvcce)
   
 ### 工作目录
 
