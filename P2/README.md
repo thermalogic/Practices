@@ -48,7 +48,11 @@ Refrigerant 134a is the working fluid in an ideal vapor-compression refrigeratio
 
 ### Python源码(3)
 
-* Compressor类(2)
+* Compressor类(2) 修改Compressor类代码使其适用于：不同的已知参数、不可逆非等熵过程：
+
+  * 已知压缩机效率：计算`出口参数`
+ 
+  * 已知出口参数(压缩机出口温度): 计算`压缩机效率`
 
 * 异常处理(1): 修改`class VCCycle` 中的`component_balance`方法，使其可以捕获计算过程中的异常，并给出相关信息
 
@@ -69,19 +73,7 @@ Refrigerant 134a is the working fluid in an ideal vapor-compression refrigeratio
    * 练习中遇到的问题及其解决方法
    * 结合练习工作，给出你对面向对象编程和编程思维的理解
 
-## 练习提示
-
-### 代码
-
-[SimVCCE](https://gitee.com/thermalogic/simvcce) 示例中压缩机类的压缩过程是等熵过程，练习中是不可逆非等熵过程。
-
-练习需要编程compressor压缩机类模块，使其适用于：不同的已知参数、不可逆非等熵过程：
-
-* 已知压缩机效率：计算`出口参数`
- 
-* 已知出口参数(压缩机出口温度): 计算`压缩机效率`
-
-### 文档：
+#### 文档提示
 
 * 数学公式可使用：`LaTex` (在VS Code中**需**[Markdown Preview Enhanced](https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/)插件支持显示)
 
