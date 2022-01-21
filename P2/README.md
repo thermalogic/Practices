@@ -79,7 +79,7 @@ Refrigerant 134a is the working fluid in an ideal vapor-compression refrigeratio
 
 >* LaTex数学公式: $z=\frac{x}{y}$
 
-* UML、流程图等: Microsoft Visio 或者 [PlantUML文本描述](https://gitee.com/thermalogic/simvcce/doc)
+* UML、流程图等: Microsoft Visio 或者 [PlantUML文本描述](https://gitee.com/thermalogic/simvcce/tree/B2022/doc)
   
 ### 工作目录
 
