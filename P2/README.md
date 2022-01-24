@@ -30,7 +30,7 @@ Disregarding any heat transfer and pressure drops in the connecting lines betwee
 
 ### Python源码(3)
 
-* Compressor类(2) 修改Compressor类代码使其适用于：不同的已知条件下的不可逆非等熵过程计算：
+* Compressor类(2) 修改Compressor类代码使其适用于：不同已知条件下的不可逆非等熵压缩过程计算：
 
   * 已知出口压力0.8Ma，温度50°: 计算`压缩机等熵效率`
 
