@@ -8,9 +8,9 @@
 
 以[SimVCCE](https://gitee.com/thermalogic/simvcce)中的Python语言版本为基础，编写代码，使其可计算如下实际循环(循环数据使用 **json** 文件）：
 
-Yunus A. Cengel, Michael A. Boles,Thermodynamics: An Engineering Approach, 5th Edition, McGraw-Hill
+Yunus A. Cengel, Michael A. Boles,Thermodynamics: An Engineering Approach, 8th Edition, McGraw-Hill,2015
 
-* Page695-696 Example 11-2: The Actual Vapor-Compression Refrigeration Cycle 
+* Page614-615 Example 11-2: The Actual Vapor-Compression Refrigeration Cycle 
 
 Refrigerant-134a enters the compressor of a refrigerator as superheated vapor at 0.14 MPa and -10°C at a rate of 0.05kg/s and leaves at 0.8 MPa and 50°C.
 
