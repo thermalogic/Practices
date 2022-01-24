@@ -4,9 +4,9 @@
 
 **Deadline:**  2022.05.27
 
-## Contents and Requirements
+## 三种循环计算条件下的计算(6分)
 
-以[SimVCCE](https://gitee.com/thermalogic/simvcce)中的Python语言版本为基础，编写代码，使其可计算如下实际循环(循环数据使用 **json** 文件）：
+以[SimVCCE](https://gitee.com/thermalogic/simvcce)中的Python语言版本为基础进行设计，使其可计算如下实际循环为基础修改出的三种不同循环场景
 
 Yunus A. Cengel, Michael A. Boles,Thermodynamics: An Engineering Approach, 8th Edition, McGraw-Hill,2015
 
@@ -26,23 +26,19 @@ Disregarding any heat transfer and pressure drops in the connecting lines betwee
 
 ![11-2](./img/avcr_11_2.jpg)
 
-## 计分
+这个循环参数基础是
 
-### Python源码(3)
+  * 已知制冷剂的质量流量, 压缩机出口压力0.8Ma，出口温度50°C : 计算`压缩机等熵效率`和`耗功`
 
-* Compressor类(2) 修改Compressor类代码使其适用于：不同已知条件下的不可逆非等熵压缩过程计算：
+修改出的另二种循环场景
 
-  * 已知出口压力0.8Ma，温度50°: 计算`压缩机等熵效率`
+  * 压缩机出口温度`未知`，已知出口压力0.8Ma，压缩机**等熵效率90%**, 计算压缩机`出口温度`和`耗功`
 
-  * 已知出口压力0.8Ma，压缩机等熵效率90%, 计算压缩机`出口温度`
- 
-* 异常处理(1): 修改`class VCCycle` 中的`simulator()`方法，使其可以捕获计算过程中的异常，并给出相关信息
+  * 制冷剂的质量流量`未知`，已知出口压力0.8Ma，压缩机等熵效率90%, **压缩机耗功1.8kW**, 计算`制冷剂的质量流量`，压缩机`出口温度`
 
-### 循环数据json文件(2)
+修改**Compressor**类代码，建立三种场景的**循环的json数据文件**，计算三种场景下循环的参数和性能指标 
 
-* 2个循环数据json文件，每个1分
-
-### Markdown文档(5)
+## Markdown文档(4分)
 
 * 设计任务简要描述
 
