@@ -4,7 +4,7 @@
 
 **Deadline:**  2022.05.27
 
-## 三种循环计算条件下的计算(6分)
+## 三种循环计算条件的程序编码(6分)
 
 以[SimVCCE](https://gitee.com/thermalogic/simvcce)中的Python语言版本为基础进行设计，使其可计算如下实际循环为基础修改出的三种不同循环场景
 
@@ -36,7 +36,7 @@ Disregarding any heat transfer and pressure drops in the connecting lines betwee
 
   * 制冷剂的质量流量`未知`，已知出口压力0.8Ma，压缩机等熵效率90%, **压缩机耗功1.8kW**, 计算`制冷剂的质量流量`，压缩机`出口温度`
 
-修改**Compressor**类代码，建立三种场景的**循环的json数据文件**，计算三种场景下循环的参数和性能指标 
+修改**Compressor**类代码，建立三种场景循环**json数据文件**，计算三种场景下循环的参数和性能指标 
 
 ## Markdown文档(4分)
 
