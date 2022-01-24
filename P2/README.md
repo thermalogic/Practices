@@ -6,55 +6,37 @@
 
 ## Contents and Requirements
 
-以[SimVCCE](https://gitee.com/thermalogic/simvcce)中的Python语言版本为基础，编写代码，使其可计算如下循环(循环数据使用 **json** 文件）：
+以[SimVCCE](https://gitee.com/thermalogic/simvcce)中的Python语言版本为基础，编写代码，使其可计算如下实际循环(循环数据使用 **json** 文件）：
 
-* Thuan Ke Nguyen, [CHE 302 Chemical and Materials Engineering Thermodynamics I: chap7-2](ttps://www.cpp.edu/~tknguyen/che302/Notes/hchap7-2.pdf)
+Yunus A. Cengel, Michael A. Boles,Thermodynamics: An Engineering Approach, 5th Edition, McGraw-Hill
 
-### The vapor-compression refrigeration cycles 
+* Page695-696 Example 11-2: The Actual Vapor-Compression Refrigeration Cycle 
 
-Refrigerant 134a is the working fluid in an ideal vapor-compression refrigeration cycle that communicates thermally with
+Refrigerant-134a enters the compressor of a refrigerator as superheated vapor at 0.14 MPa and -10°C at a rate of 0.05kg/s and leaves at 0.8 MPa and 50°C.
 
-* a cold region at -10°C 
+The refrigerant is cooled in the condenser to 26°C and 0.72MPa and is throttled to 0.15 MPa.
 
-* Saturated vapor enters the compressor at -10°C 
-
-* liquid leaves the condenser at 0.9MPa and 30°C 
-
-* The mass flow rate of the refrigerant is 0.08kg/s 
+Disregarding any heat transfer and pressure drops in the connecting lines between the components, 
 
 **Determine**
 
- * the compressor power, in kW
- 
- * the refrigeration capacity, in tons
- 
- * the coefficient of performance
+* (a) the rate of heat removal from the refrigerated space and the power input to the compressor,
+* (b) the isentropic efficiency of the compressor, and
+* (c) the coefficient of performance of the refrigerator.
 
-### 1 Example 7.2-5 Page4 
-
-* The compressor has **an efficiency of 80%** 
-
-### 2 Modified Example 7.2-5 Page4 
-
-* Superheated vapor **leaves the compressor at 50°C** 
-
-**Determine**
-
-* **the efficiency of compressor, in %** 
-
- ![](img/example725.jpg) 
+![11-2](./img/avcr_11_2.jpg)
 
 ## 计分
 
 ### Python源码(3)
 
-* Compressor类(2) 修改Compressor类代码使其适用于：不同的已知参数、不可逆非等熵过程：
+* Compressor类(2) 修改Compressor类代码使其适用于：不同的已知条件下的不可逆非等熵过程计算：
 
-  * 已知压缩机效率：计算`出口参数`
+  * 已知出口压力0.8Ma，温度50°: 计算`压缩机等熵效率`
+
+  * 已知出口压力0.8Ma，压缩机等熵效率90%, 计算压缩机`出口温度`
  
-  * 已知出口参数(压缩机出口温度): 计算`压缩机效率`
-
-* 异常处理(1): 修改`class VCCycle` 中的`component_balance`方法，使其可以捕获计算过程中的异常，并给出相关信息
+* 异常处理(1): 修改`class VCCycle` 中的`simulator()`方法，使其可以捕获计算过程中的异常，并给出相关信息
 
 ### 循环数据json文件(2)
 
