@@ -30,7 +30,7 @@ Disregarding any heat transfer and pressure drops in the connecting lines betwee
 
   * 已知制冷剂的质量流量, 压缩机出口压力0.8Ma，出口温度50°C : 计算`压缩机等熵效率`和`耗功`
 
-修改出的另二种循环场景
+修改出的另二种循环参数条件
 
   * 压缩机出口温度`未知`，已知出口压力0.8Ma，压缩机**等熵效率90%**, 计算压缩机`出口温度`和`耗功`
 
@@ -48,8 +48,7 @@ Disregarding any heat transfer and pressure drops in the connecting lines betwee
   * 端口连接、连接节点物性和循环计算等算法(含算法、循环分析流程图)
  
 * 小结：
-   * 练习中遇到的问题及其解决方法
-   * 结合练习工作，给出你对面向对象编程和编程思维的理解
+   * 练习中遇到的问题、解决过程和方法
 
 #### 文档提示
 
