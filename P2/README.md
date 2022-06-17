@@ -102,7 +102,7 @@ class EvaporatorHeatExchanger:
 
 以可计算Example11-1,Example11-5和练习中地源热泵的分析软件设计为对象，给出
 
-* 面向对象设计的总体思路
+* 面向对象程序设计的总体思路
 
 * 设计方案的如下几个方面内容
 
@@ -123,7 +123,7 @@ class EvaporatorHeatExchanger:
   
 ### 设计小结(1)
 
-  * 练习中遇到的问题、解决过程和方法
+  * 练习中遇到的问题、解决过程
 
 
 #### 文档提示
@@ -153,7 +153,7 @@ class EvaporatorHeatExchanger:
      |── <result> 计算结果数据文件 
 ```  
 
-## 提交：
+## 提交
 
 * 电邮： cmh@seu.edu.cn
   * 主题：学号-姓名-2
