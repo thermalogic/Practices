@@ -1,37 +1,33 @@
 
-## Practice 3(10)
+## Practice 3(8)
 
 **C/C++ Programming**： GCC and Make, the Shared Library, Sorting Algorithms
 
-Deadline: 2022.06.10
+Deadline: 2023.06.10
 
 ## 要求：
 
-基于[select sort及其速度测试示例](./demo_p3/) 和 排序算法 `Unit6-3-Sorting_Algorithms.ipynb`, 进行以下工作：
+基于[排序算法速度测试示例](./demo_p3/), 编写 `选择排序` 和 `归并排序` 算法速度测试代码，并给出算法原理文档
 
-将merge sort排序算法加入示例工程，使用`10000`到`100000`范围中的多组数据集测试不同排序算法的计算速度
-
-基于算法原理和速度测试，给出分析文档
-
-1. 排序算法，速度测试源码及编译makefile文件(4)
+1. 排序算法、速度测试源码(2)
    
-   * 排序算法源码
-   * 排序算法速度测试源码
-   * 编译生成速度测试程序的makefile文件：makefile
+   * 加入 `归并排序`的C语言实现
   
-2. 生成排序算法Windows动态库的makefile文件(1)
+2. 编译生成速度测试程序的makefile文件：makefile(1)
+  
+3. 生成排序算法Windows动态库的makefile文件(1)
  
    * makedll.mk
 
-3. 生成使用排序算法共享库的速度测试运行程序的makefile文件(1)
+4. 生成使用排序算法共享库的速度测试运行程序的makefile文件(1)
  
    * makeclient.mk
 
-4. 练习工作README.md文档(3)：
+5. 练习工作README.md文档(3)：
  
    * 2种排序算法要点
 
-   * 2种排序算法的时间、空间复杂度
+   * 2种排序算法的时间、空间复杂度和排序稳定性
 
 ### sort_speed
 
@@ -75,9 +71,9 @@ VS Code的C/C++插件默认 `自动产生预编译头文件`，用于改进编�
      │ 
      │── makedll.mk: building the shared library of Sorting Algorithms
      │               
-     │── makeclient.mk: building the speed test executable caller of the shared library of Sorting Algorithms
+     │── makeclient.mk: building the speed test executable caller of the shared library 
      │
-     |── sort_speed.c the speed example in C
+     |── sort_speed.c ：the speed test code
      |
      |── <img> image used in README.md  
      |       │

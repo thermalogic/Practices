@@ -41,7 +41,7 @@ In 1973, the statistician F.J. Anscombe published a paper containing the table b
 
 * 3 线性回归和图形输出(3分): 
    * 线性回归  (1分,使用Numpy或Scipy)
-   * 图形输出（2分,使用Matplotlib）
+   * 图形输出  (2分,使用Matplotlib)
 
 * 4 **如何做一个合格的统计信息消费/生产者？** (1分)
 
@@ -66,13 +66,13 @@ In 1973, the statistician F.J. Anscombe published a paper containing the table b
  
 |── <P1>
      │ 
-     │──nb.bat ：启动jupyter服务的批处理文件
+     │── nb.bat ：启动jupyter服务的批处理文件
      | 
-     │──学号-姓名-1.ipynb ：练习的Jupyter Notebook
+     │── 学号-姓名-1.ipynb ：练习的Jupyter Notebook
      │ 
      |── <data> 数据文件目录  
             │
-            |──anscombe.csv
+            |── anscombe.csv
 ```
 
 

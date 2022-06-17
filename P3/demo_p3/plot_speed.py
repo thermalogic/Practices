@@ -16,21 +16,21 @@ def plot_speedvalue(filename):
     csvfile.close()  
 
     fig = plt.figure(figsize=(6, 6))
-    plt.title('Sort Speed(Clicks)')
+    plt.title('Sort Speed(microseconds)')
     plt.xlabel('A Size')
-    plt.ylabel('Clicks')
+    plt.ylabel('microseconds')
 
     plt.xlim(table["A_size"][0], table["A_size"][-1])
     x = np.array(table["A_size"])
     for item in list(table.keys())[1:]:
         y = np.array(table[item])
-        # data points
-        plt.plot(x,y, "*", label=item)
+        # data points with log scale
+        plt.loglog(x,y, "*", label=item)
         # smooth curve with interpolating B-spline
         spl = make_interp_spline(x, y,k=2)
         x_smooth = np.linspace(x.min(), x.max(), 2000)
         y_smooth = spl(x_smooth)
-        plt.plot(x_smooth, y_smooth)
+        plt.loglog(x_smooth, y_smooth)
 
     plt.legend(loc="best")
     plt.show()

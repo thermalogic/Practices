@@ -1,62 +1,125 @@
-## Practice 2(10)
+## Practice 2(12)
 
 **Object-oriented Programming**：The  vapor-compression refrigeration cycle simulator 
 
-**Deadline:**  2022.05.27
+**Deadline:**  2023.05.27
 
-## 三种循环计算条件的程序编码(6分)
+## 地源热泵循环分析
 
-以[SimVCCE](https://gitee.com/thermalogic/simvcce)中的Python语言版本为基础进行设计，使其可计算如下实际循环为基础修改出的三种不同循环场景
+以[SimVCCE](https://gitee.com/thermalogic/simvcce)中的Python语言版本为基础进行设计，使其可计算如下地源热泵循环(Page670 Ex11-43)
 
-Yunus A. Cengel, Michael A. Boles,Thermodynamics: An Engineering Approach, 8th Edition, McGraw-Hill,2015
+A heat pump with R134a as the working fluid is used to keep a space at `25°C` by **absorbing heat from geothermal water** that enters the evaporator at `50°C` at a rate of `0.065 kg/s` and leaves at `40°C`. 
 
-* Page614-615 Example 11-2: The Actual Vapor-Compression Refrigeration Cycle 
+The refrigerant enters the evaporator at `20°C` with a quality of `23 percent` and leaves at the inlet pressure as saturated vapor. 
 
-Refrigerant-134a enters the compressor of a refrigerator as superheated vapor at 0.14 MPa and -10°C at a rate of 0.05kg/s and leaves at 0.8 MPa and 50°C.
-
-The refrigerant is cooled in the condenser to 26°C and 0.72MPa and is throttled to 0.15 MPa.
-
-Disregarding any heat transfer and pressure drops in the connecting lines between the components, 
+The refrigerant **loses `300 W` of heat to the surroundings** as it flows through the compressor and the refrigerant leaves the compressor at `1.4 MPa` at the same entropy as the inlet.
 
 **Determine**
 
-* (a) the rate of heat removal from the refrigerated space and the power input to the compressor,
-* (b) the isentropic efficiency of the compressor, and
-* (c) the coefficient of performance of the refrigerator.
+1. the degrees of subcooling of the refrigerant in the condenser (`3.8°C`)
+2. the mass flow rate of the refrigerant (`0.0194 kg/s`)
+3. the heating load and the COP of the heat pump (`3.07kW, 4.68`)
+4. the theoretical minimum power input to the compressor for the same heating load (`0.238kW`)
 
-![11-2](./img/avcr_11_2.jpg)
+![](./img/heatpump_11_43.jpg)
 
-这个循环参数基础是
+## 编码(6分)
 
-  * 已知制冷剂的质量流量, 压缩机出口压力0.8Ma，出口温度50°C : 计算`压缩机等熵效率`和`耗功`
+* 增加设备类： evaporator absorbing heat from geothermal water 
 
-修改出的另二种循环参数条件
+![](./img/evaporator_hp.jpg)
 
-  * 压缩机出口温度`未知`，已知出口压力0.8Ma，压缩机**等熵效率90%**, 计算压缩机`出口温度`和`耗功`
+* Condenser类：增加the degrees of subcooling of the refrigerant计算
+* VCCycle类：增加the theoretical minimum power input计算
 
-  * 制冷剂的质量流量`未知`，已知出口压力0.8Ma，压缩机等熵效率90%, **压缩机耗功1.8kW**, 计算`制冷剂的质量流量`，压缩机`出口温度`
+#### 编码提示
 
-修改**Compressor**类代码，建立三种场景循环**json数据文件**，计算三种场景下循环的参数和性能指标 
+```python
+"""
+EvaporatorHeatExchange
 
-## Markdown文档(4分)
+the combined evporator and the water duct
 
-* 设计任务简要描述
+                         ↓   iPort refrigerant
+                   ┌─────┼─────┐
+                   │ → ┌─┼─┐←  │
+        oPortW   ← ┤ Q │ Z │ Q │← iPortW
+                   │ → └─┼─┘←  │
+                   └─────┼─────┘
+                         ↓      oPort refrigerant
+
+json example
+ {
+            "name": "Evaporator",
+            "devtype": "EVAPORATOR_HEAT_EXCHANGER",
+            "iPort": {},
+            "oPort": {
+                "x": 1.0
+            },
+            "iPortW": {
+                "p": 0.1,
+                "t": 50.0,
+                "mdot":0.065,
+                "refrigerant": "WATER"
+            },
+            "oPortW": {
+                "p": 0.1,
+                "t": 40.0,
+                "refrigerant": "WATER"
+            }
+        }
+"""
+from components.port import Port
+
+class EvaporatorHeatExchanger:
+
+    energy = "QIN"
+    devtype = "EVAPORATOR_HEAT_EXCHANGER"
+
+    def __init__(self, dictDev):
+        """ Initializes the EVAPORATOR_HEATIN_EXCHANGER """
+        self.name = dictDev['name']
+        self.iPort = Port(dictDev['iPort'])
+        self.oPort = Port(dictDev['oPort'])
+        self.iPortW = Port(dictDev["iPortW"])
+        self.oPortW = Port(dictDev["oPortW"])
+```
+
+## 循环json文件(1分)
+
+* compressor有散热
+
+## Markdown文档(5分)
 
 * 设计方案
-  * 端口、设备、端口连接关系和循环输入数据的数据结构设计
   * 端口、设备、连接器、循环分析类设计（含UML类图）
-  * 端口连接、连接节点物性和循环计算等算法(含算法、循环分析流程图)
- 
+  * 端口连接、端口物性计算、循环计算等算法(含算法流程图)
+  * 循环json数据文件设计：端口、热泵设备、端口连接关系等
+  
 * 小结：
    * 练习中遇到的问题、解决过程和方法
 
+
 #### 文档提示
 
-* 数学公式使用：`LaTex` (在VS Code中**需**[Markdown Preview Enhanced](https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/)插件支持显示)
+* 数学公式使用：`LaTex` 
 
->* LaTex数学公式: $z=\frac{x}{y}$
+* UML、流程图使用: [PlantUML文本描述](https://gitee.com/thermalogic/simvcce/tree/B2023/uml)
 
-* UML、流程图使用: [PlantUML文本描述](https://gitee.com/thermalogic/simvcce/tree/B2022/uml)
+#### 安装软件
+
+VSCode插件
+
+* [Markdown Preview Enhanced](https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/)
+
+* [PlantUML](https://github.com/qjebbs/vscode-plantuml/)
+
+PlantUML
+
+* [Java](https://www.java.com/en/download/) Platform for PlantUML running.
+
+* [Graphviz](https://graphviz.org) PlantUML requires it to calculate positions in diagram.
+
   
 ### 工作目录
 
@@ -74,7 +137,7 @@ Disregarding any heat transfer and pressure drops in the connecting lines betwee
      |
      |── <vcc> 
      |
-     |── <jsonmodel> 循环数据json文件
+     |── <jsonmodel> 循环json数据文件
      |
      |── <result> 计算结果数据文件 
 ```  
