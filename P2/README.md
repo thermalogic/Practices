@@ -128,25 +128,10 @@ class EvaporatorHeatExchanger:
 
 #### 文档提示
 
-* 数学公式使用：`LaTex` 
+* 数学公式使用：**LaTex** 
 
 * UML、流程图使用: [PlantUML文本描述](https://gitee.com/thermalogic/simvcce/tree/B2023/uml)
 
-#### 安装软件
-
-VSCode插件
-
-* [Markdown Preview Enhanced](https://shd101wyy.github.io/markdown-preview-enhanced/#/zh-cn/)
-
-* [PlantUML](https://github.com/qjebbs/vscode-plantuml/)
-
-PlantUML
-
-* [Java](https://www.java.com/en/download/) Platform for PlantUML running.
-
-* [Graphviz](https://graphviz.org) PlantUML requires it to calculate positions in diagram.
-
-  
 ### 工作目录
 
 ```txt
