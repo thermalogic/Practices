@@ -6,7 +6,7 @@
 
 ## 地源热泵循环分析
 
-以[SimVCCE](https://gitee.com/thermalogic/simvcce)中的Python语言版本为基础进行设计，使其可计算如下地源热泵循环(Page670 Ex11-43)
+以[SimVCCE分支B2023-2](https://gitee.com/thermalogic/simvcce)中的Python语言版本为基础进行设计，使其可计算如下地源热泵循环(Page670 Ex11-43)
 
 A heat pump with R134a as the working fluid is used to keep a space at `25°C` by **absorbing heat from geothermal water** that enters the evaporator at `50°C` at a rate of `0.065 kg/s` and leaves at `40°C`. 
 
