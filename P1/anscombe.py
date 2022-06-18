@@ -9,10 +9,9 @@ John V. Guttag. Introduction to Computation and Programming Using Python:
 import os
 
 if __name__ == "__main__":
-    cur_abspath = os.path.abspath(os.path.dirname(__file__))
+    module_abspath = os.path.abspath(os.path.dirname(__file__))
     data_file_name="/data/anscombe.csv"
-    data_file_name_abspath = cur_abspath+data_file_name
-    print(data_file_name_abspath)
+    data_file_name_abspath = module_abspath+data_file_name
     datafile=open(data_file_name_abspath)
     for row in datafile:
         print(row,end="")
