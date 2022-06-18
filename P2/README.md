@@ -152,11 +152,3 @@ class EvaporatorHeatExchanger:
      |
      |── <result> 计算结果数据文件 
 ```  
-
-## 提交
-
-* 电邮： cmh@seu.edu.cn
-  * 主题：学号-姓名-2
-  * 附件：工作目录压缩文件： **学号-姓名-2.zip** 其中，必须有**计算结果文件**
-
- 

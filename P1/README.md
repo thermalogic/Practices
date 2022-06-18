@@ -30,7 +30,7 @@ In 1973, the statistician F.J. Anscombe published a paper containing the table b
 
 实现2种类型的数据分析软件:  Python脚本、Jupyter Notebook 
 
-* 1 读取数据文件(3分) [./data/anscombe.csv](./data/anscombe.csv)，使用List,Dict表达数据(自编码,不使用软件包)
+* 1 读取数据文件(2分) [./data/anscombe.csv](./data/anscombe.csv)，使用List,Dict表达数据(自编码,不使用软件包)
  
 * 2 统计指标计算和输出(3分)：
     * 计算均值、方差和相关系数统计指标 (2分， 自编码，不使用软件包)
@@ -40,13 +40,14 @@ In 1973, the statistician F.J. Anscombe published a paper containing the table b
    * 线性回归  (1分,使用Numpy或Scipy)
    * 图形输出  (2分,使用Matplotlib)
 
-Jupyter Notebook是`文本`+`代码`的交互式文档。在 Jupyter Notebook中需要用文本给出
+Jupyter Notebook是`文本`+`代码`的交互式文档。在Jupyter Notebook中用文本给出(2分)
 
 * 问题描述
 
 * 软件各部分设计要点和功能说明
  
-* 回答问题：如何做一个合格的统计信息消费/生产者 (1分)
+* 回答问题：如何做一个合格的统计信息消费/生产者 
+     * 阅读：`22.5 Statistical Measures Don't, Tell the Whole Story`
 
 ### 参考输出
 
@@ -63,7 +64,7 @@ Jupyter Notebook是`文本`+`代码`的交互式文档。在 Jupyter Notebook中
 
 ![数据点图和回归曲线](./img/anscombe.png)
 
-## 工作目录和文件
+## 工作目录
 
 ```txt
  
@@ -79,9 +80,3 @@ Jupyter Notebook是`文本`+`代码`的交互式文档。在 Jupyter Notebook中
             |── anscombe.csv 数据文件
 ```
 
-
-## 提交：
-
-* 1 电邮：cmh@seu.edu.cn 
-  * 主题：学号-姓名-1
-  * 附件：工作目录的压缩文件：**学号-姓名-1.zip**
