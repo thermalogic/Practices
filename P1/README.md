@@ -68,7 +68,7 @@ Jupyter Notebook是`文本`+`代码`的交互式文档。在Jupyter Notebook中�
 
 ```txt
  
-|── <P1>
+ <学号-姓名-1>
      │
      |── 学号-姓名-1.py ：数据分析Python脚本
      |

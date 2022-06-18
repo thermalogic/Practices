@@ -63,7 +63,7 @@ VS Code的C/C++插件默认 `自动产生预编译头文件`，用于改进编�
 
 ```txt
  
-|── <P3>
+<学号-姓名-3>
      │ 
      │── README.md: doc of your works
      | 
