@@ -2,13 +2,13 @@
 
 **Data Analysis**(10)：Statistics, regression and visualization
 
-* Deadline: 2022.04.29
+* Deadline: 2023.04.29
 
 ## Problem
 
-John V. Guttag. Introduction to Computation and Programming Using Python: With Application to Understanding Data(Second Edition). MIT Press, 2016. 
+John V. Guttag. Introduction to Computation and Programming Using Python: With Application to Understanding Data(third Edition). MIT Press, 2021. 
 
-**21.5 Statistical Measures Don't, Tell the Whole Story**(Page411-412) 
+**22.5 Statistical Measures Don't, Tell the Whole Story**(Page521-522) 
   
 In 1973, the statistician F.J. Anscombe published a paper containing the table below. It contains the <x, y> coordinates of the points in each of four data sets.
 
@@ -28,10 +28,7 @@ In 1973, the statistician F.J. Anscombe published a paper containing the table b
 
 ## 要求(10分)：
 
-使用Jupyter Notebook实现 
-
->
-> **注意：** Jupyter Notebook是`文本`+`代码`的交互式文档，练习时注意使用好这个特性
+实现2种类型的数据分析软件:  Python脚本、Jupyter Notebook 
 
 * 1 读取数据文件(3分) [./data/anscombe.csv](./data/anscombe.csv)，使用List,Dict表达数据(自编码,不使用软件包)
  
@@ -43,7 +40,13 @@ In 1973, the statistician F.J. Anscombe published a paper containing the table b
    * 线性回归  (1分,使用Numpy或Scipy)
    * 图形输出  (2分,使用Matplotlib)
 
-* 4 **如何做一个合格的统计信息消费/生产者？** (1分)
+Jupyter Notebook是`文本`+`代码`的交互式文档。在 Jupyter Notebook中需要用文本给出
+
+* 问题描述
+
+* 软件各部分设计要点和功能说明
+ 
+* 回答问题：如何做一个合格的统计信息消费/生产者 (1分)
 
 ### 参考输出
 
@@ -65,14 +68,15 @@ In 1973, the statistician F.J. Anscombe published a paper containing the table b
 ```txt
  
 |── <P1>
-     │ 
+     │
+     |── 学号-姓名-1.py ：数据分析Python脚本
+     |
      │── nb.bat ：启动jupyter服务的批处理文件
-     | 
-     │── 学号-姓名-1.ipynb ：练习的Jupyter Notebook
+     │── 学号-姓名-1.ipynb ：数据分析Jupyter Notebook
      │ 
-     |── <data> 数据文件目录  
+     |── <data>   
             │
-            |── anscombe.csv
+            |── anscombe.csv 数据文件
 ```
 
 
