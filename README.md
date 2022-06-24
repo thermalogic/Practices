@@ -40,11 +40,9 @@
 
 ### 1 建立课程学习工作目录
 
-To create the suitable working directory for the course
+参考如下目录,建立自己的学习工作目录
 
-1. create your working directory on a **non-System** disk under Windows. e.g: **D:**
-
-2. The directory(path) or file name **without** `spaces`  
+* 注意：(1) 目录不要建立Windows系统安装盘`C:\` ; (2) 目录和文件名中不要使用`空格`  
 
 ```
 <SE>
